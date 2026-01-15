@@ -1,0 +1,9 @@
+id;locale;key;value
+26371;de;decidim.meetings.meetings.form.address_help;"Bitte geben Sie hier nur die Postadresse an (Strasse, PLZ, Gemeinde). Verwenden Sie keine Ortsbezeichnungen (z.B. ""Stadthaus"")."
+26372;en;decidim.meetings.meetings.form.address_help;"Please enter only the address here (street, postal code, municipality). Do not use place names (e.g. ""townhouse"")."
+26373;de;decidim.meetings.admin.meetings.form.address_help;"Bitte geben Sie hier nur die Postadresse an (Strasse, PLZ, Gemeinde). Verwenden Sie keine Ortsbezeichnungen (z.B. ""Stadthaus"")."
+26374;en;decidim.meetings.admin.meetings.form.address_help;"Please enter only the address here (street, postal code, municipality). Do not use place names (e.g. ""townhouse"")."
+26375;de;decidim.components.proposals.settings.global.geocoding_enabled;Lokalisierung aktiviert: Vorschläge können verortet werden
+26376;en;decidim.components.proposals.settings.global.geocoding_enabled;Geocoding enabled
+26377;de;decidim.proposals.proposals.dynamic_map_instructions.description;"Die Koordinaten werden aktualisiert, sobald Sie auf ""Vorschau"" klicken. Die angezeigte Adresse ändert sich jedoch nicht."
+26378;en;decidim.proposals.proposals.dynamic_map_instructions.description;The coordinates will be updated when clicking on 'preview' button. However, the address does not change.

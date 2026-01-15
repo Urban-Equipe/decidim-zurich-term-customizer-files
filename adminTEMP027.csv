@@ -1,0 +1,21 @@
+id;locale;key;value
+26389;de;decidim.follows.create.participatory_space;"Sie folgen <span class=""show-for-sr"">%{space_name}</span>"
+26390;en;decidim.follows.create.participatory_space;Already following %{space_name}
+26391;de;decidim.pages.terms_and_conditions.refuse.modal_body;"Wenn Sie die Nutzungsbedingungen nicht akzeptieren, werden Sie automatisch abgemeldet und können die Plattform nicht mehr nutzen. Sie können <a href=""%{download_your_data_path}"">Ihre persönlichen Daten herunterladen</a> und / oder <a href=""%{delete_path}""> ihr Konto löschen</a>."
+26392;en;decidim.pages.terms_and_conditions.refuse.modal_body;"If you do not accept the Terms of Use, you will be automatically logged out and will no longer be able to use the Platform. You can <a href=""%{download_your_data_path}"">download</a> your personal data</a> and / or <a href=""%{delete_path}"">delete</a> your account."
+26393;de;layouts.decidim.data_consent.details.columns.type;Typ
+26394;en;layouts.decidim.data_consent.details.columns.type;Type
+26395;de;layouts.decidim.data_consent.details.items.decidim-consent.description;Speichert Informationen über die von der*die Benutzer*in erlaubten Cookies auf dieser Website.
+26396;en;layouts.decidim.data_consent.details.items.decidim-consent.description;Stores information about the cookies allowed by the user on this website.
+26434;en;decidim.content_blocks.sub_hero.name;Sub hero banner
+26426;en;activemodel.attributes.participatory_process.hero_image;Home image
+26427;de;activemodel.attributes.assembly.hero_image;Kachelbild
+26428;en;activemodel.attributes.assembly.hero_image;Home image
+26429;de;activemodel.attributes.conference.hero_image;Kachelbild
+26430;en;activemodel.attributes.conference.hero_image;Home image
+26431;de;decidim.content_blocks.hero.name;Kachelbild
+26432;en;decidim.content_blocks.hero.name;Hero image
+26433;de;decidim.content_blocks.sub_hero.name;Banner unter dem Kachelbild (Beschreibungstext)
+26436;en;decidim.newsletter_templates.image_text_cta_settings_form.main_image;Main image
+26435;de;decidim.newsletter_templates.image_text_cta_settings_form.main_image;Kachelbild
+26425;de;activemodel.attributes.participatory_process.hero_image;Kachelbild

@@ -1,0 +1,78 @@
+id;locale;key;value
+13357;de;decidim.decidim_awesome.admin.constraints.create.error;Es gab einen Fehler beim Hinzufügen der Einschränkung
+13358;en;decidim.decidim_awesome.admin.constraints.create.error;Error creating condition case
+13365;de;decidim.components.awesome_map.name;Karte
+13366;en;decidim.components.awesome_map.name;Awesome Map
+13367;de;decidim.components.awesome_iframe.name;iFrame
+13368;en;decidim.components.awesome_iframe.name;iFrame
+13372;en;layouts.decidim.decidim_awesome.awesome_config.drag_and_drop_image;Add images by dragging & dropping or pasting them.
+13371;de;layouts.decidim.decidim_awesome.awesome_config.drag_and_drop_image;Bilder können per Drag & Drop ins Textfeld gezogen werden.
+13443;de;decidim.components.awesome_map.settings.global.map_zoom_help;Wenn Sie ein Kartenzentrum angegeben haben, können Sie auch eine Zoomstufe (zwischen 0 und 18) festlegen
+13444;en;decidim.components.awesome_map.settings.global.map_zoom_help;Only applies if a map center is defined
+13445;de;decidim.components.awesome_map.settings.global.menu_amendments;Änderungsvorschläge zeigen
+13446;en;decidim.components.awesome_map.settings.global.menu_amendments;Show amendments
+13447;de;decidim.components.awesome_map.settings.global.menu_hashtags;Hashtag-Suchfunktion zeigen
+13448;en;decidim.components.awesome_map.settings.global.menu_hashtags;Show Hasthag search menu
+13449;de;decidim.components.awesome_map.settings.global.truncate;Maximale Anzahl Zeichen für Pop-Ups
+13450;en;decidim.components.awesome_map.settings.global.truncate;Maximum characters for popup descriptions
+13455;de;decidim.components.awesome_map.settings.step.show_evaluating;Vorschläge «in Bearbeitung» anzeigen
+13456;en;decidim.components.awesome_map.settings.step.show_evaluating;Show evaluating proposals
+13457;de;decidim.components.awesome_map.settings.step.show_not_answered;Unbeantwortete Vorschläge anzeigen
+13458;en;decidim.components.awesome_map.settings.step.show_not_answered;Show not answered proposals
+13459;de;decidim.components.awesome_map.settings.step.show_rejected;Zurückgezogene Vorschläge anzeigen
+13460;en;decidim.components.awesome_map.settings.step.show_rejected;Show rejected proposals
+13471;de;decidim.components.awesome_iframe.settings.global.viewport_width;Maximale Breite auf Anwendungssicht limitieren
+13472;en;decidim.components.awesome_iframe.settings.global.viewport_width;Limit maximum width to the application viewport
+13477;de;decidim.components.awesome_map.settings.global.collapse;Menü zusammenklappen
+13478;en;decidim.components.awesome_map.settings.global.collapse;Start with collapsed menu
+13479;de;decidim.components.awesome_map.settings.global.map_center;Kartenzentrum
+13480;en;decidim.components.awesome_map.settings.global.map_center;Map center (Latitude, Longitude)
+13481;de;decidim.components.awesome_map.settings.global.map_center_help;Wenn Sie Ihre Karte auf einen bestimmten Punkt zentriert haben möchten, können Sie die Koordinaten hier angeben. Verwenden Sie Dezimalstellen und Kommas (z.B. 41.9898, 2.0012). Wenn kein Wert eingefüllt wird, passt sich die Karte so an, dass der ganze Inhalt Platz hat.
+13482;en;decidim.components.awesome_map.settings.global.map_center_help;Use decimal points (ie: 41.38879, 2.15899). Leave it empty to automatically fit all the markers
+13483;de;decidim.components.awesome_map.settings.global.map_height;Kartenhöhe (px)
+13484;en;decidim.components.awesome_map.settings.global.map_height;Map height (px)
+13485;de;decidim.components.awesome_map.settings.global.map_zoom;Zoom
+13486;en;decidim.components.awesome_map.settings.global.map_zoom;Zoom (any number betwen 0 and 18)
+13503;de;decidim.decidim_awesome.admin.config.form.help.proposal_custom_fields;Erstellen Sie eigene Eingabefelder für das Vorschlagsmodul. Sie können die Funktion auf einzelne Prozesse / Module beschränken.
+13504;en;decidim.decidim_awesome.admin.config.form.help.proposal_custom_fields;Create custom proposal fields that applies only in certain parts of the public web (use the restrictions editor for that)
+13539;de;decidim.decidim_awesome.admin.menu_hacks.url_exists;Die gleiche URL ist bereits konfiguriert. Bitte bearbeiten Sie diese, anstatt sie neu zu erstellen.
+13540;en;decidim.decidim_awesome.admin.menu_hacks.url_exists;The same URL is already configured, please edit that instead of creating it again.
+13541;de;decidim.decidim_awesome.admin.checks.index.image_migrations_started;Der Migrationsprozess für Bilder wurde erfolgreich gestartet
+13542;en;decidim.decidim_awesome.admin.checks.index.image_migrations_started;Images migration process has been started successfully
+13543;de;decidim.decidim_awesome.admin.checks.index.images_migrated;Zu ActiveStorage migrierte Bilder
+13544;en;decidim.decidim_awesome.admin.checks.index.images_migrated;Images migrated to ActiveStorage
+13545;de;decidim.decidim_awesome.admin.checks.index.start_image_migrations;👉 Migrationsprozess starten
+13546;en;decidim.decidim_awesome.admin.checks.index.start_image_migrations;👉 Start the migration process now
+13555;de;decidim.decidim_awesome.editor_images.create.success;Bild erfolgreich hochgeladen
+13556;en;decidim.decidim_awesome.editor_images.create.success;Image uploaded successfully
+13597;de;decidim.decidim_awesome.admin.checks.index.pending_image_migrations;"Seit Version 0.25 benutzt Decidim eine neue Technologie zum Upload von Anhängen. <br>
+Auf dieser Installation müssen <strong>%{total}</strong> Anhänge auf die neue Technologie migriert werden. <br>
+Sie können den Prozess jetzt starten und er wird im Hintergrund ausgeführt. "
+13598;en;decidim.decidim_awesome.admin.checks.index.pending_image_migrations;"Since version 0.25, Decidim uses a new technology to upload files.<br>
+It looks that this installation needs to migrate <strong>%{total}</strong> of the old images to the new system.<br>
+You can start the process now and it will be performed in the background.
+"
+13633;de;decidim.decidim_awesome.admin.menu.custom_redirects;Spezifische Umleitungen
+13634;en;decidim.decidim_awesome.admin.menu.custom_redirects;Custom Redirections
+13707;de;decidim.decidim_awesome.admin.config.form_scoped_admins.sure_to_remove;"Sind Sie sicher, dass Sie diese Gruppe ""Eingeschränkte Admins"" löschen wollen?"
+13708;en;decidim.decidim_awesome.admin.config.form_scoped_admins.sure_to_remove;"Are you sure you want to destroy this ""Scoped Admins"" group?"
+13713;de;decidim.decidim_awesome.admin.config.form.help.scoped_styles_variables;Sie können die folgenden CSS-Variablen für eigene Farben der Organisation verwenden:
+13714;en;decidim.decidim_awesome.admin.config.form.help.scoped_styles_variables;You can use the following CSS variables for organization customized colors:
+13715;de;decidim.decidim_awesome.admin.config.form.help.scoped_styles;Erstellen Sie spezifische CSS-Styles, welche nur beschränkt auf Seiten angewendet werden. Verwenden Sie dazu die Einschränkungen.
+13716;en;decidim.decidim_awesome.admin.config.form.help.scoped_styles;Create custom CSS that applies only in certain parts of the public web (use the restrictions editor for that)
+13717;de;decidim.decidim_awesome.admin.config.form.help.scoped_admins;Befördern Sie normale Benutzende zu Admins, die nur bestimmte Teile der öffentlichen Seite verwalten können. Verwenden Sie dazu den Editor für Einschränkungen. Beachten Sie, dass Benutzende, die bereits reguläre Adminrechte haben, ignoriert werden.
+13718;en;decidim.decidim_awesome.admin.config.form.help.scoped_admins;Promote regular user to admins that can only administrate certain parts of the public web (use the restrictions editor for that). Note that users who already have regular admin permissions will be ignored.
+13699;de;decidim.decidim_awesome.admin.config.none;⛔ Niemals! - Deaktiviert jede andere Einschränkung
+13700;en;decidim.decidim_awesome.admin.config.none;⛔ Never! - Deactivates any other constraint
+13738;en;decidim.decidim_awesome.admin.constraints.update.success;Condition case updated successfully
+13739;de;decidim.decidim_awesome.admin.constraints.update.error;Fehler beim Aktualisieren der Einschränkung
+13740;en;decidim.decidim_awesome.admin.constraints.update.error;Error updating condition case
+13741;de;decidim.decidim_awesome.admin.config.form.help.original_editor_override;Seit Version 0.26 ist es möglich, Bilder in die Editoren hochzuladen (nur für Admins). Daher wirken sich die Bildeinstellungen hier nur auf die öffentlich sichtbaren Editoren aus (Admins haben sie immer zur Verfügung).
+13742;en;decidim.decidim_awesome.admin.config.form.help.original_editor_override;Since version 0.26, it is possible (for admins only) to upload images into the editors. Therefore, image settings in here only affect the public editors (admin will always have it available).
+13747;de;decidim.decidim_awesome.admin.config.form.edit_label;Bezeichnung ändern
+13748;en;decidim.decidim_awesome.admin.config.form.edit_label;Rename label
+13753;de;decidim.decidim_awesome.admin.config.destroy_scoped_admin.success;Admin-Gruppe %{key} erfolgreich entfernt
+13754;en;decidim.decidim_awesome.admin.config.destroy_scoped_admin.success;Admin group %{key} removed successfully
+13775;de;custom_fields.budget.help;Das ist der Hilfetext
+13776;en;custom_fields.budget.help;This is the help text
+13737;de;decidim.decidim_awesome.admin.constraints.update.success;Einschränkung erfolgreich aktualisiert

@@ -1,0 +1,17 @@
+id;locale;key;value
+22701;de;activemodel.attributes.user.name;Name / Pseudonym
+22702;en;activemodel.attributes.user.name;Name / Nickname
+22703;de;decidim.forms.file_help.image.message_2;Ihr Bild wird auf die richtige Grösse zugeschnitten
+22704;en;decidim.forms.file_help.image.message_2;The plattform crops the image.
+22705;de;decidim.profiles.user.resend_email_confirmation_instructions;Bestätigungs-E-Mail erneut senden
+22706;en;decidim.profiles.user.resend_email_confirmation_instructions;Resend email confirmation instructions
+22707;de;layouts.decidim.user_menu.profile;Einstellungen
+22708;en;layouts.decidim.user_menu.profile;Settings
+22709;de;decidim.forms.file_help.image.explanation;Anweisungen:
+22710;en;decidim.forms.file_help.image.explanation;Instructions:
+22711;de;decidim.forms.file_help.image.message_1;Querformat und ohne Text präferiert.
+22712;en;decidim.forms.file_help.image.message_1;Preferrably a landscape image that does not have any text.
+22713;de;activemodel.attributes.user.nickname;Mein Pseudonym
+22714;en;activemodel.attributes.user.nickname;Nickname
+22715;de;decidim.user_interests.show.select_your_interests;Hier können Sie Themen auswählen, die Sie interessieren. In der Zeitleiste in Ihrem öffentlichen Profil können Sie sich über Änderungen in diesen Themenbereichen informieren.
+22716;en;decidim.user_interests.show.select_your_interests;Select the topics you're interested in to receive events related to them in your profile Timeline tab.

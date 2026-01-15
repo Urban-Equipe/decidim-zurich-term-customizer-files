@@ -1,0 +1,7 @@
+id;locale;key;value
+28292;en;decidim.admin.models.assembly_member.positions.secretary;Secretary
+28294;en;decidim.admin.models.assembly_member.positions.president;President
+28296;en;decidim.admin.models.assembly_member.positions.vice_president;Vice president
+28293;de;decidim.admin.models.assembly_member.positions.president;Präsident*in
+28291;de;decidim.admin.models.assembly_member.positions.secretary;Sekretär*in
+28295;de;decidim.admin.models.assembly_member.positions.vice_president;Vizepräsident*in

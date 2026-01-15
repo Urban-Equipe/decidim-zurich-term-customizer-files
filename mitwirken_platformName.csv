@@ -1,0 +1,27 @@
+id;locale;key;value
+4696;en;decidim.account.delete.confirm.ok;Yes, I want to delete my account
+4695;de;decidim.account.delete.confirm.ok;Ja, ich möchte mein «Mitwirken an Zürichs Zukunft»-Konto löschen
+4697;de;decidim.account.delete.confirm.title;«Mitwirken Stadt Zürich»-Konto löschen
+4699;de;devise.mailer.confirmation_instructions.action;«Mitwirken Stadt Zürich»-Konto bestätigen
+4698;en;decidim.account.delete.confirm.title;Delete my account
+4700;en;devise.mailer.confirmation_instructions.action;Confirm my account
+4701;de;devise.mailer.unlock_instructions.action;«Mitwirken Stadt Zürich»-Konto entsperren
+4702;en;devise.mailer.unlock_instructions.action;Unlock my account
+4703;de;layouts.decidim.cookie_warning.description_html;"«Mitwirken an Zürichs Zukunft» verwendet Cookies. Durch die weitere Verwendung dieser Seite stimmen Sie der Verwendung von Cookies zu. Wir verwenden Adobe Analytics für anonymisierte Statistiken. Erfahren Sie %{link} mehr darüber.
+
+«Mitwirken an Zürichs Zukunft» läuft auf allen modernen Browsern (Chrome, Edge, Firefox, Safari o.ä.). Bitte beachten Sie, dass der Internet Explorer nicht unterstützt wird."
+4704;en;layouts.decidim.cookie_warning.description_html;"This site uses cookies. By continuing to browse the site, you agree to our use of cookies. We also use Adobe Analytics for anonymous user statistics. Find out more about it %{link}.
+
+«Mitwirken an Zürichs Zukunft» runs on all modern browsers (Chrome, Edge, Firefox, Safari or similar). Please note that Internet Explorer is not supported."
+4723;de;devise.mailer.confirmation_instructions.subject;«Mitwirken an Zürichs Zukunft»: E-Mail bestätigen
+4724;en;devise.mailer.confirmation_instructions.subject;«Mitwirken an Zürichs Zukunft»: Confirm E-Mail
+4729;de;devise.mailer.invitation_instructions.invited_you_as_admin;%{invited_by} hat Sie als Administrator der städtischen Partizipationsplattform %{application} eingeladen.
+4730;en;devise.mailer.invitation_instructions.invited_you_as_admin;%{invited_by} has invited you as an admin of %{application}. You can accept it through the link below.
+4731;de;devise.mailer.invitation_instructions.someone_invited_you;Jemand hat Sie zur Teilnahme auf der städtischen Partizipationsplattform %{application} eingeladen.
+4732;en;devise.mailer.invitation_instructions.someone_invited_you;Someone has invited you to %{application}. You can accept it through the link below.
+4733;de;devise.mailer.invitation_instructions.someone_invited_you_as_admin;Jemand hat Sie als Administrator der städtischen Partizipationsplattform %{application} eingeladen.
+4734;en;devise.mailer.invitation_instructions.someone_invited_you_as_admin;Someone has invited you as an admin of %{application}, you can accept it through the link below.
+4736;en;devise.mailer.invitation_instructions.someone_invited_you_as_private_user;Someone has invited you as private participant of %{application}, you can accept it through the link below.
+4735;de;devise.mailer.invitation_instructions.someone_invited_you_as_private_user;Sie wurden zu einem privaten Mitwirkungsprozess auf der städtischen Plattform %{application} eingeladen.
+28819;de;decidim.pages.home.footer_sub_hero.footer_sub_hero_headline;%{organization}
+28820;en;decidim.pages.home.footer_sub_hero.footer_sub_hero_headline;%{organization}

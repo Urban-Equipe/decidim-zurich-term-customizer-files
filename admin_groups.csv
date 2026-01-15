@@ -1,0 +1,49 @@
+id;locale;key;value
+26239;de;decidim.events.groups.user_group_updated.email_subject;Eine Gruppe hat ihr Profil aktualisiert
+26240;en;decidim.events.groups.user_group_updated.email_subject;A user group has updated its profile
+26241;de;decidim.groups.roles.creator;Gruppengründer*in
+26242;en;decidim.groups.roles.creator;Creator
+26243;de;decidim.members.no_members;Diese Gruppe hat noch kein Mitglied.
+26244;en;decidim.members.no_members;This group doesn't have any members yet.
+26245;de;decidim.profiles.user.manage_user_group_admins;Gruppenadmins verwalten	
+26246;en;decidim.profiles.user.manage_user_group_admins;Manage admins
+26247;de;decidim.group_admins.index.manage_admins;Gruppenadmins verwalten
+26248;en;decidim.group_admins.index.manage_admins;Manage admins
+26249;de;decidim.profiles.user.invite_user;Mitglieder einladen
+26250;en;decidim.profiles.user.invite_user;Invite participants
+26251;de;decidim.profiles.user.edit_user_group;Informationen bearbeiten
+26252;en;decidim.profiles.user.edit_user_group;Edit information
+26253;de;decidim.profiles.default_officialization_text_for_user_groups;Diese Gruppe wurde verifiziert.
+26254;en;decidim.profiles.default_officialization_text_for_user_groups;This group is publicly verified.
+26255;de;decidim.events.groups.user_group_updated.notification_title;"Die Gruppe %{user_group_name} hat ihr Profil aktualisiert, wodurch diese erneut verifiziert werden muss. Sie können sie über das <a href=""%{groups_admin_path}"">Admin-Panel</a> verifizieren."
+26256;en;decidim.events.groups.user_group_updated.notification_title;"The %{user_group_name} user group has updated its profile, leaving it unverified. You can now verify it in the <a href=""%{groups_admin_path}"">admin panel</a>."
+26257;de;decidim.events.groups.user_group_updated.email_intro;"Die Gruppe mit dem Namen %{user_group_name} hat ihr Profil aktualisiert, wodurch diese erneut verifiziert werden muss. Sie können sie über das <a href=""%{groups_admin_url}"">Admin-Panel</a> verifizieren."
+26258;en;decidim.events.groups.user_group_updated.email_intro;"A user group with the name %{user_group_name} has updated its profile, leaving it unverified. You can now verify it in the <a href=""%{groups_admin_url}"">admin panel</a>."
+26259;de;decidim.events.groups.user_group_created.notification_title;"Die Gruppe %{user_group_name} wurde erstellt. Sie können sie über das <a href=""%{groups_admin_path}"">Admin-Panel</a> verifizieren."
+26260;en;decidim.events.groups.user_group_created.notification_title;"The %{user_group_name} user group has been created. You can now verify it in the <a href=""%{groups_admin_path}"">admin panel</a>."
+26261;de;decidim.events.groups.user_group_created.email_subject;Eine neue Gruppe wurde erstellt
+26262;en;decidim.events.groups.user_group_created.email_subject;A new user group has been created
+26263;de;decidim.events.groups.user_group_created.email_intro;"Eine neue Gruppe mit dem Namen %{user_group_name} wurde erstellt. Sie können sie über das <a href=""%{groups_admin_url}"">Admin-Panel</a> verifizieren."
+26264;en;decidim.events.groups.user_group_created.email_intro;"A new user group has been created with the name %{user_group_name}. You can now verify it in the <a href=""%{groups_admin_url}"">admin panel</a>."
+26265;de;decidim.components.meetings.settings.step.creation_enabled_for_user_groups;Veranstaltungserstellung durch Gruppen aktiviert
+26266;en;decidim.components.meetings.settings.step.creation_enabled_for_user_groups;Meeting creation by user groups enabled
+26267;de;decidim.admin.user_groups_csv_verifications.new.explanation;Laden Sie Ihre CSV-Datei hoch. In der ersten Spalte der Datei müssen die offiziellen E-Mails der Gruppen in Ihrer Organisation enthalten sein, ohne Kopfzeilen. Nur Gruppen, die ihre E-Mail bestätigt haben und deren E-Mail in der CSV-Datei enthalten ist, werden überprüft.
+26268;en;decidim.admin.user_groups_csv_verifications.new.explanation;Upload your CSV file. It must have the official emails of the groups in your organization in the first column of the file, without headers. Only groups that have confirmed their email and that have an email appearing in the CSV file will be validated.
+26269;de;decidim.admin.user_group.verify.success;Gruppe erfolgreich verifiziert
+26270;en;decidim.admin.user_group.verify.success;Group successfully verified
+26271;de;decidim.admin.user_group.reject.success;Gruppe wurde erfolgreich abgelehnt
+26272;en;decidim.admin.user_group.reject.success;Group successfully rejected
+26273;de;decidim.admin.user_group.reject.invalid;Beim Ablehnen dieser Gruppe ist ein Fehler aufgetreten.
+26274;en;decidim.admin.user_group.reject.invalid;There was a problem rejecting this group.
+26275;de;decidim.admin.user_group.csv_verify.success;CSV-Datei wurde erfolgreich hochgeladen. Wir überprüfen, ob die Gruppen den Kriterien entsprechen. Das kann eine Weile dauern.
+26276;en;decidim.admin.user_group.csv_verify.success;CSV file uploaded successfully, we're verifying the groups matching the criteria. This might take a while.
+26277;de;decidim.admin.titles.user_groups;Gruppen
+26278;en;decidim.admin.titles.user_groups;Groups
+26279;de;decidim.admin.menu.user_groups;Gruppen
+26280;en;decidim.admin.menu.user_groups;Groups
+26281;de;activemodel.attributes.meeting.decidim_user_group_id;Gruppe
+26282;en;activemodel.attributes.meeting.decidim_user_group_id;User group
+26283;de;activemodel.attributes.organization.user_groups_enabled;Gruppen aktivieren
+26284;en;activemodel.attributes.organization.user_groups_enabled;Enable groups
+26285;de;decidim.admin.user_group.verify.invalid;Beim Überprüfen dieser Gruppe ist ein Fehler aufgetreten.
+26286;en;decidim.admin.user_group.verify.invalid;There was a problem verifying this group.

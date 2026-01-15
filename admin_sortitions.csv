@@ -1,0 +1,67 @@
+id;locale;key;value
+21953;de;activemodel.attributes.sortition.dice;Ergebnis des Würfelwurfs. Werfen Sie einen sechsseitigen Würfel vor Zeugen und geben Sie die resultierende Zahl ein. Der Würfelwurf schafft nebst dem zufälligen Startwert eine weitere Zufallsdimension.
+21988;en;decidim.sortitions.admin.sortitions.update.success;Sortition successfully updated
+21949;de;decidim.sortitions.admin.actions.new;Neue Auslosung
+21950;en;decidim.sortitions.admin.actions.new;New sortition
+21951;de;decidim.sortitions.admin.sortitions.new.title;Neue Auslosung
+21952;en;decidim.sortitions.admin.sortitions.new.title;New sortition
+21954;en;activemodel.attributes.sortition.dice;Result of die roll. Roll a 6-sided die, or look for another random way to generate a number from 1 to 6, and enter here the resulting number in front of some witnesses. This contributes to the quality and guarantees of the randomness of the result
+21955;de;activemodel.attributes.sortition.target_items;Anzahl auszulosender Vorschläge (d.h. wie viele Vorschläge ausgewählt werden sollen)
+21956;en;activemodel.attributes.sortition.target_items;Number of proposals to be selected (indicates the number of proposals you want to be selected by drawing lots of the group of proposals you have previously chosen)
+21957;de;activemodel.attributes.sortition.decidim_category_id;Kategorie (wenn Sie nur bestimmte Vorschläge einer Komponente berücksichtigen möchten)
+21958;en;activemodel.attributes.sortition.decidim_category_id;Categories of the set of proposals in which you want to apply the draw
+21959;de;decidim.sortitions.admin.sortitions.form.select_proposal_component;Wählen Sie die Komponente aus, aus denen sie die Vorschläge losen möchten
+21960;en;decidim.sortitions.admin.sortitions.form.select_proposal_component;Select the proposals set
+21961;de;activemodel.attributes.sortition.decidim_proposals_component_id;Vorschlagskomponente
+21962;en;activemodel.attributes.sortition.decidim_proposals_component_id;Proposals set
+21963;de;activemodel.attributes.sortition.additional_info;Informationen zur Auslosung
+21964;en;activemodel.attributes.sortition.additional_info;Sortition information
+21965;de;decidim.sortitions.sortitions.sortition.random_seed;Zufälliger Startwert
+21966;en;decidim.sortitions.sortitions.sortition.random_seed;Random seed
+21967;de;decidim.sortitions.admin.sortitions.destroy.success;Die Auslosung wurde erfolgreich abgebrochen
+21968;en;decidim.sortitions.admin.sortitions.destroy.success;Sortition successfully cancelled
+21969;de;activemodel.models.decidim/sortitions/create_sortition_event;Auslosung
+21970;en;activemodel.models.decidim/sortitions/create_sortition_event;Sortition
+21971;de;decidim.sortitions.sortitions.show.proposals_selected_by_sortition;Von der Auslosung ausgewählten Vorschläge
+21972;en;decidim.sortitions.sortitions.show.proposals_selected_by_sortition;Proposals selected by sortition
+21973;de;decidim.sortitions.sortitions.show.introduction;"Diese Seite enthält die Ergebnisse der Auslosung «%{reference}». Durch diese Auslosung wurden %{target_items} Vorschläge mit einer gleichen Wahrscheinlichkeitsverteilung aus dem unten angezeigten Satz von Vorschlägen ausgewählt. Auf dieser Seite finden Sie alle Informationen, die erforderlich sind, um die Ergebnisse zu reproduzieren und eine faire Auslosung zu garantieren. Der Qualitätsschlüssel der Auslösung liegt in der doppelten Zufälligkeit:  das Rollen eines Würfels (verifiziert durch Zeugen) und den genauen Zeitpunkt der Auslosung liefern Eingangswerte für einen Algorithmus, der einen zufälligen Startwert erzeugt. Der Startwert für die Sortierung ist so genau (generiert innert Millisekunden), dass er unmöglich von Menschen beeinflusst werden kann, wodurch eine doppelte ""unkontrollierbare"" Eingabe bereitgestellt wird, um ein faires Ergebnis zu garantieren.  "
+21974;en;decidim.sortitions.sortitions.show.introduction;"This page contains the results of the sortition %{reference}. By means of this sortition, %{target_items} number of results have been selected randomly and with an equal probability distribution from the set of proposals displayed bellow. Together with the results, the information displayed on this page provides all the information required to maximize guarantees and to reproduce the results. The key to the quality of this sortition is the double randomness provided by a the rolling of a dice(verified by witnesses) and the precise time of the sortition that provides input for an algorithm that generates a random selection. The time-seed for the sortition is so accurate (seconds) that it is impossible to control by humans thus providing a double ""uncontrollable"" input to guarantee a fair result.  "
+21975;de;decidim.sortitions.sortitions.show.candidate_proposals_info;Die Auslosung wurde mit folgenden Vorschlägen (%{category_label}) durchgeführt, mit den folgenden IDs (in Fettschrift die ausgewählten Vorschläge)  
+21976;en;decidim.sortitions.sortitions.show.candidate_proposals_info;The sortition was carried out among the following proposals (%{category_label}), with the following IDs (in bold the selected proposals)  
+21977;de;decidim.sortitions.sortitions.show.candidate_proposal_ids;Reihenfolge der auszulosenden Vorschläge und IDs
+21978;en;decidim.sortitions.sortitions.show.candidate_proposal_ids;Sortition proposals order and IDs
+21979;de;decidim.sortitions.sortitions.show.cancelled;Abgebrochene Auslosungen
+21980;en;decidim.sortitions.sortitions.show.cancelled;Cancelled sortition
+21981;de;decidim.sortitions.admin_log.sortition.update;%{user_name} hat die Auslosung «%{resource_name}» in «%{space_name}» aktualisiert
+21982;en;decidim.sortitions.admin_log.sortition.update;%{user_name} updated the %{resource_name} sortition in %{space_name}
+21983;de;decidim.sortitions.admin_log.sortition.delete;%{user_name} hat die Auslosung «%{resource_name}» in «%{space_name}» abgebrochen
+21984;en;decidim.sortitions.admin_log.sortition.delete;%{user_name} cancelled the %{resource_name} sortition in %{space_name}
+21985;de;decidim.sortitions.admin_log.sortition.create;%{user_name} erstellt die Auslosung «%{resource_name}» in %{space_name}
+21986;en;decidim.sortitions.admin_log.sortition.create;%{user_name} created the %{resource_name} sortition in %{space_name}
+21987;de;decidim.sortitions.admin.sortitions.update.success;Die Auslosung wurde erfolgreich aktualisiert
+21989;de;decidim.sortitions.admin.sortitions.update.error;Beim Aktualisieren der Auslosung ist ein Fehler aufgetreten.
+21990;en;decidim.sortitions.admin.sortitions.update.error;There was a problem updating the sortition.
+21991;de;decidim.sortitions.admin.sortitions.index.title;Auslosungen
+21992;en;decidim.sortitions.admin.sortitions.index.title;Sortitions
+21993;de;decidim.sortitions.admin.sortitions.form.title;Neue Auslosung für Vorschläge
+21994;en;decidim.sortitions.admin.sortitions.form.title;New sortition for proposals
+21995;de;decidim.sortitions.admin.sortitions.edit.title;Aktualisieren Sie die Informationen zur Auslosung
+21996;en;decidim.sortitions.admin.sortitions.edit.title;Update the information about the sortition
+21997;de;decidim.sortitions.admin.sortitions.destroy.error;Die Auslosung kann nicht abgebrochen werden.
+21998;en;decidim.sortitions.admin.sortitions.destroy.error;Can not cancel the sortition.
+21999;de;decidim.sortitions.admin.sortitions.create.success;Die Auslosung wurde erfolgreich durchgeführt
+22000;en;decidim.sortitions.admin.sortitions.create.success;Sortition successfully created
+22001;de;decidim.sortitions.admin.sortitions.confirm_destroy.title;Stornierung der Auslosung
+22002;en;decidim.sortitions.admin.sortitions.confirm_destroy.title;Cancellation of the sortition
+22003;de;decidim.sortitions.admin.sortitions.confirm_destroy.destroy;Auslosung abbrechen
+22004;en;decidim.sortitions.admin.sortitions.confirm_destroy.destroy;Cancel sortition
+22005;de;decidim.sortitions.admin.sortitions.confirm_destroy.confirm_destroy;Möchten Sie diese Auslosung wirklich abbrechen?
+22006;en;decidim.sortitions.admin.sortitions.confirm_destroy.confirm_destroy;Are you sure you want to cancel this sortition?
+22007;de;decidim.sortitions.admin.actions.destroy;Auslosung abbrechen
+22008;en;decidim.sortitions.admin.actions.destroy;Cancel the sortition
+22009;de;decidim.forms.question_types.sorting;Auslosung
+22010;en;decidim.forms.question_types.sorting;Sorting
+22011;de;decidim.events.sortitions.sortition_created.email_subject;Neue Auslosungs-Komponente wurde zu %{participatory_space_title} hinzugefügt
+22012;en;decidim.events.sortitions.sortition_created.email_subject;New sortition added to %{participatory_space_title}
+22013;de;decidim.components.sortitions.name;Auslosungen
+22014;en;decidim.components.sortitions.name;Sortitions

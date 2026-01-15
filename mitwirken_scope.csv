@@ -1,0 +1,17 @@
+id;locale;key;value
+21638;en;decidim.components.accountability.settings.global.scopes_enabled;Scopes enabled
+21642;en;decidim.scopes.picker.currently_selected;Currently selected scope
+21644;en;decidim.scopes.picker.title;Select %{field}
+21637;de;decidim.components.accountability.settings.global.scopes_enabled;Filtern nach Stadtkreisen aktivieren
+21639;de;decidim.scopes.picker.change;Stadtkreis anpassen
+21640;en;decidim.scopes.picker.change;Change city district
+21641;de;decidim.scopes.picker.currently_selected;Aktuell ausgewählter Stadtkreis
+21643;de;decidim.scopes.picker.title; %{field} auswählen
+21645;de;decidim.scopes.prompt;Stadtkreis auswählen
+21646;en;decidim.scopes.prompt;Choose a city district
+21647;de;decidim.scopes.scopes;Stadtkreise
+21648;en;decidim.scopes.scopes;City Districts
+21649;de;decidim.scopes.scopes_picker_input.select_scope;Stadtkreise auswählen (aktuell %{current} ausgewählt)
+21650;en;decidim.scopes.scopes_picker_input.select_scope;Select a city dirstrict (currently: %{current})
+21651;de;decidim.scopes.global;Stadtkreis
+21652;en;decidim.scopes.global;City district

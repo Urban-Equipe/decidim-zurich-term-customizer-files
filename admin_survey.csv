@@ -1,0 +1,45 @@
+id;locale;key;value
+28840;en;decidim.forms.admin.questionnaires.display_condition.mandatory;This condition needs to be satisfied always regardless the status of other conditions
+28839;de;decidim.forms.admin.questionnaires.display_condition.mandatory;Diese Bedingung muss immer erfüllt werden, unabhängig vom Status anderer Bedingungen. Ist die Anzeige abhängig von mehreren Bedingungen, die alle erfüllt sein müssen, dann muss bei allen Bedingungen diese Auswahl aktiviert sein. Ansonsten wird die Frage angezeigt, wenn jeweils eine der Bedingungen erfüllt ist. 
+23275;de;activemodel.errors.models.answer.attributes.choices.missing;ist nicht vollständig
+23276;en;activemodel.errors.models.answer.attributes.choices.missing;are not complete
+23277;de;decidim.authorization_modals.content.unauthorized.ok;OK
+23278;en;decidim.authorization_modals.content.unauthorized.ok;Ok
+23279;de;decidim.components.add_comment_form.remaining_characters;Noch %{count} Zeichen
+23280;en;decidim.components.add_comment_form.remaining_characters;%{count} characters left
+23281;de;decidim.components.add_comment_form.remaining_characters_1;Noch %{count} Zeichen
+23282;en;decidim.components.add_comment_form.remaining_characters_1;%{count} character left
+23283;de;decidim.forms.questionnaires.show.questionnaire_for_private_users.body;Der Fragebogen kann nur von berechtigten Teilnehmenden des geschlossen Prozesses ausgefüllt werden.
+23284;en;decidim.forms.questionnaires.show.questionnaire_for_private_users.body;The questionnaire can only be filled out by authorized participants of the private process.
+23285;de;decidim.metrics.survey_answers.description;Anzahl der Umfragen, die von Benutzenden beantwortet wurden
+23286;en;decidim.metrics.survey_answers.description;Number of surveys answered by participants
+23287;de;decidim.events.surveys.survey_closed.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie %{participatory_space_title} folgen. Falls Sie keine solchen Benachrichtigungen mehr erhalten möchten, besuchen Sie den obigen Link.
+23288;en;decidim.events.surveys.survey_closed.email_outro;You have received this notification because you are following %{participatory_space_title}. You can stop receiving notifications following the previous link.
+23289;de;decidim.forms.step_navigation.show.submit;Absenden
+23290;en;decidim.forms.step_navigation.show.submit;Submit
+23291;de;decidim.admin.resource_permissions.edit.submit;Absenden
+23292;en;decidim.admin.resource_permissions.edit.submit;Submit
+23293;de;decidim.surveys.admin.surveys.update.invalid;Die Umfrage konnte nicht gespeichert werden. Überprüfen Sie, dass Sie alle Pflichtfelder ausgefüllt haben.
+23294;en;decidim.surveys.admin.surveys.update.invalid;The survey could not be saved. Check that you have filled in all the required fields.
+23295;de;activemodel.attributes.answer.selected_choices;Frage
+23296;en;activemodel.attributes.answer.selected_choices;Selected choices
+23297;de;decidim.surveys.surveys.answer.success;Herzlichen Dank! Ihre Daten wurden übermittelt.
+23298;en;decidim.surveys.surveys.answer.success;Thank you! Your data has been transmitted.
+23299;de;decidim.surveys.surveys.answer.invalid;Die Umfrage konnte nicht abgeschickt werden. Eine Ihrer Antworten ist ungültig, weil Sie z.B. eine Pflichtfrage nicht beantwortet haben. Sie finden eine detailliertere Begründung bei der betroffenen Frage.
+23300;en;decidim.surveys.surveys.answer.invalid;The survey could not be sent. One of your answers is invalid, i.e. because you entered the wrong format.
+23301;de;decidim.surveys.surveys.answer.spam_detected;Die Umfrage konnte nicht abgeschickt werden. Möglicherweise waren Sie zu schnell und wurden deshalb von unserem Spam-Filter abgefangen. Bitte versuchen Sie es erneut.
+23302;en;decidim.surveys.surveys.answer.spam_detected;The survey could not be sent. You may have been too fast and were therefore caught by our spam filter. Please try again.
+23303;de;decidim.surveys.last_activity.new_survey_at_html;<span>Neue Umfrage: %{link}</span>
+23304;en;decidim.surveys.last_activity.new_survey_at_html;<span>New survey at %{link}</span>
+23305;de;decidim.surveys.admin.exports.survey_user_answers;Antworten
+23306;en;decidim.surveys.admin.exports.survey_user_answers;Survey participant answers
+23307;de;decidim.events.surveys.survey_opened.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie %{participatory_space_title} folgen. Falls Sie keine solchen Benachrichtigungen mehr erhalten möchten, besuchen Sie den obigen Link.
+23308;en;decidim.events.surveys.survey_opened.email_outro;You have received this notification because you are following %{participatory_space_title}. You can stop receiving notifications following the previous link.
+23309;de;decidim.forms.questionnaires.show.questionnaire_answered.title;Herzlichen Dank!
+23310;en;decidim.forms.questionnaires.show.questionnaire_answered.title;Thank you!
+23311;de;decidim.forms.errors.answer.body;Bitte füllen sie dieses Feld aus.
+23312;en;decidim.forms.errors.answer.body;Please fill in this field
+23313;de;decidim.components.surveys.settings.global.clean_after_publish;Antworten löschen ermöglichen: Antworten werden beim Abspeichern einer unveröffentlichten Umfrage gelöscht. ACHTUNG: Wir empfehlen, bei laufenden Umfrage diese Option auszuschalten, das sie zu unbeabsichtigten Datenverlust führen kann.
+23314;en;decidim.components.surveys.settings.global.clean_after_publish;Enable deletion of answers: Answers are deleted when an unpublished survey is saved. ATTENTION: We recommend switching off this option while a survey is running, as it can lead to unintentional data loss.
+29025;de;decidim.events.surveys.survey_closed.email_subject;Eine Umfrage wurde auf «%{participatory_space_title}» abgeschlossen
+29026;en;decidim.events.surveys.survey_closed.email_subject;A survey has finished in %{participatory_space_title}

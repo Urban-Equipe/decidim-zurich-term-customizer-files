@@ -1,0 +1,5 @@
+id;locale;key;value
+29033;de;devise.passwords.edit.password_help;Das Passwort muss mindestens %{minimum_characters} Zeichen lang sein. Es darf nicht zu gewöhnlich sein (z. B. 123456) und darf weder Ihr Kürzel noch Ihre E-Mail-Adresse enthalten.
+29034;en;devise.passwords.edit.password_help;%{minimun_characters} characters minimum, must not be too common (e.g. 123456) and must be different from your account name and your email.
+29035;de;devise.passwords.edit.password_help_admin;Das Passwort muss aus mindestens %{minimum_characters} Zeichen bestehen, darf nicht zu gewöhnlich sein (z. B. 123456) oder Ihren Kontonamen oder Ihre E-Mail-Adresse enthalten und muss sich von Ihren alten Passwörtern unterscheiden.
+29036;en;devise.passwords.edit.password_help_admin;%{minimum_characters} characters minimum, must not be too common (e.g. 123456), must be different from your nickname and your email and must be different from your old passwords.

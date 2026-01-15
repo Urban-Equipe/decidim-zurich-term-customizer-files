@@ -1,0 +1,97 @@
+id;locale;key;value
+21670;en;devise.failure.invited;You have a pending invitation, accept it to finish creating your account.
+21672;en;decidim.account.delete.confirm.close;Close window
+21674;en;decidim.admin.impersonations.close_session.error;There was a problem closing the current participant management session.
+21676;en;decidim.admin.officializations.show_email_modal.close_modal;Close modal
+21678;en;decidim.alert.dismiss;Dismiss notification
+21680;en;decidim.authorization_modals.show.close_modal;Close modal
+21675;de;decidim.admin.officializations.show_email_modal.close_modal;Modal schliessen
+21677;de;decidim.alert.dismiss;Benachrichtigung schliessen
+21679;de;decidim.authorization_modals.show.close_modal;Fenster schliessen
+21669;de;devise.failure.invited;Sie haben eine ausstehende Einladung, akzeptieren Sie sie, um die Erstellung Ihres Kontos abzuschliessen.
+21682;en;decidim.components.comment.report.close;Close
+21684;en;decidim.devise.omniauth_registrations.new.subtitle;Please fill in the following form in order to complete the sign up
+21686;en;decidim.devise.shared.newsletter_modal.buttons.close_modal;Close modal
+21688;en;decidim.group_invites.accept_or_reject_group_invitations;The following groups have invited you to join them. Accept or reject their requests:
+21671;de;decidim.account.delete.confirm.close;Fenster schliessen
+21745;de;decidim.budgets.projects.budget_excess.close;Schliessen
+21673;de;decidim.admin.impersonations.close_session.error;Beim Schliessen der aktuellen Identitätswechsel-Sitzung ist ein Fehler aufgetreten.
+21681;de;decidim.components.comment.report.close;Schliessen
+21683;de;decidim.devise.omniauth_registrations.new.subtitle;Bitte füllen Sie das folgende Formular aus, um die Anmeldung abzuschliessen
+21685;de;decidim.devise.shared.newsletter_modal.buttons.close_modal;Fenster schliessen
+21687;de;decidim.group_invites.accept_or_reject_group_invitations;Die folgenden Gruppen haben Sie eingeladen, sich ihnen anzuschliessen. Akzeptieren oder ablehnen ihrer Anfragen:
+21690;en;decidim.shared.flag_modal.close;Close
+21692;en;decidim.shared.embed_modal.close_window;Close window
+21694;en;decidim.shared.confirm_modal.close_modal;Close modal
+21696;en;decidim.searches.filters_small_view.close_modal;Close modal
+21698;en;decidim.pages.terms_and_conditions.refuse.modal_close;Close modal
+21700;en;decidim.messaging.conversations.index.close;Close modal
+21702;en;decidim.messaging.conversations.error_modal.close;Close modal
+21703;de;decidim.links.warning.close_modal;Fenster schliessen
+21704;en;decidim.links.warning.close_modal;Close modal
+21701;de;decidim.messaging.conversations.error_modal.close;Fenster schliessen
+21699;de;decidim.messaging.conversations.index.close;Fenster schliessen
+21697;de;decidim.pages.terms_and_conditions.refuse.modal_close;Fenster schliessen
+21695;de;decidim.searches.filters_small_view.close_modal;Fenster schliessen
+21693;de;decidim.shared.confirm_modal.close_modal;Fenster schliessen
+21691;de;decidim.shared.embed_modal.close_window;Fenster schliessen
+21689;de;decidim.shared.flag_modal.close;Schliessen
+21706;en;decidim.shared.flag_user_modal.close;Close
+21708;en;decidim.shared.floating_help.close;Close help
+21710;en;decidim.shared.login_modal.close_modal;Close modal
+21712;en;decidim.shared.share_modal.close_window;Close window
+21714;en;decidim.user_conversations.index.close;Close
+21716;en;decidim.verifications.authorizations.renew_modal.close;close
+21718;en;decidim.proposals.collaborative_drafts.collaborative_draft.withdraw.error;There was a problem closing the collaborative draft.
+21720;en;decidim.proposals.collaborative_drafts.collaborative_draft.withdraw.irreversible_action_modal.body;After closing the draft, the draft won't be editable anymore. The draft won't accept new authors or contributions.
+21713;de;decidim.user_conversations.index.close;Schliessen
+21715;de;decidim.verifications.authorizations.renew_modal.close;Schliessen
+21705;de;decidim.shared.flag_user_modal.close;Schliessen
+21711;de;decidim.shared.share_modal.close_window;Fenster schliessen
+21709;de;decidim.shared.login_modal.close_modal;Fenster schliessen
+21707;de;decidim.shared.floating_help.close;Hilfe schliessen
+21717;de;decidim.proposals.collaborative_drafts.collaborative_draft.withdraw.error;Es gab Fehler beim Schliessen des gemeinsamen Entwurfs.
+21722;en;decidim.proposals.proposals_picker.close;Close
+21723;de;decidim.meetings.actions.close;Abschluss
+21724;en;decidim.meetings.actions.close;Close
+21725;de;decidim.meetings.admin.meeting_closes.edit.close;Abschliessen
+21726;en;decidim.meetings.admin.meeting_closes.edit.close;Close
+21728;en;decidim.meetings.calendar_modal.close_window;Close window
+21729;de;decidim.meetings.admin.meetings.close.invalid;Beim Hinzufügen der Zusammenfassung bzw. des Schlussberichts ist es zu einem Fehler gekommen.
+21730;en;decidim.meetings.admin.meetings.close.invalid;There was a problem closing this meeting
+21732;en;decidim.proposals.proposals.wizard_steps.step_3;Complete
+21734;en;decidim.proposals.proposals.filters_small_view.close_modal;Close modal
+21736;en;decidim.proposals.collaborative_drafts.filters_small_view.close_modal;Close modal
+21727;de;decidim.meetings.calendar_modal.close_window;Fenster schliessen
+21735;de;decidim.proposals.collaborative_drafts.filters_small_view.close_modal;Dialog schliessen
+21719;de;decidim.proposals.collaborative_drafts.collaborative_draft.withdraw.irreversible_action_modal.body;Nach dem Schliessen des Entwurfs wird der Entwurf nicht mehr bearbeitet werden können. Der Entwurf akzeptiert keine neuen Autoren oder Beiträge.
+21733;de;decidim.proposals.proposals.filters_small_view.close_modal;Dialog schliessen
+21731;de;decidim.proposals.proposals.wizard_steps.step_3;Abschliessen
+21721;de;decidim.proposals.proposals_picker.close;Schliessen
+21738;en;decidim.meetings.layouts.live_event.close;close
+21740;en;decidim.meetings.meetings.calendar_modal.close_window;Close window
+21742;en;decidim.meetings.meetings.filters_small_view.close_modal;Close modal
+21737;de;decidim.meetings.layouts.live_event.close;Schliessen
+21741;de;decidim.meetings.meetings.filters_small_view.close_modal;Modal schliessen
+21744;en;decidim.budgets.budget_information_modal.close_modal;Close modal
+21746;en;decidim.budgets.projects.budget_excess.close;Close
+21748;en;decidim.budgets.projects.exit_modal.close_modal;Close modal
+21750;en;decidim.meetings.close_meeting_reminder_mailer.close_meeting_reminder.subject;You can now close your meeting with a report on the %{organization_name} platform
+21752;en;decidim.meetings.close_meeting_reminder_mailer.close_meeting_reminder.body;"The meeting <a href=""%{meeting_path}"">""%{meeting_title}""</a> is pending to be closed. Please add a report of the meeting using the ""Close meeting"" button."
+21743;de;decidim.budgets.budget_information_modal.close_modal;Dialog schliessen
+21747;de;decidim.budgets.projects.exit_modal.close_modal;Dialog schliessen
+21751;de;decidim.meetings.close_meeting_reminder_mailer.close_meeting_reminder.body;"Die Veranstaltung <a href=""%{meeting_path}"">""%{meeting_title}""</a> wurde noch nicht abgeschlossen. Bitte fügen Sie einen Bericht über die Veranstaltung mit der Schaltfläche ""Meeting schliessen"" hinzu."
+21749;de;decidim.meetings.close_meeting_reminder_mailer.close_meeting_reminder.subject;Sie können Ihre Veranstaltung jetzt mit einem Bericht auf der %{organization_name} Plattform abschliessen
+21739;de;decidim.meetings.meetings.calendar_modal.close_window;Fenster schliessen
+21754;en;decidim.debates.debates.filters_small_view.close_modal;Close modal
+21756;en;decidim.debates.debates.close_debate_modal.send;Close debate
+21758;en;decidim.debates.debates.close_debate_modal.close;Close
+21760;en;decidim.debates.admin.debate_closes.edit.title;Close debate
+21762;en;decidim.debates.admin.debate_closes.edit.close;Close
+21764;en;decidim.debates.actions.close;Close
+21763;de;decidim.debates.actions.close;Schliessen
+21761;de;decidim.debates.admin.debate_closes.edit.close;Schliessen
+21759;de;decidim.debates.admin.debate_closes.edit.title;Debatte schliessen
+21757;de;decidim.debates.debates.close_debate_modal.close;Schliessen
+21755;de;decidim.debates.debates.close_debate_modal.send;Debatte schliessen
+21753;de;decidim.debates.debates.filters_small_view.close_modal;Modal schliessen

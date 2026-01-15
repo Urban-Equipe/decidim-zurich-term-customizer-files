@@ -1,0 +1,21 @@
+id;locale;key;value
+22285;de;decidim.group_admins.actions.are_you_sure;Sind Sie sicher? Dies wird die*den Benutzenden nicht aus der Gruppe entfernen.
+22286;en;decidim.group_admins.actions.are_you_sure;Are you sure? This won't remove the participant from the group.
+22287;de;devise.registrations.signed_up_but_locked;Sie haben sich erfolgreich angemeldet. Wir konnten Sie jedoch nicht anmelden, weil Ihr Konto gesperrt ist.
+22288;en;devise.registrations.signed_up_but_locked;You have signed up successfully. However, we could not sign you in because your account is locked.
+22289;de;devise.registrations.signed_up_but_inactive;Sie haben sich erfolgreich angemeldet. Wir konnten Sie jedoch nicht anmelden, weil Ihr Konto noch nicht aktiviert ist.
+22290;en;devise.registrations.signed_up_but_inactive;You have signed up successfully. However, we could not sign you in because your account is not yet activated.
+22291;de;devise.failure.timeout;Ihre Sitzung ist abgelaufen. Bitte loggen Sie sich erneut ein, um fortzufahren.
+22292;en;devise.failure.timeout;Your session expired. Please sign in again to continue.
+22293;de;decidim.proposals.proposals.voting_rules.minimum_votes_per_user.given_enough_votes;Sie haben genug Unterstützung gegeben.
+22294;en;decidim.proposals.proposals.voting_rules.minimum_votes_per_user.given_enough_votes;You've given enough supports.
+22295;de;decidim.proposals.collaborative_drafts.wizard_aside.info;Sie erstellen einen <strong>kollaborativen Entwurf</strong>.
+22296;en;decidim.proposals.collaborative_drafts.wizard_aside.info;You are creating a <strong>collaborative draft</strong>.
+22297;de;decidim.welcome_notification.default_subject;Danke, dass Sie {{organization}} beigetreten sind!
+22298;en;decidim.welcome_notification.default_subject;Thanks for joining {{organization}}!
+22299;de;decidim.gamification.badges.index.how;Wie können Sie Abzeichen verdienen?
+22300;en;decidim.gamification.badges.index.how;How can you earn it
+22301;de;decidim.forms.step_navigation.show.are_you_sure;Diese Aktion kann nicht rückgängig gemacht werden und Sie können Ihre Antworten nicht bearbeiten. Sind Sie sicher?
+22302;en;decidim.forms.step_navigation.show.are_you_sure;This action cannot be undone and you will not be able to edit your answers. Are you sure?
+22303;de;decidim.budgets.projects.project.you_voted;Sie haben abgestimmt
+22304;en;decidim.budgets.projects.project.you_voted;You voted

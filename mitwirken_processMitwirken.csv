@@ -1,0 +1,241 @@
+id;locale;key;value
+26420;en;decidim.content_blocks.hero.name;Hero image
+26422;en;decidim.content_blocks.sub_hero.name;Sub hero banner
+26419;de;decidim.content_blocks.hero.name;Kachelbild
+26421;de;decidim.content_blocks.sub_hero.name;Banner unter dem Kachelbild (Beschreibungstext)
+18779;de;decidim.admin.actions.participatory_space_private_user.new;Neue*r private Benutzende
+18780;en;decidim.admin.actions.participatory_space_private_user.new;New participatory space private user
+4739;de;decidim.proposals.last_activity.new_proposal_at_html;<span>Neuer Vorschlag zum Mitwirkungsprozess «%{link}» hinzugefügt</span>
+4740;en;decidim.proposals.last_activity.new_proposal_at_html;<span>New proposal added to the process «%{link}«</span>
+18781;de;decidim.admin.models.participatory_space_private_user.name;Private Teilnehmende
+26459;de;decidim.follows.create.participatory_space;Sie folgen bereits dem Prozess
+26460;en;decidim.follows.create.participatory_space;Notifications activated
+18782;en;decidim.admin.models.participatory_space_private_user.name;Participatory space private participant
+4725;de;decidim.budgets.order_summary_mailer.order_summary.voted_on_space;Sie haben für das Budget «%{budget_name}» im Mitwirkungsprozess «%{space_name}» abgestimmt.
+4726;en;decidim.budgets.order_summary_mailer.order_summary.voted_on_space;You have voted on the %{budget_name} budget for the %{space_name} participatory space.
+4727;de;decidim.budgets.order_summary_mailer.order_summary.voted_on_space_with_scope;Sie haben für das Budget «%{budget_name}» im Mitwirkungsprozess «%{space_name}» innerhalb des Bereichs «%{scope_name} (%{scope_type})» abgestimmt.
+4728;en;decidim.budgets.order_summary_mailer.order_summary.voted_on_space_with_scope;You have voted on the %{budget_name} budget for the %{space_name} participatory space on %{scope_name} (%{scope_type}).
+4737;de;decidim.blogs.last_activity.new_post_at_html;<span>Neuer Blogbeitrag im Mitwirkungsprozess «%{link}»</span>
+4738;en;decidim.blogs.last_activity.new_post_at_html;<span>New blog post at «%{link}»</span>
+18784;en;decidim.admin.participatory_space_private_users.create.success;Participatory space private participant access successfully created.
+18786;en;decidim.admin.participatory_space_private_users.destroy.success;Participatory space private participant access successfully destroyed.
+18787;de;decidim.admin.participatory_space_private_users.new.title;Private Teilnehmende hinzufügen
+18788;en;decidim.admin.participatory_space_private_users.new.title;New Participatory Space private participant.
+18790;en;decidim.participatory_processes.show.private_space;This is a private process
+18789;de;decidim.participatory_processes.show.private_space;Dies ist ein geschlossener Prozess
+28414;en;decidim.admin.menu.participatory_processes_submenu.steps;Phases
+28416;en;decidim.admin.participatory_process_steps.index.steps_title;Phases
+28413;de;decidim.admin.menu.participatory_processes_submenu.steps;Schritte Partizipation
+28415;de;decidim.admin.participatory_process_steps.index.steps_title;Schritte des Partizipationsprozesses
+18792;en;activemodel.attributes.assembly.private_space;Private space
+18791;de;activemodel.attributes.assembly.private_space;Geschlossener Prozess
+18793;de;decidim.admin.participatory_process_user_roles.index.process_admins_title;Berechtigungen
+18794;en;decidim.admin.participatory_process_user_roles.index.process_admins_title;Authorizations
+1829;de;decidim.admin.participatory_process_user_roles.new.title;Berechtigung erstellen
+1830;en;decidim.admin.participatory_process_user_roles.new.title;New authorization
+2284;en;layouts.decidim.process_navigation.process_menu_item;Overview
+18795;de;decidim.admin.models.participatory_process_user_role.name;Partizipative*r Prozessbenutzende*r
+18796;en;decidim.admin.models.participatory_process_user_role.name;Participatory process admin
+18798;en;decidim.admin.actions.new_process_user_role;New process admin
+18797;de;decidim.admin.actions.new_process_user_role;Neue Berechtigung
+2279;de;layouts.decidim.participatory_processes.participatory_process.take_part_in;Mitmachen!
+2280;en;layouts.decidim.participatory_processes.participatory_process.take_part_in;Participate!
+2281;de;layouts.decidim.participatory_processes.promoted_process.take_part_in;Mitmachen!
+2282;en;layouts.decidim.participatory_processes.promoted_process.take_part_in;Participate
+2283;de;layouts.decidim.process_navigation.process_menu_item;Prozess
+1744;en;decidim.participatory_processes.participatory_processes.filters.counters.upcoming.other;%{count} upcoming processes
+1745;de;decidim.events.participatory_process.step_changed.notification_title;"Die Daten für den Prozessschritt <a href=""%{resource_path}"">%{resource_title}</a> in <a href=""%{participatory_space_url}"">%{participatory_space_title}</a> wurden aktualisiert."
+28837;de;decidim.participatory_processes.pages.home.highlighted_processes.active_spaces;Mitwirkungsprozesse
+28838;en;decidim.participatory_processes.pages.home.highlighted_processes.active_spaces;Participatory processes
+1793;de;decidim.participatory_processes.participatory_processes.filters.counters.past.other;%{count} vergangene Mitwirkungsprozesse
+1739;de;decidim.participatory_process_steps.index.process_steps;Prozessschritte
+1740;en;decidim.participatory_process_steps.index.process_steps;Process phases
+1741;de;decidim.participatory_process_steps.index.title;Prozessschritte
+1742;en;decidim.participatory_process_steps.index.title;Participatory process phases
+1737;de;decidim.participatory_processes.admin.participatory_processes.form.visbility;Sichtbarkeitseinstellungen (wird durch die STEZ ausgefüllt)
+1738;en;decidim.participatory_processes.admin.participatory_processes.form.visbility;Visibility (filled out by STEZ)
+1746;en;decidim.events.participatory_process.step_changed.notification_title;"The dates for the <a href=""%{resource_path}"">%{resource_title}</a> phase at <a href=""%{participatory_space_url}"">%{participatory_space_title}</a> have been updated."
+1747;de;decidim.events.participatory_process.step_changed.email_intro;Die Daten für den Schritt %{resource_title} bei %{participatory_space_title} wurden aktualisiert. Sie können das auf dieser Seite sehen:
+1748;en;decidim.events.participatory_process.step_changed.email_intro;The dates for the %{resource_title} phase at %{participatory_space_title} have been updated. You can see it from this page:
+1749;de;decidim.events.participatory_process.step_activated.email_intro;Der Prozessschritt %{resource_title} wurde im Mitwirkungsprozess «%{participatory_space_title}» aktiviert. Jetzt ansehen:
+1750;en;decidim.events.participatory_process.step_activated.email_intro;The phase «%{resource_title}» has been activated for «%{participatory_space_title}». You can see it from this page:
+1751;de;decidim.admin.participatory_processes.create.success;Prozess erfolgreich erstellt. Konfigurieren Sie jetzt seine Schritte.
+1752;en;decidim.admin.participatory_processes.create.success;Participatory process successfully created. Configure now its phases.
+1753;de;decidim.admin.participatory_process_steps.update.success;Partizipativer Prozessschritt erfolgreich aktualisiert.
+1754;en;decidim.admin.participatory_process_steps.update.success;Participatory phase successfully updated.
+1755;de;decidim.admin.participatory_process_steps.update.error;Beim Aktualisieren dieses partizipativen Prozessschritts ist ein Fehler aufgetreten.
+1756;en;decidim.admin.participatory_process_steps.update.error;There was a problem updating this phase of the participatory process.
+1757;de;decidim.admin.participatory_process_steps.ordering.error;Beim Neuanordnen dieser partizipativen Prozessschritte ist ein Fehler aufgetreten.
+1758;en;decidim.admin.participatory_process_steps.ordering.error;There was a problem in reordering these phases of the participatory process.
+1759;de;decidim.admin.participatory_process_steps.new.title;Neuer Prozessschritt
+1760;en;decidim.admin.participatory_process_steps.new.title;New participatory process phase
+1761;de;decidim.admin.participatory_process_steps.create.error;Beim Erstellen eines neuen Prozessschritts ist ein Fehler aufgetreten.
+1762;en;decidim.admin.participatory_process_steps.create.error;There was a problem creating a new participatory process phase.
+1763;de;decidim.admin.participatory_process_step_activations.create.error;Beim Aktivieren dieses Prozessschritts ist ein Fehler aufgetreten.
+1764;en;decidim.admin.participatory_process_step_activations.create.error;There was a problem activating this participatory process phase.
+1765;de;decidim.admin.participatory_process_step_activations.create.success;Prozessschritt erfolgreich aktiviert
+1766;en;decidim.admin.participatory_process_step_activations.create.success;Participatory process phase successfully activated.
+1767;de;decidim.admin.participatory_process_steps.create.success;Prozessschritt erfolgreich erstellt
+1768;en;decidim.admin.participatory_process_steps.create.success;Participatory process phase successfully created.
+1769;de;decidim.admin.participatory_process_steps.destroy.success;Prozessschritt erfolgreich gelöscht
+1770;en;decidim.admin.participatory_process_steps.destroy.success;Participatory process phase successfully deleted.
+1771;de;decidim.admin.models.participatory_process_step.name;Prozessschritt
+1772;en;decidim.admin.models.participatory_process_step.name;Participatory process phase
+1773;de;decidim.assemblies.show.related_participatory_processes;Ähnliche Mitwirkungsprozesse
+1774;en;decidim.assemblies.show.related_participatory_processes;Related participatory processes
+1775;de;decidim.admin.participatory_processes_copies.create.error;Beim Duplizieren dieses Mitwirkungsprozesses ist ein Fehler aufgetreten.
+1776;en;decidim.admin.participatory_processes_copies.create.error;There was a problem duplicating this participatory process.
+1777;de;activemodel.attributes.assembly.participatory_processes_ids;Ähnliche Mitwirkungsprozesse
+1778;en;activemodel.attributes.assembly.participatory_processes_ids;Related participatory processes
+1779;de;layouts.decidim.participatory_processes.index.promoted_processes;Hervorgehobene Mitwirkungsprozesse
+1780;en;layouts.decidim.participatory_processes.index.promoted_processes;Highlighted processes
+1781;de;layouts.decidim.participatory_process_groups.participatory_process_group.processes_count;Mitwirkungsprozesse:
+1782;en;layouts.decidim.participatory_process_groups.participatory_process_group.processes_count;Processes:
+1783;de;decidim.participatory_processes.statistics.processes_count;Mitwirkungsprozesse
+1784;en;decidim.participatory_processes.statistics.processes_count;Processes
+1785;de;decidim.participatory_processes.show.related_processes;Ähnliche Mitwirkungsprozesse
+1786;en;decidim.participatory_processes.show.related_processes;Related processes
+1788;en;decidim.participatory_processes.participatory_processes.filters.explanations.no_active_nor_upcoming_callout;There are no active nor upcoming processes. Here is a list of the past ones.
+1790;en;decidim.participatory_processes.participatory_processes.filters.explanations.no_active_nor_upcoming;No active nor upcoming processes
+1792;en;decidim.participatory_processes.participatory_processes.filters.counters.upcoming.one;1 upcoming process
+1794;en;decidim.participatory_processes.participatory_processes.filters.counters.past.other;%{count} past processes
+1795;de;decidim.participatory_processes.participatory_processes.filters.counters.past.one;1 vergangener Mitwirkungsprozess
+1796;en;decidim.participatory_processes.participatory_processes.filters.counters.past.one;1 past process
+1797;de;decidim.participatory_processes.participatory_processes.filters.counters.all.one;1 Mitwirkungsprozess
+1798;en;decidim.participatory_processes.participatory_processes.filters.counters.all.one;1 process
+1799;de;decidim.participatory_processes.participatory_processes.filters.counters.all.other;%{count} Mitwirkungsprozesse
+1800;en;decidim.participatory_processes.participatory_processes.filters.counters.all.other;%{count} processes
+1802;en;decidim.participatory_processes.participatory_processes.filters.counters.active.other;%{count} active processes
+1804;en;decidim.participatory_processes.participatory_processes.filters.counters.active.one;1 active process
+1805;de;decidim.participatory_processes.index.title;Mitwirkungsprozesse
+1806;en;decidim.participatory_processes.index.title;Participatory processes
+1808;en;decidim.participatory_processes.content_blocks.highlighted_processes.name;Highlighted processes
+1809;de;decidim.participatory_processes.admin.participatory_processes.form.related_processes;Ähnliche Mitwirkungsprozesse
+1810;en;decidim.participatory_processes.admin.participatory_processes.form.related_processes;Related processes
+1811;de;decidim.pages.home.statistics.processes_count;Mitwirkungsprozesse
+1812;en;decidim.pages.home.statistics.processes_count;Processes
+1813;de;decidim.metrics.participatory_processes.title;Mitwirkungsprozesse
+1814;en;decidim.metrics.participatory_processes.title;Participatory processes
+1815;de;decidim.metrics.participatory_processes.object;Mitwirkungsprozesse
+1816;en;decidim.metrics.participatory_processes.object;participatory processes
+1817;de;decidim.metrics.participatory_processes.description;Anzahl der Mitwirkungsprozesse in dieser Organisation
+1818;en;decidim.metrics.participatory_processes.description;Number of participatory processes in this organization
+1819;de;decidim.events.participatory_process.role_assigned.notification_title;"Sie wurden als %{role} für den Mitwirkungsprozess <a href=""%{resource_url}"">%{resource_title}</a> ausgewählt."
+1820;en;decidim.events.participatory_process.role_assigned.notification_title;"You have been assigned as %{role} for participatory process <a href=""%{resource_url}"">%{resource_title}</a>."
+1821;de;decidim.events.participatory_process.role_assigned.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie %{role} im Mitwirkungsprozess «%{resource_title}» sind.
+1822;en;decidim.events.participatory_process.role_assigned.email_outro;"You have received this notification because you are %{role} of the ""%{resource_title}"" participatory process."
+1823;de;decidim.events.participatory_process.role_assigned.email_intro;Sie wurden als %{role} für den Mitwirkungsprozesse «%{resource_title}» ausgewählt.
+1824;en;decidim.events.participatory_process.role_assigned.email_intro;"You have been assigned as %{role} for participatory process ""%{resource_title}""."
+1825;de;decidim.admin.participatory_processes.update.error;Beim Aktualisieren dieses Mitwirkungsprozesses ist ein Fehler aufgetreten.
+1826;en;decidim.admin.participatory_processes.update.error;There was a problem updating this participatory process.
+1827;de;decidim.admin.participatory_processes.create.error;Beim Erstellen eines neuen Mitwirkungsprozesses ist ein Fehler aufgetreten.
+1828;en;decidim.admin.participatory_processes.create.error;There was a problem creating a new participatory process.
+1803;de;decidim.participatory_processes.participatory_processes.filters.counters.active.one;1 laufender Mitwirkungsprozess
+1791;de;decidim.participatory_processes.participatory_processes.filters.counters.upcoming.one;1 geplanter Mitwirkungsprozess
+1787;de;decidim.participatory_processes.participatory_processes.filters.explanations.no_active_nor_upcoming_callout;Es gibt keine laufende oder geplante Mitwirkungsprozesse. Es werden Ihnen deshalb bereits abgeschlossene Prozesse angezeigt.
+1831;de;decidim.admin.participatory_process_user_roles.edit.title;Administrator des Mitwirkungsprozesses aktualisieren
+1832;en;decidim.admin.participatory_process_user_roles.edit.title;Update participatory process admin
+1833;de;decidim.admin.participatory_process_steps.edit.title;Prozessschritt bearbeiten
+1834;en;decidim.admin.participatory_process_steps.edit.title;Edit participatory process phase
+1835;de;decidim.admin.participatory_process_steps.destroy.error.last_step;Der letzte Schritt eines Mitwirkungsprozesses kann nicht gelöscht werden.
+1836;en;decidim.admin.participatory_process_steps.destroy.error.last_step;Can't delete the last phase of a process.
+1837;de;decidim.admin.participatory_process_publications.destroy.error;Beim Aufheben der Veröffentlichung dieses Mitwirkungsprozesses ist ein Fehler aufgetreten.
+1838;en;decidim.admin.participatory_process_publications.destroy.error;There was a problem unpublishing this participatory process.
+1839;de;decidim.admin.participatory_process_publications.create.error;Bei der Veröffentlichung dieses Mitwirkungsprozesses ist ein Fehler aufgetreten.
+1840;en;decidim.admin.participatory_process_publications.create.error;There was a problem publishing this participatory process.
+1841;de;decidim.admin.participatory_process_imports.new.title;Mitwirkungsprozess importieren
+1842;en;decidim.admin.participatory_process_imports.new.title;Import participatory process
+1843;de;decidim.admin.participatory_process_imports.create.success;Mitwirkungsprozess wurde erfolgreich importiert.
+1844;en;decidim.admin.participatory_process_imports.create.success;Participatory process successfully imported.
+1845;de;decidim.admin.participatory_process_imports.create.error;Beim Importieren dieses Mitwirkungsprozesses ist ein Fehler aufgetreten.
+1846;en;decidim.admin.participatory_process_imports.create.error;There was a problem importing this participatory process.
+1847;de;decidim.admin.participatory_process_groups.destroy.success;Mitwirkungsprozess erfolgreich gelöscht.
+1848;en;decidim.admin.participatory_process_groups.destroy.success;Participatory process group successfully deleted.
+1849;de;decidim.admin.participatory_process_groups.destroy.error;Beim Löschen der Mitwirkungsprozessgruppe ist ein Fehler aufgetreten.
+1850;en;decidim.admin.participatory_process_groups.destroy.error;There was an error while destroying the Participatory process group.
+1851;de;decidim.admin.participatory_process_copies.new.title;Mitwirkungsprozess duplizieren
+1852;en;decidim.admin.participatory_process_copies.new.title;Duplicate participatory process
+1853;de;decidim.admin.titles.participatory_processes;Mitwirkungsprozesse
+1854;en;decidim.admin.titles.participatory_processes;Participatory processes
+1855;de;decidim.admin.models.participatory_process.name;Mitwirkungsprozesse
+1856;en;decidim.admin.models.participatory_process.name;Participatory process
+1857;de;decidim.admin.menu.participatory_processes;Mitwirkungsprozesse
+1858;en;decidim.admin.menu.participatory_processes;Processes
+1859;de;decidim.admin.actions.new_process;Neuer Mitwirkungsprozesse
+1860;en;decidim.admin.actions.new_process;New process
+1861;de;decidim.admin.actions.import_process;Mitwirkungsprozess importieren
+1862;en;decidim.admin.actions.import_process;Import
+1863;de;decidim.admin.actions.filter.all_processes;Alle Mitwirkungsprozesse anzeigen
+1864;en;decidim.admin.actions.filter.all_processes;Show all processes
+1865;de;activemodel.attributes.participatory_process_group.participatory_process_ids;Ähnliche Mitwirkungsprozesse
+1866;en;activemodel.attributes.participatory_process_group.participatory_process_ids;Related processes
+1867;de;activemodel.attributes.participatory_process.related_process_ids;Ähnliche Mitwirkungsprozesse
+1868;en;activemodel.attributes.participatory_process.related_process_ids;Related processes
+1869;de;activerecord.models.decidim/participatory_process.other;Mitwirkungsprozesse
+1870;en;activerecord.models.decidim/participatory_process.other;Participatory processes
+1871;de;activerecord.models.decidim/participatory_process.one;Mitwirkungsprozess
+1872;en;activerecord.models.decidim/participatory_process.one;Participatory process
+1807;de;decidim.participatory_processes.content_blocks.highlighted_processes.name;Hervorgehobene Prozesse
+1876;en;decidim.participatory_processes.participatory_processes.filters.names.active;Active
+1877;de;decidim.participatory_processes.participatory_processes.filters.names.past;Vergangene
+1878;en;decidim.participatory_processes.participatory_processes.filters.names.past;Past
+1879;de;decidim.participatory_processes.admin.participatory_processes.form.announcement_help;Dieser Text wird dem Benutzer direkt unter den Prozessinformationen als Banner angezeigt.
+1880;en;decidim.participatory_processes.admin.participatory_processes.form.announcement_help;The text you enter here will be shown to the user right below the process information.
+1881;de;decidim.participatory_processes.admin.participatory_process_steps.form.cta_text_help;Wenn nicht eingestellt, wird die Schaltfläche nicht angezeigt.
+1882;en;decidim.participatory_processes.admin.participatory_process_steps.form.cta_text_help;If not set, the button will not be shown.
+1883;de;decidim.admin.menu.participatory_processes_submenu.process_admins;Berechtigungen
+1884;en;decidim.admin.menu.participatory_processes_submenu.process_admins;Process admins
+1875;de;decidim.participatory_processes.participatory_processes.filters.names.active;Laufende
+1887;de;activemodel.attributes.participatory_process.published_at;Veröffentlicht am
+1888;en;activemodel.attributes.participatory_process.published_at;Published at
+1889;de;activemodel.attributes.component.published_at;Veröffentlicht am
+1890;en;activemodel.attributes.component.published_at;Published at
+1891;de;decidim.menu.processes;Mitwirkungsprozesse
+1892;en;decidim.menu.processes;Processes
+3945;de;layouts.decidim.participatory_processes.participatory_process.more_info_about;Mitmachen!
+3946;en;layouts.decidim.participatory_processes.participatory_process.more_info_about;Participate!
+1801;de;decidim.participatory_processes.participatory_processes.filters.counters.active.other;%{count} laufende Mitwirkungsprozesse
+1789;de;decidim.participatory_processes.participatory_processes.filters.explanations.no_active_nor_upcoming;Keine laufende oder geplante Mitwirkungsprozesse
+1743;de;decidim.participatory_processes.participatory_processes.filters.counters.upcoming.other;%{count} geplante Mitwirkungsprozesse
+1874;en;decidim.participatory_processes.participatory_processes.filters.see;Filter processes:
+1873;de;decidim.participatory_processes.participatory_processes.filters.see;Mitwirkungsprozesse filtern
+20941;de;decidim.components.component_order_selector.order.all_types;Alle Dienstabteilungen
+20942;en;decidim.components.component_order_selector.order.all_types;All service departments
+20944;en;decidim.participatory_processes.participatory_processes.filters.all_types;All service departments
+20943;de;decidim.participatory_processes.participatory_processes.filters.all_types;Alle Dienstabteilungen
+18777;de;decidim.participatory_processes.pages.home.highlighted_processes.active_processes;Mitwirkungsprozesse
+18778;en;decidim.participatory_processes.pages.home.highlighted_processes.active_processes;Participatory Processes
+28911;de;devise.mailer.invite_private_user.subject;%{organization}: Einladung zur Teilnahme an einem privaten Prozess
+28912;en;devise.mailer.invite_private_user.subject;You've been invited to a private participatory process on %{organization}
+28913;de;activemodel.attributes.conference.participatory_processes_ids;Ähnliche Mitwirkungsprozesse
+28914;en;activemodel.attributes.conference.participatory_processes_ids;Related participatory processes
+28915;de;decidim.admin.titles.participatory_process_types;Organisationseinheit
+28916;en;decidim.admin.titles.participatory_process_types;Organisation types
+28917;de;decidim.admin_log.participatory_process.duplicate;%{user_name} hat den Mitwirkungsprozess %{resource_name} dupliziert
+28918;en;decidim.admin_log.participatory_process.duplicate;%{user_name} duplicated the %{resource_name} participatory process
+28919;de;decidim.admin_log.participatory_process.export;%{user_name} hat den Mitwirkungsprozess %{resource_name} exportiert
+28920;en;decidim.admin_log.participatory_process.export;%{user_name} exported the %{resource_name} participatory process
+28921;de;decidim.admin_log.participatory_process.import;%{user_name} hat den Mitwirkungsprozess %{resource_name} importiert
+28922;en;decidim.admin_log.participatory_process.import;%{user_name} imported the %{resource_name} participatory process
+28923;de;decidim.admin_log.participatory_process_type.create;%{user_name} hat die Organisationseinheit %{resource_name} erstellt
+28924;en;decidim.admin_log.participatory_process_type.create;%{user_name} created the %{resource_name} organisation type
+28925;de;decidim.admin_log.participatory_process_type.delete;%{user_name} hat den Organisationseinheit %{resource_name} gelöscht
+28926;en;decidim.admin_log.participatory_process_type.delete;%{user_name} deleted the %{resource_name} organisation type
+28927;de;decidim.statistics.processes_count;Beteiligungsprozesse
+28928;en;decidim.statistics.processes_count;Processes
+28929;de;decidim.participatory_process_groups.content_blocks.participatory_processes.active;Aktive Mitwirkungsprozesse
+28930;en;decidim.participatory_process_groups.content_blocks.participatory_processes.active;Active participatory processes
+28931;de;decidim.participatory_process_groups.content_blocks.participatory_processes.name;Mitwirkungsprozesse
+28932;en;decidim.participatory_process_groups.content_blocks.participatory_processes.name;Participatory processes
+28933;de;decidim.conferences.show.related_participatory_processes;Ähnliche Mitwirkungsprozess
+28934;en;decidim.conferences.show.related_participatory_processes;Related participatory processes
+28939;de;decidim.admin.participatory_processes.update.success;Prozess erfolgreich aktualisiert.
+28940;en;decidim.admin.participatory_processes.update.success;Participatory process successfully updated.
+18783;de;decidim.admin.participatory_space_private_users.create.success;Privater Zugriff erfolgreich erstellt.
+28935;de;decidim.term_customizer.admin.translation_sets.form.constraint_help_html;"<p>Einschränkungen sind Regeln, die Ihnen erlauben, Anpassungen eines Sets auf einen bestimmten Kontext anzuwenden.</p> <p>Falls Sie keine Einschränkungsregeln definieren, werden die Anpassungen eines Sets auf die gesamte Plattform angewendet. Wenn Sie jedoch möchten, dass die Anpassungen eines Sets nur für einen bestimmten Prozess gelten sollen, dann wählen Sie als partizipativen Bereichstyp ""Beteiligungsprozesse"" und als partizipativen Bereich den Zielprozess aus. Sie können zusätzlich Anpassungen nur auf eine bestimmte Komponente anwenden, indem Sie die Komponente für die Einschränkung auswählen.</p> <p>Wenn Sie mehrere Einschränkungen definieren, werden die Anpassungen auf alle angewendet.</p>"
+28936;en;decidim.term_customizer.admin.translation_sets.form.constraint_help_html;"<p>Constraints are specific rules that allow you to apply the customizations in a set to a specific context.</p> <p>In case you do not define any constraint rules, the customizations in this set will apply to the whole application. On the other hand, if you want the customizations in this set to apply only to a specific process, select ""Participatory processes"" as the participatory space type and the target process as the participatory space. Furthermore, you can also apply the customizations to a specific component by defining the component for the constraint.</p> <p>If you define multiple constraints, the customizations will apply in all of those.</p>"
+28937;de;decidim.term_customizer.admin.translation_sets.form.help_html;"<p>Ein Übersetzungsset ist ein Behälter für Übersetzungen eines bestimmten Kontexts, den Sie anpassen möchten.</p> <p>Übersetzungssets helfen Ihnen, Ihre Anpassungen zu organisieren und sie auf verschiedene Kontexte anzuwenden. So können Sie die gleiche Übersetzung in verschiedenen Kontexten unterschiedlich anpassen.</p> <p>Wenn Sie zum Beispiel einen Button mit dem Begriff ""Hinzufügen"" für verschiedene Beteiligungsprozesse anders beschriften möchten, dann können Sie separate Übersetzungssets für beide Prozesse erstellen und sie unter Verwendung der Einschränkungen auf diese Prozesse anwenden.</p>"
+28938;en;decidim.term_customizer.admin.translation_sets.form.help_html;"<p>A translation set is a ""container"" that holds the translations for a specific context you want to customize.</p> <p>Translation sets help you to organize your customizations and apply them to different contexts. This allows you to customize the same translation differently in different contexts.</p> <p>For example, if you want to customize a button with the term ""Add"" differently for different participatory processes, you can create separate translation sets for both processes and apply the set to those processes using the constraints.</p>"
+18785;de;decidim.admin.participatory_space_private_users.destroy.success;Privater Zugriff erfolgreich gelöscht.
+29027;de;layouts.decidim.participatory_processes.participatory_process.active_step;Prozessphase:
+29028;en;layouts.decidim.participatory_processes.participatory_process.active_step;Current phase

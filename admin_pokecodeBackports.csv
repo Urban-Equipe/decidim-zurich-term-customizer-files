@@ -1,0 +1,156 @@
+id;locale;key;value
+28593;de;decidim.admin.share_tokens.index.empty_html;Es gibt keine aktivierten Linkfreigaben. %{new_token_link}
+28594;en;decidim.admin.share_tokens.index.empty_html;There are no active access links. %{new_token_link}
+28595;de;decidim.admin.actions.share_tokens;Linkfreigaben
+28596;en;decidim.admin.actions.share_tokens;Access links
+28597;de;decidim.admin.menu.share_tokens;Linkfreigaben
+28598;en;decidim.admin.menu.share_tokens;Access links
+28599;de;decidim.admin.share_tokens.actions.confirm_destroy;Sind Sie sicher, dass Sie diese Linkfreigabe löschen wollen?
+28600;en;decidim.admin.share_tokens.actions.confirm_destroy;Are you sure you want to delete this link sharing?
+28601;de;decidim.admin.share_tokens.actions.copy_link;Link kopieren
+28602;en;decidim.admin.share_tokens.actions.copy_link;Copy link
+28603;de;decidim.admin.share_tokens.actions.destroy;Löschen
+28604;en;decidim.admin.share_tokens.actions.destroy;Delete
+28605;de;decidim.admin.share_tokens.actions.edit;Bearbeiten
+28606;en;decidim.admin.share_tokens.actions.edit;Edit
+28607;de;decidim.admin.share_tokens.actions.preview;Vorschau
+28608;en;decidim.admin.share_tokens.actions.preview;Preview
+28609;de;decidim.admin.share_tokens.create.invalid;Beim Erstellen der Linkfreigabe ist ein Problem aufgetreten.
+28610;en;decidim.admin.share_tokens.create.invalid;There was a problem generating the access link.
+28611;de;decidim.admin.share_tokens.create.success;Linkfreigabe erfolgreich erstellt.
+28612;en;decidim.admin.share_tokens.create.success;Access link created successfully.
+28613;de;decidim.admin.share_tokens.destroy.error;Beim Löschen der Linkfreigabe ist ein Fehler aufgetreten.
+28614;en;decidim.admin.share_tokens.destroy.error;There was a problem destroying the link.
+28615;de;decidim.admin.share_tokens.share_tokens.help;Mit der Linkfreigabe können Sie einen geheimen Link erstellen, den Sie versenden können. Die Seite wird nicht veröffentlicht, sondern kann nur über den angegebenen Link angesehen werden.
+28616;en;decidim.admin.share_tokens.share_tokens.help;These tokens are used to publicly share this unpublished resource to any user. They will be hidden when the resource is published. Click on the token's share icon to visit the shareable URL.
+28617;de;decidim.admin.share_tokens.index.title;Linkfreigaben für: %{name}
+28618;en;decidim.admin.share_tokens.index.title;access links for: %{name}
+28619;de;decidim.admin.models.share_token.fields.created_at;Erstellungsdatum
+28620;en;decidim.admin.models.share_token.fields.created_at;Created at
+28621;de;decidim.admin.models.share_token.fields.expires_at;Ablaufdatum
+28622;en;decidim.admin.models.share_token.fields.expires_at;Expires at
+28623;de;decidim.admin.models.share_token.fields.last_used_at;Zuletzt verwendet
+28624;en;decidim.admin.models.share_token.fields.last_used_at;Zuletzt verwendet
+28625;de;decidim.admin.models.share_token.fields.times_used;Anzahl Anwendungen
+28626;en;decidim.admin.models.share_token.fields.times_used;Times used
+28627;de;decidim.admin.models.share_token.fields.token;Schlüssel
+28628;en;decidim.admin.models.share_token.fields.token;Token
+28629;de;decidim.admin.models.share_token.fields.user;Erstellt von
+28630;en;decidim.admin.models.share_token.fields.user;Erstellt von
+28631;de;decidim.admin.share_tokens.actions.share;Teilen
+28632;en;decidim.admin.share_tokens.actions.share;Teilen
+28633;de;decidim.admin.share_tokens.destroy.success;Linkfreigabe wurde erfolgreich gelöscht.
+28634;en;decidim.admin.share_tokens.destroy.success;Link sharing destroyed successfully.
+28635;de;decidim.admin.share_tokens.share_tokens.empty;"Es gibt keine aktivierte Linkfreigabe. Wählen Sie im Komponentenmenü die entsprechende Komponente und drücken Sie auf ""Linkfreigabe"". Die Komponente wird geöffnet und Sie können den Link aus der Browser-Adresszeile kopieren."
+28636;en;decidim.admin.share_tokens.share_tokens.empty;There is no active link sharing. In the component menu, select the corresponding component and press Share Token. The component opens and you can copy the link from the browser address bar.
+28637;de;decidim.admin.share_tokens.new.create;Erstellen
+28638;en;decidim.admin.share_tokens.new.create;Create
+28639;de;decidim.admin.share_tokens.new.title;Neue Linkfreigabe für: %{name}
+28640;en;decidim.admin.share_tokens.new.title;New access link for: %{name}
+28641;de;decidim.admin.share_tokens.update.error;Beim Aktualisieren dieser Linkfreigabe ist ein Problem aufgetreten.
+28642;en;decidim.admin.share_tokens.update.error;There was a problem updating this access.
+28643;de;decidim.admin.share_tokens.update.success;Die Linkfreigabe wurde erfolgreich aktualisiert.
+28644;en;decidim.admin.share_tokens.update.success;Access link updated successfully.
+28645;de;decidim.admin_log.share_token.create;%{user_name} hat in %{space_name} eine Linkfreigabe erstellt.
+28646;en;decidim.admin_log.share_token.create;%{user_name} created an access link in %{space_name}
+28647;de;decidim.admin_log.share_token.create_with_space;%{user_name} hat für %{resource_name} in %{space_name} eine Linkfreigabe erstellt.
+28648;en;decidim.admin_log.share_token.create_with_space;%{user_name} created an access link for %{resource_name} in %{space_name}
+28649;de;decidim.admin.share_tokens.share_tokens.title;Linkfreigabe
+28650;en;decidim.admin.share_tokens.share_tokens.title;Link sharing
+28651;de;decidim.admin.models.share_token.fields.actions;Aktionen
+28652;en;decidim.admin.models.share_token.fields.actions;Actions
+28653;de;decidim.admin.models.share_token.fields.registered_only;Zugang nur für registrierte Nutzende?
+28654;en;decidim.admin.models.share_token.fields.registered_only;Registered only?
+28655;de;decidim.admin.share_tokens.edit.title;Linkfreigaben für %{name} bearbeiten
+28656;en;decidim.admin.share_tokens.edit.title;Edit access links for: %{name}
+28657;de;decidim.admin.share_tokens.edit.update;Aktualisieren
+28658;en;decidim.admin.share_tokens.edit.update;Update
+28659;de;decidim.admin.share_tokens.form.automatic;Automatisch
+28660;en;decidim.admin.share_tokens.form.automatic;Automatic
+28661;de;decidim.admin.share_tokens.form.custom;Manuell
+28662;en;decidim.admin.share_tokens.form.custom;Custom
+28663;de;decidim.admin.share_tokens.form.custom_expiration;Spezifisches Ablaufdatum
+28664;en;decidim.admin.share_tokens.form.custom_expiration;Custom expiration
+28665;de;decidim.admin.share_tokens.form.custom_token;Spezifisches Wort
+28666;en;decidim.admin.share_tokens.form.custom_token;Custom word
+28667;de;decidim.admin.share_tokens.form.expires_at;Gültig bis
+28668;en;decidim.admin.share_tokens.form.expires_at;Expires at
+28669;de;decidim.admin.share_tokens.form.false;Nein
+28670;en;decidim.admin.share_tokens.form.false;No
+28671;de;decidim.admin.share_tokens.form.never_expire;Keines
+28672;en;decidim.admin.share_tokens.form.never_expire;Never
+28673;de;decidim.admin.share_tokens.form.registered_only;Zugang nur für registrierte Nutzende?
+28674;en;decidim.admin.share_tokens.form.registered_only;Registered only?
+28675;de;decidim.admin.share_tokens.form.token;Zugangsschlüssel
+28676;en;decidim.admin.share_tokens.form.token;Access key
+28677;de;decidim.admin.share_tokens.form.true;Ja
+28678;en;decidim.admin.share_tokens.form.true;Yes
+28679;de;decidim.admin.share_tokens.index.back_to_share_tokens;Zurück zu den Linkfreigaben
+28680;en;decidim.admin.share_tokens.index.back_to_share_tokens;Back to access links
+28681;de;decidim.admin.share_tokens.index.copied;Linkfreigabe kopiert!
+28682;en;decidim.admin.share_tokens.index.copied;Access link Copied!
+28683;de;decidim.admin.share_tokens.index.copy_message;Der Text wurde erfolgreich in den Zwischenspeicher kopiert.
+28684;en;decidim.admin.share_tokens.index.copy_message;The text was successfully copied to clipboard.
+28685;de;decidim.admin.share_tokens.index.create_new_token;Erste Linkfreigabe erstellen!
+28686;en;decidim.admin.share_tokens.index.create_new_token;Create your first access link!
+28687;de;decidim.admin.share_tokens.index.never;Nie
+28688;en;decidim.admin.share_tokens.index.never;Never
+28689;de;decidim.admin.share_tokens.index.new_share_token_button;Neue Linkfreigabe
+28690;en;decidim.admin.share_tokens.index.new_share_token_button;New access link
+28691;de;decidim.admin.share_tokens.index.share_tokens_help_html;"Erstellen und teilen Sie einen Linkfreigabe, damit andere diese unveröffentlichte Ressource einsehen können.
+Linkfreigaben können gegebenenfalls nur für registrierte Teilnehmende zugänglich sein oder mit einem Ablaufdatum versehen werden.
+Um eine neue Linkfreigabe mit jemandem zu teilen, erstellen Sie ihn und kopieren Sie den Link mit dem Aktionssymbol ""%{clipboard} Link kopieren""."
+28692;en;decidim.admin.share_tokens.index.share_tokens_help_html;"Create and share an access link to allow others to view this unpublished resource.
+Access links can be valid for registered participants only or have and expiration date if necessary.
+To share a new access link with someone, create it and then copy the link using the ""%{clipboard} clipboard"" action icon.
+"
+28693;de;decidim.admin_log.share_token.delete;%{user_name} hat in %{space_name} eine Linkfreigabe gelöscht.
+28694;en;decidim.admin_log.share_token.delete;%{user_name} deleted an access link in %{space_name}
+28695;de;decidim.admin_log.share_token.delete_with_space;%{user_name} hat für %{resource_name} in %{space_name} eine Linkfreigabe gelöscht.
+28696;en;decidim.admin_log.share_token.delete_with_space;%{user_name} deleted an access link for %{resource_name} in %{space_name}
+28697;de;decidim.admin_log.share_token.update;%{user_name} hat in %{space_name} eine Linkfreigabe aktualisiert.
+28698;en;decidim.admin_log.share_token.update;%{user_name} updated an access link in %{space_name}
+28699;de;decidim.admin_log.share_token.update_with_space;%{user_name} hat für %{resource_name} in %{space_name} einen Freigabelink aktualisiert.
+28700;en;decidim.admin_log.share_token.update_with_space;%{user_name} updated an access link for %{resource_name} in %{space_name}
+28701;de;decidim.admin.reminders.create.error;Beim Erstellen dieser Erinnerungen ist ein Problem aufgetreten.
+28702;en;decidim.admin.reminders.create.error;There was a problem creating reminders.
+28703;de;decidim.admin.reminders.create.success.one;%{count} Benutzer wird erinnert.
+28704;en;decidim.admin.reminders.create.success.one;%{count} user will be reminded.
+28705;de;decidim.admin.reminders.create.success.other;%{count} Benutzer werden erinnert.
+28706;en;decidim.admin.reminders.create.success.other;%{count} users will be reminded.
+28707;de;decidim.admin.reminders.new.submit;Senden
+28708;en;decidim.admin.reminders.new.submit;Send
+28709;de;decidim.meetings.admin.meetings.reminders.reminder_enabled;Eine Erinnerung für diese Veranstaltung senden
+28710;en;decidim.meetings.admin.meetings.reminders.reminder_enabled;Send a reminder for this meeting
+28711;de;decidim.meetings.admin.meetings.reminders.reminder_message;Erinnerungsnachricht
+28712;en;decidim.meetings.admin.meetings.reminders.reminder_message;Reminder email content
+28713;de;decidim.meetings.admin.meetings.reminders.reminder_message_help_text;Passen Sie die Nachricht nach Bedarf an. Verwenden Sie {{meeting_title}}, um den Namen der Veranstaltung anzuzeigen.
+28714;en;decidim.meetings.admin.meetings.reminders.reminder_message_help_text;Customize the message as needed. Use {{meeting_title}} to display the meeting name.
+28715;de;decidim.meetings.admin.meetings.reminders.send_reminder;Erinnerungs-E-Mail planen
+28716;en;decidim.meetings.admin.meetings.reminders.send_reminder;Scheduled reminder email
+28717;de;decidim.meetings.admin.meetings.reminders.title;Erinnerungen
+28718;en;decidim.meetings.admin.meetings.reminders.title;Reminders
+28719;de;decidim.events.meetings.meeting_waitlist_added.notification_title;"Sie wurden zur Warteliste der Veranstaltung <a href=""%{resource_url}"">%{resource_title}</a> hinzugefügt."
+28720;en;decidim.events.meetings.meeting_waitlist_added.notification_title;"You have been added to the waitlist for the <a href=""%{resource_url}"">%{resource_title}</a> meeting."
+28721;de;decidim.meetings.meetings.show.join_waitlist;Warteliste beitreten
+28722;en;decidim.meetings.meetings.show.join_waitlist;Join waitlist
+28723;de;decidim.meetings.meetings.show.leave_waitlist;Warteliste verlassen
+28724;en;decidim.meetings.meetings.show.leave_waitlist;Leave waitlist
+28725;de;decidim.meetings.meetings.show.leave_waitlist_confirmation;Sind Sie sicher, dass Sie die Warteliste dieser Veranstaltung verlassen möchten?
+28726;en;decidim.meetings.meetings.show.leave_waitlist_confirmation;Are you sure you want to leave the waitlist for this meeting?
+28727;de;decidim.meetings.meetings.show.waitlist.description;Sobald ein Platz frei wird, werden wir Sie automatisch zur Veranstaltung anmelden. Sie werden per E-Mail benachrichtigt.
+28728;en;decidim.meetings.meetings.show.waitlist.description;If a spot becomes available, we well process your registration automatically and notify you via email.
+28729;de;decidim.meetings.meetings.show.waitlist.status;Sie sind auf der Warteliste
+28730;en;decidim.meetings.meetings.show.waitlist.status;You are on the waitlist
+28731;de;decidim.meetings.registrations.waitlist.invalid;Beim Beitreten zur Warteliste ist ein Problem aufgetreten.
+28732;en;decidim.meetings.registrations.waitlist.invalid;There was a problem joining the waitlist.
+28733;de;decidim.meetings.registrations.waitlist.success;Sie sind der Warteliste für die Veranstaltung beigetreten. Sobald ein Platz frei wird werden Sie benachrichtigt und angemeldet.
+28734;en;decidim.meetings.registrations.waitlist.success;You have joined the meeting waitlist successfully. You will be notified if your registration is successfully secured.
+28735;de;decidim.events.meetings.upcoming_meeting.default_body;"Die Veranstaltung ""{{meeting_title}}"" beginnt in weniger als {{before_hours}} Stunden."
+28736;en;decidim.events.meetings.upcoming_meeting.default_body;"The ""{{meeting_title}}"" meeting will start in less than {{before_hours}}h."
+28737;de;decidim.events.meetings.upcoming_meeting.email_subject;"Die Sitzung ""%{resource_title}"" beginnt in weniger als %{reminders_before_hours} Stunden."
+28738;en;decidim.events.meetings.upcoming_meeting.email_subject;"The ""%{resource_title}"" meeting will start in less than %{reminders_before_hours}h."
+28739;de;decidim.meetings.admin.meetings.reminders.send_reminder_help_text;Zeitpunkt der Erinnerung (Anzahl Stunden vor Veranstaltungsbeginn)
+28740;en;decidim.meetings.admin.meetings.reminders.send_reminder_help_text;Reminder time in hours before the meeting.
+28741;de;decidim.meetings.meetings.show.pending_address;Die Adresse wird noch bekannt gegeben.
+28742;en;decidim.meetings.meetings.show.pending_address;The location will be announced soon.

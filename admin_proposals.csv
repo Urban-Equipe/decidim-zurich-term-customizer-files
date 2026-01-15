@@ -1,0 +1,123 @@
+id;locale;key;value
+24551;de;decidim.components.proposals.settings.global.vote_limit;Maximale Anzahl Stimmen pro Benutzende
+24552;en;decidim.components.proposals.settings.global.vote_limit;Support limit per participant
+24553;de;decidim.components.proposals.settings.step.amendment_creation_enabled_help;Teilnehmende können Vorschläge ergänzen.
+24554;en;decidim.components.proposals.settings.step.amendment_creation_enabled_help;Participant can amend proposals.
+24555;de;decidim.components.proposals.settings.global.proposal_edit_before_minutes;Vorschläge können von Autor*innen innerhalb dieser Anzahl Minuten bearbeitet werden. Danach müssen sie per Änderungsvorschlag (siehe unten) angepasst werden.
+24556;en;decidim.components.proposals.settings.global.proposal_edit_before_minutes;Proposals can be edited by authors before this many minutes passes
+24557;de;decidim.components.proposals.settings.global.default_sort_order;Vorschlagssortierung
+24558;en;decidim.components.proposals.settings.global.default_sort_order;Default proposal sorting
+24559;de;decidim.components.proposals.settings.global.default_sort_order_help;«Standardmässig» bedeutet, dass die Vorschläge nach dem Zufallsprinzip sortiert werden, wenn eine Abstimmung aktiviert ist. Wenn die Stimmabgabe ausgeschaltet ist, wird nach den meistgewählten Vorschlägen sortiert.
+24560;en;decidim.components.proposals.settings.global.default_sort_order_help;Default means that if the supports are enabled, the proposals will be shown sorted by random, and if the supports are blocked, then they will be sorted by the most supported.
+24561;de;decidim.components.proposals.settings.step.default_sort_order_help;	«Standardmässig» bedeutet, dass die Vorschläge nach dem Zufallsprinzip sortiert werden, wenn eine Abstimmung aktiviert ist. Wenn die Stimmabgabe ausgeschaltet ist, wird nach den meistgewählten Vorschlägen sortiert.
+24562;en;decidim.components.proposals.settings.step.default_sort_order_help;Standardmäßig bedeutet dies, dass die Vorschläge nach dem Zufallsprinzip sortiert werden, wenn die Unterstützungen aktiviert sind, und wenn die Unterstützungen blockiert sind, werden sie nach den am meisten unterstützten sortiert.
+24563;de;decidim.components.proposals.settings.step.amendment_reaction_enabled_help;Vorschlagsautor*innen können die Berichtigungen von Teilnehmenden akzeptieren oder ablehnen.
+28304;en;decidim.endorsable.endorsements;Endorsements
+28305;de;decidim.statistics.endorsements_count;Befürwortungen
+28306;en;decidim.statistics.endorsements_count;Endorsements
+28303;de;decidim.endorsable.endorsements;Befürwortungen
+24564;en;decidim.components.proposals.settings.step.amendment_reaction_enabled_help;Proposal's authors will be able to accept or reject Participant's emendations.
+24565;de;decidim.components.dummy.settings.step.amendment_promotion_enabled;Vorschlagsänderungen hervorheben
+28814;en;decidim.components.proposals.settings.global.anonymous_proposals_enabled;Allow anonymous users to create proposals
+28813;de;decidim.components.proposals.settings.global.anonymous_proposals_enabled;Vorschläge können anonym / ohne Registrierung erstellt werden.
+24566;en;decidim.components.dummy.settings.step.amendment_promotion_enabled;Amendment promotion enabled
+24574;en;decidim.components.proposals.settings.global.proposal_length;Maximum proposal body length
+24567;de;decidim.components.proposals.settings.step.amendment_promotion_enabled_help;Berichtigungsautor*innen können die abgelehnten Berichtigungen im Vorschlag hervorheben.
+24568;en;decidim.components.proposals.settings.step.amendment_promotion_enabled_help;Emandation authors will be able to promote to Proposal the rejected emendation.
+24569;de;decidim.components.dummy.settings.step.amendments_visibility;Sichtbarkeit der Vorschlagsänderungen
+24570;en;decidim.components.dummy.settings.step.amendments_visibility;Amendment visibility
+24571;de;decidim.components.proposals.settings.step.amendments_visibility_choices.participants;Ergänzungen sind nur für ihre Autor*innen sichtbar
+24572;en;decidim.components.proposals.settings.step.amendments_visibility_choices.participants;Amendments are visible only to their authors
+24573;de;decidim.components.proposals.settings.global.proposal_length;Maximale Anzahl Zeichen im Beschreibungstext
+24592;en;decidim.proposals.create.success;Proposal successfully created. Saved as a Draft.
+24575;de;decidim.components.proposals.settings.step.amendments_visibility_help;Wenn die Option „Ergänzungen sind nur für ihre Autor*innen sichtbar“ ausgewählt ist, müssen Teilnehmende eingeloggt sein, um die vorgenommenen Ergänzungen zu sehen.
+24576;en;decidim.components.proposals.settings.step.amendments_visibility_help;"If the option ""Amendments are visible only to their authors"" is selected, participant must be logged in to see the amendments made."
+24577;de;activemodel.attributes.proposal.automatic_hashtags;Folgende Hashtags werden automatisch hinzugefügt. Damit kann Ihr Vorschlag in den Suchergebnissen besser erkannt werden.
+24578;en;activemodel.attributes.proposal.automatic_hashtags;Hashtags automatically added
+24579;de;activemodel.attributes.proposal.suggested_hashtags;Folgende Hashtags können Sie – falls passend – selbst hinzufügen
+24580;en;activemodel.attributes.proposal.suggested_hashtags;Suggested hashtags
+24581;de;decidim.components.proposals.settings.step.automatic_hashtags;Diese Hashtags werden allen Vorschlägen automatisch hinzugefügt (1 Hashtag pro Zeile)
+24582;en;decidim.components.proposals.settings.step.automatic_hashtags;Hashtags added to all proposals
+24583;de;decidim.components.proposals.settings.step.suggested_hashtags;Folgende Hashtags werden den Benutzenden zur Auswahl gestellt:
+24584;en;decidim.components.proposals.settings.step.suggested_hashtags;Hashtags suggested to participants for new proposals
+24585;de;decidim.proposals.proposals.placeholder.address;Sechseläutenplatz, 8001 Zürich
+24586;en;decidim.proposals.proposals.placeholder.address;Sechseläutenplatz, 8001 Zürich
+24587;de;decidim.proposals.proposals.voting_rules.vote_limit.description;Sie können bis zu %{limit} Vorschläge auswählen.
+24588;en;decidim.proposals.proposals.voting_rules.vote_limit.description;You can support up to %{limit} proposals.
+24589;de;decidim.proposals.proposals.compare.no_similars_found;Es konnten keine ähnliche Vorschläge gefunden werden. Sie können Ihren Vorschlag nun veröffentlichen.
+24590;en;decidim.proposals.proposals.compare.no_similars_found;No similar proposals could be found. You can now publish your proposal.
+24591;de;decidim.proposals.create.success;Der Vorschlag wurde erfolgreich erstellt. Vergleichen Sie nun, ob bereits ähnliche Vorschläge bestehen.
+24593;de;decidim.proposals.proposals.vote_button.maximum_votes_reached;Maximale Anzahl Stimmen vergeben
+24594;en;decidim.proposals.proposals.vote_button.maximum_votes_reached;Support limit reached
+24595;de;decidim.proposals.admin.proposals_imports.new.no_components;In diesem Mitwirkungsprozess gibt es keine weiteren Vorschlagskomponenten, aus denen die Vorschläge importiert werden könnten.
+24596;en;decidim.proposals.admin.proposals_imports.new.no_components;There are no other proposal components in this participatory space to import the proposals from.
+24597;de;decidim.components.proposals.settings.global.threshold_per_proposal;Stimmschwellenwert: Maximale Anzahl Stimmen, die ein Vorschlag erreichen kann
+24598;en;decidim.components.proposals.settings.global.threshold_per_proposal;Threshold per proposal
+24599;de;decidim.components.proposals.settings.global.geocoding_enabled;Geocoding aktiviert: Vorschläge können verortet werden
+24600;en;decidim.components.proposals.settings.global.geocoding_enabled;Geocoding enabled
+24601;de;decidim.components.proposals.settings.global.proposal_limit;Maximale Anzahl Vorschläge pro Benutzende
+24602;en;decidim.components.proposals.settings.global.proposal_limit;Proposal limit per participant
+24603;de;decidim.components.proposals.settings.step.endorsements_blocked;Unterstützungen blockiert
+24604;en;decidim.components.proposals.settings.step.endorsements_blocked;Endorsements blocked
+24605;de;decidim.components.proposals.settings.global.can_accumulate_supports_beyond_threshold;Stimmen werden nach dem Stimmschwellenwert weitergezählt
+24606;en;decidim.components.proposals.settings.global.can_accumulate_supports_beyond_threshold;Can accumulate supports beyond threshold
+24607;de;decidim.components.proposals.settings.global.proposal_answering_enabled;Vorschlagsbeantwortung aktiviert
+24608;en;decidim.components.proposals.settings.global.proposal_answering_enabled;Proposal answering enabled
+24609;de;decidim.components.proposals.settings.step.proposal_answering_enabled;Vorschlagsbeantwortung aktiviert
+24610;en;decidim.components.proposals.settings.step.proposal_answering_enabled;Proposal answering enabled
+24611;de;decidim.components.proposals.settings.global.participatory_texts_enabled_readonly;Sie können diese Funktion nicht aktivieren, wenn bereits Vorschläge in dieser Komponente erstellt wurden. Erstellen Sie eine neues Vorschlagsmodul in den Komponenteneinstellungen.
+24612;en;decidim.components.proposals.settings.global.participatory_texts_enabled_readonly;Cannot interact with this setting if there are existing proposals. Please, create a new `Proposals component` if you want to enable this feature or discard all imported proposals in the `Participatory Texts` menu if you want to disable it.
+24613;de;decidim.components.proposals.settings.global.amendments_enabled_help;Sie können die Einzelheiten der Vorschlagsänderungen in den einzelnen Schritteinstellungen (unten) konfigurieren.
+24614;en;decidim.components.proposals.settings.global.amendments_enabled_help;If active, configure Amendment features for each step.
+24615;de;decidim.components.debates.settings.step.endorsements_enabled;Unterstützungen aktiviert
+24616;en;decidim.components.debates.settings.step.endorsements_enabled;Endorsements enabled
+24617;de;decidim.components.debates.settings.step.endorsements_blocked;Unterstützungen blockiert
+24618;en;decidim.components.debates.settings.step.endorsements_blocked;Endorsements blocked
+24619;de;decidim.components.proposals.settings.step.endorsements_enabled;Unterstützungen aktiviert
+24620;en;decidim.components.proposals.settings.step.endorsements_enabled;Endorsements enabled
+24621;de;decidim.proposals.proposals.show.endorsements_list;Liste der Unterstützenden
+24622;en;decidim.proposals.proposals.show.endorsements_list;List of Endorsements
+24623;de;decidim.components.proposals.settings.step.votes_hidden;Stimmen nicht anzeigen
+24624;en;decidim.components.proposals.settings.step.votes_hidden;Supports hidden (if supports are enabled, checking this will hide the number of supports)
+24625;de;decidim.proposals.collaborative_drafts.collaborative_draft.withdraw.success;Gemeinsamer Entwurf erfolgreich zurückgezogen.
+24626;en;decidim.proposals.collaborative_drafts.collaborative_draft.withdraw.success;Collaborative draft withdrawn successfully.
+24627;de;decidim.proposals.collaborative_drafts.create.error;Beim Erstellen dieses gemeinsamen Entwurfs ist ein Problem aufgetreten
+24628;en;decidim.proposals.collaborative_drafts.create.error;There was a problem creating this collaborative drafts
+24629;de;decidim.components.proposals.settings.global.default_sort_order_options.default;Standardmässig
+24630;en;decidim.components.proposals.settings.global.default_sort_order_options.default;Default
+24631;de;decidim.components.proposals.settings.global.default_sort_order_options.most_commented;Meist kommentierte
+24632;en;decidim.components.proposals.settings.global.default_sort_order_options.most_commented;Most commented
+24633;de;decidim.components.proposals.settings.global.default_sort_order_options.most_endorsed;Meist unterstützte
+24634;en;decidim.components.proposals.settings.global.default_sort_order_options.most_endorsed;Most endorsed
+24635;de;decidim.components.proposals.settings.global.default_sort_order_options.most_followed;Meist gefolgte
+24636;en;decidim.components.proposals.settings.global.default_sort_order_options.most_followed;Most followed
+24637;de;decidim.components.proposals.settings.global.default_sort_order_options.with_more_authors;Anzahl Autor*innen
+24638;en;decidim.components.proposals.settings.global.default_sort_order_options.with_more_authors;With more authors
+24639;de;decidim.components.proposals.settings.step.default_sort_order;Vorschlagssortierung
+24640;en;decidim.components.proposals.settings.step.default_sort_order;Default proposal sorting
+24641;de;decidim.components.proposals.settings.step.creation_enabled;Nutzende können Vorschläge einreichen
+24642;en;decidim.components.proposals.settings.step.creation_enabled;Participants can create proposals
+24643;de;decidim.components.proposals.settings.step.votes_enabled;Abstimmungsfunktion aktiviert
+24644;en;decidim.components.proposals.settings.step.votes_enabled;Supports enabled
+24645;de;decidim.components.proposals.settings.step.votes_blocked;Stimmabgabe ausschalten
+24646;en;decidim.components.proposals.settings.step.votes_blocked;Supports blocked
+27562;en;decidim.proposals.destroy_draft.error;There was a problem deleting the collaborative draft.
+27564;en;decidim.proposals.destroy_draft.success;Proposal draft was successfully deleted.
+27566;en;decidim.proposals.proposals.edit_draft.discard_confirmation;Are you sure you want to discard this proposal draft?
+27568;en;decidim.proposals.proposals.edit_draft.title;Edit Proposal Draft
+27570;en;decidim.proposals.update_draft.error;There was a problem saving the collaborative draft.
+27572;en;decidim.proposals.update_draft.success;Proposal draft successfully updated.
+27574;en;decidim.proposals.proposals.edit.gallery_legend;(Optional) Add an image to the proposal card
+27575;de;decidim.proposals.collaborative_drafts.edit.attachment_legend;(Optional) Fügen Sie einen Anhang hinzu
+27576;en;decidim.proposals.collaborative_drafts.edit.attachment_legend;(Optional) Add an attachment
+27578;en;decidim.proposals.proposals.edit.attachment_legend;(Optional) Add an attachment
+27561;de;decidim.proposals.destroy_draft.error;Es gab Fehler beim Löschen des Entwurfs.
+27563;de;decidim.proposals.destroy_draft.success;Der Entwurf wurde erfolgreich gelöscht.
+27565;de;decidim.proposals.proposals.edit_draft.discard_confirmation;Möchten Sie diesen Entwurf wirklich verwerfen?
+27567;de;decidim.proposals.proposals.edit_draft.title;Entwurf bearbeiten
+27569;de;decidim.proposals.update_draft.error;Beim Speichern des Entwurfs ist ein Fehler aufgetreten.
+27571;de;decidim.proposals.update_draft.success;Der Entwurf wurde erfolgreich aktualisiert.
+27577;de;decidim.proposals.proposals.edit.attachment_legend;(Optional) Anhang hinzufügen
+27573;de;decidim.proposals.proposals.edit.gallery_legend;(Optional) Bild hinzufügen
+29147;de;decidim.proposals.proposals.index.see_all_withdrawn;Zurückgezogene Vorschläge anzeigen
+29148;en;decidim.proposals.proposals.index.see_all_withdrawn;See all withdrawn proposals

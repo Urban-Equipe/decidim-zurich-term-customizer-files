@@ -1,0 +1,43 @@
+id;locale;key;value
+205;de;activemodel.attributes.assembly.local_area;Prozessleitung
+204;de;activemodel.attributes.participatory_process.local_area;Prozessleitung
+207;de;decidim.assemblies.show.local_area;Prozessleitung
+206;de;decidim.participatory_processes.show.local_area;Prozessleitung
+200;de;activemodel.attributes.participatory_process.developer_group;Kontakt
+203;de;decidim.assemblies.show.developer_group;Kontakt
+202;de;decidim.participatory_processes.show.developer_group;Kontakt
+201;de;activemodel.attributes.assembly.developer_group;Kontakt
+3339;de;decidim.participatory_processes.show.participatory_scope;Um was geht es?
+3331;de;activemodel.attributes.participatory_process.participatory_scope;Um was geht es?
+3337;de;decidim.participatory_process_groups.content_blocks.metadata.participatory_scope;Um was geht es
+3328;en;decidim.participatory_processes.show.participatory_structure;How is it decided
+3330;en;decidim.assemblies.show.participatory_structure;How is it decided
+3329;de;decidim.assemblies.show.participatory_structure;Wie wird entschieden?
+3327;de;decidim.participatory_processes.show.participatory_structure;Wie wird entschieden?
+3332;en;activemodel.attributes.participatory_process.participatory_scope;What is decided
+3334;en;activemodel.attributes.participatory_process_group.participatory_scope;What is decided
+3336;en;activemodel.attributes.assembly.participatory_scope;What is decided
+3338;en;decidim.participatory_process_groups.content_blocks.metadata.participatory_scope;What is decided
+3340;en;decidim.participatory_processes.show.participatory_scope;What is decided
+3333;de;activemodel.attributes.participatory_process_group.participatory_scope;Um was geht es
+3335;de;activemodel.attributes.assembly.participatory_scope;Um was geht es?
+28955;de;decidim.participatory_processes.participatory_processes.description.local_area;Prozessleitung
+28956;en;decidim.participatory_processes.participatory_processes.description.local_area;Process lead
+28957;de;decidim.assemblies.assemblies.description.local_area;Gebiet der Organisation
+28958;en;decidim.assemblies.assemblies.description.local_area;Organization Area
+28959;de;decidim.participatory_processes.participatory_processes.description.area_name;Thema
+28960;en;decidim.participatory_processes.participatory_processes.description.area_name;Topic
+28961;de;decidim.participatory_processes.participatory_processes.description.data;Prozessdaten
+28962;en;decidim.participatory_processes.participatory_processes.description.data;Process data
+28963;de;decidim.participatory_processes.participatory_processes.description.developer_group;Kontakt
+28964;en;decidim.participatory_processes.participatory_processes.description.developer_group;Contact
+28965;de;decidim.participatory_processes.participatory_processes.description.meta_scope;Thema
+28966;en;decidim.participatory_processes.participatory_processes.description.meta_scope;Scope
+28967;de;decidim.participatory_processes.participatory_processes.description.participatory_scope;Was wird entschieden?
+28968;en;decidim.participatory_processes.participatory_processes.description.participatory_scope;What is decided
+28969;de;decidim.participatory_processes.participatory_processes.description.participatory_structure;Wie wird entschieden?
+28970;en;decidim.participatory_processes.participatory_processes.description.participatory_structure;How is it decided
+28971;de;decidim.participatory_processes.participatory_processes.description.target;Wer nimmt teil?
+28972;en;decidim.participatory_processes.participatory_processes.description.target;Who participates
+28973;de;decidim.participatory_processes.participatory_processes.description.title;Über diesen Prozess
+28974;en;decidim.participatory_processes.participatory_processes.description.title;About this process

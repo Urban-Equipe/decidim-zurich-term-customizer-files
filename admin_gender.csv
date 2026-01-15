@@ -1,0 +1,739 @@
+id;locale;key;value
+24743;de;decidim.admin.menu.participatory_processes_submenu.process_admins;Prozess-Admins
+24744;en;decidim.admin.menu.participatory_processes_submenu.process_admins;Process admins
+24745;de;decidim.admin.menu.assemblies_submenu.private_users;Teilnehmende bestimmen
+24746;en;decidim.admin.menu.assemblies_submenu.private_users;Chosen participants
+24747;de;decidim.admin.models.participatory_process_user_role.roles.admin;Prozess-Admin
+24748;en;decidim.admin.models.participatory_process_user_role.roles.admin;Process Administrator
+24749;de;decidim.admin.models.assembly_user_role.roles.admin;Organisationsadmin
+24750;en;decidim.admin.models.assembly_user_role.roles.admin;Administrator
+24751;de;decidim.admin.titles.user_groups;Gruppen
+24752;en;decidim.admin.titles.user_groups;Groups
+24753;de;decidim.conferences.admin.conference_invites.form.attendee_type;Teilnehmendentyp
+24754;en;decidim.conferences.admin.conference_invites.form.attendee_type;Attendee type
+24755;de;decidim.statistics.users_count;Benutzende
+24756;en;decidim.statistics.users_count;Participants
+24757;de;decidim.author.avatar_multiuser;Avatar für mehrere Benutzende
+24758;en;decidim.author.avatar_multiuser;Avatar for multiple users
+24759;de;decidim.admin.models.user.name;Benutzende*r
+24760;en;decidim.admin.models.user.name;Participant
+24761;de;decidim.messaging.conversation_mailer.comanagers_new_message.admin_in_group;Sie haben diese Benachrichtigung erhalten, weil Sie ein*e Admin von %{group} sind.
+24762;en;decidim.messaging.conversation_mailer.comanagers_new_message.admin_in_group;You are receiving this because you are an admin in %{group}.
+24763;de;decidim.shared.flag_user_modal.already_reported;Dieser Inhalt wurde bereits gemeldet und wird von einer*einem Admin überprüft.
+24764;en;decidim.shared.flag_user_modal.already_reported;This content is already reported and it will be reviewed by an admin.
+24765;de;decidim.messaging.conversation_mailer.new_group_conversation.admin_in_group;Sie haben diese Benachrichtigung erhalten, weil Sie ein*e Admin von %{group} sind.
+24766;en;decidim.messaging.conversation_mailer.new_group_conversation.admin_in_group;You are receiving this because you are an admin in %{group}.
+24767;de;decidim.admin.models.conference_user_role.roles.admin;Admin
+24768;en;decidim.admin.models.conference_user_role.roles.admin;Administrator
+24769;de;decidim.messaging.conversation_mailer.new_group_message.admin_in_group;Sie haben diese Benachrichtigung erhalten, weil Sie ein*e Admin von %{group} sind.
+24770;en;decidim.messaging.conversation_mailer.new_group_message.admin_in_group;You are receiving this because you are an admin in %{group}.
+24771;de;activemodel.models.decidim/demoted_membership;Kein Gruppenadmin mehr
+24772;en;activemodel.models.decidim/demoted_membership;No longer a group admin
+24773;de;activemodel.models.decidim/promoted_to_admin_event;Zur*zum Gruppenadmin hochgestuft
+24774;en;activemodel.models.decidim/promoted_to_admin_event;Promoted to group admin
+24775;de;decidim.events.conferences.conference_registrations_over_percentage.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie ein*e Admin des Teilnahmebereichs der Konferenz sind.
+24776;en;decidim.events.conferences.conference_registrations_over_percentage.email_outro;You have received this notification because you are an admin of the conference's participatory space.
+24777;de;decidim.admin.officializations.unblock.error;Beim Blockieren der*des Teilnehmenden ist ein Fehler aufgetreten
+24778;en;decidim.admin.officializations.unblock.error;There was an error unblocking the participant
+24779;de;decidim.admin.titles.users;Teilnehmende
+24780;en;decidim.admin.titles.users;Participants
+24781;de;decidim.events.users.user_officialized.notification_title;Teilnehmende*r %{name} (%{nickname}) wurde offiziell bestätigt.
+24782;en;decidim.events.users.user_officialized.notification_title;Participant %{name} (%{nickname}) has been officialized.
+24783;de;decidim.user_conversations.index.participant_with_disabled_message_reception;Diese*r Teilnehmende hat Nachrichten deaktiviert
+24784;en;decidim.user_conversations.index.participant_with_disabled_message_reception;This participant has disabled message reception
+24785;de;decidim.meetings.meetings.form.online_meeting_url_help;Link: Erlaubt Teilnehmenden, sich direkt mit Ihrem Meeting zu verbinden
+24786;en;decidim.meetings.meetings.form.online_meeting_url_help;Link: allow participants to connect directly to your meeting
+24787;de;decidim.meetings.meetings.form.registration_url_help;Fügen Sie hier den Link der*des externen Dienstleistenden ein, über welche die Anmeldungen durchgeführt werden sollen.
+24788;en;decidim.meetings.meetings.form.registration_url_help;Link: allow participants to go on the external service you are using for registrations
+24789;de;decidim.conferences.admin.conference_invites.index.invite_attendee;Teilnehmende einladen
+24790;en;decidim.conferences.admin.conference_invites.index.invite_attendee;Invite participant
+24791;de;decidim.admin.users_statistics.users_count.participants;Mitwirkende
+24792;en;decidim.admin.users_statistics.users_count.participants;Participants
+24793;de;decidim.metrics.participants.object;Teilnehmende
+24794;en;decidim.metrics.participants.object;participants
+24795;de;activemodel.attributes.organization.rich_text_editor_in_public_views;Rich-Text-Editor für Teilnehmende aktivieren
+24796;en;activemodel.attributes.organization.rich_text_editor_in_public_views;Enable rich text editor for participants
+24797;de;decidim.debates.debates.show.participants_count;Teilnehmende
+24798;en;decidim.debates.debates.show.participants_count;Participants
+24799;de;activemodel.models.decidim/promote_to_admin;Zur*zum Gruppenadmin hochgestuft
+24800;en;activemodel.models.decidim/promote_to_admin;Promoted to group admin
+24801;de;decidim.admin.models.impersonation_log.fields.admin;Admin
+24802;en;decidim.admin.models.impersonation_log.fields.admin;Admin
+24803;de;decidim.events.groups.user_group_created.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie ein Admin der Plattform sind.
+24804;en;decidim.events.groups.user_group_created.email_outro;You have received this notification because you are an admin of the platform.
+24805;de;decidim.admin.assembly_user_roles.create.success;Die*der Admin wurde dieser Organisation erfolgreich hinzugefügt.
+24806;en;decidim.admin.assembly_user_roles.create.success;Admin successfully added to this organisation.
+24807;de;decidim.admin_terms_of_use.default_body;<h2>BACKEND-NUTZUNGSBEDINGUNGEN</h2><p>Wir nehmen an, du hast die übliche Lektion von der*dem lokalen Systemadmin bekommen. Üblicherweise geht es um folgende drei Punkte:</p><ol><li>Privatsphäre anderer respektieren.</li><li>Denken bevor man klickt.</li><li>Mit grosser Macht kommt grosse Verantwortung.</li></ol>
+24808;en;decidim.admin_terms_of_use.default_body;<h2>ADMIN TERMS OF USE</h2><p>We trust you have received the usual lecture from the local System Administrator. It usually boils down to these three things:</p><ol><li>Respect the privacy of others.</li><li>Think before you click.</li><li>With great power comes great responsibility.</li></ol>
+24809;de;decidim.authorization_handlers.errors.duplicate_authorization;Ein*e Teilnehmende*r mit den gleichen Daten ist bereits autorisiert. Ein Admin wird Sie kontaktieren, um Ihre Daten zu überprüfen.
+24810;en;decidim.authorization_handlers.errors.duplicate_authorization;A participant is already authorized with the same data. An administrator will contact you to verify your details.
+24811;de;decidim.components.comment.report.already_reported;Dieser Inhalt wurde bereits gemeldet und wird von einer*einem Admin überprüft.
+24812;en;decidim.components.comment.report.already_reported;This content is already reported and it will be reviewed by an admin.
+24813;de;decidim.events.groups.demoted_membership.email_intro;"Ein*e Admin der Gruppe <a href=""%{resource_url}"">%{user_group_name}</a> hat Ihre Adminrechte für diese Gruppe entfernt."
+24814;en;decidim.events.groups.demoted_membership.email_intro;"An admin of the <a href=""%{resource_url}"">%{user_group_name}</a> group has removed your admin rights to that group."
+24815;de;decidim.events.groups.demoted_membership.email_subject;Sie sind kein Admin der Gruppe %{user_group_name} mehr!
+24816;en;decidim.events.groups.demoted_membership.email_subject;You are no longer an admin of the %{user_group_name} group!
+24817;de;decidim.events.groups.demoted_membership.notification_title;"Sie sind nicht mehr Admin in der Gruppe <a href=""%{resource_path}"">%{user_group_name}</a>."
+24818;en;decidim.events.groups.demoted_membership.notification_title;"You are no longer an admin of the <a href=""%{resource_path}"">%{user_group_name}</a> group."
+24819;de;decidim.events.groups.invited_to_group.email_intro;"Ein*e Admin der Gruppe <a href=""%{resource_url}"">%{user_group_name}</a> hat Sie in die Gruppe eingeladen."
+24820;en;decidim.events.groups.invited_to_group.email_intro;"An admin of the <a href=""%{resource_url}"">%{user_group_name}</a> group has invited you to join it."
+24821;de;decidim.events.groups.join_request_accepted.email_intro;"Herzlichen Glückwunsch! Ein*e Admin der Gruppe <a href=""%{resource_url}"">%{user_group_name}</a> hat Ihre Anfrage akzeptiert, der Gruppe beizutreten."
+24822;en;decidim.events.groups.join_request_accepted.email_intro;"Congratulations! An admin of the <a href=""%{resource_url}"">%{user_group_name}</a> group has accepted your request to join it."
+24823;de;decidim.events.groups.join_request_rejected.email_intro;"Ein*e Admin der Gruppe <a href=""%{resource_url}"">%{user_group_name}</a> hat Ihre Anfrage abgelehnt, der Gruppe beizutreten."
+24824;en;decidim.events.groups.join_request_rejected.email_intro;"An admin of the <a href=""%{resource_url}"">%{user_group_name}</a> group rejected your request to join it."
+24825;de;decidim.events.groups.promoted_to_admin.email_intro;"Ein*e Admin der Gruppe <a href=""%{resource_url}"">%{user_group_name}</a> hat Ihnen Adminrechte für diese Gruppe erteilt."
+24826;en;decidim.events.groups.promoted_to_admin.email_intro;"An admin of the <a href=""%{resource_url}"">%{user_group_name}</a> group has given you admin rights to that group."
+24827;de;decidim.events.groups.promoted_to_admin.notification_title;"Sie sind jetzt ein*e Admin in der Gruppe <a href=""%{resource_path}"">%{user_group_name}</a>."
+24828;en;decidim.events.groups.promoted_to_admin.notification_title;"You are now an admin of the <a href=""%{resource_path}"">%{user_group_name}</a> group."
+24829;de;decidim.events.reports.resource_hidden.email_intro;Ein*e Admin hat Ihr/e/n %{resource_type} entfernt, weil diese/r/s als %{report_reasons} gemeldet wurde.
+24830;en;decidim.events.reports.resource_hidden.email_intro;An administrator removed your %{resource_type} because it has been reported as %{report_reasons}.
+24831;de;decidim.events.reports.resource_hidden.notification_title;"Ein*e Admin hat Ihr/e %{resource_type} entfernt, weil es als %{report_reasons} gemeldet wurde.</br>
+<i>%{resource_content}</i>"
+24832;en;decidim.events.reports.resource_hidden.notification_title;"An administrator removed your %{resource_type} because it has been reported as %{report_reasons}.</br>
+<i>%{resource_content}</i>"
+24833;de;decidim.events.users.user_officialized.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie ein*e Admin der Organisation sind.
+24834;en;decidim.events.users.user_officialized.email_outro;You have received this notification because you are an administrator of the organization.
+24835;de;decidim.admin.menu.users;Benutzende
+24836;en;decidim.admin.menu.users;Participants
+24837;de;decidim.events.assemblies.create_assembly_member.email_intro;"Ein Admin der Organisation <a href=""%{resource_url}"">%{resource_name}</a> hat Sie als Mitglied eingeladen."
+24838;en;decidim.events.assemblies.create_assembly_member.email_intro;"An admin of the <a href=""%{resource_url}"">%{resource_name}</a> organisation has added you as one of its members."
+24839;de;decidim.events.proposals.proposal_update_category.email_intro;"Ein*e Admin hat die Kategorie Ihres Vorschlags ""%{resource_title}"" aktualisiert, sehen Sie es sich an:"
+24840;en;decidim.events.proposals.proposal_update_category.email_intro;"An admin has updated the category of your proposal ""%{resource_title}"", check it out in this page:"
+24841;de;decidim.events.proposals.proposal_update_category.notification_title;"Die Vorschlagskategorie <a href=""%{resource_path}"">%{resource_title}</a> wurde von einer*einem Admin aktualisiert."
+24842;en;decidim.events.proposals.proposal_update_category.notification_title;"The <a href=""%{resource_path}"">%{resource_title}</a> proposal category has been updated by an admin."
+24843;de;decidim.events.proposals.proposal_update_scope.email_intro;Ein*e Admin hat den Bereich Ihres Vorschlags „%{resource_title}“ aktualisiert, sehen Sie es sich das auf dieser Seite an:
+24844;en;decidim.events.proposals.proposal_update_scope.email_intro;"An admin has updated the scope of your proposal ""%{resource_title}"", check it out in this page:"
+24845;de;decidim.events.proposals.proposal_update_scope.notification_title;"Der Bereich des Vorschlags <a href=""%{resource_path}"">%{resource_title}</a> wurde von einer*einem Admin aktualisiert."
+24846;en;decidim.events.proposals.proposal_update_scope.notification_title;"The <a href=""%{resource_path}"">%{resource_title}</a> proposal scope has been updated by an admin."
+24847;de;activemodel.attributes.id_document_upload.user;Benutzende
+24848;en;activemodel.attributes.id_document_upload.user;Participant
+24849;de;decidim.events.meetings.meeting_registrations_over_percentage.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie ein Admin des Prozesses der Veranstaltung sind.
+24850;en;decidim.events.meetings.meeting_registrations_over_percentage.email_outro;You have received this notification because you are an admin of the meeting's participatory space.
+24851;de;decidim.admin.models.user.fields.roles.admin;Admin
+24852;en;decidim.admin.models.user.fields.roles.admin;Admin
+24853;de;decidim.events.groups.user_group_updated.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie ein Admin der Plattform sind.
+24854;en;decidim.events.groups.user_group_updated.email_outro;You have received this notification because you are an admin of the platform.
+24855;de;decidim.groups.join.success;Join-Anforderung wurde erfolgreich erstellt. Ein*e Admin überprüft Ihre Anfrage, bevor Sie für die Gruppe akzeptiert werden.
+24856;en;decidim.groups.join.success;Join request successfully created. An admin will review your request before accepting you to the group.
+24857;de;decidim.messaging.conversation_mailer.comanagers_new_conversation.admin_in_group;Sie haben diese Benachrichtigung erhalten, weil Sie ein*e Admin von %{group} sind.
+24858;en;decidim.messaging.conversation_mailer.comanagers_new_conversation.admin_in_group;You are receiving this because you are an admin in %{group}.
+24859;de;decidim.reports.create.success;Der Bericht wurde erfolgreich erstellt und wird von einer*einem Admin überprüft.
+24860;en;decidim.reports.create.success;The report has been created successfully and it will be reviewed by an admin.
+24861;de;decidim.shared.flag_modal.already_reported;Dieser Inhalt wurde bereits gemeldet und wird von einer*einem Admin überprüft.
+24862;en;decidim.shared.flag_modal.already_reported;This content is already reported and it will be reviewed by an admin.
+24863;de;decidim.system.admins.create.success;Admin erfolgreich erstellt
+24864;en;decidim.system.admins.create.success;Admin successfully created
+24865;de;decidim.system.admins.destroy.success;Die*der Admin wurde erfolgreich gelöscht
+24866;en;decidim.system.admins.destroy.success;Admin successfully deleted
+24867;de;decidim.system.admins.edit.title;Admin bearbeiten
+24868;en;decidim.system.admins.edit.title;Edit admin
+24869;de;decidim.system.admins.new.title;Neue*r Admin
+24870;en;decidim.system.admins.new.title;New admin
+24871;de;decidim.system.admins.update.error;Beim Aktualisieren dieser*dieses Admin ist ein Fehler aufgetreten.
+24872;en;decidim.system.admins.update.error;There was a problem updating this admin.
+24873;de;decidim.system.admins.update.success;Admin wurde erfolgreich aktualisiert
+24874;en;decidim.system.admins.update.success;Admin successfully updated
+24875;de;decidim.system.models.admin.validations.email_uniqueness;ein*e andere*r Admin mit der gleichen E-Mail existiert bereits
+24876;en;decidim.system.models.admin.validations.email_uniqueness;another admin with the same email already exists
+24877;de;decidim.admin.menu.conferences_submenu.conference_admins;Konferenzadministrierende
+24878;en;decidim.admin.menu.conferences_submenu.conference_admins;Conference admins
+24879;de;decidim.notifications_settings.show.administrators;Administrierende
+24880;en;decidim.notifications_settings.show.administrators;Administrators
+24881;de;decidim.system.models.organization.actions.save_and_invite;Organisation erstellen und Admin einladen
+24882;en;decidim.system.models.organization.actions.save_and_invite;Create organization & invite admin
+24883;de;decidim.proposals.proposals.tags.changed_from;(geändert von <u>%{previous_name}</u> durch ein*e Admin)
+24884;en;decidim.proposals.proposals.tags.changed_from;(changed from <u>%{previous_name}</u> by an administrator)
+24885;de;decidim.accountability.admin.import_results.new.info;<p>Wir empfehlen, dass Sie folgende Schritte befolgen:</p><ol><li>Erstellen Sie den Status der Ergebnisse, die Sie hinzufügen möchten (<a href='%{link_new_status}' target='_blank'>link</a>)</li><li>Erstellen Sie mindestens ein Ergebnis über diesen Admin-Panel (<a href='%{link_new_result}' target='_blank'>link</a>) bevor Sie Importieren, damit Sie mit dem Format und den benötigten Eingaben vertraut sind.</li><li>Laden Sie den Export im CSV-Format herunter (%{link_export_csv})</li><li>Nehmen Sie Änderungen lokal vor. Sie können nur die folgenden Spalten der CSV ändern:</li></ol><ul><li><b>Kategorie/ID:</b> ID der Kategorie</li><li><b>Umfang/ID:</b> ID des Umfangs</li><li><b>Übergeordnet/ID:</b> Übergeordnete ID (für verwandte Ergebnisse). Optional</li><li><b>Titel/I18N:</b> Titel in Sprache X </li><li><b>Beschreibung/I18N:</b> Beschreibung in Sprache X </li><li><b>start_datum:</b> Datum, an dem die Ausführung des Ergebnisses beginnt (Format JJJJ-MM-TT)</li><li><b>end_datum:</b> Datum, an dem die Ausführung des Ergebnisses endet (Format JJJJ-MM-TT)</li><li><b>Status/ID:</b> ID des Status dieses Ergebnisses</li><li><b>Fortschritt:</b> Prozentualer (von 0 bis 100) Fortschritt der Durchführung</li><li><b>Vorschläge_IDs:</b> Interne ID der verwandten Vorschläge (getrennt durch Komma). Dies wird automatisch umgewandelt in <span class='attribute-name'>proposal_url</span></li></ul>
+24886;en;decidim.accountability.admin.import_results.new.info;<p>We recommend that you follow these steps:</p><ol><li>Create the Statuses for the Results that you want to add (<a href='%{link_new_status}' target='_blank'>link</a>)</li><li>Create at least one Result manually through this Admin panel (<a href='%{link_new_result}' target='_blank'>link</a>) before using Import, for having a better understanding of the format and what you'll need to fill out.</li><li>Download the Export with CSV format (%{link_export_csv})</li><li>Make the changes locally. You can only change the following columns of the CSV:</li></ol><ul><li><b>category/id:</b> ID for the Category</li><li><b>scope/id:</b> ID for the Scope</li><li><b>parent/id:</b> ID of the parent (for related Results). Optional</li><li><b>title/I18N:</b> Title on X language</li><li><b>description/I18N:</b> Description on X language</li><li><b>start_date:</b> date when the result starts execution (format YYYY-MM-DD)</li><li><b>end_date:</b> date when the result ends execution (format YYYY-MM-DD)</li><li><b>status/id:</b> ID of the Status for this result</li><li><b>progress:</b> Percentage (from 0 to 100) of the execution</li><li><b>proposals_ids:</b> internal ID of the related proposals (separated with a comma). It gets automatically converted to <span class='attribute-name'>proposal_url</span></li></ul>
+24887;de;decidim.admin_log.participatory_space_private_user.create_via_csv;%{user_name} hat %{resource_name} per CSV als private*n Teilnehmende*n eingeladen
+24888;en;decidim.admin_log.participatory_space_private_user.create_via_csv;%{user_name} invited %{resource_name} via CSV to be a private participant
+24889;de;decidim.admin_log.user.show_email;%{user_name} hat die E-Mail der*des Teilnehmenden %{resource_name} abgerufen
+24890;en;decidim.admin_log.user.show_email;%{user_name} retrieved the email of the participant %{resource_name}
+24891;de;activemodel.attributes.close_meeting.attendees_count;Anzahl der Teilnehmenden
+24892;en;activemodel.attributes.close_meeting.attendees_count;Number of attendees
+24893;de;decidim.admin.conflicts.transfer.error;Es gab ein Problem bei der Übertragung der*des aktuellen Teilnehmenden zu den verwalteten Teilnehmenden.
+24894;en;decidim.admin.conflicts.transfer.error;There was a problem transfering the current participant to managed participant.
+24895;de;decidim.admin.menu.participants;Benutzende
+24896;en;decidim.admin.menu.participants;Participants
+24897;de;decidim.admin.menu.authorization_revocation.info;Es gibt insgesamt %{count} verifizierte Teilnehmende.
+24898;en;decidim.admin.menu.authorization_revocation.info;There are a total of %{count} verified participants.
+24899;de;decidim.admin.menu.authorization_revocation.no_data;Keine verifizierten Teilnehmenden
+24900;en;decidim.admin.menu.authorization_revocation.no_data;No verified participants
+24901;de;decidim.admin.newsletters.index.participants;Teilnehmende: 
+24902;en;decidim.admin.newsletters.index.participants;participants 
+24903;de;decidim.admin.newsletters.select_recipients_to_deliver.recipients_count;Dieser Newsletter wird an <strong id='recipients_count'>%{count}</strong> Teilnehmende gesendet.
+24904;en;decidim.admin.newsletters.select_recipients_to_deliver.recipients_count;This newsletter will be send to <strong id='recipients_count'>%{count}</strong> users.
+24905;de;decidim.admin.newsletters.select_recipients_to_deliver.scopes_help;"Sendet den Newsletter an Teilnehmende, die einen der gewählten Themenbereiche in den ""Meine Interessen"" Einstellungen ihres Kontos aktiviert haben."
+24906;en;decidim.admin.newsletters.select_recipients_to_deliver.scopes_help;"Sends newsletter to users that have any of the selected scope activated in their account's ""My Interests"" settings."
+24907;de;decidim.components.debates.settings.step.creation_enabled;Teilnehmende können Debatten erstellen
+24908;en;decidim.components.debates.settings.step.creation_enabled;Participants can create debates
+24909;de;decidim.admin.newsletters.select_recipients_to_deliver.select_scopes;"Nur Teilnehmende anzeigen, die einen der gewählten Themenbereiche in Ihren ""Meine Interessen"" Einstellungen ihres Kontos aktiviert haben."
+24910;en;decidim.admin.newsletters.select_recipients_to_deliver.select_scopes;Filter for users having activated any selected scope in their account's My Interests settings.
+24911;de;decidim.admin.officializations.block.error;Beim Blockieren der*des Teilnehmenden ist ein Fehler aufgetreten
+24912;en;decidim.admin.officializations.block.error;There was an error blocking the participant
+24913;de;decidim.admin.officializations.block.success;Teilnehmende*r erfolgreich blockiert
+24914;en;decidim.admin.officializations.block.success;Participant successfully blocked
+24915;de;decidim.admin.officializations.show_email_modal.description;"Wenn Sie eine*n Teilnehmende*n direkt kontaktieren möchten, können Sie auf die Schaltfläche ""Anzeigen"" klicken, um ihre*seine E-Mail-Adresse zu sehen. Diese Aktion wird protokolliert."
+24916;en;decidim.admin.officializations.show_email_modal.description;If you need to contact a participant directly, you can click on the Show button to see their email address. This action will be logged.
+24917;de;decidim.admin.officializations.show_email_modal.title;E-Mail-Adresse der*des Teilnehmenden anzeigen
+24918;en;decidim.admin.officializations.show_email_modal.title;Show participant's email address
+24919;de;decidim.admin.officializations.unblock.success;Blockierung der*des Teilnehmenden wurde erfolgreich aufgehoben
+24920;en;decidim.admin.officializations.unblock.success;Participant successfully unblocked
+24921;de;decidim.admin.organization.form.rich_text_editor_in_public_views_help;In einigen Textbereichen können Teilnehmende mit Hilfe des Rich-Text-Editors HTML-Tags einfügen.
+24922;en;decidim.admin.organization.form.rich_text_editor_in_public_views_help;In some text areas, participants will be able to insert some HTML tags by using the rich text editor.
+24923;de;decidim.admin.participatory_space_private_users_csv_imports.create.success;CSV-Datei wurde erfolgreich hochgeladen, wir senden eine Einladungs-E-Mail an die Teilnehmenden. Dies kann eine Weile dauern.
+24924;en;decidim.admin.participatory_space_private_users_csv_imports.create.success;CSV file uploaded successfully, we're sending an invitation email to participants. This might take a while.
+24925;de;decidim.admin_log.user.transfer;%{user_name} hat die*den Teilnehmende*n %{resource_name} verschoben
+24926;en;decidim.admin_log.user.transfer;%{user_name} transfered the participant %{resource_name}
+24927;de;decidim.authorization_handlers.admin.csv_census.help.0;
+24928;en;decidim.authorization_handlers.admin.csv_census.help.0;
+24929;de;decidim.authorization_handlers.admin.csv_census.help.1;
+24930;en;decidim.authorization_handlers.admin.csv_census.help.1;
+24931;de;decidim.components.proposals.settings.step.amendment_creation_enabled_help;Teilnehmende können Vorschläge ergänzen.
+24932;en;decidim.components.proposals.settings.step.amendment_creation_enabled_help;Participant can amend proposals.
+24933;de;decidim.components.proposals.settings.step.amendment_reaction_enabled_help;Vorschlagsautor*innen können die Berichtigungen von Teilnehmenden akzeptieren oder ablehnen.
+24934;en;decidim.components.proposals.settings.step.amendment_reaction_enabled_help;Proposal's authors will be able to accept or reject Participant's emendations.
+24935;de;decidim.components.proposals.settings.step.amendments_visibility_help;Wenn die Option „Ergänzungen sind nur für ihre Autor*innen sichtbar“ ausgewählt ist, müssen Mitwirkende angemeldet sein, um die vorgenommenen Ergänzungen zu sehen.
+24936;en;decidim.components.proposals.settings.step.amendments_visibility_help;"If the option ""Amendments are visible only to their authors"" is selected, participant must be logged in to see the amendments made."
+24937;de;decidim.components.meetings.settings.global.creation_enabled_for_participants;Teilnehmende können Veranstaltungen erstellen
+24938;en;decidim.components.meetings.settings.global.creation_enabled_for_participants;Participants can create meetings
+24939;de;decidim.components.meetings.settings.step.creation_enabled_for_participants;Veranstaltungserstellung durch Teilnehmende aktiviert
+24940;en;decidim.components.meetings.settings.step.creation_enabled_for_participants;Meeting creation by participants enabled
+24941;de;decidim.components.budgets.settings.global.workflow_choices.all;Gesamthaft abstimmen: erlaubt es den Teilnehmenden, in allen Budget‘s abzustimmen.
+24942;en;decidim.components.budgets.settings.global.workflow_choices.all;Vote in all: allows participants to vote in all budgets.
+24943;de;decidim.components.budgets.settings.global.workflow_choices.one;Selektiv abstimmen: erlaubt es den Teilnehmenden, in einem (1) der Budget’s abzustimmen.
+24944;en;decidim.components.budgets.settings.global.workflow_choices.one;Vote in one: allows participants to vote in any budget, but only in one.
+24945;de;decidim.components.surveys.settings.step.allow_unregistered_help;"Wenn aktiviert, ist keine Anmeldung erforderlich, um die Umfrage zu beantworten. Dies kann zu schlechten oder unzuverlässigen Daten führen und ist anfälliger für automatisierte Angriffe. Verwenden Sie diese Funktion mit Vorsicht! Beachten Sie, dass ein*e Teilnehmende*r die gleiche Umfrage mehrfach beantworten kann, indem sie*er verschiedene Browser oder die ""Private Browsing""-Funktion ihres Web-Browsers nutzt."
+24946;en;decidim.components.surveys.settings.step.allow_unregistered_help;"If active, no login will be required in order to answer the survey. This may lead to poor or unreliable data and it will be more vulnerable to automated attacks. Use with caution! Mind that a participant could answer the same survey multiple times, by using different browsers or the ""private browsing"" feature of her web browser."
+24947;de;decidim.events.users.user_officialized.email_intro;Teilnehmende*r %{name} (%{nickname}) wurde offiziell bestätigt.
+24948;en;decidim.events.users.user_officialized.email_intro;Participant %{name} (%{nickname}) has been officialized.
+24949;de;decidim.forms.meetings.attendees_count_help_text;Vergessen Sie nicht, die Gesamtzahl der Teilnehmenden an Ihrem Meeting anzugeben, egal ob dies persönlich, online oder hybrid stattgefunden hat.
+24950;en;decidim.forms.meetings.attendees_count_help_text;Don't forget to include the total number of attendees at your meeting, whether in person, online or hybrid.
+24951;de;decidim.gamification.badges.index.page_description;Badges sind Anerkennungen für Aktionen der Teilnehmenden und Fortschritt in der Plattform. Wenn Sie auf der Plattform entdecken, teilnehmen und interagieren, verdienen Sie verschiedene Abzeichen. Hier ist die Liste der Abzeichen und einige Möglichkeiten, wie Sie sie verdienen können.
+24952;en;decidim.gamification.badges.index.page_description;Badges are recognitions to participant actions and progress in the platform. As you start discovering, participating and interacting in the platform, you will earn different badges. Here is the list of badges and some ways you can earn them.
+24953;de;decidim.gamification.description;Badges sind Anerkennungen für Aktionen der Teilnehmenden und Fortschritt in der Plattform. Wenn Sie auf der Plattform entdecken, teilnehmen und interagieren, verdienen Sie verschiedene Abzeichen.
+24954;en;decidim.gamification.description;Badges are recognitions to participant actions and progress in the platform. As you start discovering, participating and interacting in the platform, you will earn different badges.
+24955;de;decidim.messaging.conversations.add_conversation_users.participant_with_disabled_message_reception;Diese*r Teilnehmende hat Nachrichten deaktiviert
+24956;en;decidim.messaging.conversations.add_conversation_users.participant_with_disabled_message_reception;This participant has disabled message reception
+24957;de;decidim.messaging.conversations.show.not_allowed;Diese*r Teilnehmende akzeptiert keine direkten Nachrichten.
+24958;en;decidim.messaging.conversations.show.not_allowed;This participant does not accept direct messages.
+24959;de;decidim.profiles.default_officialization_text_for_users;Dieser Teilnehmer wird öffentlich überprüft, sein Name oder seine Rolle wurde nachweislich seinem tatsächlichen Namen und seiner Rolle zugeordnet
+24960;en;decidim.profiles.default_officialization_text_for_users;This participant is publicly verified, his/her name or role has been verified to correspond with his/her real name and role
+24961;de;decidim.user_contact_disabled;Diese*r Teilnehmende akzeptiert keine Direktnachrichten.
+24962;en;decidim.user_contact_disabled;This participant does not accept direct messages.
+24963;de;decidim.user_conversations.index.conversations_info;Unterhaltungen sind privat, niemand sonst kann sie anzeigen. Eine Unterhaltung kann von jeder*jedem auf der Plattform registrierten Teilnehmenden oder jeder Gruppe gestartet werden.
+24964;en;decidim.user_conversations.index.conversations_info;Conversations are private. no one else can see them. A conversation can be started with any participant or group registered on the platform.
+24965;de;decidim.verifications.dummy_authorization.extra_explanation.user_scope;Die Teilnahme ist auf Teilnehmende aus dem Bereich %{scope_name} beschränkt, und Ihr Bereich ist %{user_scope_name}.
+24966;en;decidim.verifications.dummy_authorization.extra_explanation.user_scope;Participation is restricted to participants with the scope %{scope_name}, and your scope is %{user_scope_name}.
+24967;de;decidim.proposals.admin.participatory_texts.index.title;VORSCHAU TEILNEHMENDENTEXT
+24968;en;decidim.proposals.admin.participatory_texts.index.title;Preview participatory text
+24969;de;decidim.meetings.admin.invites.form.attendee_type;Teilnehmendentyp
+24970;en;decidim.meetings.admin.invites.form.attendee_type;Attendee type
+24971;de;decidim.meetings.admin.invites.index.invite_attendee;Teilnehmende einladen
+24972;en;decidim.meetings.admin.invites.index.invite_attendee;Invite attendee
+24973;de;decidim.meetings.admin.invites.index.registrations_disabled;Sie können keine Teilnehmenden einladen, da die Registrierungen deaktiviert sind.
+24974;en;decidim.meetings.admin.invites.index.registrations_disabled;You can't invite an attendee because the registrations are disabled.
+24975;de;decidim.meetings.admin.meetings.form.online_meeting_url_help;Link: Erlaubt Teilnehmenden, sich direkt mit Ihrem Meeting zu verbinden
+24976;en;decidim.meetings.admin.meetings.form.online_meeting_url_help;Link: allow participants to connect directly to your meeting
+24977;de;decidim.meetings.admin.meetings.form.registration_url_help;Fügen Sie hier den Link der*des externen Dienstleistenden ein, über welche die Anmeldungen durchgeführt werden sollen.
+24978;en;decidim.meetings.admin.meetings.form.registration_url_help;Link: allow participants to go on the external service you are using for registrations
+24979;de;decidim.meetings.iframe_access_level.registered;Registrierte Teilnehmende zu diesem Meeting
+24980;en;decidim.meetings.iframe_access_level.registered;Registered participants to this meeting
+24981;de;decidim.meetings.iframe_access_level.signed_in;Nur angemeldete Teilnehmende
+24982;en;decidim.meetings.iframe_access_level.signed_in;Only signed-in participants
+24983;de;decidim.meetings.meetings.show.attendees;Teilnehmende
+24984;en;decidim.meetings.meetings.show.attendees;Attendees
+24985;de;decidim.metrics.participants.title;Teilnehmende
+24986;en;decidim.metrics.participants.title;Participants
+24987;de;decidim.statistics.participants_count;Teilnehmende
+24988;en;decidim.statistics.participants_count;Participants
+24989;de;decidim.accountability.results.show.stats.attendees;Teilnehmende
+24990;en;decidim.accountability.results.show.stats.attendees;Attendees
+24991;de;decidim.admin.menu.reported_users;Gemeldete Nutzende
+24992;en;decidim.admin.menu.reported_users;Reported Users
+24993;de;decidim.components.proposals.settings.global.minimum_votes_per_user;Mindeststimmen pro Nutzenden
+24994;en;decidim.components.proposals.settings.global.minimum_votes_per_user;Minimum supports per user
+24995;de;devise.mailer.invitation_instructions.ignore;"Wenn Sie die Einladung nicht annehmen möchten, ignorieren Sie diese E-Mail.<br />
+Ihr Konto wird erst erstellt, wenn Sie auf den obigen Link zugreifen und Ihren Kontonamen und Ihr Passwort festlegen."
+24996;en;devise.mailer.invitation_instructions.ignore;"If you don't want to accept the invitation, please ignore this email.<br />
+Your account won't be created until you access the link above and set your account name and password."
+24997;de;devise.passwords.edit.password_help;Das Passwort muss mindestens %{minimun_characters} Zeichen lang sein. Es darf nicht zu gewöhnlich sein (z. B. 123456) und darf weder Ihr Kürzel noch Ihre E-Mail-Adresse enthalten.
+24998;en;devise.passwords.edit.password_help;%{minimun_characters} characters minimum, must not be too common (e.g. 123456) and must be different from your account name and your email.
+24999;de;devise.invitations.edit.subtitle;Zur Vervollständigung Ihres Kontos benötigen wir von Ihnen noch folgende Angaben.
+25000;en;devise.invitations.edit.subtitle;If you accept the invitation please set your nickname and password.
+25001;de;activemodel.attributes.organization.user_groups_enabled;Gruppen aktivieren
+25002;en;activemodel.attributes.organization.user_groups_enabled;Enable groups
+25003;de;activemodel.attributes.conference_registration_invite.user_id;Nutzende*r
+25004;en;activemodel.attributes.conference_registration_invite.user_id;User
+25005;de;decidim.admin.menu.assemblies_submenu.assembly_admins;Organisationsadmins
+25006;en;decidim.admin.menu.assemblies_submenu.assembly_admins;Organisation admins
+25007;de;decidim.admin.participatory_space_private_users.index.title;Private Teilnehmende
+25008;en;decidim.admin.participatory_space_private_users.index.title;Participatory space private participant
+25009;de;decidim.admin.participatory_space_private_users.new.title;Private Teilnehmende hinzufügen
+25010;en;decidim.admin.participatory_space_private_users.new.title;New Participatory Space private participant.
+25249;de;decidim.admin.conference_user_roles.index.conference_admins_title;Konferenzbenutzende*r
+25011;de;decidim.admin.share_tokens.share_tokens.help;Mit der Linkfreigabe können Sie einen geheimen Link erstellen, den Sie versenden können. Die Seite wird nicht veröffentlicht, sondern kann nur über den angegebenen Link angesehen werden. Die Linkfreigabe wird jeweils für 24 Stunden aktiviert, danach muss ein neuer Link erstellt werden.
+25012;en;decidim.admin.share_tokens.share_tokens.help;These tokens are used to publicly share this unpublished resource to any user. They will be hidden when the resource is published. Click on the token's share icon to visit the shareable URL.
+25013;de;decidim.admin.user_group.csv_verify.success;CSV-Datei wurde erfolgreich hochgeladen. Wir überprüfen, ob die Gruppen den Kriterien entsprechen. Das kann eine Weile dauern.
+25014;en;decidim.admin.user_group.csv_verify.success;CSV file uploaded successfully, we're verifying the groups matching the criteria. This might take a while.
+25015;de;decidim.admin.user_group.reject.invalid;Beim Ablehnen dieser Gruppe ist ein Fehler aufgetreten.
+25016;en;decidim.admin.user_group.reject.invalid;There was a problem rejecting this group.
+25017;de;decidim.admin.user_group.reject.success;Gruppe wurde erfolgreich abgelehnt
+25018;en;decidim.admin.user_group.reject.success;Group successfully rejected
+25019;de;decidim.admin.user_group.verify.invalid;Beim Überprüfen dieser Gruppe ist ein Fehler aufgetreten.
+25020;en;decidim.admin.user_group.verify.invalid;There was a problem verifying this group.
+25021;de;decidim.admin.user_group.verify.success;Gruppe erfolgreich verifiziert
+25022;en;decidim.admin.user_group.verify.success;Group successfully verified
+25023;de;decidim.admin.user_groups_csv_verifications.new.explanation;Laden Sie Ihre CSV-Datei hoch. In der ersten Spalte der Datei müssen die offiziellen E-Mails der Gruppen in Ihrer Organisation enthalten sein, ohne Kopfzeilen. Nur Gruppen, die ihre E-Mail bestätigt haben und deren E-Mail in der CSV-Datei enthalten ist, werden überprüft.
+25024;en;decidim.admin.user_groups_csv_verifications.new.explanation;Upload your CSV file. It must have the official emails of the groups in your organization in the first column of the file, without headers. Only groups that have confirmed their email and that have an email appearing in the CSV file will be validated.
+25025;de;decidim.admin.users_statistics.users_count.no_users_count_statistics_yet;Es gibt noch keine Kennzahlen
+25026;en;decidim.admin.users_statistics.users_count.no_users_count_statistics_yet;There are no users count statistics yet
+25027;de;decidim.components.meetings.settings.step.creation_enabled_for_user_groups;Veranstaltungserstellung durch Gruppen aktiviert
+25028;en;decidim.components.meetings.settings.step.creation_enabled_for_user_groups;Meeting creation by user groups enabled
+25029;de;decidim.doorkeeper.authorizations.new.see_username;Ihren Kontonamen anzeigen
+25030;en;decidim.doorkeeper.authorizations.new.see_username;See your account name
+25031;de;decidim.events.groups.user_group_created.email_intro;"Eine neue Gruppe mit dem Namen %{user_group_name} wurde erstellt. Sie können sie über das <a href=""%{groups_admin_url}"">Admin-Panel</a> verifizieren."
+25032;en;decidim.events.groups.user_group_created.email_intro;"A new user group has been created with the name %{user_group_name}. You can now verify it in the <a href=""%{groups_admin_url}"">admin panel</a>."
+25033;de;decidim.events.groups.user_group_created.email_subject;Eine neue Gruppe wurde erstellt
+25034;en;decidim.events.groups.user_group_created.email_subject;A new user group has been created
+25147;de;decidim.admin.participatory_space_private_users.destroy.success;Participatory Space Privater Benutzendenzugriff wurde erfolgreich zerstört.
+25035;de;decidim.events.groups.user_group_created.notification_title;"Die Gruppe %{user_group_name} wurde erstellt. Sie können sie über das <a href=""%{groups_admin_path}"">Admin-Panel</a> verifizieren."
+25036;en;decidim.events.groups.user_group_created.notification_title;"The %{user_group_name} user group has been created. You can now verify it in the <a href=""%{groups_admin_path}"">admin panel</a>."
+25037;de;decidim.events.groups.user_group_updated.email_intro;"Die Gruppe mit dem Namen %{user_group_name} hat ihr Profil aktualisiert, wodurch diese erneut verifiziert werden muss. Sie können sie über das <a href=""%{groups_admin_url}"">Admin-Panel</a> verifizieren."
+25038;en;decidim.events.groups.user_group_updated.email_intro;"A user group with the name %{user_group_name} has updated its profile, leaving it unverified. You can now verify it in the <a href=""%{groups_admin_url}"">admin panel</a>."
+25039;de;decidim.events.groups.user_group_updated.email_subject;Eine Gruppe hat ihr Profil aktualisiert
+25040;en;decidim.events.groups.user_group_updated.email_subject;A user group has updated its profile
+25041;de;decidim.events.groups.user_group_updated.notification_title;"Die Gruppe %{user_group_name} hat ihr Profil aktualisiert, wodurch diese erneut verifiziert werden muss. Sie können sie über das <a href=""%{groups_admin_path}"">Admin-Panel</a> verifizieren."
+25042;en;decidim.events.groups.user_group_updated.notification_title;"The %{user_group_name} user group has updated its profile, leaving it unverified. You can now verify it in the <a href=""%{groups_admin_path}"">admin panel</a>."
+25043;de;decidim.gamification.badges.followers.next_level_in;Erhalten Sie %{score} weitere Nutzende, die Ihnen folgen, um das nächste Level zu erreichen!
+25044;en;decidim.gamification.badges.followers.next_level_in;Get %{score} more people to follow you to reach the next level!
+25045;de;decidim.group_invites.invite.error;Beim Laden dieser*dieses Nutzenden ist ein Fehler aufgetreten
+25046;en;decidim.group_invites.invite.error;There was a problem inviting this participant
+25047;de;decidim.profiles.default_officialization_text_for_user_groups;Diese Gruppe wurde verifiziert.
+25048;en;decidim.profiles.default_officialization_text_for_user_groups;This group is publicly verified.
+25049;de;activemodel.attributes.meeting.decidim_user_group_id;Gruppe
+25050;en;activemodel.attributes.meeting.decidim_user_group_id;User group
+25051;de;activemodel.attributes.conference_speaker.user_id;Nutzende*r
+25052;en;activemodel.attributes.conference_speaker.user_id;User
+25053;de;decidim.admin.menu.user_groups;Gruppen
+25054;en;decidim.admin.menu.user_groups;Groups
+25055;de;decidim.admin.models.assembly_user_role.name;Berechtigungen
+25056;en;decidim.admin.models.assembly_user_role.name;Assembly admin
+25057;de;decidim.profiles.user.invite_user;Mitglieder einladen
+25058;en;decidim.profiles.user.invite_user;Invite participants
+25059;de;decidim.shared.flag_user_modal.title;Unangemessene*n Nutzende*n melden
+25060;en;decidim.shared.flag_user_modal.title;Report inappropriate User
+25061;de;decidim.verifications.postal_letter.admin.pending_authorizations.index.username;Anmeldename
+25062;en;decidim.verifications.postal_letter.admin.pending_authorizations.index.username;Nickname
+25063;de;decidim.meetings.admin.invites.create.error;Beim Einladen der*des Nutzenden in das Meeting ist ein Problem aufgetreten.
+25064;en;decidim.meetings.admin.invites.create.error;There was a problem inviting the participant to join the meeting.
+25065;de;decidim.meetings.admin.invites.form.select_user;Nutzende*n wählen
+25066;en;decidim.meetings.admin.invites.form.select_user;Select participant
+25067;de;decidim.admin.conflicts.user_name;Nutzende*r
+25068;en;decidim.admin.conflicts.user_name;User
+25069;de;decidim.surveys.admin.exports.survey_user_answers;Antworten
+25070;en;decidim.surveys.admin.exports.survey_user_answers;Survey participant answers
+25071;de;decidim.meetings.admin.meetings.form.disclaimer;Haftungsausschluss: %{organization} übernimmt keine Verantwortung für die Daten, die von den Nutzenden im Rahmen einer externen Anmeldung zu einer Veranstaltung Drittanbietenden zur Verfügung gestellt werden.
+25072;en;decidim.meetings.admin.meetings.form.disclaimer;Disclaimer: By using an external registration system, you're aware that the organizers of %{organization} are not responsible for the data provided by the users to the external service.
+25073;de;decidim.conferences.admin.conference_speakers.form.select_user;Nutzende*n wählen
+25074;en;decidim.conferences.admin.conference_speakers.form.select_user;Select participant
+25148;en;decidim.admin.participatory_space_private_users.destroy.success;Participatory space private participant access successfully destroyed.
+25075;de;decidim.meetings.meetings.form.disclaimer;Haftungsausschluss: %{organization} übernimmt keine Verantwortung für die Daten, die von den Nutzenden im Rahmen einer externen Anmeldung zu einer Veranstaltung Drittanbietenden zur Verfügung gestellt werden.
+25076;en;decidim.meetings.meetings.form.disclaimer;Disclaimer: By using an external registration system, you're aware that the organizers of %{organization} are not responsible for the data provided by the users to the external service.
+25077;de;decidim.conferences.admin.conference_invites.form.select_user;Nutzende*n wählen
+25078;en;decidim.conferences.admin.conference_invites.form.select_user;Select participant
+25079;de;decidim.conferences.admin.conference_invites.new.new_invite;Nutzende einladen
+25080;en;decidim.conferences.admin.conference_invites.new.new_invite;Invite participant
+25081;de;activemodel.models.decidim/user_group_created_event;Benutzendengruppe erstellt
+25082;en;activemodel.models.decidim/user_group_created_event;User group created
+25083;de;decidim.admin.actions.user.new;Neue*r Benutzende
+25084;en;decidim.admin.actions.user.new;New user
+25085;de;decidim.admin.block_user.new.description;Das Blockieren eines Benutzenden wird ihr*sein Konto unbrauchbar machen. Sie können begründen und Richtlinien dafür bieten, wie Benutzende vorgehen können, damit Sie in Betracht ziehen, die Blockierung wieder aufzuheben.
+25086;en;decidim.admin.block_user.new.description;Blocking a user will render their account unusable. You may provide in your justification any guidelines on ways you would consider unblocking the user.
+25087;de;decidim.admin.block_user.new.title;Anmeldename %{name} blockieren
+25088;en;decidim.admin.block_user.new.title;Block User %{name}
+25089;de;decidim.admin.conflicts.managed_user_name;Verwaltete*r Benutzende*r
+25090;en;decidim.admin.conflicts.managed_user_name;Managed User
+25091;de;decidim.admin.filters.search_placeholder.name_or_nickname_or_email_cont;Suche in %{collection} nach E-Mail, Name oder Anmeldename.
+25092;en;decidim.admin.filters.search_placeholder.name_or_nickname_or_email_cont;Search %{collection} by email, name or nickname.
+25093;de;decidim.conferences.admin.conference_speakers.form.non_user;Nichtbenutzende
+25094;en;decidim.conferences.admin.conference_speakers.form.non_user;Non participant
+25095;de;decidim.admin.filters.search_placeholder.user_name_or_user_nickname_or_user_email_cont;%{collection} nach E-Mail, Name oder Anmeldename durchsuchen.
+25096;en;decidim.admin.filters.search_placeholder.user_name_or_user_nickname_or_user_email_cont;Search %{collection} by email, name or nickname.
+25097;de;decidim.admin.impersonatable_users.index.impersonate_new_managed_user;Sich als neue*r verwaltete*r Benutzende*r ausgeben
+25098;en;decidim.admin.impersonatable_users.index.impersonate_new_managed_user;Manage new participant
+25099;de;decidim.admin.impersonations.create.error;Es gab einen Fehler bei der Identität der*des Benutzenden.
+25100;en;decidim.admin.impersonations.create.error;There was a problem managing the participant.
+25101;de;decidim.admin.impersonations.create.success;Die*der verwaltete Benutzende wurde erfolgreich erstellt.
+25102;en;decidim.admin.impersonations.create.success;The managed participant has been successfully created.
+25103;de;decidim.admin.impersonations.new.impersonate_existing_managed_user;"Angenommen, dass die*der Benutzende*r ""%{name}"" verwaltet wird"
+25104;en;decidim.admin.impersonations.new.impersonate_existing_managed_user;"Manage participant ""%{name}"""
+25105;de;decidim.admin.impersonations.new.impersonate_existing_user;"Imitieren von Benutzenden ""%{name}"""
+25106;en;decidim.admin.impersonations.new.impersonate_existing_user;"Manage participant ""%{name}"""
+25107;de;decidim.admin.impersonations.new.impersonate_new_managed_user;Sich als neue*r verwaltete*r Benutzende*r ausgeben
+25108;en;decidim.admin.impersonations.new.impersonate_new_managed_user;Manage new participant
+25109;de;decidim.admin.managed_users.promotion.error;Es ist ein Fehler aufgetreten, der die*den verwaltete*n Benutzende*n unterstützt.
+25110;en;decidim.admin.managed_users.promotion.error;There was a problem promoting the managed participant.
+25111;de;decidim.authorization_handlers.admin.id_documents.help.0;Benutzende geben ihre Identitätsinformationen ein und laden eine Kopie ihres Dokuments hoch.
+25112;en;decidim.authorization_handlers.admin.id_documents.help.0;
+25113;de;devise.failure.inactive;Dein Benutzendenkonto ist noch nicht aktiviert.
+25114;en;devise.failure.inactive;Your account is not activated yet.
+25115;de;devise.mailer.invitation_instructions.invited_you_as_private_user;%{invited_by} hat Sie als privaten Benutzenden von %{application} eingeladen.
+25116;en;devise.mailer.invitation_instructions.invited_you_as_private_user;%{invited_by} has invited you as a private participant of %{application}. You can accept it through the link below.
+25117;de;activemodel.attributes.organization.user_name;Anmeldename
+25118;en;activemodel.attributes.organization.user_name;Username
+25119;de;activemodel.attributes.organization.force_users_to_authenticate_before_access_organization;Benutzende müssen sich authentifizieren, bevor sie auf die Organisation zugreifen können.
+25120;en;activemodel.attributes.organization.force_users_to_authenticate_before_access_organization;Force users to authenticate before access organization
+25121;de;activemodel.attributes.organization.users_registration_mode;Anmelderegistrierungs-Modus
+25122;en;activemodel.attributes.organization.users_registration_mode;Users registration mode
+25123;de;decidim.admin.models.impersonation_log.fields.user;Benutzende
+25124;en;decidim.admin.models.impersonation_log.fields.user;Participant
+25125;de;decidim.admin.newsletters.select_recipients_to_deliver.followers_help;Sendet den Newsletter an alle bestätigten Benutzenden, die den ausgewählten Teilnehmendenräumen in der Liste folgen.
+25126;en;decidim.admin.newsletters.select_recipients_to_deliver.followers_help;Sends newsletter to all confirmed users that follow any selected participatory spaces in the list.
+25127;de;decidim.admin.newsletters.select_recipients_to_deliver.participants_help;Sendet den Newsletter an alle bestätigten Benutzenden, die an den ausgewählten Teilnehmendenräumen der Liste teilgenommen haben.
+25128;en;decidim.admin.newsletters.select_recipients_to_deliver.participants_help;Sends newsletter to all confirmed users that have participated in any of the selected participatory spaces in the list.
+25129;de;decidim.admin.newsletters.select_recipients_to_deliver.select_users;Wählen Sie aus, welchen Benutzenden Sie den Newsletter senden möchten
+25130;en;decidim.admin.newsletters.select_recipients_to_deliver.select_users;Select which users you want to send the newsletter
+25131;de;decidim.admin.newsletters.select_recipients_to_deliver.warning;<strong>Achtung:</strong> Dieser Newsletter wird nur an Benutzende gesendet, die <em>Ich möchte Newsletter empfangen</em> in ihren Benachrichtigungseinstellungen aktiviert haben.
+25132;en;decidim.admin.newsletters.select_recipients_to_deliver.warning;<strong>Attention:</strong> This newsletter will only be send to users that have activated <em>I want to receive newsletters</em> in their notifications settings.
+25133;de;decidim.admin.officializations.create.success;Benutzende*r wurde offiziell anerkannt
+25134;en;decidim.admin.officializations.create.success;Participant successfully officialized
+25135;de;decidim.admin.officializations.destroy.success;Die*der Benutzende wurde erfolgreich inoffizialisiert
+25136;en;decidim.admin.officializations.destroy.success;Participant successfully unofficialized
+25137;de;decidim.admin.officializations.index.block;Benutzende*r blockieren
+25138;en;decidim.admin.officializations.index.block;Block User
+25139;de;decidim.admin.officializations.new.title;"Benutzende*r ""%{name}"" offiziallisieren"
+25140;en;decidim.admin.officializations.new.title;"Officialize participant ""%{name}"""
+25141;de;decidim.admin.participatory_space_private_users.create.error;Beim Hinzufügen eines privaten Benutzenden für diesen partizipativen Bereich ist ein Fehler aufgetreten.
+25142;en;decidim.admin.participatory_space_private_users.create.error;There was a problem adding a private participant for this participatory space.
+25143;de;decidim.admin.participatory_space_private_users.create.success;Participatory Space Privater Benutzenderzugriff erfolgreich erstellt.
+25144;en;decidim.admin.participatory_space_private_users.create.success;Participatory space private participant access successfully created.
+25145;de;decidim.admin.participatory_space_private_users.destroy.error;Beim Löschen einer*eines privaten Benutzenden für diesen partizipativen Bereich ist ein Fehler aufgetreten.
+25146;en;decidim.admin.participatory_space_private_users.destroy.error;There was a problem deleting a private participant for this participatory space.
+25149;de;decidim.admin.participatory_process_user_roles.update.success;Die*der Benutzende wurde für diesen partizipativen Prozess erfolgreich aktualisiert.
+25150;en;decidim.admin.participatory_process_user_roles.update.success;Admin successfully updated for this participatory process.
+25151;de;decidim.admin.managed_users.promotion.success;Die*der verwaltete Benutzende wurde erfolgreich hochgestuft.
+25152;en;decidim.admin.managed_users.promotion.success;The managed participant has been successfully promoted.
+25153;de;decidim.admin.managed_users.promotions.new.explanation;Verwaltete Benutzende können zu Standardbenutzenden heraufgestuft werden. Das bedeutet, dass sie zu der Anwendung eingeladen werden und nicht in der Lage sind, sie erneut zu repräsentieren. Eingeladene Benutzende erhalten eine E-Mail, um ihre Einladung anzunehmen.
+25154;en;decidim.admin.managed_users.promotions.new.explanation;Managed participants can be promoted to standard participants. It means they will be invited to the application and you will not be able to manage them again. The invited participant will receive an email to accept your invitation.
+25155;de;decidim.admin.managed_users.promotions.new.new_managed_user_promotion;Neue verwaltete Benutzendenwerbung
+25156;en;decidim.admin.managed_users.promotions.new.new_managed_user_promotion;New managed participant promotion
+25157;de;decidim.admin.menu.conferences_submenu.user_registrations;Registrierung von Benutzenden
+25158;en;decidim.admin.menu.conferences_submenu.user_registrations;User Registrations
+25159;de;decidim.admin.models.participatory_space_private_user.name;Private Teilnehmende
+25160;en;decidim.admin.models.participatory_space_private_user.name;Participatory space private participant
+25161;de;decidim.admin.models.user.fields.roles.user_manager;Manager Benutzende
+25162;en;decidim.admin.models.user.fields.roles.user_manager;Participant manager
+25163;de;decidim.admin.models.user_group.fields.users_count;Benutzende zählen
+25164;en;decidim.admin.models.user_group.fields.users_count;Participants count
+25165;de;decidim.admin.models.conference_user_role.name;Konferenzbenutzende
+25166;en;decidim.admin.models.conference_user_role.name;Conference Admin
+25167;de;decidim.admin.moderated_users.index.actions.block;Benutzende blockieren
+25168;en;decidim.admin.moderated_users.index.actions.block;Block User
+25169;de;decidim.admin.moderated_users.index.actions.unblock;Blockierung der*des Benutzenden aufheben
+25170;en;decidim.admin.moderated_users.index.actions.unblock;Unblock User
+25171;de;decidim.admin.moderated_users.index.title;Liste der gemeldeten Benutzenden
+25172;en;decidim.admin.moderated_users.index.title;Listing reported users
+25173;de;decidim.admin.moderations.reports.index.callout_html;Ein Inhalt erscheint im Moderations-Panel, wenn er von einem Benutzer gemeldet wurde. Jeder Benutzer mit einem registrierten Konto kann Inhalte melden, indem er auf die %{icon} Flagge neben dem Element klickt.
+25174;en;decidim.admin.moderations.reports.index.callout_html;A content appears in the moderation panel when it has been signaled by a user (can be anyone with a registered account) by clicking on the %{icon} flag next to the item.
+25175;de;decidim.admin.newsletters.index.all_users;Alle Benutzenden
+25176;en;decidim.admin.newsletters.index.all_users;All users 
+25177;de;decidim.admin.newsletters.select_recipients_to_deliver.all_users_help;Sendet Newsletter an alle bestätigten Benutzenden.
+25178;en;decidim.admin.newsletters.select_recipients_to_deliver.all_users_help;Sends newsletter to all confirmed users.
+25179;de;decidim.gamification.badges.proposals.unearned_another;Diese*r Benutzende hat noch keine Vorschläge erstellt.
+25180;en;decidim.gamification.badges.proposals.unearned_another;This participant hasn't created any proposals yet.
+25181;de;decidim.gamification.badges.attended_meetings.description_another;Diese Benutzende hat an %{score} Veranstaltungen teilgenommen.
+25182;en;decidim.gamification.badges.attended_meetings.description_another;This participant has attended %{score} meetings.
+25183;de;decidim.gamification.badges.attended_meetings.unearned_another;Diese*r Benutzende hat noch kein Veranstaltungen besucht.
+25184;en;decidim.gamification.badges.attended_meetings.unearned_another;This participant hasn't attended any meeting yet.
+25185;de;decidim.gamification.badges.commented_debates.description_another;Diese*r Benutzende hat an %{score} Debatten teilgenommen.
+25186;en;decidim.gamification.badges.commented_debates.description_another;This participant has taken part in %{score} debates.
+25187;de;decidim.components.proposals.settings.global.vote_limit;Maximale Anzahl Stimmen pro Benutzende
+25188;en;decidim.components.proposals.settings.global.vote_limit;Support limit per participant
+25189;de;decidim.admin.menu.participatory_processes_submenu.private_users;Teilnehmende bestimmen
+25190;en;decidim.admin.menu.participatory_processes_submenu.private_users;Private participants
+25191;de;decidim.gamification.badges.commented_debates.unearned_another;Diese*r Benutzende hat noch keine Diskussionen geführt.
+25192;en;decidim.gamification.badges.commented_debates.unearned_another;This participant has not yet taken part in any debate.
+25193;de;decidim.group_admins.actions.are_you_sure;Sind Sie sicher? Dies wird die*den Benutzende*n nicht aus der Gruppe entfernen.
+25194;en;decidim.group_admins.actions.are_you_sure;Are you sure? This won't remove the participant from the group.
+25195;de;decidim.group_admins.demote.error;Beim Entfernen dieses Benutzenden aus der Adminliste ist ein Fehler aufgetreten
+25196;en;decidim.group_admins.demote.error;There was a problem removing this participant from the admins list
+25197;de;decidim.group_admins.demote.success;Benutzende*r wurde von Admin erfolgreich entfernt
+25198;en;decidim.group_admins.demote.success;Participant successfully removed from admin
+25250;en;decidim.admin.conference_user_roles.index.conference_admins_title;conference admins
+25199;de;decidim.admin.participatory_space_private_users_csv_imports.new.explanation;"Laden Sie Ihre CSV-Datei hoch. Diese muss zwei Spalten haben ohne Kopfzeile, mit E-Mail in der ersten Spalte der Datei und Namen in der letzten Spalte der Datei (E-Mail, Name) in Bezug auf die Benutzer, die Sie dem Beteiligungsbereich hinzufügen möchten. Vermeiden sie ungültige Zeichen wie `<>?%&^*#@()[]=+:;""{}\|` im Namen des Nutzers zu verwenden."
+25200;en;decidim.admin.participatory_space_private_users_csv_imports.new.explanation;"Upload your CSV file. It must have two columns with email in the first column of the file and name in the last column of the file (email, name) of the users that you want to add to the participatory space, without headers. Avoid using invalid chars like `<>?%&^*#@()[]=+:;""{}\|` in user name."
+25201;de;decidim.admin.static_pages.edit.changed_notably_help;Wenn diese Option aktiviert ist, werden Benutzende benachrichtigt, um die neuen Nutzungsbedingungen zu akzeptieren.
+25202;en;decidim.admin.static_pages.edit.changed_notably_help;If checked, participants will be notified to accept the new terms and conditions.
+25203;de;decidim.admin.titles.impersonatable_users;Überprüfbare Benutzende
+25204;en;decidim.admin.titles.impersonatable_users;Manageable participants
+25205;de;decidim.admin.titles.impersonations;Benutzendenverwaltung
+25206;en;decidim.admin.titles.impersonations;Participants management
+25207;de;decidim.admin.users.create.error;Beim Einladen dieser*dieses Benutzenden ist ein Fehler aufgetreten.
+25208;en;decidim.admin.users.create.error;There was a problem inviting this admin.
+25209;de;decidim.admin.users.create.success;Benutzende*r wurde erfolgreich eingeladen.
+25210;en;decidim.admin.users.create.success;Participant successfully invited.
+25211;de;decidim.admin.users.destroy.error;Beim Versuch, diese*n Benutzende*n zu löschen, ist ein Fehler aufgetreten.
+25212;en;decidim.admin.users.destroy.error;There was a problem trying to delete this admin.
+25213;de;decidim.admin.users.destroy.success;Benutzende*r ist kein Admin mehr.
+25214;en;decidim.admin.users.destroy.success;Participant is no longer an administrator.
+25215;de;decidim.admin.users.new.title;Benutzende*r als Admin einladen
+25216;en;decidim.admin.users.new.title;Invite participant as administrator
+25217;de;decidim.admin.participatory_process_user_roles.create.error;Beim Hinzufügen eines Benutzenden für diesen partizipativen Prozess ist ein Fehler aufgetreten.
+25218;en;decidim.admin.participatory_process_user_roles.create.error;There was a problem adding a participant for this participatory process.
+25219;de;decidim.admin.participatory_process_user_roles.create.success;Benutzende*r hat diesen partizipativen Prozess erfolgreich hinzugefügt.
+25220;en;decidim.admin.participatory_process_user_roles.create.success;Admin successfully added to this participatory process.
+25221;de;decidim.admin.participatory_process_user_roles.destroy.success;Die*der Benutzende wurde erfolgreich aus diesem partizipativen Prozess entfernt.
+25222;en;decidim.admin.participatory_process_user_roles.destroy.success;Admin successfully removed from this participatory process.
+25223;de;decidim.admin.participatory_process_user_roles.update.error;Für diesen partizipativen Prozess wurde ein Fehler bei einer*einem Benutzenden aktualisiert.
+25224;en;decidim.admin.participatory_process_user_roles.update.error;There was a problem updating an admin for this participatory process.
+25225;de;decidim.admin.assembly_user_roles.create.error;Beim Hinzufügen einer*eines Benutzenden für diese Organisation ist ein Fehler aufgetreten.
+25226;en;decidim.admin.assembly_user_roles.create.error;There was a problem adding an admin for this assembly.
+25227;de;decidim.admin.assembly_user_roles.destroy.success;Benutzende wurde erfolgreich von dieser Organisation entfernt.
+25228;en;decidim.admin.assembly_user_roles.destroy.success;Admin successfully removed from this assembly.
+25229;de;decidim.admin.assembly_user_roles.edit.title;Aktualisiere die*den Benutzenden der Organisationsgruppe
+25230;en;decidim.admin.assembly_user_roles.edit.title;Update assembly admin.
+25231;de;decidim.admin.assembly_user_roles.index.assembly_admins_title;Organisationsadmins
+25232;en;decidim.admin.assembly_user_roles.index.assembly_admins_title;Organisation admins
+25233;de;decidim.admin.assembly_user_roles.new.title;Neue*r Organisationsadmin
+25234;en;decidim.admin.assembly_user_roles.new.title;New organisation admin.
+25235;de;decidim.admin.assembly_user_roles.update.error;Bei einem Fehler ist ein*e Benutzende*r für diese Organisation aktualisiert worden.
+25236;en;decidim.admin.assembly_user_roles.update.error;There was a problem updating an admin for this assembly.
+25237;de;decidim.admin.assembly_user_roles.update.success;Benutzende*r wurde für diese Organisation erfolgreich aktualisiert.
+25238;en;decidim.admin.assembly_user_roles.update.success;Admin updated successfully for this assembly.
+25239;de;decidim.admin.conference_user_roles.create.error;Beim Hinzufügen einer*eines Benutzenden für diese Konferenz ist ein Fehler aufgetreten.
+25240;en;decidim.admin.conference_user_roles.create.error;There was a problem adding an admin to this conference.
+25241;de;decidim.admin.conference_user_roles.create.success;Benutzende*r wurde erfolgreich zu dieser Konferenz hinzugefügt.
+25242;en;decidim.admin.conference_user_roles.create.success;Conference admin successfully added.
+25243;de;decidim.admin.titles.participants;Benutzende
+25244;en;decidim.admin.titles.participants;Participants
+25245;de;decidim.admin.conference_user_roles.destroy.success;Benutzende*r wurde erfolgreich von dieser Konferenz entfernt.
+25246;en;decidim.admin.conference_user_roles.destroy.success;Conference admin successfully removed.
+25247;de;decidim.admin.conference_user_roles.edit.title;Aktualisieren Sie die*den Konferenzbenutzende*r.
+25248;en;decidim.admin.conference_user_roles.edit.title;Update conference admin.
+25251;de;decidim.admin.conference_user_roles.new.title;Neue*r Konferenzbenutzende*r
+25252;en;decidim.admin.conference_user_roles.new.title;New conference admin.
+25253;de;decidim.admin.conference_user_roles.update.error;Bei einem Fehler ist ein*e Benutzende*r für diese Konferenz aktualisiert worden.
+25254;en;decidim.admin.conference_user_roles.update.error;There was a problem updating this conference admin.
+25255;de;decidim.admin.conference_user_roles.update.success;Die*der Benutzende*r wurde für diese Konferenz erfolgreich aktualisiert.
+25256;en;decidim.admin.conference_user_roles.update.success;Conference admin successfully updated.
+25257;de;decidim.admin_log.participatory_space_private_user.create;%{user_name} hat %{resource_name} als private*n Benutzende*n eingeladen
+25258;en;decidim.admin_log.participatory_space_private_user.create;%{user_name} invited %{resource_name} to be a private participant
+25259;de;decidim.admin_log.participatory_space_private_user.delete;%{user_name} hat Benutzende*r %{resource_name} als private*n Benutzende*n entfernt
+25260;en;decidim.admin_log.participatory_space_private_user.delete;%{user_name} removed the participant %{resource_name} as a private participant
+25261;de;decidim.admin_log.user.invite;%{user_name} hat Benutzende*r %{resource_name} mit der Rolle %{role} eingeladen
+25262;en;decidim.admin_log.user.invite;%{user_name} invited the participant %{resource_name} with role: %{role}
+25263;de;decidim.admin_log.user.officialize;%{user_name} die*den Benutzende*n %{resource_name} offiziell anerkannt
+25264;en;decidim.admin_log.user.officialize;%{user_name} officialized the participant %{resource_name}
+25265;de;decidim.admin_log.user.remove_from_admin;%{user_name} hat die*den Benutzende*n %{resource_name} mit der Rolle %{role} entfernt
+25266;en;decidim.admin_log.user.remove_from_admin;%{user_name} removed the participant %{resource_name} with role: %{role}
+25267;de;decidim.admin_log.user.unofficialize;%{user_name} hat die offizielle Anerkennung der*des Benutzenden %{resource_name} widerrufen
+25268;en;decidim.admin_log.user.unofficialize;%{user_name} unofficialized the participant %{resource_name}
+25269;de;decidim.admin_log.participatory_process_user_role.create;%{user_name} lud Benutzenden %{resource_name} zu dem %{space_name} Partizipationsprozess ein
+25270;en;decidim.admin_log.participatory_process_user_role.create;%{user_name} invited the participant %{resource_name} to the %{space_name} participatory process
+25271;de;decidim.admin_log.participatory_process_user_role.delete;%{user_name} entfernte Benutzende*r %{resource_name} aus dem %{space_name} Partizipationsprozess
+25272;en;decidim.admin_log.participatory_process_user_role.delete;%{user_name} removed the participant %{resource_name} from the %{space_name} participatory process
+25273;de;decidim.admin_log.participatory_process_user_role.update;%{user_name} änderte die Rolle der*des Benutzenden %{resource_name} im %{space_name} Partizipationsprozess
+25274;en;decidim.admin_log.participatory_process_user_role.update;%{user_name} changed the role of the participant %{resource_name} in the %{space_name} participatory process
+25275;de;decidim.authorization_handlers.admin.id_documents.help.2;Die Informationen sollten mit denen übereinstimmen, die die*der Benutzende ausgefüllt hat.
+25276;en;decidim.authorization_handlers.admin.id_documents.help.2;
+25277;de;decidim.authorization_handlers.admin.id_documents.help.3;Wenn Sie die Informationen nicht klar sehen können oder nicht verifiziert werden können, können Sie die Anfrage ablehnen und die*der Benutzende kann sie beheben.
+25278;en;decidim.authorization_handlers.admin.id_documents.help.3;
+25279;de;decidim.authorization_handlers.admin.postal_letter.help.0;Benutzende fordern einen Bestätigungscode an, welcher an ihre Adresse gesendet werden soll.
+25280;en;decidim.authorization_handlers.admin.postal_letter.help.0;
+25281;de;decidim.authorization_handlers.admin.postal_letter.help.3;Sobald Sie den Brief als gesendet markiert haben, kann die*der Benutzende den Code einführen und verifiziert werden.
+25282;en;decidim.authorization_handlers.admin.postal_letter.help.3;
+25283;de;decidim.components.comment.deleted_user;Gelöschte*r Benutzende*r
+25284;en;decidim.components.comment.deleted_user;Deleted participant
+25285;de;decidim.components.proposals.settings.global.proposal_limit;Maximale Anzahl Vorschläge pro Benutzende
+25286;en;decidim.components.proposals.settings.global.proposal_limit;Proposal limit per participant
+25287;de;decidim.components.proposals.settings.step.suggested_hashtags;Folgende Hashtags werden den Benutzenden zur Auswahl gestellt:
+25288;en;decidim.components.proposals.settings.step.suggested_hashtags;Hashtags suggested to participants for new proposals
+25289;de;decidim.components.surveys.settings.step.allow_unregistered;Nicht registrierten Benutzenden die Beantwortung des Fragebogens erlauben
+25290;en;decidim.components.surveys.settings.step.allow_unregistered;Allow unregistered users to answer the survey
+25291;de;decidim.devise.sessions.new.sign_up_disabled;Die Anmeldung ist deaktiviert. Sie können eine*n vorhandene*n Benutzende*n für den Zugriff verwenden.
+25292;en;decidim.devise.sessions.new.sign_up_disabled;Sign up is disabled, you can use an existing account to access
+25293;de;decidim.events.comments.comment_by_followed_user.email_outro;Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie %{author_name} folgen. Falls Sie keine solchen Benachrichtigungen mehr erhalten möchten, besuchen Sie die Profil-Seite dieses Benutzenden.
+25294;en;decidim.events.comments.comment_by_followed_user.email_outro;You have received this notification because you are following %{author_name}. You can unfollow this user from their profile page.
+25295;de;decidim.forms.errors.impersonate_user.reason;Sie müssen einen Grund angeben, weshalb Sie sich als nicht-verwalteten Benutzenden ausgeben
+25296;en;decidim.forms.errors.impersonate_user.reason;You need to provide a reason when managing a non-managed participant
+25297;de;decidim.forms.admin.questionnaires.answers.export_response.title;Umfrage_Benutzenden_Antworten_%{token}
+25298;en;decidim.forms.admin.questionnaires.answers.export_response.title;survey_user_answers_%{token}
+25299;de;decidim.forms.admin.questionnaires.form.already_answered_warning;Der Fragebogen wird bereits von einigen Benutzenden beantwortet, sodass Sie die Fragen nicht mehr ändern können.
+25300;en;decidim.forms.admin.questionnaires.form.already_answered_warning;The form is already answered by some users so you cannot modify its questions.
+25301;de;decidim.forms.user_answers_serializer.session_token;Benutzendenkennung
+25302;en;decidim.forms.user_answers_serializer.session_token;User identifier
+25303;de;decidim.forms.user_answers_serializer.user_status;Benutzendenstatus
+25304;en;decidim.forms.user_answers_serializer.user_status;User status
+25305;de;decidim.gamification.badges.followers.description_another;Diese*r Benutzende hat %{score} Follower.
+25306;en;decidim.gamification.badges.followers.description_another;This participant has %{score} followers.
+25307;de;decidim.gamification.badges.followers.description_own;%{score} Benutzende folgen dir.
+25308;en;decidim.gamification.badges.followers.description_own;%{score} people are following you.
+25309;de;decidim.gamification.badges.followers.unearned_another;Diese*r Benutzende hat noch keine Follower.
+25310;en;decidim.gamification.badges.followers.unearned_another;This participant doesn't have any followers yet.
+25311;de;decidim.gamification.badges.accepted_proposals.description_another;Diese*r Benutzende hat %{score} Vorschläge akzeptiert.
+25312;en;decidim.gamification.badges.accepted_proposals.description_another;This participant had %{score} accepted proposals.
+25313;de;decidim.gamification.badges.accepted_proposals.unearned_another;Diese*r Benutzende hat noch keine Vorschläge erhalten.
+25314;en;decidim.gamification.badges.accepted_proposals.unearned_another;This participant has not yet had any accepted proposals.
+25315;de;decidim.gamification.badges.proposal_votes.description_another;Diese*r Benutzende hat %{score} Vorschläge unterstützt.
+25316;en;decidim.gamification.badges.proposal_votes.description_another;This participant has given support to %{score} proposals.
+25317;de;decidim.gamification.badges.proposal_votes.unearned_another;Diese*r Benutzende hat noch keine Vorschläge unterstützt.
+25318;en;decidim.gamification.badges.proposal_votes.unearned_another;This participant hasn't given support to any proposals yet.
+25319;de;decidim.gamification.badges.proposals.description_another;Diese*r Benutzende hat %{score} Vorschläge erstellt.
+25320;en;decidim.gamification.badges.proposals.description_another;This participant has created %{score} proposals.
+25321;de;decidim.meetings.meetings.form.location_help;Ort: an die Benutzenden gerichtete Nachricht mit dem Treffpunkt
+25322;en;decidim.meetings.meetings.form.location_help;Location: message directed to the users implying the spot to meet at
+25323;de;decidim.sortitions.sortitions.sortition_cancel_author.deleted;Gelöschte*r Benutzende
+25324;en;decidim.sortitions.sortitions.sortition_cancel_author.deleted;Deleted participant
+25325;de;decidim.conferences.admin.conference_invites.form.existing_user;Existierende Benutzende
+25326;en;decidim.conferences.admin.conference_invites.form.existing_user;Existing participant
+25327;de;decidim.conferences.shared.conference_user_login.new_user;Neue*r Benutzende?
+25328;en;decidim.conferences.shared.conference_user_login.new_user;New user?
+25329;de;decidim.conferences.admin.conference_speakers.form.existing_user;Existierende*r Benutzende*r
+25330;en;decidim.conferences.admin.conference_speakers.form.existing_user;Existing participant
+25331;de;decidim.group_invites.index.invite_user;Laden Sie einen Benutzenden ein
+25332;en;decidim.group_invites.index.invite_user;Invite a participant
+25333;de;decidim.group_invites.invite.success;Benutzende*r wurde erfolgreich eingeladen
+25334;en;decidim.group_invites.invite.success;Participant successfully invited
+25335;de;decidim.group_members.actions.remove_from_group;Benutzende entfernen
+25336;en;decidim.group_members.actions.remove_from_group;Remove participant
+25337;de;decidim.group_members.promote.error;Bei der Förderung dieser*dieses Benutzenden ist ein Fehler aufgetreten
+25338;en;decidim.group_members.promote.error;There was a problem promoting this participant
+25339;de;decidim.group_members.promote.success;Benutzende*r wurde erfolgreich befördert
+25340;en;decidim.group_members.promote.success;Participant promoted successfully
+25341;de;decidim.group_members.remove.error;Beim Entfernen dieser*dieses Benutzenden aus der Gruppe ist ein Fehler aufgetreten
+25342;en;decidim.group_members.remove.error;There was a problem removing this participant from the group
+25343;de;decidim.group_members.remove.success;Benutzende*r wurde erfolgreich aus der Gruppe entfernt
+25344;en;decidim.group_members.remove.success;Participant successfully removed from the group
+25345;de;decidim.groups.form.nickname_help;Anwendername Ihrer Organisation, Ihrer Vereinigung, Ihres Kollektivs, Ihrer Gruppe usw. Verwenden Sie keine Leerzeichen oder Akzente.
+25346;en;decidim.groups.form.nickname_help;Nickname of your organization, association, collective, group, etc. Do not use spaces nor accents.
+25347;de;decidim.groups.members.accept_or_reject_join_requests;Die folgenden Benutzenden haben sich angemeldet, um dieser Gruppe beizutreten. Akzeptieren oder ablehnen ihrer Anfragen:
+25348;en;decidim.groups.members.accept_or_reject_join_requests;The following users have applied to join this group. Accept or reject their requests:
+25349;de;decidim.members.no_members;Diese Gruppe hat noch kein Mitglied.
+25350;en;decidim.members.no_members;This group doesn't have any members yet.
+25351;de;decidim.messaging.conversations.add_conversation_users.add_max_users;Fügen Sie der Unterhaltung Benutzende hinzu: max. 9 Benutzende
+25352;en;decidim.messaging.conversations.add_conversation_users.add_max_users;Add users to conversation: 9 users max
+25353;de;decidim.metrics.followers.description;Anzahl der Benutzenden, die dieser Teilnahme folgen
+25354;en;decidim.metrics.followers.description;Number of participants that follow this participation space
+25355;de;decidim.metrics.participants.description;Anzahl der aktiven Benutzenden in der Organisation
+25356;en;decidim.metrics.participants.description;Number of active participants in organization
+25357;de;decidim.metrics.users.description;Anzahl der Benutzenden in der Organisation
+25358;en;decidim.metrics.users.description;Number of participants in organization
+25359;de;decidim.metrics.users.object;Benutzende
+25360;en;decidim.metrics.users.object;participants
+25361;de;decidim.metrics.blocked_users.object;blockierte Benutzende
+25362;en;decidim.metrics.blocked_users.object;blocked users
+25363;de;decidim.metrics.blocked_users.title;Blockierte Benutzende
+25364;en;decidim.metrics.blocked_users.title;Blocked users
+25365;de;decidim.metrics.reported_users.object;gemeldete Benutzende
+25366;en;decidim.metrics.reported_users.object;reported users
+25367;de;decidim.metrics.reported_users.title;Gemeldete Benutzende
+25368;en;decidim.metrics.reported_users.title;Reported users
+25369;de;decidim.metrics.user_reports.object;Benutzenden-Meldungen
+25370;en;decidim.metrics.user_reports.object;user reports
+25371;de;decidim.metrics.comments.description;Anzahl der von Benutzenden generierten Kommentare
+25372;en;decidim.metrics.comments.description;Number of comments generated by participants
+25373;de;decidim.metrics.users.title;Benutzende
+25374;en;decidim.metrics.users.title;Participants
+25375;de;decidim.metrics.user_reports.title;Benutzenden-Meldungen
+25376;en;decidim.metrics.user_reports.title;User reports
+25377;de;decidim.metrics.accepted_proposals.description;Anzahl der von Benutzenden akzeptierten Vorschläge
+25378;en;decidim.metrics.accepted_proposals.description;Number of proposals accepted
+25379;de;decidim.metrics.survey_answers.description;Anzahl der Umfragen, die von Benutzenden beantwortet wurden
+25380;en;decidim.metrics.survey_answers.description;Number of surveys answered by participants
+25381;de;decidim.pad_iframe.disclaimer;Der Inhalt dieses Blocks wird von registrierten Benutzenden verfasst und gibt deren Meinung wieder. %{organization} kann nicht für den Inhalt verantwortlich gemacht werden.
+25382;en;decidim.pad_iframe.disclaimer;The contents of this pad are written by registered users and express their opinions. %{organization} cannot be held responsible for its contents.
+25383;de;decidim.shared.flag_user_modal.description;Was ist unangebracht über die*den Benutzende?
+25384;en;decidim.shared.flag_user_modal.description;What is inappropriate about the user?
+25385;de;decidim.user_activity.index.no_activities_warning;Diese*r Benutzende hat noch keine Aktivität gehabt.
+25386;en;decidim.user_activity.index.no_activities_warning;This participant hasn't had any activity yet.
+25387;de;decidim.user_conversations.index.add_max_users;Fügen Sie der Unterhaltung Benutzende hinzu: max. 9 Benutzende
+25388;en;decidim.user_conversations.index.add_max_users;Add users to conversation: 9 users max
+25389;de;decidim.user_conversations.show.not_allowed;Diese*r Benutzende akzeptiert keine Direktnachrichten mehr.
+25390;en;decidim.user_conversations.show.not_allowed;This user does not accept any more direct messages.
+25391;de;decidim.user_report_mailer.notify.body_1;Benutzende*r %{user} wurde von %{token} gemeldet
+25392;en;decidim.user_report_mailer.notify.body_1;User %{user} has been reported by %{token}
+25393;de;decidim.user_report_mailer.notify.subject;Ein*e neue*r Benutzende wurde in %{organization_name} gemeldet
+25394;en;decidim.user_report_mailer.notify.subject;A new user has been reported in %{organization_name}
+25395;de;decidim.version_author.show.deleted;Gelöschte Benutzende
+25396;en;decidim.version_author.show.deleted;Deleted participant
+25397;de;decidim.system.organizations.file_upload_settings.content_types.admin_hint;Diese MIME-Typen sind für das Hochladen im Admin-Panel erlaubt. Admin-Benutzende sollten sich der Risiken des Hochladens einiger Dokumentformate bewusst sein, so dass man von ihnen erwarten kann dass sie vorsichtiger mit Datei-Uploads sind.
+25398;en;decidim.system.organizations.file_upload_settings.content_types.admin_hint;These MIME types are allowed for the admin section uploads. Admin users should be aware of the risks with uploading some document formats, so you can expect them to be more cautious with the file uploads.
+25399;de;decidim.system.organizations.file_upload_settings.content_types.default_hint;Diese MIME-Typen sind standardmäßig für alle Benutzenden erlaubt.
+25400;en;decidim.system.organizations.file_upload_settings.content_types.default_hint;These MIME types are allowed for all users by default.
+25401;de;decidim.system.organizations.file_upload_settings.file_extensions.admin_hint;Diese Datei-Erweiterungen sind für das Hochladen im Admin-Panel erlaubt. Admin-Benutzende sollten sich der Risiken des Hochladens einiger Dokumentformate bewusst sein, so dass man von ihnen erwarten kann dass sie vorsichtiger mit Datei-Uploads sind.
+25402;en;decidim.system.organizations.file_upload_settings.file_extensions.admin_hint;These file extensions are allowed for the admin section uploads. Admin users should be aware of the risks with uploading some document formats, so you can expect them to be more cautious with the file uploads.
+25403;de;decidim.system.organizations.file_upload_settings.file_extensions.default_hint;Diese Dateierweiterungen sind standardmäßig für alle Benutzenden erlaubt.
+25404;en;decidim.system.organizations.file_upload_settings.file_extensions.default_hint;These file extensions are allowed for all users by default.
+25405;de;decidim.system.organizations.file_upload_settings.intro;"Bitte seien Sie besonders vorsichtig, wenn Sie überlegen, diese Einstellungen zu ändern. Je weniger Sie erlauben, desto besser.
+Wenn bestimmte Dateierweiterungen oder MIME-Typen zugelassen werden, können Benutzende Sicherheitsrisiken ausgesetzt werden und es kann auch die Zugänglichkeit der Website beeinträchtigen.
+"
+25406;en;decidim.system.organizations.file_upload_settings.intro;"Please be extra cautious when considering to change these settings. The less you allow, the better.
+Allowing specific file extensions or MIME types can expose the system users to security risks and it can also affect the accessibility of the website.
+"
+25407;de;decidim.system.organizations.users_registration_mode.existing;Registrationen sind deaktiviert, bestehende Benutzende können sich aber weiterhin anmelden
+25408;en;decidim.system.organizations.users_registration_mode.existing;Don't allow participants to register, but allow existing participants to login
+25409;de;decidim.verifications.dummy_authorization.extra_explanation.scope;Die Teilnahme ist auf Benutzende mit dem Umgang %{scope_name} begrenzt.
+25410;en;decidim.verifications.dummy_authorization.extra_explanation.scope;Participation is restricted to participants with the scope %{scope_name}.
+25411;de;decidim.verifications.id_documents.admin.confirmations.create.error;Überprüfung stimmt nicht überein. Versuchen Sie es erneut oder lehnen Sie die Überprüfung ab, damit die*der Benutzende sie ändern kann.
+25412;en;decidim.verifications.id_documents.admin.confirmations.create.error;Verification doesn't match. Please try again or reject the verification so the participant can amend it
+25413;de;decidim.verifications.id_documents.admin.confirmations.create.success;Benutzende*r erfolgreich verifiziert
+25414;en;decidim.verifications.id_documents.admin.confirmations.create.success;Participant successfully verified
+25415;de;decidim.verifications.id_documents.admin.offline_confirmations.create.error;Die Überprüfung stimmt nicht überein. Versuchen Sie es erneut oder teilen Sie der*dem Benutzenden mit, es zu ändern.
+25416;en;decidim.verifications.id_documents.admin.offline_confirmations.create.error;Verification doesn't match. Please try again or tell the participant to amend it
+25417;de;decidim.verifications.id_documents.admin.offline_confirmations.new.introduce_user_data;Geben Sie die Benutzenden-E-Mail und die Dokumentdaten ein
+25418;en;decidim.verifications.id_documents.admin.offline_confirmations.new.introduce_user_data;Introduce the participant email and the document data
+25419;de;decidim.verifications.id_documents.admin.rejections.create.success;Überprüfung abgelehnt. Benutzende*r wird aufgefordert, ihre Dokumente zu ändern.
+25420;en;decidim.verifications.id_documents.admin.rejections.create.success;Verification rejected. Participant will be prompted to amend her documents
+25421;de;decidim.participatory_processes.admin.participatory_processes.form.announcement_help;Der Text, den Sie hier eingeben, wird Benutzenden direkt unter den Prozessinformationen angezeigt.
+25422;en;decidim.participatory_processes.admin.participatory_processes.form.announcement_help;The text you enter here will be shown to the user right below the process information.
+25423;de;decidim.assemblies.admin.assemblies.form.announcement_help;Der Text, den Sie hier eingeben, wird der*dem Benutzenden direkt unter den Organisationsinformationen angezeigt.
+25424;en;decidim.assemblies.admin.assemblies.form.announcement_help;The text you enter here will be shown to the user right below the assembly information.
+25425;de;decidim.assemblies.admin.assembly_members.form.existing_user;Existierende*r Benutzende*r
+25426;en;decidim.assemblies.admin.assembly_members.form.existing_user;Existing participant
+25427;de;decidim.assemblies.admin.assembly_members.form.non_user;Nichtbenutzende*r
+25428;en;decidim.assemblies.admin.assembly_members.form.non_user;Non participant
+25429;de;decidim.assemblies.admin.assembly_members.form.select_user;Wählen Sie eine*n Benutzenden aus
+25430;en;decidim.assemblies.admin.assembly_members.form.select_user;Select a participant
+25431;de;decidim.assemblies.admin.assembly_members.form.user_type;Benutzendentyp
+25432;en;decidim.assemblies.admin.assembly_members.form.user_type;Participant type
+25433;de;decidim.meetings.admin.invites.create.success;Die*der Benutzende wurde erfolgreich zum Meeting eingeladen.
+25434;en;decidim.meetings.admin.invites.create.success;Participant successfully invited to join the meeting.
+25435;de;decidim.meetings.admin.invites.form.invite_explanation;Der Benutzende wird eingeladen, der Veranstaltung und dem Gremium beizutreten.
+25436;en;decidim.meetings.admin.invites.form.invite_explanation;The participant will be invited to join the meeting and to the organization as well.
+25437;de;decidim.meetings.admin.invites.form.non_user;Nicht existierende*r Benutzende
+25438;en;decidim.meetings.admin.invites.form.non_user;Non existing participant
+25439;de;decidim.verifications.id_documents.admin.offline_confirmations.create.success;Benutzende*r erfolgreich verifiziert
+25440;en;decidim.verifications.id_documents.admin.offline_confirmations.create.success;Participant successfully verified
+25441;de;decidim.meetings.admin.invites.form.existing_user;Existierende*r Benutzende
+25442;en;decidim.meetings.admin.invites.form.existing_user;Existing participant
+25443;de;decidim.meetings.admin.meetings.form.location_help;Ort: an die Benutzenden gerichtete Nachricht mit dem Treffpunkt
+25444;en;decidim.meetings.admin.meetings.form.location_help;Location: message directed to the users implying the spot to meet at
+25445;de;decidim.budgets.admin.budgets.index.users_with_finished_orders;Benutzende mit abgeschlossenen Stimmen
+25446;en;decidim.budgets.admin.budgets.index.users_with_finished_orders;Users with finished votes
+25447;de;decidim.budgets.admin.budgets.index.users_with_pending_orders;Benutzende mit ausstehenden Stimmen
+25448;en;decidim.budgets.admin.budgets.index.users_with_pending_orders;Users with pending votes
+25449;de;decidim.sortitions.sortitions.sortition_author.deleted;Gelöschte Benutzende
+25450;en;decidim.sortitions.sortitions.sortition_author.deleted;Deleted participant
+25451;de;decidim.conferences.admin.conference_invites.create.error;Beim Einladen der*des Benutzenden zur Teilnahme an der Konferenz ist ein Problem aufgetreten.
+25452;en;decidim.conferences.admin.conference_invites.create.error;There was a problem inviting the participant to join the conference.
+25453;de;decidim.conferences.admin.conference_invites.create.success;Die*der Benutzende wurde erfolgreich zur Teilnahme an der Konferenz eingeladen.
+25454;en;decidim.conferences.admin.conference_invites.create.success;Participant successfully invited to join the conference.
+25455;de;decidim.conferences.admin.conference_invites.form.invite_explanation;Die*der Benutzende wird eingeladen, der Konferenz und der Organisation beizutreten.
+25456;en;decidim.conferences.admin.conference_invites.form.invite_explanation;The participant will be invited to join the conference and to the organization as well.
+25457;de;decidim.conferences.admin.conference_invites.form.non_user;Nicht existierende*r Benutzende*r
+25458;en;decidim.conferences.admin.conference_invites.form.non_user;Non existing participant
+25459;de;decidim.conferences.admin.conference_invites.new.explanation;Die*der Benutzende wird eingeladen, an einer Konferenz teilzunehmen. Wenn die E-Mail nicht registriert ist, werden sie ebenfalls zur Organisation eingeladen.
+25460;en;decidim.conferences.admin.conference_invites.new.explanation;The participant will be invited to join a conference. If her email is not registered she will be invited to the organization as well.
+25461;de;decidim.conferences.admin.conference_speakers.form.user_type;Benutzendentyp
+25462;en;decidim.conferences.admin.conference_speakers.form.user_type;Participant type
+25463;de;layouts.decidim.header.user_menu;Benutzenden-Menü
+25464;en;layouts.decidim.header.user_menu;User menu
+25465;de;layouts.decidim.impersonation_warning.description_html;Sie geben sich als Benutzende*r <b>%{user_name}</b>.
+25466;en;layouts.decidim.impersonation_warning.description_html;You are managing the participant <b>%{user_name}</b>.
+25467;de;layouts.decidim.user_menu.account;Benutzendenkonto: %{name}
+25468;en;layouts.decidim.user_menu.account;User account: %{name}
+25469;de;layouts.decidim.admin.users.title;Benutzende
+25470;en;layouts.decidim.admin.users.title;Participants
+25471;de;activemodel.attributes.offline_confirmation.email;Email Benutzende
+25472;en;activemodel.attributes.offline_confirmation.email;Participant email

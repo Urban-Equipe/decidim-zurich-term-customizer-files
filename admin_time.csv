@@ -1,0 +1,7 @@
+id;locale;key;value
+23137;de;time.formats.default;%a, %d. %b %Y %H:%M:%S %z
+23138;en;time.formats.default;%a, %d %b %Y %H:%M:%S %z
+23139;de;time.formats.long;%d. %B %Y %H:%M
+23140;en;time.formats.long;%B %d, %Y %H:%M
+23141;de;time.formats.devise.mailer.invitation_instructions.accept_until_format;%d. %B %Y %H:%M
+23142;en;time.formats.devise.mailer.invitation_instructions.accept_until_format;%B %d, %Y %I:%M %p

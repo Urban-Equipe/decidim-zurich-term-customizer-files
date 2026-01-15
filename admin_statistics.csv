@@ -1,0 +1,19 @@
+id;locale;key;value
+22963;de;decidim.admin.users_statistics.users_count.participants;Mitwirkende
+22955;de;decidim.statistics.endorsements_count;Befürwortungen
+22956;en;decidim.statistics.endorsements_count;Endorsements
+22957;de;decidim.admin.users_statistics.users_count.last_day;Gestern
+22958;en;decidim.admin.users_statistics.users_count.last_day;Yesterday
+22959;de;activemodel.attributes.assembly.show_statistics;Kennzahlen anzeigen
+22960;en;activemodel.attributes.assembly.show_statistics;Show statistics
+22961;de;decidim.pages.home.statistics.headline;Kennzahlen über %{organization}
+22962;en;decidim.pages.home.statistics.headline;statistics on %{organization}
+22964;en;decidim.admin.users_statistics.users_count.participants;Participants
+22965;de;decidim.admin.users_statistics.users_count.no_users_count_statistics_yet;Es gibt noch keine Kennzahlen
+22966;en;decidim.admin.users_statistics.users_count.no_users_count_statistics_yet;There are no users count statistics yet
+22967;de;decidim.admin.users_statistics.users_count.admins;Administratoren
+22968;en;decidim.admin.users_statistics.users_count.admins;Admins
+22969;de;decidim.admin.titles.statistics;Kennzahlen
+22970;en;decidim.admin.titles.statistics;Activity
+22971;de;activemodel.attributes.participatory_process.show_statistics;Kennzahlen anzeigen
+22972;en;activemodel.attributes.participatory_process.show_statistics;Show statistics

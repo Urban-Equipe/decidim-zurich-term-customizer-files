@@ -1,0 +1,5 @@
+id;locale;key;value
+22325;de;decidim.shared.flag_modal.report;Inhalt melden
+22326;en;decidim.shared.flag_modal.report;Report
+22327;de;decidim.components.comment.report.action;Beitrag melden
+22328;en;decidim.components.comment.report.action;Send report

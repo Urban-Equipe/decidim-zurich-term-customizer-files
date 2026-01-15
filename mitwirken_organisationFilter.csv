@@ -1,0 +1,21 @@
+id;locale;key;value
+20331;de;activemodel.attributes.participatory_process.participatory_process_type_id;Organisationseinheit
+20332;en;activemodel.attributes.participatory_process.participatory_process_type_id;Organisation
+20335;de;decidim.admin.menu.participatory_process_types;Organisationseinheiten
+20336;en;decidim.admin.menu.participatory_process_types;Organisations
+20339;de;decidim.admin.models.participatory_process_type.name;Organisationseinheit
+20340;en;decidim.admin.models.participatory_process_type.name;Organisation
+20345;de;decidim.admin.participatory_process_types.create.error;Beim Erstellen einer neuen Organisationseinheit ist ein Fehler aufgetreten.
+20346;en;decidim.admin.participatory_process_types.create.error;There was a problem creating a new organisation type.
+20349;de;decidim.admin.participatory_process_types.create.success;Organisationseinheit erfolgreich erstellt.
+20350;en;decidim.admin.participatory_process_types.create.success;Organisation type successfully created.
+20347;de;decidim.admin.participatory_process_types.destroy.success;Organisationseinheit erfolgreich gelöscht.
+20348;en;decidim.admin.participatory_process_types.destroy.success;Organisation type successfully deleted.
+20343;de;decidim.admin.titles.participatory_process_types;Organisationseinheit
+20344;en;decidim.admin.titles.participatory_process_types;Organisation types
+20351;de;decidim.participatory_processes.admin.participatory_processes.form.select_participatory_process_type;Wählen Sie eine Organisationseinheit aus
+20352;en;decidim.participatory_processes.admin.participatory_processes.form.select_participatory_process_type;Select an organisation type
+20353;de;decidim.admin_log.participatory_process_type.create;%{user_name} hat die Organisationseinheit %{resource_name} erstellt
+20354;en;decidim.admin_log.participatory_process_type.create;%{user_name} created the %{resource_name} organisation type
+20355;de;decidim.admin_log.participatory_process_type.delete;%{user_name} hat den Organisationseinheit %{resource_name} gelöscht
+20356;en;decidim.admin_log.participatory_process_type.delete;%{user_name} deleted the %{resource_name} organisation type

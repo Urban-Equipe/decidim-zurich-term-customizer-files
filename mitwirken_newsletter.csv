@@ -1,0 +1,5 @@
+id;locale;key;value
+26474;en;decidim.notifications_settings.show.newsletter_notifications;I want to receive newsletters (is required for certain processes, i.e. the VBZ Passenger Voice)
+26473;de;decidim.notifications_settings.show.newsletter_notifications;Ich möchte Newsletter erhalten (wird in einigen Prozessen vorausgesetzt, z.B. der VBZ Fahrgaststimme)
+29029;de;decidim.admin.newsletters.select_recipients_to_deliver.select_spaces;Zielpublikum des Newsletters auswählen
+29030;en;decidim.admin.newsletters.select_recipients_to_deliver.select_spaces;Select spaces to segment the newsletter

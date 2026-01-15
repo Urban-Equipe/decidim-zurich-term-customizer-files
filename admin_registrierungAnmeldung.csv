@@ -1,0 +1,107 @@
+id;locale;key;value
+28307;de;layouts.decidim.header.sign_up;Konto erstellen
+28308;en;layouts.decidim.header.sign_up;Create account
+28310;en;decidim.shared.follow_button.sign_in_before_follow;Please sign in before performing this action
+28309;de;decidim.shared.follow_button.sign_in_before_follow;Bitte erstellen Sie ein Konto oder melden sich an, bevor Sie diese Aktion ausführen
+28288;en;decidim.anonymous_proposals.new_session;sign in
+28287;de;decidim.anonymous_proposals.new_session;melden Sie sich an
+28811;de;decidim.devise.sessions.new.register;Konto erstellen
+28812;en;decidim.devise.sessions.new.register;Create an account
+28289;de;decidim.anonymous_proposals.shared.anonymous_proposals_announcement.text_html;<p><strong> %{registration_link} oder %{new_session_link} damit Sie keine Neuigkeiten zum Prozess verpassen</strong>. Mit einem Konto können Sie bei allen Vorschlägen kommentieren, am Meinungsaustausch teilnehmen und Ihre Unterstützung für Vorschläge zeigen. Sie entscheiden auch, ob Sie Benachrichtigungen erhalten möchten, wenn jemand Ihren Vorschlag unterstützt oder kommentiert.</p> <p><em>Wenn Sie anonym bleiben möchten, können Sie bei der Kontoerstellung ein Pseudonym angeben.</em></p>
+28290;en;decidim.anonymous_proposals.shared.anonymous_proposals_announcement.text_html;<p><strong> %{registration_link} or %{new_session_link} on the platform to not miss any news of the participatory process</strong>. If you publish your proposal as registered user, you will be able to comment and participate in the exchange of opinions of each proposal, and show your support or interest by adhering to the proposals that you consider. You can also decide whether to receive notifications every time someone supports or comments on your proposal.</p> <p>If you want to remain anonymous, you can create an account using a pseudonym.</p>
+27636;en;decidim.devise.shared.newsletter_modal.buttons.uncheck;Keep unchecked
+27635;de;decidim.devise.shared.newsletter_modal.buttons.uncheck;Newsletter nicht erhalten
+27677;de;decidim.gamification.badges.attended_meetings.conditions.0;""
+27671;de;decidim.devise.registrations.new.sign_up_as.legend;Konto erstellen als
+27672;en;decidim.devise.registrations.new.sign_up_as.legend;Create account as
+27661;de;devise.failure.unauthenticated;Sie müssen sich anmelden oder ein Konto erstellen, bevor Sie fortfahren.
+27662;en;devise.failure.unauthenticated;You need to sign in or create an account before continuing.
+27663;de;devise.registrations.new.sign_up;Konto erstellen
+27664;en;devise.registrations.new.sign_up;Create an account
+27665;de;devise.shared.links.sign_up;Konto erstellen
+27666;en;devise.shared.links.sign_up;Create an account
+22908;en;decidim.devise.registrations.new.subtitle;To take part in certain participation processes, you need an account on the platform.
+27678;en;decidim.gamification.badges.attended_meetings.conditions.0;""
+27679;de;decidim.pages.home.footer_sub_hero.register;Konto erstellen
+27680;en;decidim.pages.home.footer_sub_hero.register;Create account
+27681;de;decidim.components.add_comment_form.account_message;"<a href=""%{sign_in_url}"">Melden Sie sich mit Ihrem Konto an</a> oder <a href=""%{sign_up_url}"">registrieren Sie sich</a>, um Ihren Kommentar hinzuzufügen."
+27682;en;decidim.components.add_comment_form.account_message;"<a href=""%{sign_in_url}"">Sign in with your account</a> or <a href=""%{sign_up_url}"">sign up</a> to add your comment."
+27692;en;decidim.system.organizations.users_registration_mode.enabled;Allow participants to register and login
+27694;en;decidim.anonymous_proposals.register;Create an account
+27687;de;decidim.shared.login_modal.sign_up;Konto erstellen
+27688;en;decidim.shared.login_modal.sign_up;Create an account
+27689;de;decidim.system.devise.shared.links.sign_up;Konto erstellen
+27690;en;decidim.system.devise.shared.links.sign_up;Create an account
+27683;de;decidim.pages.home.sub_hero.register;Konto erstellen
+27684;en;decidim.pages.home.sub_hero.register;Create an account
+27685;de;decidim.pages.home.sub_hero.register_title;Konto erstellen
+27686;en;decidim.pages.home.sub_hero.register_title;Create an account
+27691;de;decidim.system.organizations.users_registration_mode.enabled;Benutzern erlauben, Konten zu erstellen und sich anzumelden
+27693;de;decidim.anonymous_proposals.register;Erstellen Sie ein Konto
+27669;de;decidim.devise.registrations.new.sign_up;Neues Konto erstellen
+27670;en;decidim.devise.registrations.new.sign_up;Create account
+22934;en;devise.registrations.signed_up;Welcome! You have successfully created an account. Please confirm your email address by clicking on the link we have sent you.
+22881;de;decidim.doorkeeper.authorizations.new.see_username;Ihren Kontonamen anzeigen
+22882;en;decidim.doorkeeper.authorizations.new.see_username;See your account name
+22883;de;devise.invitations.edit.nickname_help;Sie können auf %{organization} mit «@» andere Nutzenden markieren.
+22884;en;devise.invitations.edit.nickname_help;"On %{organization}, you can tag other users with ""@""."
+22885;de;decidim.admin.officializations.index.nickname;Kürzel
+22886;en;decidim.admin.officializations.index.nickname;Account name
+22887;de;activemodel.attributes.group.nickname;Kürzel
+22888;en;activemodel.attributes.group.nickname;Account name
+22889;de;activerecord.attributes.decidim/user.name;Kürzel
+22890;en;activerecord.attributes.decidim/user.name;Account name
+22891;de;devise.invitations.edit.subtitle;Zur Vervollständigung Ihres Kontos benötigen wir von Ihnen noch folgende Angaben.
+22892;en;devise.invitations.edit.subtitle;If you accept the invitation please set your nickname and password.
+22893;de;devise.invitations.edit.header;Kontoerstellung vervollständigen
+22894;en;devise.invitations.edit.header;Finish creating your account
+22895;de;devise.unlocks.unlocked;Ihr Konto wurde erfolgreich entsperrt. Bitte melden sie sich an, um fortzufahren.
+22896;en;devise.unlocks.unlocked;Your account has been successfully unlocked. Please sign in to continue.
+22897;de;decidim.shared.login_modal.please_sign_in;Bitte melden Sie sich zuerst an.
+22898;en;decidim.shared.login_modal.please_sign_in;Please sign in
+22899;de;devise.failure.timeout;Ihre Sitzung ist abgelaufen. Bitte melden Sie sich erneut an, um fortzufahren.
+22900;en;devise.failure.timeout;Your session expired. Please sign in again to continue.
+22901;de;decidim.components.proposals.settings.step.amendments_visibility_help;Wenn die Option „Ergänzungen sind nur für ihre Autor*innen sichtbar“ ausgewählt ist, müssen Mitwirkende angemeldet sein, um die vorgenommenen Ergänzungen zu sehen.
+22902;en;decidim.components.proposals.settings.step.amendments_visibility_help;"If the option ""Amendments are visible only to their authors"" is selected, participant must be logged in to see the amendments made."
+22903;de;activemodel.attributes.user.nickname;Kürzel
+22904;en;activemodel.attributes.user.nickname;Account name
+22905;de;activemodel.attributes.user.name;Name / Pseudonym
+22906;en;activemodel.attributes.user.name;Name / Nickname
+22909;de;devise.mailer.invitation_instructions.ignore;"Wenn Sie die Einladung nicht annehmen möchten, ignorieren Sie diese E-Mail.<br />
+Ihr Konto wird erst erstellt, wenn Sie auf den obigen Link zugreifen und Ihren Kontonamen und Ihr Passwort festlegen."
+22910;en;devise.mailer.invitation_instructions.ignore;"If you don't want to accept the invitation, please ignore this email.<br />
+Your account won't be created until you access the link above and set your account name and password."
+22913;de;decidim.admin.filters.search_placeholder.name_or_nickname_or_email_cont;Suche in %{collection} nach E-Mail, Name oder Anmeldename.
+22914;en;decidim.admin.filters.search_placeholder.name_or_nickname_or_email_cont;Search %{collection} by email, name or nickname.
+22915;de;decidim.devise.omniauth_registrations.new.nickname_help;Geben Sie hier ein Kürzel ein. Es darf keine Abstände, Umlaute oder Sonderzeichen enthalten. Andere Nutzende können Sie mit @Kürzel in Beiträgen verlinken.
+22916;en;decidim.devise.omniauth_registrations.new.nickname_help;Enter your account name here. It must not contain spaces, umlauts or special characters. You can link other users in posts with @account name.
+22917;de;decidim.devise.registrations.new.nickname_help;Geben Sie hier ein Kürzel ein. Es darf keine Abstände, Umlaute oder Sonderzeichen enthalten. Andere Nutzende können Sie mit @Kürzel in Beiträgen verlinken.
+22918;en;decidim.devise.registrations.new.nickname_help;Enter your account name here. It must not contain spaces, umlauts or special characters. You can link other users in posts with @account name.
+22919;de;decidim.admin.moderated_users.index.nickname;Kürzel
+22920;en;decidim.admin.moderated_users.index.nickname;Account name
+22921;de;decidim.devise.omniauth_registrations.new.username_help;Was Sie in diesem Feld eingeben, wird bei Ihren Beiträgen (Vorschläge / Kommentare etc.) angezeigt. Sie können hier Ihren Namen oder ein Pseudonym setzen.
+22922;en;decidim.devise.omniauth_registrations.new.username_help;What you enter in this field will be displayed with your contributions (suggestions / comments etc.). You can enter your name or a pseudonym here.
+22923;de;decidim.devise.registrations.new.username_help;Was Sie in diesem Feld eingeben, wird bei Ihren Beiträgen (Vorschläge / Kommentare etc.) angezeigt. Sie können hier Ihren Namen oder ein Pseudonym setzen.
+22924;en;decidim.devise.registrations.new.username_help;What you enter in this field will be displayed with your contributions (suggestions / comments etc.). You can enter your name or a pseudonym here.
+22925;de;devise.shared.links.didn_t_receive_confirmation_instructions;Haben Sie keine Bestätigungs–E-Mail erhalten?
+22926;en;devise.shared.links.didn_t_receive_confirmation_instructions;Didn't receive confirmation instructions?
+22927;de;decidim.devise.shared.newsletter_modal.buttons.check;Newsletter erhalten
+22928;en;decidim.devise.shared.newsletter_modal.buttons.check;I want to receive the newsletter
+22931;de;devise.mailer.confirmation_instructions.instruction;Bitte bestätigen Sie Ihre E-Mail-Adresse, indem Sie auf folgenden Link klicken:
+22932;en;devise.mailer.confirmation_instructions.instruction;Please confirm your email address by clicking on the following link:
+22907;de;decidim.devise.registrations.new.subtitle;Zur Teilnahme an gewissen Mitwirkungsprozessen benötigen Sie ein Konto der Plattform «Mitwirken an Zürichs Zukunft».
+22933;de;devise.registrations.signed_up;Herzlich willkommen! Sie haben Ihr Konto erfolgreich erstellt. Bitte bestätigen Sie Ihre E-Mail-Adresse, indem Sie auf den Link klicken, den wir Ihnen soeben zugesandt haben.
+22935;de;devise.sessions.signed_in;Willkommen zurück! Sie haben sich erfolgreich angemeldet.
+22936;en;devise.sessions.signed_in;Welcome back! You have signed in successfully.
+22937;de;decidim.pages.terms_and_conditions.accept.success;Super! Sie haben die Nutzungsbedingungen akzeptiert.
+22938;en;decidim.pages.terms_and_conditions.accept.success;Great! You have accepted the terms and conditions.
+22939;de;decidim.account.blocked;Dieses Konto wurde wegen Verletzung der Nutzungsbedingungen gesperrt
+22940;en;decidim.account.blocked;This account has been blocked due to Terms and Conditions violation
+22941;de;decidim.pages.terms_and_conditions.refuse.modal_title;Lehnen Sie die aktualisierten Nutzungsbedingungen wirklich ab?
+22942;en;decidim.pages.terms_and_conditions.refuse.modal_title;Do you really refuse the updated Terms and Conditions?
+29145;de;decidim.devise.registrations.new.terms;den Nutzungsbedingungen
+29146;en;decidim.devise.registrations.new.terms;the terms of service
+27633;de;decidim.devise.registrations.new.newsletter_title;Informiert bleiben
+27634;en;decidim.devise.registrations.new.newsletter_title;Stay informed
+22929;de;decidim.devise.registrations.new.newsletter;Ich möchte gelegentlich E-Mails mit für mich relevanten Informationen und Neuigkeiten zu Projekten auf der Plattform erhalten. (Für einzelne Projekte ist dieses Häkchen erforderlich, um Informationen zu erhalten.)
+22930;en;decidim.devise.registrations.new.newsletter;I would like to receive occasional emails with information and news about projects on the platform that are relevant to me. (This check mark is required for individual projects in order to receive information.)

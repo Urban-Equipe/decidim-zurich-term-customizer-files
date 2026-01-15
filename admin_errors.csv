@@ -1,0 +1,67 @@
+id;locale;key;value
+23143;de;devise.mailer.invitation_instructions.invited_you_as_admin;%{invited_by} hat Sie als Admin von %{application} eingeladen.
+23144;en;devise.mailer.invitation_instructions.invited_you_as_admin;%{invited_by} has invited you as an admin of %{application}. You can accept it through the link below.
+23145;de;devise.mailer.invitation_instructions.invited_you_as_private_user;%{invited_by} hat Sie als privaten Benutzenden von %{application} eingeladen.
+23146;en;devise.mailer.invitation_instructions.invited_you_as_private_user;%{invited_by} has invited you as a private participant of %{application}. You can accept it through the link below.
+23147;de;devise.mailer.invitation_instructions.accept_until;Diese Einladung ist bis zum %{due_date} gültig.
+23148;en;devise.mailer.invitation_instructions.accept_until;This invitation will be due in %{due_date}.
+23149;de;decidim.pages.admin.models.components.body;Beschreibung
+23150;en;decidim.pages.admin.models.components.body;Body
+23151;de;decidim.proposals.admin.proposals_imports.new.select_states;Welche Kategorisierungen möchten Sie übernehmen?
+23152;en;decidim.proposals.admin.proposals_imports.new.select_states;Check the status of the proposals to import
+23153;de;activemodel.attributes.proposals_import.keep_authors;Ursprüngliche Autor*innen beibehalten
+23154;en;activemodel.attributes.proposals_import.keep_authors;Keep original authors
+23155;de;decidim.metrics.assemblies.title;Organisationen
+23156;en;decidim.metrics.assemblies.title;Assemblies
+23157;de;decidim.participatory_processes.show.related_assemblies;Ähnliche Organisationen
+23158;en;decidim.participatory_processes.show.related_assemblies;Related assemblies
+23159;de;decidim.participatory_process.show.related_assemblies;Ähnliche Organisationen
+23160;en;decidim.participatory_process.show.related_assemblies;Related assemblies
+23161;de;decidim.pages.terms_and_conditions.required_review.alert;Bitte akzeptieren Sie die aktualisierten Nutzungsbedingungen.
+23162;en;decidim.pages.terms_and_conditions.required_review.alert;We've updated our Terms of Service, please review them.
+23163;de;decidim.pages.terms_and_conditions.required_review.body;Bitte nehmen Sie sich einen Moment Zeit, um die aktualisierten Nutzungsbedingungen zu lesen und anzunehmen. Andernfalls können Sie die Plattform nicht mehr nutzen.
+23164;en;decidim.pages.terms_and_conditions.required_review.body;Please take a moment to review updates to our Terms of Services. Otherwise you won't be able to use the platform.
+23165;de;decidim.pages.terms_and_conditions.required_review.title;Nutzungsbedingungen: Annahme erforderlich
+23166;en;decidim.pages.terms_and_conditions.required_review.title;Required: Review updates to our terms of service
+23167;de;decidim.admin.filters.private_space_eq.label;Sichtbarkeit
+23168;en;decidim.admin.filters.private_space_eq.label;Private
+23169;de;decidim.admin.models.assembly.fields.private;Sichtbarkeit
+23170;en;decidim.admin.models.assembly.fields.private;Private
+23171;de;decidim.admin.models.participatory_process.fields.private;Sichtbarkeit
+23172;en;decidim.admin.models.participatory_process.fields.private;Private
+23173;de;decidim.admin.actions.new;%{name} erstellen
+23174;en;decidim.admin.actions.new;New %{name}
+23175;de;decidim.participatory_processes.admin.participatory_processes.form.title;Allgemeine Informationen
+23176;en;decidim.participatory_processes.admin.participatory_processes.form.title;General Information
+23177;de;decidim.admin.menu.participatory_processes_submenu.info;Informationen
+23178;en;decidim.admin.menu.participatory_processes_submenu.info;Info
+23179;de;decidim.admin.models.assembly_user_role.name;Berechtigungen
+23180;en;decidim.admin.models.assembly_user_role.name;Assembly admin
+23181;de;devise.mailer.invitation_instructions.someone_invited_you_as_private_user;Jemand hat Sie als Teilnehmende*r eines privaten Prozesses von %{application} eingeladen.
+23182;en;devise.mailer.invitation_instructions.someone_invited_you_as_private_user;Someone has invited you as private participant of %{application}, you can accept it through the link below.
+23183;de;decidim.admin.models.participatory_space_private_user.name;Private Teilnehmende
+23184;en;decidim.admin.models.participatory_space_private_user.name;Participatory space private participant
+23185;de;decidim.admin.participatory_space_private_users.index.title;Private Teilnehmende
+23186;en;decidim.admin.participatory_space_private_users.index.title;Participatory space private participant
+23187;de;decidim.admin.participatory_space_private_users.new.title;Private Teilnehmende hinzufügen
+23188;en;decidim.admin.participatory_space_private_users.new.title;New Participatory Space private participant.
+23189;de;decidim.newsletter_mailer.newsletter.see_on_website;"Kann diese E-Mail nicht korrekt angezeigt werden?  <a href=""%{link}"" target=""_blank"">Auf der Webseite anschauen.</a>"
+23190;en;decidim.newsletter_mailer.newsletter.see_on_website;"Can’t see this email correctly? View it on the <a href=""%{link}"" target=""_blank"">website</a>."
+23191;de;decidim.newsletter_mailer.newsletter.note;"Sie haben diese E-Mail erhalten, weil Sie den Newsletter auf «%{organization_name}» abonniert haben. Den Empfang von Benachrichtigungen können Sie unter ihren <a href=""%{link}"">Benachrichtigungseinstellungen</a> steuern."
+23192;en;decidim.newsletter_mailer.newsletter.note;"You received this email because you're subscribed to newsletters on %{organization_name}. You can change your settings on your <a href=""%{link}"">notifications page</a>."
+23193;de;decidim.newsletter_mailer.newsletter.unsubscribe;"Wenn Sie den Newsletter gar nicht mehr erhalten möchten, können Sie ihn hier <a href=""%{link}"" target=""_blank"" class=""unsubscribe"">abbestellen</a>."
+23194;en;decidim.newsletter_mailer.newsletter.unsubscribe;"To opt out of receiving this type of email, <a href=""%{link}"" target=""_blank"" class=""unsubscribe"">Unsubscribe</a>."
+23195;de;forms.required_explanation;* Pflichtfelder
+23196;en;forms.required_explanation;* Required fields are marked with an asterisk
+23197;de;decidim.forms.file_help.file.message_2;Verwenden Sie vorzugsweise Landschaftsbilder. Die Plattform schneidet das Bild auf die richtige Grösse zu.
+23198;en;decidim.forms.file_help.file.message_2;For images, preferrably use landscape images. The platform crops the image.
+23199;de;decidim.admin.static_pages.form.slug_help;Bitte nur Pfadenden angeben und beginnen Sie ohne Backslash. Ihr Pfad wird folgendermassen an die Domain angehängt: %{url}
+23200;en;decidim.admin.static_pages.form.slug_help;Use partial paths, not full URLs here. Accepts letters, numbers, dashes and slashes, and must start with a letter. Example: %{url}
+23203;de;decidim.admin.models.attachment.name;Anhang
+23204;en;decidim.admin.models.attachment.name;Attachment
+23205;de;decidim.components.comments.single_comment_warning;"<a href=""%{url}"">Hier</a> können Sie alle Kommentare ansehen."
+23206;en;decidim.components.comments.single_comment_warning;"You can check the rest of the comments <a href=""%{url}"">here</a>."
+23207;de;decidim.events.attachments.attachment_created.notification_title;"Ein <a href=""%{resource_path}"">neues Dokument</a> wurde zum Mitwirkungsprozess <a href=""%{attached_to_url}"">«%{resource_title}»</a> hinzugefügt"
+23208;en;decidim.events.attachments.attachment_created.notification_title;"A <a href=""%{resource_path}"">new document</a> has been added to <a href=""%{attached_to_url}"">%{resource_title}</a>"
+29031;de;decidim.components.comment.alignment.in_favor;Dafür
+29032;en;decidim.components.comment.alignment.in_favor;In favor

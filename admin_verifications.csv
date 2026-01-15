@@ -1,0 +1,13 @@
+id;locale;key;value
+26221;de;decidim.authorization_handlers.admin.csv_census.help.0;Admins laden ein CSV mit den E-Mails der akzeptierten Teilnehmenden hoch.
+26222;en;decidim.authorization_handlers.admin.csv_census.help.0;
+26223;de;decidim.authorization_handlers.admin.csv_census.help.1;Nur Teilnehmende mit einer E-Mail in dieser CSV-Datei können überprüft werden
+26224;en;decidim.authorization_handlers.admin.csv_census.help.1;
+26231;de;decidim.authorization_handlers.admin.id_documents.help.0;Benutzende geben ihre Identitätsinformationen ein und laden eine Kopie ihres Dokuments hoch.
+26232;en;decidim.authorization_handlers.admin.id_documents.help.0;
+26233;de;decidim.authorization_handlers.admin.id_documents.help.2;Die Informationen sollten mit denen übereinstimmen, die die*der Benutzende ausgefüllt hat.
+26234;en;decidim.authorization_handlers.admin.id_documents.help.2;
+26235;de;decidim.authorization_handlers.admin.id_documents.help.3;Wenn Sie die Informationen nicht klar sehen können oder nicht verifiziert werden können, können Sie die Anfrage ablehnen und die*der Benutzende kann sie beheben.
+26236;en;decidim.authorization_handlers.admin.id_documents.help.3;
+26237;de;decidim.authorization_handlers.admin.postal_letter.help.0;Benutzende fordern einen Bestätigungscode an, welcher an ihre Adresse gesendet werden soll.
+26238;en;decidim.authorization_handlers.admin.postal_letter.help.0;

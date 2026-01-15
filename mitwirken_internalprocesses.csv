@@ -1,0 +1,231 @@
+id;locale;key;value
+21461;de;decidim.admin.assembly_imports.new.title;Interner Prozess importieren
+21462;en;decidim.admin.assembly_imports.new.title;Import internal process
+21463;de;decidim.admin.assembly_members.create.error;Beim Hinzufügen eines Mitglieds zu diesem interner Prozess ist ein Fehler aufgetreten.
+21464;en;decidim.admin.assembly_members.create.error;There was a problem adding a member for this internal process.
+21465;de;decidim.admin.assembly_members.create.success;Mitglied wurde diesem internen Prozess erfolgreich hinzugefügt.
+21466;en;decidim.admin.assembly_members.create.success;Member successfully created for this internal process.
+21467;de;decidim.admin.assembly_members.destroy.success;Mitglied wurde erfolgreich aus diesem internen Prozess entfernt.
+21468;en;decidim.admin.assembly_members.destroy.success;Member successfully deleted for this internal process.
+21469;de;decidim.admin.assembly_members.edit.title;Interne Prozessmitglieder aktualisieren.
+21470;en;decidim.admin.assembly_members.edit.title;Update internal process members.
+21471;de;decidim.admin.assembly_members.update.error;Beim Aktualisieren des Mitglieds dieses internen Prozesses ist ein Fehler aufgetreten.
+21472;en;decidim.admin.assembly_members.update.error;There was a problem updating the member for this internal process.
+21473;de;decidim.admin.assembly_members.update.success;Mitglied dieses internen Prozesses erfolgreich aktualisiert.
+21474;en;decidim.admin.assembly_members.update.success;Member successfully updated for this internal process.
+21475;de;decidim.admin.assembly_publications.create.error;Beim Veröffentlichen dieses internen Prozesses ist ein Fehler aufgetreten.
+21476;en;decidim.admin.assembly_publications.create.error;There was a problem publishing this internal process.
+21477;de;decidim.admin.assembly_publications.create.success;Interner Prozess erfolgreich veröffentlicht.
+21478;en;decidim.admin.assembly_publications.create.success;Internal process successfully published.
+21479;de;decidim.admin_log.assembly.create;%{user_name} hat den internen Prozess %{resource_name} erstellt
+21480;en;decidim.admin_log.assembly.create;%{user_name} created the %{resource_name} internal process
+21481;de;decidim.admin_log.assembly.duplicate;%{user_name} hat den internen Prozess %{resource_name} aktualisiert
+21482;en;decidim.admin_log.assembly.duplicate;%{user_name} duplicated the %{resource_name} internal process
+21483;de;decidim.admin_log.assembly.export;%{user_name} hat den internen Prozess %{resource_name} exportiert
+21484;en;decidim.admin_log.assembly.export;%{user_name} exported the %{resource_name} internal process
+21485;de;decidim.admin_log.assembly.import;%{user_name} hat den internen Prozess %{resource_name} importiert
+21486;en;decidim.admin_log.assembly.import;%{user_name} imported the %{resource_name} internal process
+21487;de;decidim.admin_log.assembly.publish;%{user_name} hat den internen Prozess %{resource_name} veröffentlicht
+21488;en;decidim.admin_log.assembly.publish;%{user_name} published the %{resource_name} internal process
+21489;de;decidim.admin_log.assembly.unpublish;"%{user_name} hat den internen Prozess %{resource_name} auf ""unveröffentlicht"" gesetzt"
+21490;en;decidim.admin_log.assembly.unpublish;%{user_name} unpublished the %{resource_name} internal process
+21491;de;decidim.admin_log.assembly.update;%{user_name} hat den internen Prozess %{resource_name} aktualisiert
+21492;en;decidim.admin_log.assembly.update;%{user_name} updated the %{resource_name} internal process
+21493;de;decidim.admin_log.assembly_member.create;%{user_name} hat das Mitglied %{resource_name} im internen Prozess %{space_name} erstellt
+21494;en;decidim.admin_log.assembly_member.create;%{user_name} created the %{resource_name} member in the %{space_name} internal process
+21495;de;decidim.admin_log.assembly_member.delete;%{user_name} hat das Mitglied %{resource_name} aus dem Interner Prozess %{space_name} entfernt
+21496;en;decidim.admin_log.assembly_member.delete;%{user_name} removed the %{resource_name} member from the %{space_name} internal process
+21497;de;decidim.admin_log.assembly_member.update;%{user_name} hat das Mitglied %{resource_name} im internen Prozess %{space_name} aktualisiert
+21498;en;decidim.admin_log.assembly_member.update;%{user_name} updated the %{resource_name} member in the %{space_name} internal process
+21500;en;decidim.admin_log.assembly_type.publish;%{user_name} published the %{resource_name} internal process type
+21502;en;decidim.admin_log.assembly_type.unpublish;%{user_name} unpublished the %{resource_name} internal process type
+21503;de;decidim.admin_log.assembly_type.update;%{user_name} hat den interne Prozesstyp %{resource_name} aktualisiert
+21504;en;decidim.admin_log.assembly_type.update;%{user_name} updated the %{resource_name} internal process type
+21505;de;decidim.admin_log.assembly_user_role.create;%{user_name} hat %{resource_name} zum internen Prozess %{space_name} eingeladen
+21506;en;decidim.admin_log.assembly_user_role.create;%{user_name} invited %{resource_name} to the %{space_name} internal process
+21507;de;decidim.admin_log.assembly_user_role.delete;%{user_name} hat %{resource_name} aus dem interner Prozess %{space_name} entfernt
+21508;en;decidim.admin_log.assembly_user_role.delete;%{user_name} removed the participant %{resource_name} from the %{space_name} internal process
+21509;de;decidim.admin_log.assembly_user_role.update;%{user_name} hat die Rolle von %{resource_name} im internen Prozess %{space_name} geändert
+21510;en;decidim.admin_log.assembly_user_role.update;%{user_name} changed the role of %{resource_name} in the %{space_name} internal process
+21401;de;activerecord.models.decidim/assembly.other;Interne Prozesse
+21402;en;activerecord.models.decidim/assembly.other;Internal Processes
+21403;de;activerecord.models.decidim/assembly_member.one;Interne Prozessmitglieder
+21404;en;activerecord.models.decidim/assembly_member.one;Internal Process member
+21405;de;decidim.admin.menu.assemblies;Interne Prozesse
+21406;en;decidim.admin.menu.assemblies;Internal Processes
+21407;de;decidim.admin.titles.assemblies;Interne Prozesse
+21408;en;decidim.admin.titles.assemblies;Internal Processes
+21409;de;decidim.admin.assembly_members.index.assembly_members_title;Interne Prozessmitglieder
+21410;en;decidim.admin.assembly_members.index.assembly_members_title;Internal Process members
+21411;de;decidim.admin.assembly_members.new.title;Neues, internes Prozessemitglied.
+21412;en;decidim.admin.assembly_members.new.title;New internal process member.
+21413;de;decidim.admin.assembly_user_roles.edit.title;Internes Prozessmitglied aktualiseren
+21414;en;decidim.admin.assembly_user_roles.edit.title;Update internal process admin.
+21415;de;decidim.admin_log.assembly_setting.update;%{user_name} hat die internen Prozesseinstellungen aktualisiert
+21416;en;decidim.admin_log.assembly_setting.update;%{user_name} updated the internal process settings
+21417;de;decidim.admin_log.assembly_type.create;%{user_name} hat den internen Prozesstyp %{resource_name} erstellt
+21418;en;decidim.admin_log.assembly_type.create;%{user_name} created the %{resource_name} internal process type
+21420;en;decidim.admin_log.assembly_type.delete;%{user_name} removed the %{resource_name} internal process type
+21421;de;decidim.admin.actions.new_assembly;Neuer interner Prozess
+21422;en;decidim.admin.actions.new_assembly;New internal process
+21423;de;decidim.admin.actions.new_assembly_type;Neuer interner Prozesstyp
+21424;en;decidim.admin.actions.new_assembly_type;New internal process type
+21425;de;decidim.admin.models.assembly.name;Interner Prozess
+21426;en;decidim.admin.models.assembly.name;Internal Process
+21427;de;decidim.admin.assemblies.create.error;Beim Erstellen eines neuen internen Prozesses ist ein Fehler aufgetreten.
+21428;en;decidim.admin.assemblies.create.error;There was a problem creating a new internal process.
+21429;de;decidim.admin.assemblies.create.success;Der interne Prozess wurde erfolgreich erstellt.
+21430;en;decidim.admin.assemblies.create.success;Internal process created successfully.
+21431;de;decidim.admin.assemblies.new.title;Neuer interner Prozess
+21432;en;decidim.admin.assemblies.new.title;New internal process
+21433;de;decidim.admin.assemblies.update.error;Beim Aktualisieren dieses interner Prozesses ist ein Fehler aufgetreten.
+21434;en;decidim.admin.assemblies.update.error;There was a problem updating this internal process.
+21435;de;decidim.admin.assemblies_copies.create.error;Beim Duplizieren dieses internen Prozesses ist ein Fehler aufgetreten.
+21436;en;decidim.admin.assemblies_copies.create.error;There was a problem duplicating this internal process.
+21437;de;decidim.admin.assemblies_copies.create.success;Der interne Prozess wurde erfolgreich dupliziert.
+21438;en;decidim.admin.assemblies_copies.create.success;Internal process successfully duplicated.
+21439;de;decidim.admin.assemblies_types.create.error;Beim Erstellen eines neuen internen Prozesstyps ist ein Fehler aufgetreten.
+21440;en;decidim.admin.assemblies_types.create.error;There was a problem creating a new internal process type.
+21441;de;activerecord.models.decidim/assembly.one;interner Prozess
+21442;en;activerecord.models.decidim/assembly.one;internal process
+21443;de;activerecord.models.decidim/assembly_member.other;Mitglieder des internen Prozesses
+21444;en;activerecord.models.decidim/assembly_member.other;Internal process members
+21445;de;decidim.admin.assemblies_types.create.success;Interner Prozesstyp wurde erfolgreich erstellt.
+21446;en;decidim.admin.assemblies_types.create.success;Internal process type created successfully.
+21447;de;decidim.admin.assemblies_types.destroy.success;Interner Prozesstyp wurde erfolgreich gelöscht.
+21448;en;decidim.admin.assemblies_types.destroy.success;Internal process type successfully deleted.
+21449;de;decidim.admin.assemblies_types.new.title;Neuer interner Prozesstyp
+21450;en;decidim.admin.assemblies_types.new.title;New internal process type
+21451;de;decidim.admin.assemblies_types.update.error;Beim Aktualisieren dieses internen Prozesstyps ist ein Fehler aufgetreten.
+21452;en;decidim.admin.assemblies_types.update.error;There was a problem updating this internal process type.
+21453;de;decidim.admin.assemblies_types.update.success;Interner Prozesstyp wurde erfolgreich aktualisiert.
+21454;en;decidim.admin.assemblies_types.update.success;Internal process type successfully updated.
+21455;de;decidim.admin.assembly_copies.new.title;Duplizierter interner Prozess
+21456;en;decidim.admin.assembly_copies.new.title;Duplicate internal process
+21457;de;decidim.admin.assembly_imports.create.error;Beim Importieren dieses interner Prozesses ist ein Fehler aufgetreten.
+21458;en;decidim.admin.assembly_imports.create.error;There was a problem importing this internal process.
+21459;de;decidim.admin.assembly_imports.create.success;Interner Prozess wurde erfolgreich importiert.
+21460;en;decidim.admin.assembly_imports.create.success;Internal process successfully imported.
+21511;de;decidim.events.assemblies.create_assembly_member.email_intro;"Ein Admin des internen Prozesses <a href=""%{resource_url}"">%{resource_name}</a> hat Sie als Mitglied eingeladen."
+21512;en;decidim.events.assemblies.create_assembly_member.email_intro;"An admin of the <a href=""%{resource_url}"">%{resource_name}</a> internal process has added you as one of its members."
+21513;de;decidim.events.assemblies.create_assembly_member.email_outro;"Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie zu einem internen Prozess eingeladen wurden. Besuchen Sie die <a href=""%{resource_path}"">interne Prozessseite</a>, um teilzunehmen!"
+21514;en;decidim.events.assemblies.create_assembly_member.email_outro;"You have received this notification because you have been invited to an internal process. Check the <a href=""%{resource_path}"">internal process page</a> to contribute!"
+21515;de;decidim.events.assemblies.create_assembly_member.email_subject;Sie wurden als Mitglied des internen Prozesses %{resource_name} eingeladen!
+21516;en;decidim.events.assemblies.create_assembly_member.email_subject;You have been invited to be a member of the %{resource_name} internal process!
+21517;de;decidim.events.assemblies.create_assembly_member.notification_title;"Sie wurden als Mitglied des interner Prozesses <a href=""%{resource_path}"">%{resource_name}</a> registriert. Gehen Sie zur <a href=""%{resource_path}"">internen Prozessseite</a>, um mitzuwirken!"
+21518;en;decidim.events.assemblies.create_assembly_member.notification_title;"You have been registered as a member of Internal Process <a href=""%{resource_path}"">%{resource_name}</a>. Check the <a href=""%{resource_path}"">internal process page</a> to contribute!"
+21519;de;decidim.help.main_topic.default_page.content;"<p>In %{organization} können Sie durch die Felder, die Sie im oberen Menü sehen, an verschiedenen Themen teilnehmen: Prozesse, Interne Prozesse, Initiativen, Beratungen.</p> <p>In jedem Bereich finden Sie verschiedene Optionen für die Teilnahme: Vorschläge machen - einzeln oder mit anderen -, an Debatten teilnehmen, Prioritäten für umzusetzende Projekte setzen, persönliche Treffen und andere Aktionen besuchen.</p>
+"
+21520;en;decidim.help.main_topic.default_page.content;"<p>In %{organization} you can participate and decide on different topics, through the spaces you see in the top menu: Processes, Internal Processes, Initiatives, Consultations.</p> <p>Within each one you will find different options to participate: make proposals - individually or with other people-, take part in debates, prioritize projects to implement, attend face-to-face meetings and other actions.</p>
+"
+21521;de;decidim.help.participatory_spaces.assemblies.title;Was sind interne Prozesse?
+21522;en;decidim.help.participatory_spaces.assemblies.title;What are internal processes?
+21523;de;decidim.menu.assemblies;Interne Prozesse
+21524;en;decidim.menu.assemblies;Internal Processes
+21525;de;decidim.metrics.assemblies.description;Anzahl erstellter interne Prozesse
+21526;en;decidim.metrics.assemblies.description;Number of internal processes created
+21527;de;decidim.metrics.assemblies.object;Interne Prozesse
+21528;en;decidim.metrics.assemblies.object;internal processes
+21529;de;decidim.metrics.assemblies.title;Interne Prozesse
+21530;en;decidim.metrics.assemblies.title;Internal Processes
+21531;de;decidim.statistics.assemblies_count;Interne Prozesse
+21532;en;decidim.statistics.assemblies_count;Internal Processes
+21533;de;decidim.assemblies.admin.assemblies.form.announcement_help;Der Text, den Sie hier eingeben, wird der*dem Benutzenden direkt unter den Informationen zum internen Prozess angezeigt.
+21534;en;decidim.assemblies.admin.assemblies.form.announcement_help;The text you enter here will be shown to the user right below the internal process information.
+21535;de;decidim.assemblies.admin.assemblies.form.included_at_help;Wählen Sie das Datum aus, an dem dieser interner Prozess zu «Mitwirken an Zürichs Zukunft» hinzugefügt wurde. Es muss nicht unbedingt mit dem Erstellungsdatum identisch sein.
+21536;en;decidim.assemblies.admin.assemblies.form.included_at_help;Select the date when this internal process was added to the platform. It does not necessarily have to be the same as the creation date.
+21537;de;decidim.assemblies.admin.assemblies.form.select_an_assembly_type;Wählen Sie einen interner Prozessstyp
+21538;en;decidim.assemblies.admin.assemblies.form.select_an_assembly_type;Select an internal process type
+21539;de;decidim.assemblies.admin.assemblies.form.select_parent_assembly;Übergeordneten internen Prozess auswählen
+21540;en;decidim.assemblies.admin.assemblies.form.select_parent_assembly;Select parent internal process
+21541;de;decidim.assemblies.admin.assemblies.form.slug_help;URL-Slugs werden zum Generieren der URLs verwendet, die auf diesen internen Prozess verweisen. Akzeptiert werden nur Buchstaben, Zahlen und Bindestriche und es muss mit einem Buchstaben beginnen. Beispiel: %{url}
+21542;en;decidim.assemblies.admin.assemblies.form.slug_help;URL slugs are used to generate the URLs that point to this internal process. Only accepts letters, numbers and dashes, and must start with a letter. Example: %{url}
+21543;de;decidim.assemblies.admin.assembly_copies.form.slug_help;URL-Slugs werden zum Generieren der URLs verwendet, die auf diesen interner Prozess verweisen. Akzeptiert werden nur Buchstaben, Zahlen und Bindestriche und es muss mit einem Buchstaben beginnen. Beispiel: %{url}
+21544;en;decidim.assemblies.admin.assembly_copies.form.slug_help;URL slugs are used to generate the URLs that point to this internal process. Only accepts letters, numbers and dashes, and must start with a letter. Example: %{url}
+21545;de;decidim.assemblies.content_blocks.highlighted_assemblies.name;Hervorgehobene interne Prozesse
+21546;en;decidim.assemblies.content_blocks.highlighted_assemblies.name;Highlighted internal processes
+21547;de;decidim.assemblies.index.title;Interne Prozesse
+21548;en;decidim.assemblies.index.title;Internal Processes
+21549;de;decidim.assemblies.pages.home.highlighted_assemblies.active_assemblies;Laufende interne Prozesse
+21550;en;decidim.assemblies.pages.home.highlighted_assemblies.active_assemblies;Active internal processes
+21551;de;decidim.assemblies.pages.home.highlighted_assemblies.see_all_assemblies;Alle internen Prozesse anzeigen
+21552;en;decidim.assemblies.pages.home.highlighted_assemblies.see_all_assemblies;See all internal processes
+21553;de;decidim.assemblies.show.children;Interne Prozesse
+21554;en;decidim.assemblies.show.children;Internal Processes
+21555;de;decidim.conferences.show.related_assemblies;Ähnliche interne Prozesse
+21556;en;decidim.conferences.show.related_assemblies;Related internal processes
+21557;de;layouts.decidim.assemblies.index.promoted_assemblies;Hervorgehobene interne Prozesse
+21558;en;layouts.decidim.assemblies.index.promoted_assemblies;Highlighted internal processes
+21559;de;layouts.decidim.assemblies.order_by_assemblies.assemblies.one;%{count} interner Prozess
+21560;en;layouts.decidim.assemblies.order_by_assemblies.assemblies.one;%{count} internal process
+21561;de;layouts.decidim.assemblies.order_by_assemblies.assemblies.other;%{count} interne Prozesse
+21562;en;layouts.decidim.assemblies.order_by_assemblies.assemblies.other;%{count} internal processes
+21563;de;decidim.assemblies.admin.assembly_imports.form.slug_help;URL-Slugs werden zum Generieren der URLs verwendet, die auf diesen internen Prozess verweisen. Akzeptiert werden nur Buchstaben, Zahlen und Bindestriche und es muss mit einem Buchstaben beginnen. Beispiel: %{url}
+21564;en;decidim.assemblies.admin.assembly_imports.form.slug_help;URL slugs are used to generate the URLs that point to this internal process. Only accepts letters, numbers and dashes, and must start with a letter. Example: %{url}
+21565;de;decidim.assemblies.assemblies.show.title;Über diesen internen Prozess
+21566;en;decidim.assemblies.assemblies.show.title;About this internal process
+21567;de;decidim.assemblies.last_activity.new_assembly;Neuer interner Prozess
+21568;en;decidim.assemblies.last_activity.new_assembly;New internal process
+21569;de;decidim.assemblies.show.social_networks_title;Interner Prozess besuchen unter
+21570;en;decidim.assemblies.show.social_networks_title;Visit internal process on
+21571;de;layouts.decidim.assembly_navigation.assembly_menu_item;Prozess
+21572;en;layouts.decidim.assembly_navigation.assembly_menu_item;Process
+21580;en;activemodel.attributes.assembly.parent_id;Parent assembly
+21587;de;decidim.admin.assemblies.update.success;Die Versammlung wurde erfolgreich aktualisiert.
+21588;en;decidim.admin.assemblies.update.success;Assembly successfully updated.
+21589;de;decidim.admin.assembly_user_roles.create.success;Die*der Admin wurde dieser Organisation erfolgreich hinzugefügt.
+21590;en;decidim.admin.assembly_user_roles.create.success;Admin successfully added to this organisation.
+21597;de;decidim.help.participatory_spaces.assemblies.contextual;"<p>Eine Versammlung ist eine Gruppe von Mitgliedern einer Organisation, die sich regelmäßig treffen, um Entscheidungen über einen bestimmten Bereich oder einen bestimmten Bereich der Organisation zu treffen.</p> <p>Versammlungen halten Meetings ab, einige sind privat und andere sind offen. Wenn sie offen sind, ist es möglich, an ihnen teilzunehmen (z. B. Teilnahme, wenn die Kapazität es erlaubt, Punkte auf die Tagesordnung setzen oder Vorschläge und Entscheidungen dieses Organs kommentieren).</p> <p>Beispiele: Eine Generalversammlung (die einmal im Jahr zusammentritt, um die wichtigsten Aktionslinien der Organisation sowie ihre Exekutivorgane per Abstimmung festzulegen), ein Gleichstellungsbeirat (der alle zwei Monate zusammentritt, um Vorschläge zur Verbesserung der Geschlechterbeziehungen vorzulegen In der Organisation sind eine Evaluierungskommission (die sich jeden Monat zur Überwachung eines Prozesses trifft) oder eine Garantieeinrichtung (die Vorfälle, Missbräuche oder Vorschläge zur Verbesserung der Entscheidungsverfahren sammelt) Beispiele für Versammlungen.</p>
+"
+21579;de;activemodel.attributes.assembly.parent_id;Hauptprozess
+21574;en;activemodel.attributes.assembly.assembly_type;Internal process type
+21573;de;activemodel.attributes.assembly.assembly_type;Interner Prozesstyp
+21575;de;activemodel.attributes.assembly.assembly_type_other;Sonstiger Prozesstyp
+21576;en;activemodel.attributes.assembly.assembly_type_other;Other process type
+21577;de;activemodel.attributes.assembly.decidim_assemblies_type_id;Interner Prozesstyp
+21578;en;activemodel.attributes.assembly.decidim_assemblies_type_id;Internal process type
+21581;de;decidim.admin.filters.decidim_assemblies_type_id_eq.label;Interner Prozesstyp
+21582;en;decidim.admin.filters.decidim_assemblies_type_id_eq.label;Internal process type
+21583;de;decidim.admin.menu.assemblies_types;Interne Prozesstypen
+21584;en;decidim.admin.menu.assemblies_types;Internal process types
+21585;de;decidim.admin.titles.assemblies_types;Interne Prozesstypen
+21586;en;decidim.admin.titles.assemblies_types;Internal process types
+21499;de;decidim.admin_log.assembly_type.publish;%{user_name} hat den internen Prozesstyp %{resource_name} veröffentlicht
+21419;de;decidim.admin_log.assembly_type.delete;%{user_name} hat den internen Prozesstyp %{resource_name} entfernt
+21593;de;decidim.events.assembly.role_assigned.email_outro;Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie ein %{role} des internen Prozesses «%{resource_title}» sind.
+21595;de;decidim.events.assembly.role_assigned.notification_title;"Sie wurden als %{role} für den internen Prozess <a href=""%{resource_url}"">%{resource_title}</a> ausgewählt."
+21594;en;decidim.events.assembly.role_assigned.email_outro;"You have received this notification because you are %{role} of the ""%{resource_title}"" internal process."
+21596;en;decidim.events.assembly.role_assigned.notification_title;"You have been assigned as %{role} for the internal process <a href=""%{resource_url}"">%{resource_title}</a>."
+21598;en;decidim.help.participatory_spaces.assemblies.contextual;"<p>An <strong>assembly</strong> is a group of members of an organization who meet periodically to make decisions about a specific area or scope of the organization.</p> <p>Assemblies hold meetings, some are private and some are open. If they are open, it is possible to participate in them (for example: attending if the capacity allows it, adding points to the agenda, or commenting on the proposals and decisions taken by this organ).</p> <p>Examples: A general assembly (which meets once a year to define the organisation's main lines of action as well as its executive bodies by vote), an equality advisory council (which meets every two months to make proposals on how to improve gender relations in the organisation), an evaluation commission (which meets every month to monitor a process) or a guarantee body (which collects incidents, abuses or proposals to improve decision-making procedures) are all examples of assemblies.</p>
+"
+21599;de;decidim.help.participatory_spaces.assemblies.page;"<p>Eine Versammlung ist eine Gruppe von Mitgliedern einer Organisation, die sich regelmäßig treffen, um Entscheidungen über einen bestimmten Bereich oder einen bestimmten Bereich der Organisation zu treffen.</p> <p>Versammlungen halten Meetings ab, einige sind privat und andere sind offen. Wenn sie offen sind, ist es möglich, an ihnen teilzunehmen (z. B. Teilnahme, wenn die Kapazität es erlaubt, Punkte auf die Tagesordnung setzen oder Vorschläge und Entscheidungen dieses Organs kommentieren).</p> <p>Beispiele: Eine Generalversammlung (die einmal im Jahr zusammentritt, um die wichtigsten Aktionslinien der Organisation sowie ihre Exekutivorgane per Abstimmung festzulegen), ein Gleichstellungsbeirat (der alle zwei Monate zusammentritt, um Vorschläge zur Verbesserung der Geschlechterbeziehungen vorzulegen In der Organisation sind eine Evaluierungskommission (die sich jeden Monat zur Überwachung eines Prozesses trifft) oder eine Garantieeinrichtung (die Vorfälle, Missbräuche oder Vorschläge zur Verbesserung der Entscheidungsverfahren sammelt) Beispiele für Versammlungen.</p>
+"
+21600;en;decidim.help.participatory_spaces.assemblies.page;"<p>An <strong>assembly</strong> is a group of members of an organization who meet periodically to make decisions about a specific area or scope of the organization.</p> <p>Assemblies hold meetings, some are private and some are open. If they are open, it is possible to participate in them (for example: attending if the capacity allows it, adding points to the agenda, or commenting on the proposals and decisions taken by this organ).</p> <p>Examples: A general assembly (which meets once a year to define the organisation's main lines of action as well as its executive bodies by vote), an equality advisory council (which meets every two months to make proposals on how to improve gender relations in the organisation), an evaluation commission (which meets every month to monitor a process) or a guarantee body (which collects incidents, abuses or proposals to improve decision-making procedures) are all examples of assemblies.</p>
+"
+21601;de;decidim.log.value_types.assembly_type_presenter.not_found;Der Versammlungstyp wurde nicht in der Datenbank gefunden (ID: %{id})
+21602;en;decidim.log.value_types.assembly_type_presenter.not_found;The assembly type was not found on the database (ID: %{id})
+21603;de;decidim.participatory_process.show.related_assemblies;Ähnliche Organisationen
+21604;en;decidim.participatory_process.show.related_assemblies;Related assemblies
+21605;de;decidim.participatory_processes.show.related_assemblies;Ähnliche Organisationen
+21606;en;decidim.participatory_processes.show.related_assemblies;Related assemblies
+21607;de;decidim.assemblies.admin.assemblies.form.address_help;Wenn die Versammlung eine physische Adresse hat, füllen Sie dieses Feld mit ihrer Adresse aus.
+21608;en;decidim.assemblies.admin.assemblies.form.address_help;Wenn die Versammlung eine physische Adresse hat, füllen Sie dieses Feld mit ihrer Adresse aus.
+21609;de;decidim.assemblies.admin.assemblies_settings.form.title;Einstellungen für Versammlungen
+21610;en;decidim.assemblies.admin.assemblies_settings.form.title;Settings for assemblies
+21611;de;decidim.assemblies.pages.home.highlighted_assemblies.assemblies_button_title;Verknüpfung zu der Versammlungsseite mit einem Überblick aller Versammlungen
+21612;en;decidim.assemblies.pages.home.highlighted_assemblies.assemblies_button_title;Link to the Assemblies page displaying all the assemblies
+21623;de;activemodel.attributes.assembly.local_area;Prozessleitung
+21624;en;activemodel.attributes.assembly.local_area;Organization area
+21621;de;activemodel.attributes.assemblies_setting.enable_organization_chart;Prozessdiagramm aktivieren
+21622;en;activemodel.attributes.assemblies_setting.enable_organization_chart;Enable internal process chart
+21501;de;decidim.admin_log.assembly_type.unpublish;"%{user_name} hat den internen Prozesstyp %{resource_name} auf ""unveröffentlicht"" gesetzt"
+21613;de;decidim.assemblies.show.private_space;Dies ist ein privater, interner Prozess
+21614;en;decidim.assemblies.show.private_space;This is a private internal process
+21591;de;decidim.events.assembly.role_assigned.email_intro;"Sie wurden als %{role} für den internen Prozess ""%{resource_title}"" ausgewählt."
+21592;en;decidim.events.assembly.role_assigned.email_intro;"You have been assigned as %{role} for the internal process ""%{resource_title}""."
+21615;de;decidim.geo.admin.geo_configs.only_assemblies;Ausschliesslich interne Prozess auf der internen Prozessseite anzeigen
+21616;en;decidim.geo.admin.geo_configs.only_assemblies;Display only internal processes on internal processes
+21617;de;decidim.geo.filters.type.only_assemblies;Interne Prozesse
+21618;en;decidim.geo.filters.type.only_assemblies;Internal processes
+21619;de;layouts.decidim.assemblies.index.children;Interne Prozesse:
+21620;en;layouts.decidim.assemblies.index.children;Internal processes: 

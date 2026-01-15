@@ -1,0 +1,9 @@
+id;locale;key;value
+22333;de;decidim.links.warning.title;Externe Weiterleitung
+22334;en;decidim.links.warning.title;Open external link
+22335;de;decidim.links.warning.body_1;Dieser Link führt Sie auf eine externe Seite. Die Stadt Zürich übernimmt keine Haftung für die aufgerufene Seite.
+22336;en;decidim.links.warning.body_1;This link takes you to an external page. The City of Zurich accepts no liability for the page accessed.
+22337;de;decidim.links.warning.close_modal;Fenster schliessen
+22338;en;decidim.links.warning.close_modal;Close modal
+22339;de;decidim.links.warning.body_2;Bitte überprüfen Sie den folgenden Link und vergewissern Sie sich, dass es sich um Ihre gewünschte Website handelt, bevor Sie fortfahren.
+22340;en;decidim.links.warning.body_2;Please check the link you are about to visit and make sure you recognize it as a safe site before proceeding.

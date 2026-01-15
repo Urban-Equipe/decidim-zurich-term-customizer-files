@@ -1,0 +1,11 @@
+id;locale;key;value
+531;de;decidim.pages.index.subheading;Hier finden Sie Informationen zur Plattform %{name}.
+532;en;decidim.pages.index.subheading;Here you will find questions and answers about %{name}.
+533;de;decidim.pages.index.standalone_pages;Rechtliches
+534;en;decidim.pages.index.standalone_pages;Legal
+535;de;decidim.pages.index.topics;Fragen & Antworten
+536;en;decidim.pages.index.topics;Frequently Asked Questions
+537;de;decidim.pages.index.title;Informationen, Hilfe & Rechtliches
+538;en;decidim.pages.index.title;Information, Help & Legal
+539;de;decidim.menu.help;Informationen
+540;en;decidim.menu.help;Information

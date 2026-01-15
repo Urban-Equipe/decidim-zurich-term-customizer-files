@@ -1,0 +1,89 @@
+id;locale;key;value
+21056;en;decidim.admin.areas.update.error;There was a problem updating this scope.
+21013;de;decidim.shared.participatory_space_filters.filters.areas;Themen
+21014;en;decidim.shared.participatory_space_filters.filters.areas;Scopes
+21015;de;decidim.participatory_processes.show.area;Thema
+21016;en;decidim.participatory_processes.show.area;Scope
+21017;de;activemodel.attributes.participatory_process.area_id;Thema
+21018;en;activemodel.attributes.participatory_process.area_id;Scope
+21019;de;activemodel.attributes.participatory_process.decidim_area_id;Thema
+21020;en;activemodel.attributes.participatory_process.decidim_area_id;Scope
+21021;de;activemodel.attributes.assembly.area_id;Thema
+21022;en;activemodel.attributes.assembly.area_id;Scope
+21023;de;activemodel.attributes.assembly.decidim_area_id;Thema
+21024;en;activemodel.attributes.assembly.decidim_area_id;Scope
+21025;de;decidim.admin.area_types.create.error;Beim Erstellen einer neuen Themenklassen ist ein Fehler aufgetreten.
+21026;en;decidim.admin.area_types.create.error;There was a problem creating a new scope type.
+21027;de;decidim.admin.area_types.create.success;Themaklasse wurde erfolgreich erstellt.
+21028;en;decidim.admin.area_types.create.success;Scope type created successfully.
+21029;de;decidim.admin.area_types.destroy.success;Die Themaklasse wurde erfolgreich gelöscht
+21030;en;decidim.admin.area_types.destroy.success;Scope type successfully destroyed
+21031;de;decidim.admin.area_types.new.create;Themaklasse erstellen
+21032;en;decidim.admin.area_types.new.create;Create scope type
+21033;de;decidim.admin.area_types.edit.title;Themaklasse bearbeiten
+21034;en;decidim.admin.area_types.edit.title;Edit scope type
+21035;de;decidim.admin.area_types.new.title;Neue Themaklasse
+21036;en;decidim.admin.area_types.new.title;New scope type
+21037;de;decidim.admin.area_types.update.error;Beim Aktualisieren dieser Themaklasse ist ein Fehler aufgetreten.
+21038;en;decidim.admin.area_types.update.error;There was a problem updating this scope type.
+21039;de;decidim.admin.area_types.update.success;Themaklasse wurde erfolgreich aktualisiert
+21040;en;decidim.admin.area_types.update.success;Scope type updated successfully
+21041;de;decidim.admin.areas.create.error;Beim Erstellen des neuen Themas ist ein Fehler aufgetreten.
+21042;en;decidim.admin.areas.create.error;There was a problem creating a new scope.
+21043;de;decidim.admin.areas.create.success;Thema wurde erfolgreich erstellt.
+21044;en;decidim.admin.areas.create.success;Scope created successfully.
+21045;de;decidim.admin.areas.destroy.has_spaces;Dieses Thema wird noch verwendet. Passen Sie zunächst die Mitwirkungsprozesse / Organisationen an, bevor Sie dieses Thema löschen können.
+21046;en;decidim.admin.areas.destroy.has_spaces;Scope has dependent spaces, it must not have dependencies in order to be deleted.
+21047;de;decidim.admin.areas.destroy.success;Thema wurde erfolgreich gelöscht
+21048;en;decidim.admin.areas.destroy.success;Scope successfully destroyed
+21049;de;decidim.admin.areas.edit.title;Thema bearbeiten
+21050;en;decidim.admin.areas.edit.title;Edit scope
+21051;de;decidim.admin.areas.new.create;Thema erstellen
+21052;en;decidim.admin.areas.new.create;Create scope
+21053;de;decidim.admin.areas.no_areas;Keine Themen
+21054;en;decidim.admin.areas.no_areas;No Scopes
+21055;de;decidim.admin.areas.update.error;Beim Aktualisieren dieses Themas ist ein Fehler aufgetreten.
+21057;de;decidim.admin.areas.update.success;Thema wurde erfolgreich aktualisiert
+21058;en;decidim.admin.areas.update.success;Scope updated successfully
+21059;de;decidim.admin.menu.area_types;Themaklassen
+21060;en;decidim.admin.menu.area_types;Scope types
+21061;de;decidim.admin.menu.areas;Themen (Areas)
+21062;en;decidim.admin.menu.areas;Scopes
+21063;de;decidim.admin.models.area.fields.area_type;Themaklasse (Area types)
+21064;en;decidim.admin.models.area.fields.area_type;Scope type
+21065;de;decidim.admin.titles.area_types;Themaklassen
+21066;en;decidim.admin.titles.area_types;Scope types
+21067;de;decidim.admin.titles.areas;Themen
+21068;en;decidim.admin.titles.areas;Scopes
+21069;de;decidim.admin_log.area.create;%{user_name} hat das Thema %{resource_name} erstellt
+21070;en;decidim.admin_log.area.create;%{user_name} created the %{resource_name} scope
+21071;de;decidim.admin_log.area.delete;%{user_name} hat das Thema %{resource_name} gelöscht
+21072;en;decidim.admin_log.area.delete;%{user_name} deleted the %{resource_name} scope
+21073;de;decidim.admin_log.area.update;%{user_name} hat das Thema %{resource_name} aktualisiert
+21074;en;decidim.admin_log.area.update;%{user_name} updated the %{resource_name} scope
+21075;de;decidim.log.value_types.area_presenter.not_found;Das Thema wurde nicht in der Datenbank gefunden (ID: %{id})
+21076;en;decidim.log.value_types.area_presenter.not_found;The scope was not found on the database (ID: %{id})
+21077;de;decidim.log.value_types.area_type_presenter.not_found;Die Themaklasse wurde nicht in der Datenbank gefunden (ID: %{id})
+21078;en;decidim.log.value_types.area_type_presenter.not_found;The scope type was not found on the database (ID: %{id})
+21079;de;decidim.shared.participatory_space_filters.filters.select_an_area;Wählen Sie ein Thema aus
+21080;en;decidim.shared.participatory_space_filters.filters.select_an_area;Select an scope
+21081;de;decidim.participatory_processes.admin.participatory_processes.form.select_an_area;Wählen Sie ein Thema aus
+21082;en;decidim.participatory_processes.admin.participatory_processes.form.select_an_area;Select an Scope
+21083;de;decidim.assemblies.admin.assemblies.form.select_an_area;Wählen Sie ein Thema
+21084;en;decidim.assemblies.admin.assemblies.form.select_an_area;Select an Scope
+21085;de;decidim.assemblies.show.area;Thema
+21086;en;decidim.assemblies.show.area;Scope
+21087;de;decidim.navigation_maps.admin.areas.create.error;Ein Fehler ist beim Erstellen des Themas aufgetreten 
+21088;en;decidim.navigation_maps.admin.areas.create.error;An error ocurred while creating the scope
+21089;de;decidim.navigation_maps.admin.areas.create.success;Thema erfolgreich erstellt
+21090;en;decidim.navigation_maps.admin.areas.create.success;Scope created successfully
+21091;de;decidim.navigation_maps.admin.areas.new.area;Neue Themasdetails
+21092;en;decidim.navigation_maps.admin.areas.new.area;New scope details
+21093;de;decidim.navigation_maps.admin.areas.show.area;Themasdetails
+21094;en;decidim.navigation_maps.admin.areas.show.area;Scope details
+21095;de;decidim.navigation_maps.admin.areas.update.error;Ein Fehler ist aufgetreten beim Anpassen eines Themas
+21096;en;decidim.navigation_maps.admin.areas.update.error;An error ocurred while saving the scope
+21097;de;decidim.navigation_maps.admin.areas.update.success;Thema erfolgreich gespeichert
+21098;en;decidim.navigation_maps.admin.areas.update.success;Scope saved successfully
+21099;de;activemodel.attributes.area.area_type;Themaklasse
+21100;en;activemodel.attributes.area.area_type;Scope type

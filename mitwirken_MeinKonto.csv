@@ -1,0 +1,4 @@
+id;locale;key;value
+208;de;devise.omniauth_callbacks.success;Sie haben sich erfolgreich mit Ihrem «Mein Konto»-Profil angemeldet.
+2919;de;devise.shared.links.sign_in_with_provider;Mit «Mein Konto» anmelden
+2920;en;devise.shared.links.sign_in_with_provider;Log in via «Mein Konto»

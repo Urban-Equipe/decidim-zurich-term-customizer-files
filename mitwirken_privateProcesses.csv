@@ -1,0 +1,19 @@
+id;locale;key;value
+4705;de;devise.mailer.invitation_instructions.invited_you_as_private_user;%{invited_by} hat Sie als Teilnehmenden eines privaten Prozesses auf der städtischen Partizipationsplattform %{application} eingeladen. Wenn Sie auf den Link klicken, müssen Sie zunächst ein Konto auf %{application} erstellen. Danach finden Sie den gewünschten Prozess im Hauptmenü im Reiter «Mitwirkungsprozesse».
+4706;en;devise.mailer.invitation_instructions.invited_you_as_private_user;%{invited_by} has invited you as a private participant of %{application}. You can accept it through the link below.
+4707;de;devise.mailer.invite_private_user.subject;%{organization}: Einladung zur Teilnahme an einem privaten Prozess
+4708;en;devise.mailer.invite_private_user.subject;You've been invited to a private participatory process on %{organization}
+4715;de;decidim.admin.participatory_space_private_users.create.success;Teilnehmende erfolgreich zum privaten Prozess hinzugefügt.
+4716;en;decidim.admin.participatory_space_private_users.create.success;Participatory space private participant access successfully created.
+4717;de;decidim.admin.participatory_space_private_users.destroy.error;Teilnehmende konnte aufgrund eines Fehlers nicht vom privaten Prozess gelöscht werden.
+4718;en;decidim.admin.participatory_space_private_users.destroy.error;There was a problem deleting a private participant for this participatory space.
+4719;de;decidim.admin.participatory_space_private_users.destroy.success;Teilnehmende wurde erfolgreich vom privaten Prozess entfernt.
+4720;en;decidim.admin.participatory_space_private_users.destroy.success;Participatory space private participant access successfully destroyed.
+4721;de;decidim.follows.create.participatory_space;Sie folgen bereits dem Prozess
+4722;en;decidim.follows.create.participatory_space;Notifications activated
+4709;de;decidim.admin_log.participatory_space_private_user.create;%{user_name} hat %{resource_name} als Teilnehmende eines privaten Prozesses eingeladen
+4710;en;decidim.admin_log.participatory_space_private_user.create;%{user_name} invited %{resource_name} to be a private participant
+4711;de;decidim.admin_log.participatory_space_private_user.create_via_csv;%{user_name} hat %{resource_name} als Teilnehmende eines privaten Prozesses per CSV eingeladen
+4712;en;decidim.admin_log.participatory_space_private_user.create_via_csv;%{user_name} invited %{resource_name} via csv to be a private participant
+4713;de;decidim.admin_log.participatory_space_private_user.delete;%{user_name} hat den Benutzenden %{resource_name} als Teilnehmende vom privaten Prozess entfernt
+4714;en;decidim.admin_log.participatory_space_private_user.delete;%{user_name} removed the participant %{resource_name} as a private participant
