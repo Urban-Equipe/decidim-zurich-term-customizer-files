@@ -3,6 +3,8 @@
 This repository contains the **Term Customizer CSV files** used on the City of Zürich’s Decidim platform **«Mitwirken an Zürichs Zukunft»**.  
 They define project‑specific and environment‑specific wording that overrides the standard Decidim translations (e.g. labels, button texts, help texts) without forking Decidim itself.
 
+The underlying Decidim Zürich codebase is maintained in the repository **[`puzzle/decidim-zuerich`](https://github.com/puzzle/decidim-zuerich)**; this Term Customizer repository complements it by versioning tenant- and process-specific wording.
+
 All process details and conventions are documented in the Decidim Zürich wiki under **A. Prozessdokumentation**, especially **A.3 Sprachfiles & Term-Customizer-Konventionen**:  
 [A. Prozessdokumentation – decidim-zuerich Wiki](https://github.com/puzzle/decidim-zuerich/wiki/A.-Prozessdokumentation)
 
