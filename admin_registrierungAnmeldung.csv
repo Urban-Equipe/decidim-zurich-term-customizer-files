@@ -4,7 +4,6 @@ id;locale;key;value
 28310;en;decidim.shared.follow_button.sign_in_before_follow;Please sign in before performing this action
 28309;de;decidim.shared.follow_button.sign_in_before_follow;Bitte erstellen Sie ein Konto oder melden sich an, bevor Sie diese Aktion ausführen
 28288;en;decidim.anonymous_proposals.new_session;sign in
-28287;de;decidim.anonymous_proposals.new_session;melden Sie sich an
 28811;de;decidim.devise.sessions.new.register;Konto erstellen
 28812;en;decidim.devise.sessions.new.register;Create an account
 28289;de;decidim.anonymous_proposals.shared.anonymous_proposals_announcement.text_html;<p><strong> %{registration_link} oder %{new_session_link} damit Sie keine Neuigkeiten zum Prozess verpassen</strong>. Mit einem Konto können Sie bei allen Vorschlägen kommentieren, am Meinungsaustausch teilnehmen und Ihre Unterstützung für Vorschläge zeigen. Sie entscheiden auch, ob Sie Benachrichtigungen erhalten möchten, wenn jemand Ihren Vorschlag unterstützt oder kommentiert.</p> <p><em>Wenn Sie anonym bleiben möchten, können Sie bei der Kontoerstellung ein Pseudonym angeben.</em></p>
@@ -105,3 +104,14 @@ Your account won't be created until you access the link above and set your accou
 27634;en;decidim.devise.registrations.new.newsletter_title;Stay informed
 22929;de;decidim.devise.registrations.new.newsletter;Ich möchte gelegentlich E-Mails mit für mich relevanten Informationen und Neuigkeiten zu Projekten auf der Plattform erhalten. (Für einzelne Projekte ist dieses Häkchen erforderlich, um Informationen zu erhalten.)
 22930;en;decidim.devise.registrations.new.newsletter;I would like to receive occasional emails with information and news about projects on the platform that are relevant to me. (This check mark is required for individual projects in order to receive information.)
+29235;de;decidim.devise.shared.newsletter_modal.notice;"<p><strong>Sind Sie sicher, dass Sie keinen Newsletter erhalten möchten?</strong></p>
+<p>Einige Prozesse (z.B. die VBZ Fahrgaststimme) sind darauf angewiesen, sie mittels Newsletter zu kontaktieren.</p>
+<p>Sie erhalten nur zu denjenigen Prozessen einen Newsletter, bei denen Sie aktiv mitwirken und/oder sich für Neuigkeiten anmelden.</p>
+<p> Besten Dank für Ihre Kenntnisnahme.</p>"
+29236;en;decidim.devise.shared.newsletter_modal.notice;"<p><strong>Are you sure you do not want to receive a newsletter?</strong></p>
+<p>Some processes (e.g. the VBZ passenger survey) require us to contact you via newsletter.</p>
+<p>You will only receive newsletters for those processes in which you are actively involved and/or have registered for news.</p>
+<p>Thank you for your understanding.</p>"
+29237;de;decidim.devise.shared.newsletter_modal.title;Empfang Newsletter
+29238;en;decidim.devise.shared.newsletter_modal.title;Newsletter notifications
+28287;de;decidim.anonymous_proposals.new_session;Melden Sie sich an
