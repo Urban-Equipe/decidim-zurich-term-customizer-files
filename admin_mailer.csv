@@ -178,6 +178,8 @@ id;locale;key;value
 28987;de;decidim.events.attachments.attachment_created.email_intro;Ein neues Dokument wurde zu «%{resource_title}» hinzugefügt. Weitere Informationen:
 28988;en;decidim.events.attachments.attachment_created.email_intro;A new document has been added to %{resource_title}. More information: 
 29194;en;decidim.events.proposals.proposal_update_scope.email_intro;"An admin has updated the scope of your proposal ""%{resource_title}"". More information:"
+29221;de;decidim.notifications_digest_mailer.hello;Guten Tag %{name}
+29224;en;decidim.notifications_digest_mailer.intro.daily;The following news items are relevant to you on the municipal participation platform:
 29165;de;decidim.events.amendments.amendment_accepted.follower.email_intro;Eine Änderung für %{amendable_title} wurde akzeptiert. Weitere Informationen:
 29166;en;decidim.events.amendments.amendment_accepted.follower.email_intro;An amendment has been accepted for %{amendable_title}. More information:
 29167;de;decidim.events.amendments.amendment_created.affected_user.email_intro;Eine neue Änderung wurde für %{amendable_title} vorgeschlagen. Weitere Informationen:
@@ -217,3 +219,21 @@ id;locale;key;value
 %{author_name} %{author_nickname}, who you are following, has created a new debate ""%{resource_title}"". Check it out and contribute:"
 29163;de;decidim.events.amendments.amendment_accepted.affected_user.email_intro;Eine Änderung an %{amendable_title} wurde akzeptiert. Weitere Informationen:
 29164;en;decidim.events.amendments.amendment_accepted.affected_user.email_intro;An amendment has been accepted for %{amendable_title}. More information:
+29215;de;decidim.notifications_digest_mailer.header.daily;Tägliche Zusammenfassung
+29216;en;decidim.notifications_digest_mailer.header.daily;Daily Notification Digest
+29217;de;decidim.notifications_digest_mailer.header.real_time;In Echtzeit
+29218;en;decidim.notifications_digest_mailer.header.real_time;Real time
+29219;de;decidim.notifications_digest_mailer.header.weekly;Wöchentliche Zusammenfassung
+29220;en;decidim.notifications_digest_mailer.header.weekly;Weekly Notification Digest
+29222;en;decidim.notifications_digest_mailer.hello;Hello %{name},
+29223;de;decidim.notifications_digest_mailer.intro.daily;Folgende Neuigkeiten sind auf der städtischen Mitwirkungsplattform für Sie relevant:
+29225;de;decidim.notifications_digest_mailer.intro.real_time;Wir benachrichtigen Sie mit folgender Meldung von der städtischen Mitwirkungsplattform:
+29227;de;decidim.notifications_digest_mailer.intro.weekly;Folgende Neuigkeiten aus der letzten Woche sind auf der städtischen Mitwirkungsplattform für Sie relevant:	
+29228;en;decidim.notifications_digest_mailer.intro.weekly;The following notifications from last week are relevant to you on the municipal participation platform:
+29229;de;decidim.notifications_digest_mailer.outro;Sie haben diese Benachrichtigung erhalten, weil Sie diesen Inhalt oder seine Verfassenden folgen. Sie können dem Inhalt direkt auf seiner Seite entfolgen.
+29230;en;decidim.notifications_digest_mailer.outro;You have received these notifications because you are following this content or its authors. You can unfollow them from their respective pages.
+29231;de;decidim.notifications_digest_mailer.see_more;Weitere Benachrichtigungen ansehen
+29232;en;decidim.notifications_digest_mailer.see_more;See more notifications
+29233;de;decidim.notifications_digest_mailer.subject;Ihre E-Mail-Zusammenfassung
+29234;en;decidim.notifications_digest_mailer.subject;This is your mail digest
+29226;en;decidim.notifications_digest_mailer.intro.real_time;We are notifying you with the following message from the municipal participation platform:

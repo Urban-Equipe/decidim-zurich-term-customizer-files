@@ -1,0 +1,9 @@
+id;locale;key;value
+29205;de;decidim.budgets.vote_reminder_mailer.vote_reminder.email_intro;Sie haben mit der Abstimmung zum partizipativen Budget begonnen, aber noch nicht abgeschlossen.
+29206;en;decidim.budgets.vote_reminder_mailer.vote_reminder.email_intro;You have started the participatory budgeting vote, but have not completed it.
+29207;de;decidim.budgets.vote_reminder_mailer.vote_reminder.email_subject.one;Stimmabgabe zum partizipativen Budget nicht abgeschlossen
+29208;en;decidim.budgets.vote_reminder_mailer.vote_reminder.email_subject.one;You have an unfinished vote in the participatory budgeting vote
+29209;de;decidim.budgets.vote_reminder_mailer.vote_reminder.email_subject.other;Stimmabgabe zum partizipativen Budget nicht abgeschlossen
+29210;en;decidim.budgets.vote_reminder_mailer.vote_reminder.email_subject.other;You have unfinished votes in the participatory budgeting vote
+29211;de;decidim.budgets.vote_reminder_mailer.vote_reminder.email_outro;Denken Sie daran, die Abstimmung vollständig abzuschliessen: Wählen Sie den oder die gewünschten Vorschläge aus und bestätigen Sie Ihre Auswahl mit einem Klick auf «Abstimmen».
+29212;en;decidim.budgets.vote_reminder_mailer.vote_reminder.email_outro;"Please remember to complete the vote. To vote, you must first select the proposal or proposals you want to vote on and then confirm your vote with the ""Vote"" button."
