@@ -15,3 +15,7 @@ id;locale;key;value
 22714;en;activemodel.attributes.user.nickname;Nickname
 22715;de;decidim.user_interests.show.select_your_interests;Hier können Sie Themen auswählen, die Sie interessieren. In der Zeitleiste in Ihrem öffentlichen Profil können Sie sich über Änderungen in diesen Themenbereichen informieren.
 22716;en;decidim.user_interests.show.select_your_interests;Select the topics you're interested in to receive events related to them in your profile Timeline tab.
+29435;de;activerecord.attributes.user.password_confirmation;Passwort bestätigen
+29436;en;activerecord.attributes.user.password_confirmation;Password confirmation
+29437;de;activemodel.attributes.user.personal_url;Meine Website
+29438;en;activemodel.attributes.user.personal_url;Personal URL

@@ -1,0 +1,39 @@
+id;locale;key;value
+20982;en;decidim.participatory_processes.show.start_date;Start date
+20983;de;decidim.meetings.admin.agenda.form.start_date;Beginn
+20980;en;decidim.admin.models.initiatives_votes.fields.initiative_start_date;Beginn
+20960;en;decidim.admin.models.participatory_process_step.fields.end_date;End date
+20981;de;decidim.participatory_processes.show.start_date;Beginn
+20961;de;decidim.admin.models.initiatives_votes.fields.initiative_end_date;Ende
+20962;en;decidim.admin.models.initiatives_votes.fields.initiative_end_date;Ende
+20965;de;decidim.meetings.admin.agenda.form.end_date;Ende
+20966;en;decidim.meetings.admin.agenda.form.end_date;End date
+20953;de;activemodel.attributes.conference.end_date;Ende
+20947;de;activemodel.attributes.participatory_process.end_date;Ende
+20948;en;activemodel.attributes.participatory_process.end_date;End date
+20951;de;activemodel.attributes.result.end_date;Ende
+20952;en;activemodel.attributes.result.end_date;End date
+20954;en;activemodel.attributes.conference.end_date;End date
+20955;de;activemodel.attributes.dummy_resource.end_date;Ende
+20956;en;activemodel.attributes.dummy_resource.end_date;Ende
+20957;de;decidim.admin.filters.label.search_field_end_date;Bis heute:
+20958;en;decidim.admin.filters.label.search_field_end_date;To date:
+20959;de;decidim.admin.models.participatory_process_step.fields.end_date;Ende
+20968;en;activemodel.attributes.participatory_process.start_date;Start date
+20970;en;activemodel.attributes.participatory_process_step.start_date;Start date
+20971;de;activemodel.attributes.result.start_date;Beginn
+20972;en;activemodel.attributes.result.start_date;Start date
+20974;en;activemodel.attributes.conference.start_date;Start date
+20975;de;activemodel.attributes.dummy_resource.start_date;Beginn
+20976;en;activemodel.attributes.dummy_resource.start_date;Beginn
+20977;de;decidim.admin.models.participatory_process_step.fields.start_date;Beginn
+20978;en;decidim.admin.models.participatory_process_step.fields.start_date;Start date
+20979;de;decidim.admin.models.initiatives_votes.fields.initiative_start_date;Beginn
+20984;en;decidim.meetings.admin.agenda.form.start_date;Start date
+20973;de;activemodel.attributes.conference.start_date;Beginn
+20967;de;activemodel.attributes.participatory_process.start_date;Beginn
+20969;de;activemodel.attributes.participatory_process_step.start_date;Beginn
+20963;de;decidim.participatory_processes.show.end_date;Ende Gesamtprozess
+20964;en;decidim.participatory_processes.show.end_date;End date overall process
+20949;de;activemodel.attributes.participatory_process_step.end_date;Ende Gesamtprozess
+20950;en;activemodel.attributes.participatory_process_step.end_date;End date overall process
