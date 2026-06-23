@@ -3,8 +3,6 @@ id;locale;key;value
 22350;en;decidim.events.accountability.proposal_linked.email_intro;"The proposal ""%{proposal_title}"" is being implemented. You can find further information on this page:"
 22351;de;decidim.events.meetings.meeting_registrations_over_percentage.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie ein Admin der Veranstaltung sind.
 22352;en;decidim.events.meetings.meeting_registrations_over_percentage.email_outro;You have received this notification because you are an admin of the meeting's participatory space.
-22353;de;decidim.newsletter_mailer.newsletter.note;"Sie haben diese E-Mail erhalten, weil Sie den Newsletter auf %{organization_name} abonniert haben. Den Empfang von Benachrichtigungen können Sie in Ihren <a href=""%{link}"">Benachrichtigungseinstellungen</a> anpassen."
-22354;en;decidim.newsletter_mailer.newsletter.note;"You received this email because you're subscribed to newsletters on %{organization_name}. You can change your settings on your <a href=""%{link}"">notifications page</a>."
 22355;de;devise.mailer.invite_admin.subject;%{organization}: Einladung zur Teilnahme als Admin
 22356;en;devise.mailer.invite_admin.subject;You've been invited to manage %{organization}
 22357;de;devise.mailer.invite_collaborator.subject;Sie wurden eingeladen, an %{organization} mitzuwirken
@@ -237,3 +235,13 @@ id;locale;key;value
 29233;de;decidim.notifications_digest_mailer.subject;Ihre E-Mail-Zusammenfassung
 29234;en;decidim.notifications_digest_mailer.subject;This is your mail digest
 29226;en;decidim.notifications_digest_mailer.intro.real_time;We are notifying you with the following message from the municipal participation platform:
+22353;de;decidim.newsletter_mailer.newsletter.note;Sie haben diese E-Mail erhalten, weil Sie den Newsletter auf %{organization_name} abonniert haben.
+22354;en;decidim.newsletter_mailer.newsletter.note;You received this email because you're subscribed to newsletters on %{organization_name}.
+29429;de;decidim.newsletter_mailer.newsletter.see_on_website;"Kann diese E-Mail nicht korrekt angezeigt werden?  <a href=""%{link}"" target=""_blank"">Auf der Webseite anschauen.</a>"
+29430;en;decidim.newsletter_mailer.newsletter.see_on_website;"Can’t see this email correctly? View it on the <a href=""%{link}"" target=""_blank"">website</a>."
+29431;de;decidim.newsletter_mailer.newsletter.unsubscribe;"Den Empfang von Benachrichtigungen können Sie in Ihren <a href=""https://mitwirken.stadt-zuerich.ch/notifications_settings"">Benachrichtigungseinstellungen</a> anpassen."
+29432;en;decidim.newsletter_mailer.newsletter.unsubscribe;"You can change your settings on your <a href=""https://mitwirken.stadt-zuerich.ch/notifications_settings"">notifications page</a>."
+29439;de;decidim.events.proposals.proposal_state_changed.affected_user.email_intro;"Der Status des Vorschlags ""%{resource_title}"" wurde zu ""%{state}"" geändert. Weitere Informationen:"
+29440;en;decidim.events.proposals.proposal_state_changed.affected_user.email_intro;"The proposal ""%{resource_title}"" has changed its state to ""%{state}"". You can read the answer in this page:"
+29441;de;decidim.events.proposals.proposal_state_changed.follower.email_intro;"Der Status Ihres Vorschlags ""%{resource_title}"" wurde zu ""%{state}"" geändert. Weitere Informationen:"
+29442;en;decidim.events.proposals.proposal_state_changed.follower.email_intro;"The proposal ""%{resource_title}"" has changed its state to ""%{state}"". You can read the answer in this page:"
