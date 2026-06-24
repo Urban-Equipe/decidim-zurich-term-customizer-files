@@ -76,12 +76,8 @@ id;locale;key;value
 21744;en;decidim.budgets.budget_information_modal.close_modal;Close modal
 21746;en;decidim.budgets.projects.budget_excess.close;Close
 21748;en;decidim.budgets.projects.exit_modal.close_modal;Close modal
-21750;en;decidim.meetings.close_meeting_reminder_mailer.close_meeting_reminder.subject;You can now close your meeting with a report on the %{organization_name} platform
-21752;en;decidim.meetings.close_meeting_reminder_mailer.close_meeting_reminder.body;"The meeting <a href=""%{meeting_path}"">""%{meeting_title}""</a> is pending to be closed. Please add a report of the meeting using the ""Close meeting"" button."
 21743;de;decidim.budgets.budget_information_modal.close_modal;Dialog schliessen
 21747;de;decidim.budgets.projects.exit_modal.close_modal;Dialog schliessen
-21751;de;decidim.meetings.close_meeting_reminder_mailer.close_meeting_reminder.body;"Die Veranstaltung <a href=""%{meeting_path}"">""%{meeting_title}""</a> wurde noch nicht abgeschlossen. Bitte fügen Sie einen Bericht über die Veranstaltung mit der Schaltfläche ""Meeting schliessen"" hinzu."
-21749;de;decidim.meetings.close_meeting_reminder_mailer.close_meeting_reminder.subject;Sie können Ihre Veranstaltung jetzt mit einem Bericht auf der %{organization_name} Plattform abschliessen
 21739;de;decidim.meetings.meetings.calendar_modal.close_window;Fenster schliessen
 21754;en;decidim.debates.debates.filters_small_view.close_modal;Close modal
 21756;en;decidim.debates.debates.close_debate_modal.send;Close debate

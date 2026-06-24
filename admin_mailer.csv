@@ -338,6 +338,8 @@ id;locale;key;value
 22432;en;decidim.events.meetings.meeting_closed.follower.email_outro;Manage your notifications in your settings.
 ;de;decidim.events.meetings.meeting_closed.follower.email_subject;Veranstaltung «%{resource_title}» abgeschlossen
 ;en;decidim.events.meetings.meeting_closed.follower.email_subject;Event «%{resource_title}» closed
+22369;de;decidim.events.meetings.meeting_created.button_text;Anmeldung
+22370;en;decidim.events.meetings.meeting_created.button_text;Event registration
 ;de;decidim.events.meetings.meeting_created.email_intro;«%{participatory_space_title}» – Neue Veranstaltung: «%{resource_title}».
 ;en;decidim.events.meetings.meeting_created.email_intro;«%{participatory_space_title}» – New event: «%{resource_title}».
 22433;de;decidim.events.meetings.meeting_created.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
@@ -446,6 +448,14 @@ id;locale;key;value
 22460;en;decidim.events.proposals.endorsing_enabled.email_outro;Manage your notifications in your settings.
 ;de;decidim.events.proposals.endorsing_enabled.email_subject;Unterstützen jetzt möglich in «%{participatory_space_title}»
 ;en;decidim.events.proposals.endorsing_enabled.email_subject;Endorsing now possible in «%{participatory_space_title}»
+22389;de;decidim.events.proposals.proposal_accepted.affected_user.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22390;en;decidim.events.proposals.proposal_accepted.affected_user.email_outro;Manage your notifications in your settings.
+22461;de;decidim.events.proposals.proposal_accepted.follower.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22462;en;decidim.events.proposals.proposal_accepted.follower.email_outro;Manage your notifications in your settings.
+22463;de;decidim.events.proposals.proposal_evaluating.affected_user.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22464;en;decidim.events.proposals.proposal_evaluating.affected_user.email_outro;Manage your notifications in your settings.
+22465;de;decidim.events.proposals.proposal_evaluating.follower.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22466;en;decidim.events.proposals.proposal_evaluating.follower.email_outro;Manage your notifications in your settings.
 ;de;decidim.events.proposals.proposal_mentioned.email_intro;"Ihr Vorschlag «%{mentioned_proposal_title}» wurde <a href=""%{resource_url}"">in einem Kommentar</a> erwähnt."
 ;en;decidim.events.proposals.proposal_mentioned.email_intro;"Your proposal «%{mentioned_proposal_title}» was mentioned <a href=""%{resource_url}"">in a comment</a>."
 22467;de;decidim.events.proposals.proposal_mentioned.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
@@ -464,6 +474,10 @@ id;locale;key;value
 22472;en;decidim.events.proposals.proposal_published_for_space.email_outro;Manage your notifications in your settings.
 ;de;decidim.events.proposals.proposal_published_for_space.email_subject;Neuer Vorschlag in «%{participatory_space_title}»
 ;en;decidim.events.proposals.proposal_published_for_space.email_subject;New proposal in «%{participatory_space_title}»
+22473;de;decidim.events.proposals.proposal_rejected.affected_user.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22474;en;decidim.events.proposals.proposal_rejected.affected_user.email_outro;Manage your notifications in your settings.
+22475;de;decidim.events.proposals.proposal_rejected.follower.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22476;en;decidim.events.proposals.proposal_rejected.follower.email_outro;Manage your notifications in your settings.
 29439;de;decidim.events.proposals.proposal_state_changed.affected_user.email_intro;Neuer Status für Ihren Vorschlag «%{resource_title}»: «%{state}».
 29440;en;decidim.events.proposals.proposal_state_changed.affected_user.email_intro;New status for your proposal «%{resource_title}»: «%{state}».
 ;de;decidim.events.proposals.proposal_state_changed.affected_user.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
@@ -597,12 +611,42 @@ id;locale;key;value
 22518;en;decidim.messaging.conversation_mailer.new_group_message.outro;Automated message – please reply directly on the platform.
 22519;de;decidim.messaging.conversation_mailer.new_message.outro;Automatische Nachricht – bitte direkt über die Plattform antworten.
 22520;en;decidim.messaging.conversation_mailer.new_message.outro;Automated message – please reply directly on the platform.
+22353;de;decidim.newsletter_mailer.newsletter.note;Sie haben diese E-Mail erhalten, weil Sie den Newsletter auf %{organization_name} abonniert haben.
+22354;en;decidim.newsletter_mailer.newsletter.note;You received this email because you're subscribed to newsletters on %{organization_name}.
+29429;de;decidim.newsletter_mailer.newsletter.see_on_website;"Wird diese E-Mail nicht korrekt angezeigt? <a href=""%{link}"" target=""_blank"">Auf der Website ansehen.</a>"
+29430;en;decidim.newsletter_mailer.newsletter.see_on_website;"Can’t see this email correctly? View it on the <a href=""%{link}"" target=""_blank"">website</a>."
+29431;de;decidim.newsletter_mailer.newsletter.unsubscribe;"Den Empfang von Benachrichtigungen können Sie in Ihren <a href=""https://mitwirken.stadt-zuerich.ch/notifications_settings"">Benachrichtigungseinstellungen</a> anpassen."
+29432;en;decidim.newsletter_mailer.newsletter.unsubscribe;"You can change your settings on your <a href=""https://mitwirken.stadt-zuerich.ch/notifications_settings"">notifications page</a>."
 ;de;decidim.newsletters_opt_in_mailer.notify.greetings;"Grüsse,<br/>%{organization_name}<br/><a href=""%{organization_url}"">%{organization_url}</a>"
+29215;de;decidim.notifications_digest_mailer.header.daily;Tägliche Zusammenfassung
+29216;en;decidim.notifications_digest_mailer.header.daily;Daily Notification Digest
+29217;de;decidim.notifications_digest_mailer.header.real_time;In Echtzeit
+29218;en;decidim.notifications_digest_mailer.header.real_time;Real time
+29219;de;decidim.notifications_digest_mailer.header.weekly;Wöchentliche Zusammenfassung
+29220;en;decidim.notifications_digest_mailer.header.weekly;Weekly Notification Digest
+29221;de;decidim.notifications_digest_mailer.hello;Guten Tag %{name}
+29222;en;decidim.notifications_digest_mailer.hello;Hello %{name},
+29223;de;decidim.notifications_digest_mailer.intro.daily;Folgende Neuigkeiten sind auf der städtischen Mitwirkungsplattform für Sie relevant:
+29224;en;decidim.notifications_digest_mailer.intro.daily;The following news items are relevant to you on the municipal participation platform:
+29225;de;decidim.notifications_digest_mailer.intro.real_time;Wir benachrichtigen Sie mit folgender Meldung von der städtischen Mitwirkungsplattform:
+29226;en;decidim.notifications_digest_mailer.intro.real_time;We are notifying you with the following message from the municipal participation platform:
+29227;de;decidim.notifications_digest_mailer.intro.weekly;Folgende Neuigkeiten aus der letzten Woche sind auf der städtischen Mitwirkungsplattform für Sie relevant:
+29228;en;decidim.notifications_digest_mailer.intro.weekly;The following notifications from last week are relevant to you on the municipal participation platform:
 29229;de;decidim.notifications_digest_mailer.outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
 29230;en;decidim.notifications_digest_mailer.outro;Manage your notifications in your settings.
+29231;de;decidim.notifications_digest_mailer.see_more;Weitere Benachrichtigungen ansehen
+29232;en;decidim.notifications_digest_mailer.see_more;See more notifications
+29233;de;decidim.notifications_digest_mailer.subject;Ihre E-Mail-Zusammenfassung
+29234;en;decidim.notifications_digest_mailer.subject;This is your mail digest
 ;de;decidim.reported_mailer.report.authors;Autor*innen
 ;de;decidim.user_report_mailer.notify.body_1;Nutzer*in %{user} wurde von %{token} gemeldet
 ;de;decidim.user_report_mailer.notify.greetings;"Grüsse,<br/>%{organization_name}<br/><a href=""%{organization_url}"">%{organization_url}</a>"
 ;de;decidim.user_report_mailer.notify.subject;Ein neuer Nutzer*in wurde in %{organization_name} gemeldet
 ;de;decidim.user_update_mailer.notify.greetings;"Freundliche Grüsse,<br/>%{organization_name}<br/><a href=""%{organization_url}"">%{organization_url}</a>"
+22355;de;devise.mailer.invite_admin.subject;%{organization}: Einladung zur Teilnahme als Admin
+22356;en;devise.mailer.invite_admin.subject;You've been invited to manage %{organization}
+22357;de;devise.mailer.invite_collaborator.subject;Sie wurden eingeladen, an %{organization} mitzuwirken
+22358;en;devise.mailer.invite_collaborator.subject;You've been invited to collaborate on %{organization}
+22359;de;devise.mailer.organization_admin_invitation_instructions.subject;Sie wurden eingeladen, %{organization} zu verwalten
+22360;en;devise.mailer.organization_admin_invitation_instructions.subject;You've been invited to manage %{organization}
 ;de;devise.mailer.unlock_instructions.message;Ihr Konto wurde aufgrund einer übermässigen Anzahl fehlgeschlagener Anmeldeversuche gesperrt.

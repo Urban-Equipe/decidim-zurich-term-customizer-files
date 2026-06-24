@@ -45,12 +45,6 @@ id;locale;key;value
 23186;en;decidim.admin.participatory_space_private_users.index.title;Participatory space private participant
 23187;de;decidim.admin.participatory_space_private_users.new.title;Private Teilnehmende hinzufügen
 23188;en;decidim.admin.participatory_space_private_users.new.title;New Participatory Space private participant.
-23189;de;decidim.newsletter_mailer.newsletter.see_on_website;"Kann diese E-Mail nicht korrekt angezeigt werden?  <a href=""%{link}"" target=""_blank"">Auf der Webseite anschauen.</a>"
-23190;en;decidim.newsletter_mailer.newsletter.see_on_website;"Can’t see this email correctly? View it on the <a href=""%{link}"" target=""_blank"">website</a>."
-23191;de;decidim.newsletter_mailer.newsletter.note;"Sie haben diese E-Mail erhalten, weil Sie den Newsletter auf «%{organization_name}» abonniert haben. Den Empfang von Benachrichtigungen können Sie unter ihren <a href=""%{link}"">Benachrichtigungseinstellungen</a> steuern."
-23192;en;decidim.newsletter_mailer.newsletter.note;"You received this email because you're subscribed to newsletters on %{organization_name}. You can change your settings on your <a href=""%{link}"">notifications page</a>."
-23193;de;decidim.newsletter_mailer.newsletter.unsubscribe;"Wenn Sie den Newsletter gar nicht mehr erhalten möchten, können Sie ihn hier <a href=""%{link}"" target=""_blank"" class=""unsubscribe"">abbestellen</a>."
-23194;en;decidim.newsletter_mailer.newsletter.unsubscribe;"To opt out of receiving this type of email, <a href=""%{link}"" target=""_blank"" class=""unsubscribe"">Unsubscribe</a>."
 23195;de;forms.required_explanation;* Pflichtfelder
 23196;en;forms.required_explanation;* Required fields are marked with an asterisk
 23197;de;decidim.forms.file_help.file.message_2;Verwenden Sie vorzugsweise Landschaftsbilder. Die Plattform schneidet das Bild auf die richtige Grösse zu.

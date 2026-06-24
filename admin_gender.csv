@@ -17,28 +17,18 @@ id;locale;key;value
 24758;en;decidim.author.avatar_multiuser;Avatar for multiple users
 24759;de;decidim.admin.models.user.name;Benutzende*r
 24760;en;decidim.admin.models.user.name;Participant
-24761;de;decidim.messaging.conversation_mailer.comanagers_new_message.admin_in_group;Sie haben diese Benachrichtigung erhalten, weil Sie ein*e Admin von %{group} sind.
-24762;en;decidim.messaging.conversation_mailer.comanagers_new_message.admin_in_group;You are receiving this because you are an admin in %{group}.
 24763;de;decidim.shared.flag_user_modal.already_reported;Dieser Inhalt wurde bereits gemeldet und wird von einer*einem Admin überprüft.
 24764;en;decidim.shared.flag_user_modal.already_reported;This content is already reported and it will be reviewed by an admin.
-24765;de;decidim.messaging.conversation_mailer.new_group_conversation.admin_in_group;Sie haben diese Benachrichtigung erhalten, weil Sie ein*e Admin von %{group} sind.
-24766;en;decidim.messaging.conversation_mailer.new_group_conversation.admin_in_group;You are receiving this because you are an admin in %{group}.
 24767;de;decidim.admin.models.conference_user_role.roles.admin;Admin
 24768;en;decidim.admin.models.conference_user_role.roles.admin;Administrator
-24769;de;decidim.messaging.conversation_mailer.new_group_message.admin_in_group;Sie haben diese Benachrichtigung erhalten, weil Sie ein*e Admin von %{group} sind.
-24770;en;decidim.messaging.conversation_mailer.new_group_message.admin_in_group;You are receiving this because you are an admin in %{group}.
 24771;de;activemodel.models.decidim/demoted_membership;Kein Gruppenadmin mehr
 24772;en;activemodel.models.decidim/demoted_membership;No longer a group admin
 24773;de;activemodel.models.decidim/promoted_to_admin_event;Zur*zum Gruppenadmin hochgestuft
 24774;en;activemodel.models.decidim/promoted_to_admin_event;Promoted to group admin
-24775;de;decidim.events.conferences.conference_registrations_over_percentage.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie ein*e Admin des Teilnahmebereichs der Konferenz sind.
-24776;en;decidim.events.conferences.conference_registrations_over_percentage.email_outro;You have received this notification because you are an admin of the conference's participatory space.
 24777;de;decidim.admin.officializations.unblock.error;Beim Blockieren der*des Teilnehmenden ist ein Fehler aufgetreten
 24778;en;decidim.admin.officializations.unblock.error;There was an error unblocking the participant
 24779;de;decidim.admin.titles.users;Teilnehmende
 24780;en;decidim.admin.titles.users;Participants
-24781;de;decidim.events.users.user_officialized.notification_title;Teilnehmende*r %{name} (%{nickname}) wurde offiziell bestätigt.
-24782;en;decidim.events.users.user_officialized.notification_title;Participant %{name} (%{nickname}) has been officialized.
 24783;de;decidim.user_conversations.index.participant_with_disabled_message_reception;Diese*r Teilnehmende hat Nachrichten deaktiviert
 24784;en;decidim.user_conversations.index.participant_with_disabled_message_reception;This participant has disabled message reception
 24785;de;decidim.meetings.meetings.form.online_meeting_url_help;Link: Erlaubt Teilnehmenden, sich direkt mit Ihrem Meeting zu verbinden
@@ -59,8 +49,6 @@ id;locale;key;value
 24800;en;activemodel.models.decidim/promote_to_admin;Promoted to group admin
 24801;de;decidim.admin.models.impersonation_log.fields.admin;Admin
 24802;en;decidim.admin.models.impersonation_log.fields.admin;Admin
-24803;de;decidim.events.groups.user_group_created.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie ein Admin der Plattform sind.
-24804;en;decidim.events.groups.user_group_created.email_outro;You have received this notification because you are an admin of the platform.
 24805;de;decidim.admin.assembly_user_roles.create.success;Die*der Admin wurde dieser Organisation erfolgreich hinzugefügt.
 24806;en;decidim.admin.assembly_user_roles.create.success;Admin successfully added to this organisation.
 24807;de;decidim.admin_terms_of_use.default_body;<h2>BACKEND-NUTZUNGSBEDINGUNGEN</h2><p>Wir nehmen an, du hast die übliche Lektion von der*dem lokalen Systemadmin bekommen. Üblicherweise geht es um folgende drei Punkte:</p><ol><li>Privatsphäre anderer respektieren.</li><li>Denken bevor man klickt.</li><li>Mit grosser Macht kommt grosse Verantwortung.</li></ol>
@@ -69,54 +57,14 @@ id;locale;key;value
 24810;en;decidim.authorization_handlers.errors.duplicate_authorization;A participant is already authorized with the same data. An administrator will contact you to verify your details.
 24811;de;decidim.components.comment.report.already_reported;Dieser Inhalt wurde bereits gemeldet und wird von einer*einem Admin überprüft.
 24812;en;decidim.components.comment.report.already_reported;This content is already reported and it will be reviewed by an admin.
-24813;de;decidim.events.groups.demoted_membership.email_intro;"Ein*e Admin der Gruppe <a href=""%{resource_url}"">%{user_group_name}</a> hat Ihre Adminrechte für diese Gruppe entfernt."
-24814;en;decidim.events.groups.demoted_membership.email_intro;"An admin of the <a href=""%{resource_url}"">%{user_group_name}</a> group has removed your admin rights to that group."
-24815;de;decidim.events.groups.demoted_membership.email_subject;Sie sind kein Admin der Gruppe %{user_group_name} mehr!
-24816;en;decidim.events.groups.demoted_membership.email_subject;You are no longer an admin of the %{user_group_name} group!
-24817;de;decidim.events.groups.demoted_membership.notification_title;"Sie sind nicht mehr Admin in der Gruppe <a href=""%{resource_path}"">%{user_group_name}</a>."
-24818;en;decidim.events.groups.demoted_membership.notification_title;"You are no longer an admin of the <a href=""%{resource_path}"">%{user_group_name}</a> group."
-24819;de;decidim.events.groups.invited_to_group.email_intro;"Ein*e Admin der Gruppe <a href=""%{resource_url}"">%{user_group_name}</a> hat Sie in die Gruppe eingeladen."
-24820;en;decidim.events.groups.invited_to_group.email_intro;"An admin of the <a href=""%{resource_url}"">%{user_group_name}</a> group has invited you to join it."
-24821;de;decidim.events.groups.join_request_accepted.email_intro;"Herzlichen Glückwunsch! Ein*e Admin der Gruppe <a href=""%{resource_url}"">%{user_group_name}</a> hat Ihre Anfrage akzeptiert, der Gruppe beizutreten."
-24822;en;decidim.events.groups.join_request_accepted.email_intro;"Congratulations! An admin of the <a href=""%{resource_url}"">%{user_group_name}</a> group has accepted your request to join it."
-24823;de;decidim.events.groups.join_request_rejected.email_intro;"Ein*e Admin der Gruppe <a href=""%{resource_url}"">%{user_group_name}</a> hat Ihre Anfrage abgelehnt, der Gruppe beizutreten."
-24824;en;decidim.events.groups.join_request_rejected.email_intro;"An admin of the <a href=""%{resource_url}"">%{user_group_name}</a> group rejected your request to join it."
-24825;de;decidim.events.groups.promoted_to_admin.email_intro;"Ein*e Admin der Gruppe <a href=""%{resource_url}"">%{user_group_name}</a> hat Ihnen Adminrechte für diese Gruppe erteilt."
-24826;en;decidim.events.groups.promoted_to_admin.email_intro;"An admin of the <a href=""%{resource_url}"">%{user_group_name}</a> group has given you admin rights to that group."
-24827;de;decidim.events.groups.promoted_to_admin.notification_title;"Sie sind jetzt ein*e Admin in der Gruppe <a href=""%{resource_path}"">%{user_group_name}</a>."
-24828;en;decidim.events.groups.promoted_to_admin.notification_title;"You are now an admin of the <a href=""%{resource_path}"">%{user_group_name}</a> group."
-24829;de;decidim.events.reports.resource_hidden.email_intro;Ein*e Admin hat Ihr/e/n %{resource_type} entfernt, weil diese/r/s als %{report_reasons} gemeldet wurde.
-24830;en;decidim.events.reports.resource_hidden.email_intro;An administrator removed your %{resource_type} because it has been reported as %{report_reasons}.
-24831;de;decidim.events.reports.resource_hidden.notification_title;"Ein*e Admin hat Ihr/e %{resource_type} entfernt, weil es als %{report_reasons} gemeldet wurde.</br>
-<i>%{resource_content}</i>"
-24832;en;decidim.events.reports.resource_hidden.notification_title;"An administrator removed your %{resource_type} because it has been reported as %{report_reasons}.</br>
-<i>%{resource_content}</i>"
-24833;de;decidim.events.users.user_officialized.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie ein*e Admin der Organisation sind.
-24834;en;decidim.events.users.user_officialized.email_outro;You have received this notification because you are an administrator of the organization.
 24835;de;decidim.admin.menu.users;Benutzende
 24836;en;decidim.admin.menu.users;Participants
-24837;de;decidim.events.assemblies.create_assembly_member.email_intro;"Ein Admin der Organisation <a href=""%{resource_url}"">%{resource_name}</a> hat Sie als Mitglied eingeladen."
-24838;en;decidim.events.assemblies.create_assembly_member.email_intro;"An admin of the <a href=""%{resource_url}"">%{resource_name}</a> organisation has added you as one of its members."
-24839;de;decidim.events.proposals.proposal_update_category.email_intro;"Ein*e Admin hat die Kategorie Ihres Vorschlags ""%{resource_title}"" aktualisiert, sehen Sie es sich an:"
-24840;en;decidim.events.proposals.proposal_update_category.email_intro;"An admin has updated the category of your proposal ""%{resource_title}"", check it out in this page:"
-24841;de;decidim.events.proposals.proposal_update_category.notification_title;"Die Vorschlagskategorie <a href=""%{resource_path}"">%{resource_title}</a> wurde von einer*einem Admin aktualisiert."
-24842;en;decidim.events.proposals.proposal_update_category.notification_title;"The <a href=""%{resource_path}"">%{resource_title}</a> proposal category has been updated by an admin."
-24843;de;decidim.events.proposals.proposal_update_scope.email_intro;Ein*e Admin hat den Bereich Ihres Vorschlags „%{resource_title}“ aktualisiert, sehen Sie es sich das auf dieser Seite an:
-24844;en;decidim.events.proposals.proposal_update_scope.email_intro;"An admin has updated the scope of your proposal ""%{resource_title}"", check it out in this page:"
-24845;de;decidim.events.proposals.proposal_update_scope.notification_title;"Der Bereich des Vorschlags <a href=""%{resource_path}"">%{resource_title}</a> wurde von einer*einem Admin aktualisiert."
-24846;en;decidim.events.proposals.proposal_update_scope.notification_title;"The <a href=""%{resource_path}"">%{resource_title}</a> proposal scope has been updated by an admin."
 24847;de;activemodel.attributes.id_document_upload.user;Benutzende
 24848;en;activemodel.attributes.id_document_upload.user;Participant
-24849;de;decidim.events.meetings.meeting_registrations_over_percentage.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie ein Admin des Prozesses der Veranstaltung sind.
-24850;en;decidim.events.meetings.meeting_registrations_over_percentage.email_outro;You have received this notification because you are an admin of the meeting's participatory space.
 24851;de;decidim.admin.models.user.fields.roles.admin;Admin
 24852;en;decidim.admin.models.user.fields.roles.admin;Admin
-24853;de;decidim.events.groups.user_group_updated.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie ein Admin der Plattform sind.
-24854;en;decidim.events.groups.user_group_updated.email_outro;You have received this notification because you are an admin of the platform.
 24855;de;decidim.groups.join.success;Join-Anforderung wurde erfolgreich erstellt. Ein*e Admin überprüft Ihre Anfrage, bevor Sie für die Gruppe akzeptiert werden.
 24856;en;decidim.groups.join.success;Join request successfully created. An admin will review your request before accepting you to the group.
-24857;de;decidim.messaging.conversation_mailer.comanagers_new_conversation.admin_in_group;Sie haben diese Benachrichtigung erhalten, weil Sie ein*e Admin von %{group} sind.
-24858;en;decidim.messaging.conversation_mailer.comanagers_new_conversation.admin_in_group;You are receiving this because you are an admin in %{group}.
 24859;de;decidim.reports.create.success;Der Bericht wurde erfolgreich erstellt und wird von einer*einem Admin überprüft.
 24860;en;decidim.reports.create.success;The report has been created successfully and it will be reviewed by an admin.
 24861;de;decidim.shared.flag_modal.already_reported;Dieser Inhalt wurde bereits gemeldet und wird von einer*einem Admin überprüft.
@@ -205,8 +153,6 @@ id;locale;key;value
 24944;en;decidim.components.budgets.settings.global.workflow_choices.one;Vote in one: allows participants to vote in any budget, but only in one.
 24945;de;decidim.components.surveys.settings.step.allow_unregistered_help;"Wenn aktiviert, ist keine Anmeldung erforderlich, um die Umfrage zu beantworten. Dies kann zu schlechten oder unzuverlässigen Daten führen und ist anfälliger für automatisierte Angriffe. Verwenden Sie diese Funktion mit Vorsicht! Beachten Sie, dass ein*e Teilnehmende*r die gleiche Umfrage mehrfach beantworten kann, indem sie*er verschiedene Browser oder die ""Private Browsing""-Funktion ihres Web-Browsers nutzt."
 24946;en;decidim.components.surveys.settings.step.allow_unregistered_help;"If active, no login will be required in order to answer the survey. This may lead to poor or unreliable data and it will be more vulnerable to automated attacks. Use with caution! Mind that a participant could answer the same survey multiple times, by using different browsers or the ""private browsing"" feature of her web browser."
-24947;de;decidim.events.users.user_officialized.email_intro;Teilnehmende*r %{name} (%{nickname}) wurde offiziell bestätigt.
-24948;en;decidim.events.users.user_officialized.email_intro;Participant %{name} (%{nickname}) has been officialized.
 24949;de;decidim.forms.meetings.attendees_count_help_text;Vergessen Sie nicht, die Gesamtzahl der Teilnehmenden an Ihrem Meeting anzugeben, egal ob dies persönlich, online oder hybrid stattgefunden hat.
 24950;en;decidim.forms.meetings.attendees_count_help_text;Don't forget to include the total number of attendees at your meeting, whether in person, online or hybrid.
 24951;de;decidim.gamification.badges.index.page_description;Badges sind Anerkennungen für Aktionen der Teilnehmenden und Fortschritt in der Plattform. Wenn Sie auf der Plattform entdecken, teilnehmen und interagieren, verdienen Sie verschiedene Abzeichen. Hier ist die Liste der Abzeichen und einige Möglichkeiten, wie Sie sie verdienen können.
@@ -292,17 +238,9 @@ Your account won't be created until you access the link above and set your accou
 25028;en;decidim.components.meetings.settings.step.creation_enabled_for_user_groups;Meeting creation by user groups enabled
 25029;de;decidim.doorkeeper.authorizations.new.see_username;Ihren Kontonamen anzeigen
 25030;en;decidim.doorkeeper.authorizations.new.see_username;See your account name
-25031;de;decidim.events.groups.user_group_created.email_intro;"Eine neue Gruppe mit dem Namen %{user_group_name} wurde erstellt. Sie können sie über das <a href=""%{groups_admin_url}"">Admin-Panel</a> verifizieren."
-25032;en;decidim.events.groups.user_group_created.email_intro;"A new user group has been created with the name %{user_group_name}. You can now verify it in the <a href=""%{groups_admin_url}"">admin panel</a>."
-25033;de;decidim.events.groups.user_group_created.email_subject;Eine neue Gruppe wurde erstellt
-25034;en;decidim.events.groups.user_group_created.email_subject;A new user group has been created
 25147;de;decidim.admin.participatory_space_private_users.destroy.success;Participatory Space Privater Benutzendenzugriff wurde erfolgreich zerstört.
 25035;de;decidim.events.groups.user_group_created.notification_title;"Die Gruppe %{user_group_name} wurde erstellt. Sie können sie über das <a href=""%{groups_admin_path}"">Admin-Panel</a> verifizieren."
 25036;en;decidim.events.groups.user_group_created.notification_title;"The %{user_group_name} user group has been created. You can now verify it in the <a href=""%{groups_admin_path}"">admin panel</a>."
-25037;de;decidim.events.groups.user_group_updated.email_intro;"Die Gruppe mit dem Namen %{user_group_name} hat ihr Profil aktualisiert, wodurch diese erneut verifiziert werden muss. Sie können sie über das <a href=""%{groups_admin_url}"">Admin-Panel</a> verifizieren."
-25038;en;decidim.events.groups.user_group_updated.email_intro;"A user group with the name %{user_group_name} has updated its profile, leaving it unverified. You can now verify it in the <a href=""%{groups_admin_url}"">admin panel</a>."
-25039;de;decidim.events.groups.user_group_updated.email_subject;Eine Gruppe hat ihr Profil aktualisiert
-25040;en;decidim.events.groups.user_group_updated.email_subject;A user group has updated its profile
 25041;de;decidim.events.groups.user_group_updated.notification_title;"Die Gruppe %{user_group_name} hat ihr Profil aktualisiert, wodurch diese erneut verifiziert werden muss. Sie können sie über das <a href=""%{groups_admin_path}"">Admin-Panel</a> verifizieren."
 25042;en;decidim.events.groups.user_group_updated.notification_title;"The %{user_group_name} user group has updated its profile, leaving it unverified. You can now verify it in the <a href=""%{groups_admin_path}"">admin panel</a>."
 25043;de;decidim.gamification.badges.followers.next_level_in;Erhalten Sie %{score} weitere Nutzende, die Ihnen folgen, um das nächste Level zu erreichen!
@@ -553,8 +491,6 @@ Your account won't be created until you access the link above and set your accou
 25290;en;decidim.components.surveys.settings.step.allow_unregistered;Allow unregistered users to answer the survey
 25291;de;decidim.devise.sessions.new.sign_up_disabled;Die Anmeldung ist deaktiviert. Sie können eine*n vorhandene*n Benutzende*n für den Zugriff verwenden.
 25292;en;decidim.devise.sessions.new.sign_up_disabled;Sign up is disabled, you can use an existing account to access
-25293;de;decidim.events.comments.comment_by_followed_user.email_outro;Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie %{author_name} folgen. Falls Sie keine solchen Benachrichtigungen mehr erhalten möchten, besuchen Sie die Profil-Seite dieses Benutzenden.
-25294;en;decidim.events.comments.comment_by_followed_user.email_outro;You have received this notification because you are following %{author_name}. You can unfollow this user from their profile page.
 25295;de;decidim.forms.errors.impersonate_user.reason;Sie müssen einen Grund angeben, weshalb Sie sich als nicht-verwalteten Benutzenden ausgeben
 25296;en;decidim.forms.errors.impersonate_user.reason;You need to provide a reason when managing a non-managed participant
 25297;de;decidim.forms.admin.questionnaires.answers.export_response.title;Umfrage_Benutzenden_Antworten_%{token}
@@ -651,10 +587,6 @@ Your account won't be created until you access the link above and set your accou
 25388;en;decidim.user_conversations.index.add_max_users;Add users to conversation: 9 users max
 25389;de;decidim.user_conversations.show.not_allowed;Diese*r Benutzende akzeptiert keine Direktnachrichten mehr.
 25390;en;decidim.user_conversations.show.not_allowed;This user does not accept any more direct messages.
-25391;de;decidim.user_report_mailer.notify.body_1;Benutzende*r %{user} wurde von %{token} gemeldet
-25392;en;decidim.user_report_mailer.notify.body_1;User %{user} has been reported by %{token}
-25393;de;decidim.user_report_mailer.notify.subject;Ein*e neue*r Benutzende wurde in %{organization_name} gemeldet
-25394;en;decidim.user_report_mailer.notify.subject;A new user has been reported in %{organization_name}
 25395;de;decidim.version_author.show.deleted;Gelöschte Benutzende
 25396;en;decidim.version_author.show.deleted;Deleted participant
 25397;de;decidim.system.organizations.file_upload_settings.content_types.admin_hint;Diese MIME-Typen sind für das Hochladen im Admin-Panel erlaubt. Admin-Benutzende sollten sich der Risiken des Hochladens einiger Dokumentformate bewusst sein, so dass man von ihnen erwarten kann dass sie vorsichtiger mit Datei-Uploads sind.

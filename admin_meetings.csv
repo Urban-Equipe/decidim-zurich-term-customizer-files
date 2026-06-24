@@ -71,7 +71,7 @@ id;locale;key;value
 28899;de;decidim.guest_meeting_registration.menu.guest_meeting_registration_settings;Gastanmeldungseinstellungen
 28900;en;decidim.guest_meeting_registration.menu.guest_meeting_registration_settings;Unregistered user meeting registration settings
 24145;de;decidim.gamification.badges.attended_meetings.conditions.0;Registrieren Sie sich für die Veranstaltungen, an denen Sie teilnehmen möchten	
-24146;en;decidim.gamification.badges.attended_meetings.conditions.0;""
+24146;en;decidim.gamification.badges.attended_meetings.conditions.0;
 28883;de;decidim.guest_meeting_registration.join_meeting_button.cancel_guest_confirm.leave_html;Von Veranstaltung abmelden
 28885;de;decidim.guest_meeting_registration.join_meeting_button.cancel_guest_confirm.leave_title;Von der Veranstaltung abmelden
 28895;de;decidim.guest_meeting_registration.join_meeting_button.login_as_guest_html;Zur Veranstaltung<br />anmelden
@@ -105,8 +105,6 @@ id;locale;key;value
 23834;en;decidim.components.meetings.settings.step.creation_enabled_for_participants;Meeting creation by participants enabled
 23835;de;decidim.components.meetings.settings.step.creation_enabled_for_user_groups;Veranstaltungserstellung durch Gruppen aktiviert
 23836;en;decidim.components.meetings.settings.step.creation_enabled_for_user_groups;Meeting creation by user groups enabled
-23837;de;decidim.events.meetings.meeting_registrations_over_percentage.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie ein Admin des Prozesses der Veranstaltung sind.
-23838;en;decidim.events.meetings.meeting_registrations_over_percentage.email_outro;You have received this notification because you are an admin of the meeting's participatory space.
 23839;de;activemodel.attributes.close_meeting.closing_report;Bericht
 23840;en;activemodel.attributes.close_meeting.closing_report;Report
 23841;de;decidim.meetings.admin.meetings.create.success;Veranstaltung erfolgreich erstellt
@@ -327,22 +325,6 @@ id;locale;key;value
 24058;en;decidim.meetings.admin.meetings.close.invalid;There was a problem closing this meeting
 24059;de;decidim.pad_iframe.explanation;Verwenden Sie dieses Pad, um während der Veranstaltung gemeinsam Notizen zu machen.
 24060;en;decidim.pad_iframe.explanation;Use this pad to collaboratively take notes during the meeting so it's easier to write down the minute afterwards.
-24061;de;decidim.events.meetings.meeting_closed.follower.email_subject;«%{resource_title}»: Abschlussbericht / Zusammenfassung veröffentlicht
-24062;en;decidim.events.meetings.meeting_closed.follower.email_subject;"The ""%{resource_title}"" meeting was closed"
-24063;de;decidim.events.meetings.meeting_closed.follower.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie der Veranstaltung «%{resource_title}» folgen. Sie können in ihren Profileinstellungen den Erhalt von Nachrichten anpassen.
-24064;en;decidim.events.meetings.meeting_closed.follower.email_outro;"You have received this notification because you are following the ""%{resource_title}"" meeting. You can unfollow it from the previous link."
-24065;de;decidim.events.meetings.meeting_closed.affected_user.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie die Veranstaltung «%{resource_title}» (mit)organisiert haben.
-24066;en;decidim.events.meetings.meeting_closed.affected_user.email_outro;"You have received this notification because you organized the ""%{resource_title}"" meeting."
-24067;de;decidim.events.meetings.meeting_closed.affected_user.email_intro;Für die Veranstaltung «%{resource_title}» wurde eine Zusammenfassung bzw. ein Abschlussbericht veröffentlicht. Sie finden ihn hier:
-24068;en;decidim.events.meetings.meeting_closed.affected_user.email_intro;"Your meeting ""%{resource_title}"" was closed. You can read the conclusions from its page:"
-24069;de;decidim.events.meetings.meeting_closed.affected_user.email_subject;«%{resource_title}»: Abschlussbericht / Zusammenfassung veröffentlicht
-24070;en;decidim.events.meetings.meeting_closed.affected_user.email_subject;"The ""%{resource_title}"" meeting was closed"
-24071;de;decidim.events.meetings.meeting_closed.follower.email_intro;Für die Veranstaltung «%{resource_title}» wurde eine Zusammenfassung bzw. ein Abschlussbericht veröffentlicht. Sie finden ihn hier:
-24072;en;decidim.events.meetings.meeting_closed.follower.email_intro;"The ""%{resource_title}"" meeting was closed. You can read the conclusions from its page:"
-24073;de;decidim.events.meetings.meeting_created.email_intro;Für «%{participatory_space_title}»  wurde eine neue Veranstaltung erstellt: «%{resource_title}»
-24074;en;decidim.events.meetings.meeting_created.email_intro;"The meeting ""%{resource_title}"" has been added to ""%{participatory_space_title}"" that you are following."
-24075;de;decidim.events.meetings.meeting_created.email_subject;%{participatory_space_title}: Neue Veranstaltung
-24076;en;decidim.events.meetings.meeting_created.email_subject;New meeting added to %{participatory_space_title}
 24077;de;decidim.events.meetings.meeting_created.notification_title;"Die Veranstaltung <a href=""%{resource_path}"">%{resource_title}</a> wurde zu %{participatory_space_title} hinzugefügt"
 24078;en;decidim.events.meetings.meeting_created.notification_title;"The meeting <a href=""%{resource_path}"">%{resource_title}</a> has been added to %{participatory_space_title}"
 24079;de;decidim.meetings.admin.invite_join_meeting_mailer.invite.invited_you_to_join_a_meeting;%{invited_by} hat Sie eingeladen, an einer Veranstaltung auf %{application} teilzunehmen.
@@ -351,14 +333,8 @@ id;locale;key;value
 24082;en;decidim.meetings.actions.close;Close
 24083;de;decidim.meetings.registration_mailer.confirmation.confirmed_html;"Besten Dank für Ihre Anmeldung: <a href=""%{url}"">%{title}</a>."
 24084;en;decidim.meetings.registration_mailer.confirmation.confirmed_html;"Thank you for registering: <a href=""%{url}"">%{title}</a>."
-24085;de;decidim.events.meetings.registration_code_validated.email_subject;"Ihr Registrierungscode ""%{registration_code}"" für die Veranstaltung ""%{resource_title}"" wurde bestätigt"
-24086;en;decidim.events.meetings.registration_code_validated.email_subject;"Your registration code ""%{registration_code}"" for the ""%{resource_title}"" meeting has been validated"
 24087;de;decidim.events.meetings.registration_code_validated.notification_title;"Ihr Registrierungscode ""%{registration_code}"" für die Veranstaltung <a href=""%{resource_path}"">%{resource_title}</a> wurde bestätigt."
 24088;en;decidim.events.meetings.registration_code_validated.notification_title;"Your registration code ""%{registration_code}"" for the <a href=""%{resource_path}"">%{resource_title}</a> meeting has been validated."
-24089;de;decidim.events.meetings.registration_code_validated.email_outro;"Sie haben diese Benachrichtigung erhalten, weil Ihr Registrierungscode für die Veranstaltung ""%{resource_title}"" validiert wurde."
-24090;en;decidim.events.meetings.registration_code_validated.email_outro;"You have received this notification because your registration code for the ""%{resource_title}"" meeting has been validated."
-24091;de;decidim.events.meetings.registration_code_validated.email_intro;"Ihr Registrierungscode ""%{registration_code}"" für die Veranstaltung ""%{resource_title}"" wurde bestätigt."
-24092;en;decidim.events.meetings.registration_code_validated.email_intro;"Your registration code ""%{registration_code}"" for the ""%{resource_title}"" meeting has been validated."
 24093;de;decidim.resource_links.proposals_from_meeting.meeting_proposal;Erarbeitete Vorschläge:
 24094;en;decidim.resource_links.proposals_from_meeting.meeting_proposal;Related proposals:
 24095;de;decidim.meetings.admin.meeting_closes.edit.title;Schlussbericht / Zusammenfassung erstellen
@@ -367,10 +343,6 @@ id;locale;key;value
 24098;en;decidim.meetings.admin.meeting_closes.edit.close;Close
 24099;de;decidim.events.meetings.meeting_registrations_over_percentage.notification_title;"Die Plätze der Veranstaltung <a href=""%{resource_path}"">%{resource_title}</a> sind zu über %{percentage}% belegt."
 24100;en;decidim.events.meetings.meeting_registrations_over_percentage.notification_title;"The allocated slots for the <a href=""%{resource_path}"">%{resource_title}</a> meeting are over %{percentage}%."
-24101;de;decidim.events.meetings.meeting_updated.email_intro;Die Veranstaltung «%{resource_title}» wurde aktualisiert. Weitere Informationen erfahren Sie auf der Veranstaltungs-Seite:
-24102;en;decidim.events.meetings.meeting_updated.email_intro;"The ""%{resource_title}"" meeting was updated. You can read the new version from its page:"
-24103;de;decidim.events.meetings.meeting_updated.email_subject;" ""%{resource_title}"": Veranstaltung aktualisiert"
-24104;en;decidim.events.meetings.meeting_updated.email_subject;"The ""%{resource_title}"" meeting was updated"
 24105;de;decidim.meetings.types.transparent;Öffentlich sichtbar
 24106;en;decidim.meetings.types.transparent;Transparent
 24107;de;activemodel.attributes.meeting.transparent;Öffentlich sichtbar
@@ -401,10 +373,6 @@ id;locale;key;value
 24132;en;decidim.meetings.registrations.destroy.invalid;There was a problem leaving this meeting.
 24133;de;decidim.events.meetings.meeting_updated.notification_title;"Die Veranstaltung <a href=""%{resource_path}"">%{resource_title}</a> wurde aktualisiert."
 24134;en;decidim.events.meetings.meeting_updated.notification_title;"The <a href=""%{resource_path}"">%{resource_title}</a> meeting was updated."
-24135;de;decidim.events.meetings.registrations_enabled.email_intro;Sie können sich nun für die Veranstaltung «%{resource_title}» anmelden. Besuchen Sie dazu folgende Seite:
-24136;en;decidim.events.meetings.registrations_enabled.email_intro;"The ""%{resource_title}"" meeting has enabled registrations. You can register yourself on its page:"
-24137;de;decidim.events.meetings.registrations_enabled.email_subject; «%{resource_title}»: Registrierung möglich
-24138;en;decidim.events.meetings.registrations_enabled.email_subject;"The ""%{resource_title}"" meeting has enabled registrations."
 24139;de;decidim.events.meetings.registrations_enabled.notification_title;"Sie können sich nun für die Veranstaltung <a href=""%{resource_path}"">%{resource_title}</a> anmelden."
 24140;en;decidim.events.meetings.registrations_enabled.notification_title;"The <a href=""%{resource_path}"">%{resource_title}</a> meeting has enabled registrations."
 24141;de;decidim.events.meetings.upcoming_meeting.notification_title;"Die Veranstaltung <a href=""%{resource_path}"">%{resource_title}</a> beginnt in weniger als 48 Stunden."
@@ -459,8 +427,6 @@ id;locale;key;value
 27589;de;decidim.participatory_spaces.highlighted_meetings.past_meetings;Vergangene Veranstaltungen
 27594;en;decidim.admin.filters.meetings.with_any_type.label;Type of meeting
 27596;en;decidim.components.component_order_selector.order.meeting;Meeting
-27597;de;decidim.events.meetings.meeting_created.button_text;Anmeldung
-27598;en;decidim.events.meetings.meeting_created.button_text;Event registration
 27606;en;decidim.meetings.meetings.show.link_closed;The link to join the meeting will be available a few minutes before it starts
 27608;en;decidim.meetings.meetings.show.withdraw_btn_hint;You can withdraw your meeting if you change your mind. The meeting is not deleted, it will appear in the list of withdrawn meetings.
 27593;de;decidim.admin.filters.meetings.with_any_type.label;Art der Veranstaltung
@@ -485,30 +451,20 @@ id;locale;key;value
 27626;en;decidim.meetings.polls.questions.index.empty_questions;Throughout this meeting, some questions will be sent and you will be able to answer them. They will be displayed here.
 27623;de;decidim.meetings.meetings.show.withdraw_meeting;Veranstaltung zurückziehen
 27625;de;decidim.meetings.polls.questions.index.empty_questions;Während dieser Veranstaltung werden einige Fragen gesendet und Sie werden sie beantworten können. Sie werden hier angezeigt.
-28942;en;decidim.events.meetings.meeting_registrations_over_percentage.email_intro;"The allocated slots for the ""%{resource_title}"" meeting are over %{percentage}%."
-28943;de;decidim.events.meetings.meeting_registrations_over_percentage.email_subject;"Die Plätze der Veranstaltung ""%{resource_title}"" sind zu %{percentage}% belegt"
-28944;en;decidim.events.meetings.meeting_registrations_over_percentage.email_subject;"The allocated slots for the ""%{resource_title}"" meeting are over %{percentage}%"
 28945;de;decidim.events.meetings.upcoming_meeting.default_body;"Die Veranstaltung ""{{meeting_title}}"" beginnt in weniger als {{before_hours}} Stunden."
 28946;en;decidim.events.meetings.upcoming_meeting.default_body;"The ""{{meeting_title}}"" meeting will start in less than {{before_hours}}h."
-28947;de;decidim.events.meetings.upcoming_meeting.email_subject;"Die Veranstaltung ""%{resource_title}"" beginnt in weniger als %{reminders_before_hours} Stunden."
-28948;en;decidim.events.meetings.upcoming_meeting.email_subject;"The ""%{resource_title}"" meeting will start in less than %{reminders_before_hours}h."
 28949;de;decidim.decidim_awesome.map_component.map.show.view_meeting;Veranstaltung ansehen
 28950;en;decidim.decidim_awesome.map_component.map.show.view_meeting;View meeting
 28951;de;layouts.decidim.impersonation_warning.close_session;Veranstaltung beenden
 28952;en;layouts.decidim.impersonation_warning.close_session;Close session
-28941;de;decidim.events.meetings.meeting_registrations_over_percentage.email_intro;"Die Plätze der Veranstaltung ""%{resource_title}"" sind zu über %{percentage}% belegt."
 28975;de;decidim.meetings.meetings.show.remaining_slots.other;Noch %{count} freie Plätze
 28976;en;decidim.meetings.meetings.show.remaining_slots.other;%{count} slots remaining
-28977;de;decidim.events.conferences.conference_registrations_over_percentage.email_intro;"Die Plätze der Konferenz ""%{resource_title}"" sind zu über %{percentage}% belegt."
-28978;en;decidim.events.conferences.conference_registrations_over_percentage.email_intro;"The ""%{resource_title}"" conference occupied slots are over %{percentage}%."
-28979;de;decidim.events.conferences.conference_registrations_over_percentage.email_subject;"Die Plätze in der Konferenz ""%{resource_title}"" sind zu über %{percentage}% belegt"
-28980;en;decidim.events.conferences.conference_registrations_over_percentage.email_subject;"The ""%{resource_title}"" conference occupied slots are over %{percentage}%"
 28981;de;decidim.events.conferences.conference_registrations_over_percentage.notification_title;"Die Plätze der Konferenz <a href=""%{resource_path}"">%{resource_title}</a> sind zu über %{percentage}% belegt."
 28982;en;decidim.events.conferences.conference_registrations_over_percentage.notification_title;"The <a href=""%{resource_path}"">%{resource_title}</a> conference occupied slots are over %{percentage}%."
 28983;de;decidim.meetings.meetings.show.remaining_slots.one;%{count} Slot bleibt übrig
 28984;en;decidim.meetings.meetings.show.remaining_slots.one;%{count} slot remaining
 28985;de;decidim.events.meetings.upcoming_meeting.decidim.events.meetings.upcoming_meeting.email_intro;Dies ist eine Erinnerung, dass folgende Veranstaltung demnächst stattfindet. 
-28986;en;decidim.events.meetings.upcoming_meeting.decidim.events.meetings.upcoming_meeting.email_intro;""
+28986;en;decidim.events.meetings.upcoming_meeting.decidim.events.meetings.upcoming_meeting.email_intro;
 29153;de;decidim.meetings.calendar_modal.export_calendar;Termine exportieren
 29154;en;decidim.meetings.calendar_modal.export_calendar;Export calendar
 29156;en;decidim.meetings.calendar_modal.copy_calendar_url_description;"You can see all the published meetings in your calendar application or provider. Copy and paste this URL in your calendar using the ""Add new calendar from an URL"" option."

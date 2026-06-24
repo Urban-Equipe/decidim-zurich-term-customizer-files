@@ -148,8 +148,6 @@ To share a new access link with someone, create it and then copy the link using 
 28734;en;decidim.meetings.registrations.waitlist.success;You have joined the meeting waitlist successfully. You will be notified if your registration is successfully secured.
 28735;de;decidim.events.meetings.upcoming_meeting.default_body;"Die Veranstaltung ""{{meeting_title}}"" beginnt in weniger als {{before_hours}} Stunden."
 28736;en;decidim.events.meetings.upcoming_meeting.default_body;"The ""{{meeting_title}}"" meeting will start in less than {{before_hours}}h."
-28737;de;decidim.events.meetings.upcoming_meeting.email_subject;"Die Sitzung ""%{resource_title}"" beginnt in weniger als %{reminders_before_hours} Stunden."
-28738;en;decidim.events.meetings.upcoming_meeting.email_subject;"The ""%{resource_title}"" meeting will start in less than %{reminders_before_hours}h."
 28739;de;decidim.meetings.admin.meetings.reminders.send_reminder_help_text;Zeitpunkt der Erinnerung (Anzahl Stunden vor Veranstaltungsbeginn)
 28740;en;decidim.meetings.admin.meetings.reminders.send_reminder_help_text;Reminder time in hours before the meeting.
 28741;de;decidim.meetings.meetings.show.pending_address;Die Adresse wird noch bekannt gegeben.

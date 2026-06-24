@@ -61,7 +61,5 @@ id;locale;key;value
 22008;en;decidim.sortitions.admin.actions.destroy;Cancel the sortition
 22009;de;decidim.forms.question_types.sorting;Auslosung
 22010;en;decidim.forms.question_types.sorting;Sorting
-22011;de;decidim.events.sortitions.sortition_created.email_subject;Neue Auslosungs-Komponente wurde zu %{participatory_space_title} hinzugefügt
-22012;en;decidim.events.sortitions.sortition_created.email_subject;New sortition added to %{participatory_space_title}
 22013;de;decidim.components.sortitions.name;Auslosungen
 22014;en;decidim.components.sortitions.name;Sortitions

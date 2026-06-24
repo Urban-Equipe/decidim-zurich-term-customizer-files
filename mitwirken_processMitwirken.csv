@@ -55,10 +55,6 @@ id;locale;key;value
 1737;de;decidim.participatory_processes.admin.participatory_processes.form.visbility;Sichtbarkeitseinstellungen (wird durch die STEZ ausgefüllt)
 1738;en;decidim.participatory_processes.admin.participatory_processes.form.visbility;Visibility (filled out by STEZ)
 1746;en;decidim.events.participatory_process.step_changed.notification_title;"The dates for the <a href=""%{resource_path}"">%{resource_title}</a> phase at <a href=""%{participatory_space_url}"">%{participatory_space_title}</a> have been updated."
-1747;de;decidim.events.participatory_process.step_changed.email_intro;Die Daten für den Schritt %{resource_title} bei %{participatory_space_title} wurden aktualisiert. Sie können das auf dieser Seite sehen:
-1748;en;decidim.events.participatory_process.step_changed.email_intro;The dates for the %{resource_title} phase at %{participatory_space_title} have been updated. You can see it from this page:
-1749;de;decidim.events.participatory_process.step_activated.email_intro;Der Prozessschritt %{resource_title} wurde im Mitwirkungsprozess «%{participatory_space_title}» aktiviert. Jetzt ansehen:
-1750;en;decidim.events.participatory_process.step_activated.email_intro;The phase «%{resource_title}» has been activated for «%{participatory_space_title}». You can see it from this page:
 1751;de;decidim.admin.participatory_processes.create.success;Prozess erfolgreich erstellt. Konfigurieren Sie jetzt seine Schritte.
 1752;en;decidim.admin.participatory_processes.create.success;Participatory process successfully created. Configure now its phases.
 1753;de;decidim.admin.participatory_process_steps.update.success;Partizipativer Prozessschritt erfolgreich aktualisiert.
@@ -122,10 +118,6 @@ id;locale;key;value
 1818;en;decidim.metrics.participatory_processes.description;Number of participatory processes in this organization
 1819;de;decidim.events.participatory_process.role_assigned.notification_title;"Sie wurden als %{role} für den Mitwirkungsprozess <a href=""%{resource_url}"">%{resource_title}</a> ausgewählt."
 1820;en;decidim.events.participatory_process.role_assigned.notification_title;"You have been assigned as %{role} for participatory process <a href=""%{resource_url}"">%{resource_title}</a>."
-1821;de;decidim.events.participatory_process.role_assigned.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie %{role} im Mitwirkungsprozess «%{resource_title}» sind.
-1822;en;decidim.events.participatory_process.role_assigned.email_outro;"You have received this notification because you are %{role} of the ""%{resource_title}"" participatory process."
-1823;de;decidim.events.participatory_process.role_assigned.email_intro;Sie wurden als %{role} für den Mitwirkungsprozesse «%{resource_title}» ausgewählt.
-1824;en;decidim.events.participatory_process.role_assigned.email_intro;"You have been assigned as %{role} for participatory process ""%{resource_title}""."
 1825;de;decidim.admin.participatory_processes.update.error;Beim Aktualisieren dieses Mitwirkungsprozesses ist ein Fehler aufgetreten.
 1826;en;decidim.admin.participatory_processes.update.error;There was a problem updating this participatory process.
 1827;de;decidim.admin.participatory_processes.create.error;Beim Erstellen eines neuen Mitwirkungsprozesses ist ein Fehler aufgetreten.

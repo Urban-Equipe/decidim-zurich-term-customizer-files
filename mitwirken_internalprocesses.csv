@@ -106,12 +106,6 @@ id;locale;key;value
 21458;en;decidim.admin.assembly_imports.create.error;There was a problem importing this internal process.
 21459;de;decidim.admin.assembly_imports.create.success;Interner Prozess wurde erfolgreich importiert.
 21460;en;decidim.admin.assembly_imports.create.success;Internal process successfully imported.
-21511;de;decidim.events.assemblies.create_assembly_member.email_intro;"Ein Admin des internen Prozesses <a href=""%{resource_url}"">%{resource_name}</a> hat Sie als Mitglied eingeladen."
-21512;en;decidim.events.assemblies.create_assembly_member.email_intro;"An admin of the <a href=""%{resource_url}"">%{resource_name}</a> internal process has added you as one of its members."
-21513;de;decidim.events.assemblies.create_assembly_member.email_outro;"Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie zu einem internen Prozess eingeladen wurden. Besuchen Sie die <a href=""%{resource_path}"">interne Prozessseite</a>, um teilzunehmen!"
-21514;en;decidim.events.assemblies.create_assembly_member.email_outro;"You have received this notification because you have been invited to an internal process. Check the <a href=""%{resource_path}"">internal process page</a> to contribute!"
-21515;de;decidim.events.assemblies.create_assembly_member.email_subject;Sie wurden als Mitglied des internen Prozesses %{resource_name} eingeladen!
-21516;en;decidim.events.assemblies.create_assembly_member.email_subject;You have been invited to be a member of the %{resource_name} internal process!
 21517;de;decidim.events.assemblies.create_assembly_member.notification_title;"Sie wurden als Mitglied des interner Prozesses <a href=""%{resource_path}"">%{resource_name}</a> registriert. Gehen Sie zur <a href=""%{resource_path}"">internen Prozessseite</a>, um mitzuwirken!"
 21518;en;decidim.events.assemblies.create_assembly_member.notification_title;"You have been registered as a member of Internal Process <a href=""%{resource_path}"">%{resource_name}</a>. Check the <a href=""%{resource_path}"">internal process page</a> to contribute!"
 21519;de;decidim.help.main_topic.default_page.content;"<p>In %{organization} können Sie durch die Felder, die Sie im oberen Menü sehen, an verschiedenen Themen teilnehmen: Prozesse, Interne Prozesse, Initiativen, Beratungen.</p> <p>In jedem Bereich finden Sie verschiedene Optionen für die Teilnahme: Vorschläge machen - einzeln oder mit anderen -, an Debatten teilnehmen, Prioritäten für umzusetzende Projekte setzen, persönliche Treffen und andere Aktionen besuchen.</p>
@@ -192,9 +186,7 @@ id;locale;key;value
 21586;en;decidim.admin.titles.assemblies_types;Internal process types
 21499;de;decidim.admin_log.assembly_type.publish;%{user_name} hat den internen Prozesstyp %{resource_name} veröffentlicht
 21419;de;decidim.admin_log.assembly_type.delete;%{user_name} hat den internen Prozesstyp %{resource_name} entfernt
-21593;de;decidim.events.assembly.role_assigned.email_outro;Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie ein %{role} des internen Prozesses «%{resource_title}» sind.
 21595;de;decidim.events.assembly.role_assigned.notification_title;"Sie wurden als %{role} für den internen Prozess <a href=""%{resource_url}"">%{resource_title}</a> ausgewählt."
-21594;en;decidim.events.assembly.role_assigned.email_outro;"You have received this notification because you are %{role} of the ""%{resource_title}"" internal process."
 21596;en;decidim.events.assembly.role_assigned.notification_title;"You have been assigned as %{role} for the internal process <a href=""%{resource_url}"">%{resource_title}</a>."
 21598;en;decidim.help.participatory_spaces.assemblies.contextual;"<p>An <strong>assembly</strong> is a group of members of an organization who meet periodically to make decisions about a specific area or scope of the organization.</p> <p>Assemblies hold meetings, some are private and some are open. If they are open, it is possible to participate in them (for example: attending if the capacity allows it, adding points to the agenda, or commenting on the proposals and decisions taken by this organ).</p> <p>Examples: A general assembly (which meets once a year to define the organisation's main lines of action as well as its executive bodies by vote), an equality advisory council (which meets every two months to make proposals on how to improve gender relations in the organisation), an evaluation commission (which meets every month to monitor a process) or a guarantee body (which collects incidents, abuses or proposals to improve decision-making procedures) are all examples of assemblies.</p>
 "
@@ -221,8 +213,6 @@ id;locale;key;value
 21501;de;decidim.admin_log.assembly_type.unpublish;"%{user_name} hat den internen Prozesstyp %{resource_name} auf ""unveröffentlicht"" gesetzt"
 21613;de;decidim.assemblies.show.private_space;Dies ist ein privater, interner Prozess
 21614;en;decidim.assemblies.show.private_space;This is a private internal process
-21591;de;decidim.events.assembly.role_assigned.email_intro;"Sie wurden als %{role} für den internen Prozess ""%{resource_title}"" ausgewählt."
-21592;en;decidim.events.assembly.role_assigned.email_intro;"You have been assigned as %{role} for the internal process ""%{resource_title}""."
 21615;de;decidim.geo.admin.geo_configs.only_assemblies;Ausschliesslich interne Prozess auf der internen Prozessseite anzeigen
 21616;en;decidim.geo.admin.geo_configs.only_assemblies;Display only internal processes on internal processes
 21617;de;decidim.geo.filters.type.only_assemblies;Interne Prozesse
