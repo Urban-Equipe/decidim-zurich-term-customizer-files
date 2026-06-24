@@ -1,246 +1,608 @@
 id;locale;key;value
-22349;de;decidim.events.accountability.proposal_linked.email_intro;"Der Vorschlag ""%{proposal_title}"" wird umgesetzt. Weitere Informationen:"
-22350;en;decidim.events.accountability.proposal_linked.email_intro;"The proposal ""%{proposal_title}"" is being implemented. You can find further information on this page:"
-22351;de;decidim.events.meetings.meeting_registrations_over_percentage.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie ein Admin der Veranstaltung sind.
-22352;en;decidim.events.meetings.meeting_registrations_over_percentage.email_outro;You have received this notification because you are an admin of the meeting's participatory space.
-22355;de;devise.mailer.invite_admin.subject;%{organization}: Einladung zur Teilnahme als Admin
-22356;en;devise.mailer.invite_admin.subject;You've been invited to manage %{organization}
-22357;de;devise.mailer.invite_collaborator.subject;Sie wurden eingeladen, an %{organization} mitzuwirken
-22358;en;devise.mailer.invite_collaborator.subject;You've been invited to collaborate on %{organization}
-22359;de;devise.mailer.organization_admin_invitation_instructions.subject;Sie wurden eingeladen, %{organization} zu verwalten
-22360;en;devise.mailer.organization_admin_invitation_instructions.subject;You've been invited to manage %{organization}
-22361;de;decidim.events.groups.demoted_membership.email_subject;Sie sind kein Admin der Gruppe %{user_group_name} mehr!
-22362;en;decidim.events.groups.demoted_membership.email_subject;You are no longer an admin of the %{user_group_name} group!
-22363;de;decidim.events.groups.promoted_to_admin.email_subject;Sie sind jetzt ein Admin der Gruppe %{user_group_name}!
-22364;en;decidim.events.groups.promoted_to_admin.email_subject;You are now an admin of the %{user_group_name} group!
-22365;de;decidim.events.groups.removed_from_group.email_subject;Sie wurden aus der Gruppe %{user_group_name} entfernt!
-22366;en;decidim.events.groups.removed_from_group.email_subject;You have been removed from the %{user_group_name} group!
-22367;de;decidim.events.proposals.collaborative_draft_access_requested.email_intro;"%{requester_name} hat um Zugriff auf Ihren kollaborativen Entwurf gebeten. Sie können den Antrag direkt auf der Entwurfsseite <a href=""%{resource_path}"">%{resource_title}</a> <strong>annehmen oder ablehnen</strong>."
-22368;en;decidim.events.proposals.collaborative_draft_access_requested.email_intro;"%{requester_name} requested access as a contributor. You can <strong>accept or reject the request</strong> from the <a href=""%{resource_path}"">%{resource_title}</a> collaborative draft page."
-22369;de;decidim.events.meetings.meeting_created.button_text;Anmeldung
-22370;en;decidim.events.meetings.meeting_created.button_text;Event registration
-22371;de;decidim.events.amendments.amendment_created.follower.email_outro;Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie %{amendable_title} folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen.
-22372;en;decidim.events.amendments.amendment_created.follower.email_outro;You have received this notification because you are following %{amendable_title}. You can stop receiving notifications following the previous link.
-22373;de;decidim.events.amendments.amendment_accepted.affected_user.email_outro;Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie Autor*in von %{amendable_title} sind. Bitte antworten Sie nicht auf diese E-Mail, sondern direkt über die Plattform.
-22374;en;decidim.events.amendments.amendment_accepted.affected_user.email_outro;You have received this notification because you are an author of %{amendable_title}.
-22375;de;decidim.events.amendments.amendment_accepted.follower.email_outro;Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie %{amendable_title} folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen.
-22376;en;decidim.events.amendments.amendment_accepted.follower.email_outro;You have received this notification because you are following %{amendable_title}. You can stop receiving notifications following the previous link.
-22377;de;decidim.events.amendments.amendment_created.affected_user.email_outro;Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie Autor*in von %{amendable_title} sind. Bitte antworten Sie nicht auf diese E-Mail, sondern direkt über die Plattform.
-22378;en;decidim.events.amendments.amendment_created.affected_user.email_outro;You have received this notification because you are an author of %{amendable_title}.
-22379;de;decidim.events.amendments.amendment_promoted.affected_user.email_outro;Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie Autor*in von %{amendable_title} sind. Bitte antworten Sie nicht auf diese E-Mail, sondern direkt über die Plattform.
-22380;en;decidim.events.amendments.amendment_promoted.affected_user.email_outro;You have received this notification because you are an author of %{amendable_title}.
-22381;de;decidim.events.amendments.amendment_promoted.follower.email_outro;Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie %{amendable_title} folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen.
-22382;en;decidim.events.amendments.amendment_promoted.follower.email_outro;You have received this notification because you are following %{amendable_title}. You can stop receiving notifications following the previous link.
-22383;de;decidim.events.amendments.amendment_rejected.affected_user.email_outro;Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie Autor*in von %{amendable_title} sind. Bitte antworten Sie nicht auf diese E-Mail, sondern direkt über die Plattform.
-22384;en;decidim.events.amendments.amendment_rejected.affected_user.email_outro;You have received this notification because you are an author of %{amendable_title}.
-22385;de;decidim.events.assemblies.create_assembly_member.email_outro;"Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie zu einer Organisation eingeladen wurden. Besuchen Sie die <a href=""%{resource_path}"">Organisationsseite</a>, um teilzunehmen!"
-22386;en;decidim.events.assemblies.create_assembly_member.email_outro;"You have received this notification because you have been invited to an assembly. Check the <a href=""%{resource_path}"">assembly page</a> to contribute!"
-22387;de;decidim.events.groups.user_group_created.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie ein Admin der Plattform sind.
-22388;en;decidim.events.groups.user_group_created.email_outro;You have received this notification because you are an admin of the platform.
-22389;de;decidim.events.proposals.proposal_accepted.affected_user.email_outro;"Sie haben diese Benachrichtigung erhalten, weil Sie Autor*in von ""%{resource_title}"" sind."
-22390;en;decidim.events.proposals.proposal_accepted.affected_user.email_outro;"You have received this notification because you are an author of ""%{resource_title}""."
-22391;de;decidim.events.amendments.amendment_rejected.follower.email_outro;Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie %{amendable_title} folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen.
-22392;en;decidim.events.amendments.amendment_rejected.follower.email_outro;You have received this notification because you are following %{amendable_title}. You can stop receiving notifications following the previous link.
-22393;de;decidim.events.attachments.attachment_created.email_outro;Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie %{resource_title} folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen.
-22394;en;decidim.events.attachments.attachment_created.email_outro;You have received this notification because you are following %{resource_title}. You can stop receiving notifications following the previous link.
-22395;de;decidim.events.components.component_published.email_outro;Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie %{participatory_space_title} folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen.
-22396;en;decidim.events.components.component_published.email_outro;You have received this notification because you are following %{participatory_space_title}. You can stop receiving notifications following the previous link.
-22397;de;decidim.events.email_event.email_outro;"Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie ""%{resource_title}"" folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen."
-22398;en;decidim.events.email_event.email_outro;"You have received this notification because you are following ""%{resource_title}"". You can unfollow it from the previous link."
-22399;de;decidim.events.groups.invited_to_group.email_outro;"Sie haben diese Benachrichtigung erhalten, weil Sie zu einer Gruppe eingeladen wurden. Prüfen Sie im Tab «Gruppen» in Ihrem Profil die Einladung und nehmen Sie sie an."
-22400;en;decidim.events.groups.invited_to_group.email_outro;You have received this notification because you have been invited to an group. Please check the Groups tab in your profile to approve it.
-22401;de;decidim.events.groups.user_group_updated.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie ein Admin der Plattform sind.
-22402;en;decidim.events.groups.user_group_updated.email_outro;You have received this notification because you are an admin of the platform.
-22403;de;decidim.events.reports.resource_hidden.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie Autor*in des entfernten Inhalts sind.
-22404;en;decidim.events.reports.resource_hidden.email_outro;You have received this notification because you are an author of the removed content.
-22405;de;decidim.events.resource_endorsed.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie %{endorser_nickname} folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen.
-22406;en;decidim.events.resource_endorsed.email_outro;You have received this notification because you are following %{endorser_nickname}. You can stop receiving notifications following the previous link.
-22407;de;decidim.events.users.profile_updated.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie %{nickname} folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen.
-22408;en;decidim.events.users.profile_updated.email_outro;You have received this notification because you are following %{nickname}. You can stop receiving notifications following the previous link.
-22409;de;decidim.events.participatory_process.role_assigned.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie %{role} im Mitwirkungsprozess «%{resource_title}» sind.
-22410;en;decidim.events.participatory_process.role_assigned.email_outro;"You have received this notification because you are %{role} of the ""%{resource_title}"" participatory process."
-22411;de;decidim.events.participatory_process.step_activated.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie %{participatory_space_title} folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen.
-22412;en;decidim.events.participatory_process.step_activated.email_outro;You have received this notification because you are following %{participatory_space_title}. You can stop receiving notifications following the previous link.
-22413;de;decidim.events.participatory_process.step_changed.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie %{participatory_space_title} folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen.
-22414;en;decidim.events.participatory_process.step_changed.email_outro;You have received this notification because you are following %{participatory_space_title}. You can stop receiving notifications following the previous link.
-22415;de;decidim.events.assembly.role_assigned.email_outro;Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie ein %{role} der Organisation «%{resource_title}» sind.
-22416;en;decidim.events.assembly.role_assigned.email_outro;"You have received this notification because you are %{role} of the ""%{resource_title}"" assembly."
-22417;de;decidim.events.comments.comment_by_followed_user.email_outro;Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie %{author_name} folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies auf der Profilseite der betreffenden Person einstellen.
-22418;en;decidim.events.comments.comment_by_followed_user.email_outro;You have received this notification because you are following %{author_name}. You can unfollow this user from their profile page.
-22419;de;decidim.events.comments.comment_by_followed_user_group.email_outro;Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie %{author_name} folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies auf der Profilseite dieser Gruppe einstellen.
-22420;en;decidim.events.comments.comment_by_followed_user_group.email_outro;You have received this notification because you are following %{author_name}. You can unfollow this group from its profile page.
-22421;de;decidim.events.comments.comment_created.email_outro;"Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie «%{resource_title}» oder dem*der Autor*in folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen."
-22422;en;decidim.events.comments.comment_created.email_outro;"You have received this notification because you are following ""%{resource_title}"" or its author. You can unfollow it from the previous link."
-22423;de;decidim.events.comments.reply_created.email_outro;Diese Nachricht wurde automatisch versendet. Bitte antworten Sie direkt auf der Plattform.
-22424;en;decidim.events.comments.reply_created.email_outro;This message was sent automatically. Please reply directly on the platform.
-22425;de;decidim.events.comments.user_group_mentioned.email_outro;Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie ein Mitglied der Gruppe %{group_name} sind, die in %{resource_title} erwähnt wurde.
-22426;en;decidim.events.comments.user_group_mentioned.email_outro;You have received this notification because you are a member of the group %{group_name} that has been mentioned in %{resource_title}.
-22427;de;decidim.events.comments.user_mentioned.email_outro;Diese Nachricht wurde automatisch versendet. Bitte antworten Sie direkt auf der Plattform. Sie haben diese Benachrichtigung erhalten, weil Sie in %{resource_title} erwähnt wurden.
-22428;en;decidim.events.comments.user_mentioned.email_outro;This message was sent automatically. Please reply on the platform. You have received this notification because you have been mentioned in %{resource_title}.
-22429;de;decidim.events.meetings.meeting_closed.affected_user.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie die Veranstaltung «%{resource_title}» (mit)organisiert haben.
-22430;en;decidim.events.meetings.meeting_closed.affected_user.email_outro;"You have received this notification because you organized the ""%{resource_title}"" meeting."
-22431;de;decidim.events.meetings.meeting_closed.follower.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie der Veranstaltung «%{resource_title}» folgen. Sie können in Ihren Profileinstellungen den Erhalt von Nachrichten anpassen.
-22432;en;decidim.events.meetings.meeting_closed.follower.email_outro;"You have received this notification because you are following the ""%{resource_title}"" meeting. You can unfollow it from the previous link."
-22433;de;decidim.events.meetings.meeting_created.email_outro;"Sie haben diese Benachrichtigung erhalten, weil Sie ""%{participatory_space_title}"" folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen."
-22434;en;decidim.events.meetings.meeting_created.email_outro;"You have received this notification because you are following ""%{participatory_space_title}"". You can unfollow it from the previous link."
-22435;de;decidim.events.meetings.meeting_updated.email_outro;"Sie haben diese Benachrichtigung erhalten, weil Sie der Veranstaltung ""%{resource_title}"" folgen. Sie können den Empfang von Benachrichtungen über den angegebenen Link steuern."
-22436;en;decidim.events.meetings.meeting_updated.email_outro;"You have received this notification because you are following the ""%{resource_title}"" meeting. You can unfollow it from the previous link."
-22437;de;decidim.events.meetings.registration_code_validated.email_outro;"Sie haben diese Benachrichtigung erhalten, weil Ihr Registrierungscode für die Veranstaltung ""%{resource_title}"" validiert wurde."
-22438;en;decidim.events.meetings.registration_code_validated.email_outro;"You have received this notification because your registration code for the ""%{resource_title}"" meeting has been validated."
-22439;de;decidim.events.meetings.registrations_enabled.email_outro;"Sie haben diese Benachrichtigung erhalten, weil Sie der Veranstaltung ""%{resource_title}"" folgen. Sie können den Empfang von Benachrichtungen über den angegebenen Link steuern."
-22440;en;decidim.events.meetings.registrations_enabled.email_outro;"You have received this notification because you are following the ""%{resource_title}"" meeting. You can unfollow it from the previous link."
-22441;de;decidim.events.meetings.upcoming_meeting.email_outro;"Sie haben diese Benachrichtigung erhalten, weil Sie der Veranstaltung ""%{resource_title}"" folgen. Sie können den Empfang von Benachrichtungen über den angegebenen Link steuern."
-22474;en;decidim.events.proposals.proposal_rejected.affected_user.email_outro;"You have received this notification because you are an author of ""%{resource_title}""."
-22442;en;decidim.events.meetings.upcoming_meeting.email_outro;"You have received this notification because you are following the ""%{resource_title}"" meeting. You can unfollow it from the previous link."
-22443;de;decidim.events.proposals.admin.proposal_note_created.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie diesen Vorschlag bewerten können.
-22444;en;decidim.events.proposals.admin.proposal_note_created.email_outro;You have received this notification because you can valuate the proposal.
-22445;de;decidim.events.proposals.collaborative_draft_access_accepted.email_outro;"Sie haben diese Benachrichtigung erhalten, weil Sie zum Bearbeiten von <a href=""%{resource_path}"">%{resource_title}</a> berechtigt sind."
-22446;en;decidim.events.proposals.collaborative_draft_access_accepted.email_outro;"You have received this notification because you are a collaborator of <a href=""%{resource_path}"">%{resource_title}</a>."
-22447;de;decidim.events.proposals.collaborative_draft_access_rejected.email_outro;"Sie haben diese Benachrichtigung erhalten, weil Sie zum Bearbeiten von <a href=""%{resource_path}"">%{resource_title}</a> berechtigt sind."
-22448;en;decidim.events.proposals.collaborative_draft_access_rejected.email_outro;"You have received this notification because you are a collaborator of <a href=""%{resource_path}"">%{resource_title}</a>."
-22449;de;decidim.events.proposals.collaborative_draft_access_requested.email_outro;"Sie haben diese Benachrichtigung erhalten, weil Sie zum Bearbeiten von <a href=""%{resource_path}"">%{resource_title}</a> berechtigt sind."
-22450;en;decidim.events.proposals.collaborative_draft_access_requested.email_outro;"You have received this notification because you are a collaborator of <a href=""%{resource_path}"">%{resource_title}</a>."
-22451;de;decidim.events.proposals.collaborative_draft_access_requester_accepted.email_outro;"Sie haben diese Benachrichtigung erhalten, weil Sie angefragt haben, am kollaborativen Entwurf <a href=""%{resource_path}"">%{resource_title}</a> mitzuwirken."
-22452;en;decidim.events.proposals.collaborative_draft_access_requester_accepted.email_outro;"You have received this notification because you requested to become a collaborator of <a href=""%{resource_path}"">%{resource_title}</a>."
-22453;de;decidim.events.proposals.collaborative_draft_access_requester_rejected.email_outro;"Sie haben diese Benachrichtigung erhalten, weil Sie angefragt haben, am kollaborativen Entwurf <a href=""%{resource_path}"">%{resource_title}</a> mitzuwirken."
-22454;en;decidim.events.proposals.collaborative_draft_access_requester_rejected.email_outro;"You have received this notification because you requested to become a collaborator of <a href=""%{resource_path}"">%{resource_title}</a>."
-22455;de;decidim.events.proposals.collaborative_draft_withdrawn.email_outro;"Sie haben diese Benachrichtigung erhalten, weil Sie zum Bearbeiten von <a href=""%{resource_path}"">%{resource_title}</a> berechtigt sind."
-22456;en;decidim.events.proposals.collaborative_draft_withdrawn.email_outro;"You have received this notification because you are a collaborator of <a href=""%{resource_path}"">%{resource_title}</a>."
-22457;de;decidim.events.proposals.creation_enabled.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie %{participatory_space_title} folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen.
-22458;en;decidim.events.proposals.creation_enabled.email_outro;You have received this notification because you are following %{participatory_space_title}. You can stop receiving notifications following the previous link.
-22459;de;decidim.events.proposals.endorsing_enabled.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie %{participatory_space_title} folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen.
-22460;en;decidim.events.proposals.endorsing_enabled.email_outro;You have received this notification because you are following %{participatory_space_title}. You can stop receiving notifications following the previous link.
-22461;de;decidim.events.proposals.proposal_accepted.follower.email_outro;"Sie haben diese Benachrichtigung erhalten, weil Sie ""%{resource_title}"" folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen."
-22462;en;decidim.events.proposals.proposal_accepted.follower.email_outro;"You have received this notification because you are following ""%{resource_title}"". You can unfollow it from the previous link."
-22463;de;decidim.events.proposals.proposal_evaluating.affected_user.email_outro;"Sie haben diese Benachrichtigung erhalten, weil Sie Autor*in von ""%{resource_title}"" sind."
-22464;en;decidim.events.proposals.proposal_evaluating.affected_user.email_outro;"You have received this notification because you are an author of ""%{resource_title}""."
-22465;de;decidim.events.proposals.proposal_evaluating.follower.email_outro;"Sie haben diese Benachrichtigung erhalten, weil Sie ""%{resource_title}"" folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen."
-22466;en;decidim.events.proposals.proposal_evaluating.follower.email_outro;"You have received this notification because you are following ""%{resource_title}"". You can unfollow it from the previous link."
-22467;de;decidim.events.proposals.proposal_mentioned.email_outro;"Sie haben diese Benachrichtigung erhalten, weil Sie Autor*in von ""%{resource_title}"" sind."
-22468;en;decidim.events.proposals.proposal_mentioned.email_outro;"You have received this notification because you are an author of ""%{resource_title}""."
-22469;de;decidim.events.proposals.proposal_published.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie %{author_nickname} folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen.
-22470;en;decidim.events.proposals.proposal_published.email_outro;You have received this notification because you are following %{author_nickname}. You can stop receiving notifications following the previous link.
-22471;de;decidim.events.proposals.proposal_published_for_space.email_outro;"Sie haben diese Benachrichtigung erhalten, weil Sie ""%{participatory_space_title}"" folgen. Sie können den Erhalt von Benachrichtigungen über den angegebenen Link einstellen."
-22472;en;decidim.events.proposals.proposal_published_for_space.email_outro;"You have received this notification because you are following ""%{participatory_space_title}"". You can stop receiving notifications following the previous link."
-22473;de;decidim.events.proposals.proposal_rejected.affected_user.email_outro;"Sie haben diese Benachrichtigung erhalten, weil Sie Autor*in von ""%{resource_title}"" sind."
-22475;de;decidim.events.proposals.proposal_rejected.follower.email_outro;"Sie haben diese Benachrichtigung erhalten, weil Sie ""%{resource_title}"" folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen."
-22476;en;decidim.events.proposals.proposal_rejected.follower.email_outro;"You have received this notification because you are following ""%{resource_title}"". You can unfollow it from the previous link."
-22477;de;decidim.events.proposals.proposal_update_category.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie Autor*in des Vorschlags sind.
-22478;en;decidim.events.proposals.proposal_update_category.email_outro;You have received this notification because you are the author of the proposal.
-22479;de;decidim.events.proposals.proposal_update_scope.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie Autor*in des Vorschlags sind.
-22480;en;decidim.events.proposals.proposal_update_scope.email_outro;You have received this notification because you are the author of the proposal.
-22481;de;decidim.events.proposals.voting_enabled.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie %{participatory_space_title} folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen.
-22482;en;decidim.events.proposals.voting_enabled.email_outro;You have received this notification because you are following %{participatory_space_title}. You can stop receiving notifications following the previous link.
-22483;de;decidim.events.budgets.budget_published.email_outro;Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie %{participatory_space_title} folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen.
-22484;en;decidim.events.budgets.budget_published.email_outro;You have received this notification because you are following %{participatory_space_title}. You can stop receiving notifications following the previous link.
-22485;de;decidim.events.surveys.survey_closed.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie %{participatory_space_title} folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen.
-22486;en;decidim.events.surveys.survey_closed.email_outro;You have received this notification because you are following %{participatory_space_title}. You can stop receiving notifications following the previous link.
-22487;de;decidim.events.surveys.survey_opened.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie %{participatory_space_title} folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen.
-22488;en;decidim.events.surveys.survey_opened.email_outro;You have received this notification because you are following %{participatory_space_title}. You can stop receiving notifications following the previous link.
-22489;de;decidim.events.accountability.proposal_linked.email_outro;"Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie ""%{proposal_title}"" folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen."
-22490;en;decidim.events.accountability.proposal_linked.email_outro;"You have received this notification because you are following ""%{proposal_title}"". You can stop receiving notifications following the previous link."
-22491;de;decidim.events.accountability.result_progress_updated.email_outro;"Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie ""%{proposal_title}"" folgen und dieser Vorschlag in das Ergebnis ""%{resource_title}"" aufgenommen wurde. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen."
-22492;en;decidim.events.accountability.result_progress_updated.email_outro;"You have received this notification because you are following ""%{proposal_title}"", and this proposal is included in the result ""%{resource_title}"". You can stop receiving notifications following the previous link."
-22493;de;decidim.events.debates.create_debate_event.space_followers.email_outro;Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie %{space_title} folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen.
-22494;en;decidim.events.debates.create_debate_event.space_followers.email_outro;You have received this notification because you are following the %{space_title} participatory space. You can stop receiving notifications following the previous link.
-22495;de;decidim.events.debates.create_debate_event.user_followers.email_outro;Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie %{author_nickname} folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen.
-22496;en;decidim.events.debates.create_debate_event.user_followers.email_outro;You have received this notification because you are following %{author_nickname}. You can stop receiving notifications following the previous link.
-22497;de;decidim.events.debates.creation_disabled.email_outro;Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie %{participatory_space_title} folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen.
-22498;en;decidim.events.debates.creation_disabled.email_outro;You have received this notification because you are following %{participatory_space_title}. You can stop receiving notifications following the previous link.
-22499;de;decidim.events.debates.creation_enabled.email_outro;Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie %{participatory_space_title} folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen.
-22500;en;decidim.events.debates.creation_enabled.email_outro;You have received this notification because you are following %{participatory_space_title}. You can stop receiving notifications following the previous link.
-22501;de;decidim.events.debates.debate_closed.affected_user.email_outro;"Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie der Debatte ""%{resource_title}"" folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen."
-22502;en;decidim.events.debates.debate_closed.affected_user.email_outro;"You have received this notification because you are following the ""%{resource_title}"" debate. You can unfollow it from the previous link."
-22503;de;decidim.events.debates.debate_closed.follower.email_outro;"Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie der Debatte ""%{resource_title}"" folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen."
-22504;en;decidim.events.debates.debate_closed.follower.email_outro;"You have received this notification because you are following the ""%{resource_title}"" debate. You can unfollow it from the previous link."
-22505;de;decidim.events.sortitions.sortition_created.email_outro;"Sie haben diese Benachrichtigung erhalten, weil Sie ""%{participatory_space_title}"" folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen."
-22506;en;decidim.events.sortitions.sortition_created.email_outro;"You have received this notification because you are following ""%{participatory_space_title}"". You can unfollow it from the previous link."
-22507;de;decidim.events.blogs.post_created.email_outro;"Diese Nachricht wurde automatisch versendet. Sie haben diese Benachrichtigung erhalten, weil Sie ""%{participatory_space_title}"" folgen. Wenn Sie solche Benachrichtigungen nicht mehr erhalten möchten, können Sie dies über den angegebenen Link einstellen."
-22508;en;decidim.events.blogs.post_created.email_outro;"You have received this notification because you are following ""%{participatory_space_title}"". You can unfollow it from the previous link."
-22509;de;decidim.messaging.conversation_mailer.comanagers_new_conversation.outro;Diese Nachricht wurde automatisch versendet. Bitte antworten Sie nicht per E-Mail, sondern direkt über die Plattform, indem Sie auf den angegebenen Link klicken.
-22510;en;decidim.messaging.conversation_mailer.comanagers_new_conversation.outro;This message was sent automatically. Please do not reply by e-mail, but directly via the platform by clicking on the link provided.
-22511;de;decidim.messaging.conversation_mailer.comanagers_new_message.outro;Diese Nachricht wurde automatisch versendet. Bitte antworten Sie nicht per E-Mail, sondern direkt über die Plattform, indem Sie auf den angegebenen Link klicken.
-22512;en;decidim.messaging.conversation_mailer.comanagers_new_message.outro;This message was sent automatically. Please do not reply by e-mail, but directly via the platform by clicking on the link provided.
-22513;de;decidim.messaging.conversation_mailer.new_conversation.outro;Diese Nachricht wurde automatisch versendet. Bitte antworten Sie nicht per E-Mail, sondern direkt über die Plattform, indem Sie auf den angegebenen Link klicken.
-22514;en;decidim.messaging.conversation_mailer.new_conversation.outro;This message was sent automatically. Please do not reply by e-mail, but directly via the platform by clicking on the link provided.
-22515;de;decidim.messaging.conversation_mailer.new_group_conversation.outro;Diese Nachricht wurde automatisch versendet. Bitte antworten Sie nicht per E-Mail, sondern direkt über die Plattform, indem Sie auf den angegebenen Link klicken.
-22516;en;decidim.messaging.conversation_mailer.new_group_conversation.outro;This message was sent automatically. Please do not reply by e-mail, but directly via the platform by clicking on the link provided.
-22517;de;decidim.messaging.conversation_mailer.new_group_message.outro;Diese Nachricht wurde automatisch versendet. Bitte antworten Sie nicht per E-Mail, sondern direkt über die Plattform, indem Sie auf den angegebenen Link klicken.
-22518;en;decidim.messaging.conversation_mailer.new_group_message.outro;This message was sent automatically. Please do not reply by e-mail, but directly via the platform by clicking on the link provided.
-22519;de;decidim.messaging.conversation_mailer.new_message.outro;Diese Nachricht wurde automatisch versendet. Bitte antworten Sie nicht per E-Mail, sondern direkt über die Plattform, indem Sie auf den angegebenen Link klicken.
-22520;en;decidim.messaging.conversation_mailer.new_message.outro;This message was sent automatically. Please do not reply by e-mail, but directly via the platform by clicking on the link provided.
-22521;de;decidim.events.comments.comment_downvoted.email_outro;Diese Nachricht wurde automatisch versendet. Bitte antworten Sie direkt auf der Plattform. Sie haben diese Benachrichtigung erhalten, weil Sie Autor*in des Kommentars sind.
-22522;en;decidim.events.comments.comment_downvoted.email_outro;This message was sent automatically. Please reply on the platform. You have received this notification because you are the author of this comment.
-22523;de;decidim.events.comments.comment_upvoted.email_outro;Diese Nachricht wurde automatisch versendet. Bitte antworten Sie direkt auf der Plattform. Sie haben diese Benachrichtigung erhalten, weil Sie Autor*in des Kommentars sind.
-22524;en;decidim.events.comments.comment_upvoted.email_outro;This message was sent automatically. Please reply directly on the platform. You have received this notification because you are the author of this comment.
-28987;de;decidim.events.attachments.attachment_created.email_intro;Ein neues Dokument wurde zu «%{resource_title}» hinzugefügt. Weitere Informationen:
-28988;en;decidim.events.attachments.attachment_created.email_intro;A new document has been added to %{resource_title}. More information: 
-29194;en;decidim.events.proposals.proposal_update_scope.email_intro;"An admin has updated the scope of your proposal ""%{resource_title}"". More information:"
-29221;de;decidim.notifications_digest_mailer.hello;Guten Tag %{name}
-29224;en;decidim.notifications_digest_mailer.intro.daily;The following news items are relevant to you on the municipal participation platform:
-29165;de;decidim.events.amendments.amendment_accepted.follower.email_intro;Eine Änderung für %{amendable_title} wurde akzeptiert. Weitere Informationen:
-29166;en;decidim.events.amendments.amendment_accepted.follower.email_intro;An amendment has been accepted for %{amendable_title}. More information:
-29167;de;decidim.events.amendments.amendment_created.affected_user.email_intro;Eine neue Änderung wurde für %{amendable_title} vorgeschlagen. Weitere Informationen:
-29168;en;decidim.events.amendments.amendment_created.affected_user.email_intro;A proposed amendment has been added to «%{amendable_title}». Further information:
-29169;de;decidim.events.amendments.amendment_created.follower.email_intro;Eine neue Änderung für %{amendable_title} wurde erstellt. Weitere Informationen:
-29170;en;decidim.events.amendments.amendment_created.follower.email_intro;A new amendment has been created for %{amendable_title}. More information:
-29171;de;decidim.events.amendments.amendment_promoted.affected_user.email_intro;Eine abgelehnte Änderung an %{amendable_title} wurde als neues %{amendable_type} veröffentlicht. Weitere Informationen:
-29172;en;decidim.events.amendments.amendment_promoted.affected_user.email_intro;A rejected amendment for %{amendable_title} has been published as a new %{amendable_type}. More information:
-29173;de;decidim.events.amendments.amendment_promoted.follower.email_intro;Eine abgelehnte Änderung für %{amendable_title} wurde als neues %{amendable_type} veröffentlicht. Weitere Informationen:
-29174;en;decidim.events.amendments.amendment_promoted.follower.email_intro;A rejected amendment for %{amendable_title} has been published as a new %{amendable_type}. More information:
-29175;de;decidim.events.amendments.amendment_rejected.affected_user.email_intro;Eine Änderung an %{amendable_title} wurde abgelehnt. Weitere Informationen:
-29176;en;decidim.events.amendments.amendment_rejected.affected_user.email_intro;An amendment has been rejected for %{amendable_title}. More information:
-29177;de;decidim.events.amendments.amendment_rejected.follower.email_intro;Eine Änderung für %{amendable_title} wurde abgelehnt. Weitere Informationen:
-29178;en;decidim.events.amendments.amendment_rejected.follower.email_intro;An amendment has been rejected for %{amendable_title}. More information:
-29179;de;decidim.events.amendments.emendation_promoted.follower.email_intro;Eine Änderung wurde für %{amendable_title} veröffentlicht. Weitere Informationen:
-29180;en;decidim.events.amendments.emendation_promoted.follower.email_intro;An emendation has been published for %{amendable_title}. More information:
-29181;de;decidim.events.components.component_published.email_intro;Die Komponente %{resource_title} ist jetzt für %{participatory_space_title} aktiv. Weitere Informationen:
-29182;en;decidim.events.components.component_published.email_intro;The %{resource_title} component is now active for %{participatory_space_title}. More information:
-29183;de;decidim.events.email_event.email_intro;"«%{resource_title}» wurde aktualisiert. Weitere Informationen:"
-29184;en;decidim.events.email_event.email_intro;"There has been an update to ""%{resource_title}"". More information:"
-29185;de;decidim.events.participatory_process.step_activated.email_intro;Der Prozessschritt %{resource_title} wurde im Mitwirkungsprozess «%{participatory_space_title}» aktiviert. Weitere Informationen:
-29186;en;decidim.events.participatory_process.step_activated.email_intro;The phase «%{resource_title}» has been activated for «%{participatory_space_title}». More information:
-29187;de;decidim.events.participatory_process.step_changed.email_intro;Die Daten für den Schritt %{resource_title} bei %{participatory_space_title} wurden aktualisiert. Weitere Informationen:
-29188;en;decidim.events.participatory_process.step_changed.email_intro;The dates for the %{resource_title} phase at %{participatory_space_title} have been updated. More information:
-29189;de;decidim.events.proposals.proposal_published.email_intro;"%{author_name} %{author_nickname}, dem Sie folgen, hat einen neuen Vorschlag mit dem Namen «%{resource_title}» veröffentlicht. Weitere Informationen:"
-29190;en;decidim.events.proposals.proposal_published.email_intro;"%{author_name} %{author_nickname}, who you are following, has published a new proposal called ""%{resource_title}"". Check it out and contribute:"
-29191;de;decidim.events.proposals.proposal_update_category.email_intro;"Ein*e Administrator*in hat die Kategorie Ihres Vorschlags «%{resource_title}» aktualisiert. Weitere Informationen:"
-29192;en;decidim.events.proposals.proposal_update_category.email_intro;"An admin has updated the category of your proposal ""%{resource_title}"". Check it out in this page:"
-29193;de;decidim.events.proposals.proposal_update_scope.email_intro;Ein*e Administrator*in hat den Bereich Ihres Vorschlags «%{resource_title}» aktualisiert. Weitere Informationen:
-29195;de;decidim.events.budgets.budget_published.email_intro;Das Budget %{resource_title} ist jetzt für %{participatory_space_title} aktiv. Weitere Informationen:
-29196;en;decidim.events.budgets.budget_published.email_intro;The %{resource_title} budget is now active for %{participatory_space_title}. More information:
-29197;de;decidim.events.accountability.result_progress_updated.email_intro;"Das Ergebnis «%{resource_title}», das den Vorschlag «%{proposal_title}» enthält, ist jetzt zu %{progress}% abgeschlossen. Weitere Informationen:"
-29198;en;decidim.events.accountability.result_progress_updated.email_intro;"The result ""%{resource_title}"", which includes the proposal ""%{proposal_title}"", is now %{progress}% complete. More information:"
-29199;de;decidim.events.debates.create_debate_event.user_followers.email_intro;"Guten Tag, %{author_name} %{author_nickname}, dem Sie folgen, hat eine neue Debatte «%{resource_title}» erstellt. Weitere Informationen:"
-29200;en;decidim.events.debates.create_debate_event.user_followers.email_intro;"Hi,
-%{author_name} %{author_nickname}, who you are following, has created a new debate ""%{resource_title}"". Check it out and contribute:"
-29163;de;decidim.events.amendments.amendment_accepted.affected_user.email_intro;Eine Änderung an %{amendable_title} wurde akzeptiert. Weitere Informationen:
-29164;en;decidim.events.amendments.amendment_accepted.affected_user.email_intro;An amendment has been accepted for %{amendable_title}. More information:
-29215;de;decidim.notifications_digest_mailer.header.daily;Tägliche Zusammenfassung
-29216;en;decidim.notifications_digest_mailer.header.daily;Daily Notification Digest
-29217;de;decidim.notifications_digest_mailer.header.real_time;In Echtzeit
-29218;en;decidim.notifications_digest_mailer.header.real_time;Real time
-29219;de;decidim.notifications_digest_mailer.header.weekly;Wöchentliche Zusammenfassung
-29220;en;decidim.notifications_digest_mailer.header.weekly;Weekly Notification Digest
-29222;en;decidim.notifications_digest_mailer.hello;Hello %{name},
-29223;de;decidim.notifications_digest_mailer.intro.daily;Folgende Neuigkeiten sind auf der städtischen Mitwirkungsplattform für Sie relevant:
-29225;de;decidim.notifications_digest_mailer.intro.real_time;Wir benachrichtigen Sie mit folgender Meldung von der städtischen Mitwirkungsplattform:
-29227;de;decidim.notifications_digest_mailer.intro.weekly;Folgende Neuigkeiten aus der letzten Woche sind auf der städtischen Mitwirkungsplattform für Sie relevant:
-29228;en;decidim.notifications_digest_mailer.intro.weekly;The following notifications from last week are relevant to you on the municipal participation platform:
-29229;de;decidim.notifications_digest_mailer.outro;Sie haben diese Benachrichtigung erhalten, weil Sie diesen Inhalt oder dessen Verfassende folgen. Sie können dem Inhalt direkt auf seiner Seite entfolgen.
-29230;en;decidim.notifications_digest_mailer.outro;You have received these notifications because you are following this content or its authors. You can unfollow them from their respective pages.
-29231;de;decidim.notifications_digest_mailer.see_more;Weitere Benachrichtigungen ansehen
-29232;en;decidim.notifications_digest_mailer.see_more;See more notifications
-29233;de;decidim.notifications_digest_mailer.subject;Ihre E-Mail-Zusammenfassung
-29234;en;decidim.notifications_digest_mailer.subject;This is your mail digest
-29226;en;decidim.notifications_digest_mailer.intro.real_time;We are notifying you with the following message from the municipal participation platform:
-22353;de;decidim.newsletter_mailer.newsletter.note;Sie haben diese E-Mail erhalten, weil Sie den Newsletter auf %{organization_name} abonniert haben.
-22354;en;decidim.newsletter_mailer.newsletter.note;You received this email because you're subscribed to newsletters on %{organization_name}.
-29429;de;decidim.newsletter_mailer.newsletter.see_on_website;"Wird diese E-Mail nicht korrekt angezeigt? <a href=""%{link}"" target=""_blank"">Auf der Website ansehen.</a>"
-29430;en;decidim.newsletter_mailer.newsletter.see_on_website;"Can’t see this email correctly? View it on the <a href=""%{link}"" target=""_blank"">website</a>."
-29431;de;decidim.newsletter_mailer.newsletter.unsubscribe;"Den Empfang von Benachrichtigungen können Sie in Ihren <a href=""https://mitwirken.stadt-zuerich.ch/notifications_settings"">Benachrichtigungseinstellungen</a> anpassen."
-29432;en;decidim.newsletter_mailer.newsletter.unsubscribe;"You can change your settings on your <a href=""https://mitwirken.stadt-zuerich.ch/notifications_settings"">notifications page</a>."
-29439;de;decidim.events.proposals.proposal_state_changed.affected_user.email_intro;"Der Status des Vorschlags «%{resource_title}» wurde auf «%{state}» geändert. Weitere Informationen:"
-29440;en;decidim.events.proposals.proposal_state_changed.affected_user.email_intro;"The proposal ""%{resource_title}"" has changed its state to ""%{state}"". You can read the answer in this page:"
-29441;de;decidim.events.proposals.proposal_state_changed.follower.email_intro;"Der Status des Vorschlags «%{resource_title}» wurde auf «%{state}» geändert. Weitere Informationen:"
-29442;en;decidim.events.proposals.proposal_state_changed.follower.email_intro;"The proposal ""%{resource_title}"" has changed its state to ""%{state}"". You can read the answer in this page:"
+;de;decidim.budgets.vote_reminder_mailer.vote_reminder.email_outro;"Denken Sie daran, die Abstimmung vollständig abzuschliessen. Wählen Sie dazu den gewünschten Vorschlag oder die gewünschten Vorschläge aus, denen Sie Ihre Stimme geben möchten. Bestätigen Sie anschliessend Ihre Auswahl, indem Sie auf ""Abstimmen"" klicken."
+22349;de;decidim.events.accountability.proposal_linked.email_intro;«%{proposal_title}» wird umgesetzt.
+22350;en;decidim.events.accountability.proposal_linked.email_intro;«%{proposal_title}» is being implemented.
+22489;de;decidim.events.accountability.proposal_linked.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22490;en;decidim.events.accountability.proposal_linked.email_outro;Manage your notifications in your settings.
+;de;decidim.events.accountability.proposal_linked.email_subject;«%{proposal_title}» wird umgesetzt
+;en;decidim.events.accountability.proposal_linked.email_subject;«%{proposal_title}» is being implemented
+29197;de;decidim.events.accountability.result_progress_updated.email_intro;Neuer Fortschritt bei «%{resource_title}»: %{progress}%.
+29198;en;decidim.events.accountability.result_progress_updated.email_intro;New progress on «%{resource_title}»: %{progress}%.
+22491;de;decidim.events.accountability.result_progress_updated.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22492;en;decidim.events.accountability.result_progress_updated.email_outro;Manage your notifications in your settings.
+;de;decidim.events.accountability.result_progress_updated.email_subject;Fortschritt bei «%{resource_title}»: %{progress}%
+;en;decidim.events.accountability.result_progress_updated.email_subject;Progress on «%{resource_title}»: %{progress}%
+29163;de;decidim.events.amendments.amendment_accepted.affected_user.email_intro;Ihr Änderungsantrag zu «%{amendable_title}» wurde angenommen.
+29164;en;decidim.events.amendments.amendment_accepted.affected_user.email_intro;Your amendment to «%{amendable_title}» was accepted.
+22373;de;decidim.events.amendments.amendment_accepted.affected_user.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22374;en;decidim.events.amendments.amendment_accepted.affected_user.email_outro;Manage your notifications in your settings.
+;de;decidim.events.amendments.amendment_accepted.affected_user.email_subject;Änderungsantrag zu «%{amendable_title}» angenommen
+;en;decidim.events.amendments.amendment_accepted.affected_user.email_subject;Amendment to «%{amendable_title}» accepted
+29165;de;decidim.events.amendments.amendment_accepted.follower.email_intro;Ein Änderungsantrag zu «%{amendable_title}» wurde angenommen.
+29166;en;decidim.events.amendments.amendment_accepted.follower.email_intro;An amendment to «%{amendable_title}» was accepted.
+22375;de;decidim.events.amendments.amendment_accepted.follower.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22376;en;decidim.events.amendments.amendment_accepted.follower.email_outro;Manage your notifications in your settings.
+;de;decidim.events.amendments.amendment_accepted.follower.email_subject;Änderungsantrag zu «%{amendable_title}» angenommen
+;en;decidim.events.amendments.amendment_accepted.follower.email_subject;Amendment to «%{amendable_title}» accepted
+29167;de;decidim.events.amendments.amendment_created.affected_user.email_intro;Neuer Änderungsantrag zu «%{amendable_title}».
+29168;en;decidim.events.amendments.amendment_created.affected_user.email_intro;New amendment to «%{amendable_title}».
+22377;de;decidim.events.amendments.amendment_created.affected_user.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22378;en;decidim.events.amendments.amendment_created.affected_user.email_outro;Manage your notifications in your settings.
+;de;decidim.events.amendments.amendment_created.affected_user.email_subject;Neuer Änderungsantrag zu «%{amendable_title}»
+;en;decidim.events.amendments.amendment_created.affected_user.email_subject;New amendment to «%{amendable_title}»
+29169;de;decidim.events.amendments.amendment_created.follower.email_intro;Neuer Änderungsantrag zu «%{amendable_title}».
+29170;en;decidim.events.amendments.amendment_created.follower.email_intro;New amendment to «%{amendable_title}».
+22371;de;decidim.events.amendments.amendment_created.follower.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22372;en;decidim.events.amendments.amendment_created.follower.email_outro;Manage your notifications in your settings.
+;de;decidim.events.amendments.amendment_created.follower.email_subject;Neuer Änderungsantrag zu «%{amendable_title}»
+;en;decidim.events.amendments.amendment_created.follower.email_subject;New amendment to «%{amendable_title}»
+29171;de;decidim.events.amendments.amendment_promoted.affected_user.email_intro;Ein abgelehnter Änderungsantrag zu «%{amendable_title}» wurde als neue*r %{amendable_type} veröffentlicht.
+29172;en;decidim.events.amendments.amendment_promoted.affected_user.email_intro;A rejected amendment to «%{amendable_title}» was published as a new %{amendable_type}.
+22379;de;decidim.events.amendments.amendment_promoted.affected_user.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22380;en;decidim.events.amendments.amendment_promoted.affected_user.email_outro;Manage your notifications in your settings.
+;de;decidim.events.amendments.amendment_promoted.affected_user.email_subject;Abgelehnter Änderungsantrag zu «%{amendable_title}» neu veröffentlicht
+;en;decidim.events.amendments.amendment_promoted.affected_user.email_subject;Rejected amendment to «%{amendable_title}» republished
+29173;de;decidim.events.amendments.amendment_promoted.follower.email_intro;Ein abgelehnter Änderungsantrag zu «%{amendable_title}» wurde als neue*r %{amendable_type} veröffentlicht.
+29174;en;decidim.events.amendments.amendment_promoted.follower.email_intro;A rejected amendment to «%{amendable_title}» was published as a new %{amendable_type}.
+22381;de;decidim.events.amendments.amendment_promoted.follower.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22382;en;decidim.events.amendments.amendment_promoted.follower.email_outro;Manage your notifications in your settings.
+;de;decidim.events.amendments.amendment_promoted.follower.email_subject;Abgelehnter Änderungsantrag zu «%{amendable_title}» neu veröffentlicht
+;en;decidim.events.amendments.amendment_promoted.follower.email_subject;Rejected amendment to «%{amendable_title}» republished
+29175;de;decidim.events.amendments.amendment_rejected.affected_user.email_intro;Ihr Änderungsantrag zu «%{amendable_title}» wurde abgelehnt.
+29176;en;decidim.events.amendments.amendment_rejected.affected_user.email_intro;Your amendment to «%{amendable_title}» was rejected.
+22383;de;decidim.events.amendments.amendment_rejected.affected_user.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22384;en;decidim.events.amendments.amendment_rejected.affected_user.email_outro;Manage your notifications in your settings.
+;de;decidim.events.amendments.amendment_rejected.affected_user.email_subject;Änderungsantrag zu «%{amendable_title}» abgelehnt
+;en;decidim.events.amendments.amendment_rejected.affected_user.email_subject;Amendment to «%{amendable_title}» rejected
+29177;de;decidim.events.amendments.amendment_rejected.follower.email_intro;Ein Änderungsantrag zu «%{amendable_title}» wurde abgelehnt.
+29178;en;decidim.events.amendments.amendment_rejected.follower.email_intro;An amendment to «%{amendable_title}» was rejected.
+22391;de;decidim.events.amendments.amendment_rejected.follower.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22392;en;decidim.events.amendments.amendment_rejected.follower.email_outro;Manage your notifications in your settings.
+;de;decidim.events.amendments.amendment_rejected.follower.email_subject;Änderungsantrag zu «%{amendable_title}» abgelehnt
+;en;decidim.events.amendments.amendment_rejected.follower.email_subject;Amendment to «%{amendable_title}» rejected
+29179;de;decidim.events.amendments.emendation_promoted.follower.email_intro;Ein Änderungsantrag zu «%{amendable_title}» wurde veröffentlicht.
+29180;en;decidim.events.amendments.emendation_promoted.follower.email_intro;An amendment to «%{amendable_title}» was published.
+;de;decidim.events.amendments.emendation_promoted.follower.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.events.amendments.emendation_promoted.follower.email_outro;Manage your notifications in your settings.
+;de;decidim.events.amendments.emendation_promoted.follower.email_subject;Änderungsantrag zu «%{amendable_title}» veröffentlicht
+;en;decidim.events.amendments.emendation_promoted.follower.email_subject;Amendment to «%{amendable_title}» published
+;de;decidim.events.assemblies.create_assembly_member.email_intro;"Sie wurden als Mitglied des Gremiums <a href=""%{resource_url}"">%{resource_name}</a> eingeladen."
+;en;decidim.events.assemblies.create_assembly_member.email_intro;"You were invited as a member of the assembly <a href=""%{resource_url}"">%{resource_name}</a>."
+22385;de;decidim.events.assemblies.create_assembly_member.email_outro;"Sie erhalten diese E-Mail, weil Sie ins Gremium eingeladen wurden. Zur <a href=""%{resource_url}"">Gremiumsseite</a>."
+22386;en;decidim.events.assemblies.create_assembly_member.email_outro;"You receive this e-mail because you were invited to an assembly. Go to the <a href=""%{resource_url}"">assembly page</a>."
+;de;decidim.events.assemblies.create_assembly_member.email_subject;Einladung ins Gremium %{resource_name}
+;en;decidim.events.assemblies.create_assembly_member.email_subject;Invitation to the assembly %{resource_name}
+;de;decidim.events.assembly.role_assigned.email_intro;Sie sind neu %{role} des Gremiums «%{resource_title}».
+;en;decidim.events.assembly.role_assigned.email_intro;You are now %{role} of the assembly «%{resource_title}».
+22415;de;decidim.events.assembly.role_assigned.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22416;en;decidim.events.assembly.role_assigned.email_outro;Manage your notifications in your settings.
+;de;decidim.events.assembly.role_assigned.email_subject;Neue Rolle in «%{resource_title}»: %{role}
+;en;decidim.events.assembly.role_assigned.email_subject;New role in «%{resource_title}»: %{role}
+28987;de;decidim.events.attachments.attachment_created.email_intro;Neues Dokument zu «%{resource_title}».
+28988;en;decidim.events.attachments.attachment_created.email_intro;New document on «%{resource_title}».
+22393;de;decidim.events.attachments.attachment_created.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22394;en;decidim.events.attachments.attachment_created.email_outro;Manage your notifications in your settings.
+;de;decidim.events.attachments.attachment_created.email_subject;Neues Dokument zu «%{resource_title}»
+;en;decidim.events.attachments.attachment_created.email_subject;New document on «%{resource_title}»
+;de;decidim.events.blogs.post_created.email_intro;Neuer Beitrag in «%{participatory_space_title}»: «%{resource_title}».
+;en;decidim.events.blogs.post_created.email_intro;New post in «%{participatory_space_title}»: «%{resource_title}».
+22507;de;decidim.events.blogs.post_created.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22508;en;decidim.events.blogs.post_created.email_outro;Manage your notifications in your settings.
+;de;decidim.events.blogs.post_created.email_subject;Neuer Beitrag in «%{participatory_space_title}»
+;en;decidim.events.blogs.post_created.email_subject;New post in «%{participatory_space_title}»
+29195;de;decidim.events.budgets.budget_published.email_intro;Neues Budget «%{resource_title}» in «%{participatory_space_title}».
+29196;en;decidim.events.budgets.budget_published.email_intro;New budget «%{resource_title}» in «%{participatory_space_title}».
+22483;de;decidim.events.budgets.budget_published.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22484;en;decidim.events.budgets.budget_published.email_outro;Manage your notifications in your settings.
+;de;decidim.events.budgets.budget_published.email_subject;Neues Budget in «%{participatory_space_title}»
+;en;decidim.events.budgets.budget_published.email_subject;New budget in «%{participatory_space_title}»
+;de;decidim.events.comments.comment_by_followed_user.email_intro;Neuer Kommentar von %{author_name} zu: «%{resource_title}»
+;en;decidim.events.comments.comment_by_followed_user.email_intro;New comment by %{author_name} on: «%{resource_title}»
+22417;de;decidim.events.comments.comment_by_followed_user.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22418;en;decidim.events.comments.comment_by_followed_user.email_outro;Manage your notifications in your settings.
+;de;decidim.events.comments.comment_by_followed_user.email_subject;Neuer Kommentar von %{author_name}
+;en;decidim.events.comments.comment_by_followed_user.email_subject;New comment by %{author_name}
+;de;decidim.events.comments.comment_by_followed_user_group.email_intro;Neuer Kommentar von %{author_name} zu: «%{resource_title}»
+;en;decidim.events.comments.comment_by_followed_user_group.email_intro;New comment by %{author_name} on: «%{resource_title}»
+22419;de;decidim.events.comments.comment_by_followed_user_group.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22420;en;decidim.events.comments.comment_by_followed_user_group.email_outro;Manage your notifications in your settings.
+;de;decidim.events.comments.comment_by_followed_user_group.email_subject;Neuer Kommentar von %{author_name}
+;en;decidim.events.comments.comment_by_followed_user_group.email_subject;New comment by %{author_name}
+;de;decidim.events.comments.comment_created.email_intro;Neuer Kommentar zu: «%{resource_title}»
+;en;decidim.events.comments.comment_created.email_intro;New comment on: «%{resource_title}»
+22421;de;decidim.events.comments.comment_created.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22422;en;decidim.events.comments.comment_created.email_outro;Manage your notifications in your settings.
+;de;decidim.events.comments.comment_created.email_subject;Neuer Kommentar zu «%{resource_title}»
+;en;decidim.events.comments.comment_created.email_subject;New comment on «%{resource_title}»
+;de;decidim.events.comments.comment_downvoted.email_intro;Ihr Kommentar zu «%{resource_title}» wurde negativ bewertet (%{upvotes} positiv, %{downvotes} negativ).
+;en;decidim.events.comments.comment_downvoted.email_intro;Your comment on «%{resource_title}» was downvoted (%{upvotes} up, %{downvotes} down).
+22521;de;decidim.events.comments.comment_downvoted.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22522;en;decidim.events.comments.comment_downvoted.email_outro;Manage your notifications in your settings.
+;de;decidim.events.comments.comment_downvoted.email_subject;Ihr Kommentar zu «%{resource_title}» wurde negativ bewertet
+;en;decidim.events.comments.comment_downvoted.email_subject;Your comment on «%{resource_title}» was downvoted
+;de;decidim.events.comments.comment_upvoted.email_intro;Ihr Kommentar zu «%{resource_title}» wurde positiv bewertet (%{upvotes} positiv, %{downvotes} negativ).
+;en;decidim.events.comments.comment_upvoted.email_intro;Your comment on «%{resource_title}» was upvoted (%{upvotes} up, %{downvotes} down).
+22523;de;decidim.events.comments.comment_upvoted.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22524;en;decidim.events.comments.comment_upvoted.email_outro;Manage your notifications in your settings.
+;de;decidim.events.comments.comment_upvoted.email_subject;Ihr Kommentar zu «%{resource_title}» wurde positiv bewertet
+;en;decidim.events.comments.comment_upvoted.email_subject;Your comment on «%{resource_title}» was upvoted
+;de;decidim.events.comments.reply_created.email_intro;%{author_name} hat auf Ihren Kommentar zu «%{resource_title}» geantwortet.
+;en;decidim.events.comments.reply_created.email_intro;%{author_name} replied to your comment on «%{resource_title}».
+22423;de;decidim.events.comments.reply_created.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22424;en;decidim.events.comments.reply_created.email_outro;Manage your notifications in your settings.
+;de;decidim.events.comments.reply_created.email_subject;Neue Antwort auf Ihren Kommentar
+;en;decidim.events.comments.reply_created.email_subject;New reply to your comment
+;de;decidim.events.comments.user_group_mentioned.email_intro;Ihre Gruppe %{group_name} wurde in «%{resource_title}» erwähnt.
+;en;decidim.events.comments.user_group_mentioned.email_intro;Your group %{group_name} was mentioned in «%{resource_title}».
+22425;de;decidim.events.comments.user_group_mentioned.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22426;en;decidim.events.comments.user_group_mentioned.email_outro;Manage your notifications in your settings.
+;de;decidim.events.comments.user_group_mentioned.email_subject;Ihre Gruppe wurde in «%{resource_title}» erwähnt
+;en;decidim.events.comments.user_group_mentioned.email_subject;Your group was mentioned in «%{resource_title}»
+;de;decidim.events.comments.user_mentioned.email_intro;Sie wurden in «%{resource_title}» erwähnt.
+;en;decidim.events.comments.user_mentioned.email_intro;You were mentioned in «%{resource_title}».
+22427;de;decidim.events.comments.user_mentioned.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22428;en;decidim.events.comments.user_mentioned.email_outro;Manage your notifications in your settings.
+;de;decidim.events.comments.user_mentioned.email_subject;Sie wurden in «%{resource_title}» erwähnt
+;en;decidim.events.comments.user_mentioned.email_subject;You were mentioned in «%{resource_title}»
+29181;de;decidim.events.components.component_published.email_intro;«%{resource_title}» ist neu in «%{participatory_space_title}» verfügbar.
+29182;en;decidim.events.components.component_published.email_intro;«%{resource_title}» is now available in «%{participatory_space_title}».
+22395;de;decidim.events.components.component_published.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22396;en;decidim.events.components.component_published.email_outro;Manage your notifications in your settings.
+;de;decidim.events.components.component_published.email_subject;Neu in «%{participatory_space_title}»: %{resource_title}
+;en;decidim.events.components.component_published.email_subject;New in «%{participatory_space_title}»: %{resource_title}
+;de;decidim.events.conferences.conference_registrations_over_percentage.email_intro;Die Konferenz «%{resource_title}» ist zu über %{percentage}% ausgebucht.
+;en;decidim.events.conferences.conference_registrations_over_percentage.email_intro;The conference «%{resource_title}» is over %{percentage}% booked.
+;de;decidim.events.conferences.conference_registrations_over_percentage.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.events.conferences.conference_registrations_over_percentage.email_outro;Manage your notifications in your settings.
+;de;decidim.events.conferences.conference_registrations_over_percentage.email_subject;«%{resource_title}»: über %{percentage}% ausgebucht
+;en;decidim.events.conferences.conference_registrations_over_percentage.email_subject;«%{resource_title}»: over %{percentage}% booked
+;de;decidim.events.conferences.conference_updated.email_intro;Die Konferenz «%{resource_title}» wurde aktualisiert.
+;en;decidim.events.conferences.conference_updated.email_intro;The conference «%{resource_title}» was updated.
+;de;decidim.events.conferences.conference_updated.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.events.conferences.conference_updated.email_outro;Manage your notifications in your settings.
+;de;decidim.events.conferences.conference_updated.email_subject;Konferenz «%{resource_title}» aktualisiert
+;en;decidim.events.conferences.conference_updated.email_subject;Conference «%{resource_title}» updated
+;de;decidim.events.conferences.registrations_enabled.email_intro;Anmeldung für die Konferenz «%{resource_title}» ist offen.
+;en;decidim.events.conferences.registrations_enabled.email_intro;Registration for the conference «%{resource_title}» is open.
+;de;decidim.events.conferences.registrations_enabled.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.events.conferences.registrations_enabled.email_outro;Manage your notifications in your settings.
+;de;decidim.events.conferences.registrations_enabled.email_subject;Anmeldung offen: Konferenz «%{resource_title}»
+;en;decidim.events.conferences.registrations_enabled.email_subject;Registration open: conference «%{resource_title}»
+;de;decidim.events.conferences.role_assigned.email_intro;Sie sind neu %{role} der Konferenz «%{resource_title}».
+;en;decidim.events.conferences.role_assigned.email_intro;You are now %{role} of the conference «%{resource_title}».
+;de;decidim.events.conferences.role_assigned.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.events.conferences.role_assigned.email_outro;Manage your notifications in your settings.
+;de;decidim.events.conferences.role_assigned.email_subject;Neue Rolle: %{role} – «%{resource_title}»
+;en;decidim.events.conferences.role_assigned.email_subject;New role: %{role} – «%{resource_title}»
+;de;decidim.events.conferences.upcoming_conference.email_intro;Die Konferenz «%{resource_title}» findet bald statt.
+;en;decidim.events.conferences.upcoming_conference.email_intro;The conference «%{resource_title}» is coming up.
+;de;decidim.events.conferences.upcoming_conference.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.events.conferences.upcoming_conference.email_outro;Manage your notifications in your settings.
+;de;decidim.events.conferences.upcoming_conference.email_subject;Bald: Konferenz «%{resource_title}»
+;en;decidim.events.conferences.upcoming_conference.email_subject;Coming up: conference «%{resource_title}»
+;de;decidim.events.debates.create_debate_event.space_followers.email_intro;Neue Debatte in «%{participatory_space_title}»: «%{resource_title}».
+;en;decidim.events.debates.create_debate_event.space_followers.email_intro;New debate in «%{participatory_space_title}»: «%{resource_title}».
+22493;de;decidim.events.debates.create_debate_event.space_followers.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22494;en;decidim.events.debates.create_debate_event.space_followers.email_outro;Manage your notifications in your settings.
+;de;decidim.events.debates.create_debate_event.space_followers.email_subject;Neue Debatte in «%{participatory_space_title}»
+;en;decidim.events.debates.create_debate_event.space_followers.email_subject;New debate in «%{participatory_space_title}»
+29199;de;decidim.events.debates.create_debate_event.user_followers.email_intro;%{author_name} hat eine neue Debatte erstellt: «%{resource_title}».
+29200;en;decidim.events.debates.create_debate_event.user_followers.email_intro;%{author_name} created a new debate: «%{resource_title}».
+22495;de;decidim.events.debates.create_debate_event.user_followers.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22496;en;decidim.events.debates.create_debate_event.user_followers.email_outro;Manage your notifications in your settings.
+;de;decidim.events.debates.create_debate_event.user_followers.email_subject;Neue Debatte von %{author_nickname}
+;en;decidim.events.debates.create_debate_event.user_followers.email_subject;New debate by %{author_nickname}
+;de;decidim.events.debates.creation_disabled.email_intro;In «%{participatory_space_title}» können keine neuen Debatten mehr erstellt werden.
+;en;decidim.events.debates.creation_disabled.email_intro;Creating debates is no longer possible in «%{participatory_space_title}».
+22497;de;decidim.events.debates.creation_disabled.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22498;en;decidim.events.debates.creation_disabled.email_outro;Manage your notifications in your settings.
+;de;decidim.events.debates.creation_disabled.email_subject;Debatten in «%{participatory_space_title}» geschlossen
+;en;decidim.events.debates.creation_disabled.email_subject;Debates closed in «%{participatory_space_title}»
+;de;decidim.events.debates.creation_enabled.email_intro;In «%{participatory_space_title}» können Sie jetzt Debatten erstellen.
+;en;decidim.events.debates.creation_enabled.email_intro;You can now create debates in «%{participatory_space_title}».
+22499;de;decidim.events.debates.creation_enabled.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22500;en;decidim.events.debates.creation_enabled.email_outro;Manage your notifications in your settings.
+;de;decidim.events.debates.creation_enabled.email_subject;Debatten jetzt offen in «%{participatory_space_title}»
+;en;decidim.events.debates.creation_enabled.email_subject;Debates now open in «%{participatory_space_title}»
+;de;decidim.events.debates.debate_closed.affected_user.email_intro;Die Debatte «%{resource_title}» wurde beendet.
+;en;decidim.events.debates.debate_closed.affected_user.email_intro;The debate «%{resource_title}» was closed.
+22501;de;decidim.events.debates.debate_closed.affected_user.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22502;en;decidim.events.debates.debate_closed.affected_user.email_outro;Manage your notifications in your settings.
+;de;decidim.events.debates.debate_closed.affected_user.email_subject;Debatte «%{resource_title}» beendet
+;en;decidim.events.debates.debate_closed.affected_user.email_subject;Debate «%{resource_title}» closed
+;de;decidim.events.debates.debate_closed.follower.email_intro;Die Debatte «%{resource_title}» wurde beendet.
+;en;decidim.events.debates.debate_closed.follower.email_intro;The debate «%{resource_title}» was closed.
+22503;de;decidim.events.debates.debate_closed.follower.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22504;en;decidim.events.debates.debate_closed.follower.email_outro;Manage your notifications in your settings.
+;de;decidim.events.debates.debate_closed.follower.email_subject;Debatte «%{resource_title}» beendet
+;en;decidim.events.debates.debate_closed.follower.email_subject;Debate «%{resource_title}» closed
+29183;de;decidim.events.email_event.email_intro;«%{resource_title}» wurde aktualisiert.
+29184;en;decidim.events.email_event.email_intro;«%{resource_title}» was updated.
+22397;de;decidim.events.email_event.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22398;en;decidim.events.email_event.email_outro;Manage your notifications in your settings.
+;de;decidim.events.email_event.email_subject;Update zu «%{resource_title}»
+;en;decidim.events.email_event.email_subject;Update on «%{resource_title}»
+;de;decidim.events.gamification.badge_earned.email_intro;"Geschafft! Sie haben das Abzeichen <a href=""%{resource_url}"">%{badge_name}</a> (Level %{current_level}) erhalten."
+;en;decidim.events.gamification.badge_earned.email_intro;"Well done! You earned the badge <a href=""%{resource_url}"">%{badge_name}</a> (level %{current_level})."
+;de;decidim.events.gamification.badge_earned.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.events.gamification.badge_earned.email_outro;Manage your notifications in your settings.
+;de;decidim.events.gamification.badge_earned.email_subject;Neues Abzeichen: %{badge_name}
+;en;decidim.events.gamification.badge_earned.email_subject;New badge: %{badge_name}
+;de;decidim.events.gamification.level_up.email_intro;"Geschafft! Sie haben Level %{current_level} beim Abzeichen <a href=""%{resource_url}"">%{badge_name}</a> erreicht."
+;en;decidim.events.gamification.level_up.email_intro;"Well done! You reached level %{current_level} on the badge <a href=""%{resource_url}"">%{badge_name}</a>."
+;de;decidim.events.gamification.level_up.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.events.gamification.level_up.email_outro;Manage your notifications in your settings.
+;de;decidim.events.gamification.level_up.email_subject;Level %{current_level} erreicht: %{badge_name}
+;en;decidim.events.gamification.level_up.email_subject;Level %{current_level} reached: %{badge_name}
+;de;decidim.events.groups.demoted_membership.email_intro;"Ihre Admin-Rechte für die Gruppe <a href=""%{resource_url}"">%{user_group_name}</a> wurden entzogen."
+;en;decidim.events.groups.demoted_membership.email_intro;"Your admin rights for the group <a href=""%{resource_url}"">%{user_group_name}</a> were removed."
+;de;decidim.events.groups.demoted_membership.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.events.groups.demoted_membership.email_outro;Manage your notifications in your settings.
+22361;de;decidim.events.groups.demoted_membership.email_subject;Keine Admin-Rechte mehr in %{user_group_name}
+22362;en;decidim.events.groups.demoted_membership.email_subject;No more admin rights in %{user_group_name}
+;de;decidim.events.groups.demoted_membership.notification_title;"Sie sind nicht mehr Administrator*in in der Gruppe <a href=""%{resource_path}"">%{user_group_name}</a>."
+;de;decidim.events.groups.invited_to_group.email_intro;"Sie wurden in die Gruppe <a href=""%{resource_url}"">%{user_group_name}</a> eingeladen."
+;en;decidim.events.groups.invited_to_group.email_intro;"You were invited to the group <a href=""%{resource_url}"">%{user_group_name}</a>."
+22399;de;decidim.events.groups.invited_to_group.email_outro;Sie erhalten diese E-Mail wegen einer Gruppeneinladung. Im Tab «Gruppen» in Ihrem Profil können Sie sie annehmen.
+22400;en;decidim.events.groups.invited_to_group.email_outro;You receive this e-mail because of a group invitation. Accept it in the «Groups» tab of your profile.
+;de;decidim.events.groups.invited_to_group.email_subject;Einladung in die Gruppe %{user_group_name}
+;en;decidim.events.groups.invited_to_group.email_subject;Invitation to the group %{user_group_name}
+;de;decidim.events.groups.join_request_accepted.email_intro;"Ihre Beitrittsanfrage zur Gruppe <a href=""%{resource_url}"">%{user_group_name}</a> wurde angenommen."
+;en;decidim.events.groups.join_request_accepted.email_intro;"Your request to join the group <a href=""%{resource_url}"">%{user_group_name}</a> was accepted."
+;de;decidim.events.groups.join_request_accepted.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.events.groups.join_request_accepted.email_outro;Manage your notifications in your settings.
+;de;decidim.events.groups.join_request_accepted.email_subject;Aufgenommen in die Gruppe %{user_group_name}
+;en;decidim.events.groups.join_request_accepted.email_subject;Accepted into the group %{user_group_name}
+;de;decidim.events.groups.join_request_created.email_intro;"Neue Beitrittsanfrage für die Gruppe %{user_group_name}. Auf der <a href=""%{resource_url}"">Mitgliederseite</a> annehmen oder ablehnen."
+;en;decidim.events.groups.join_request_created.email_intro;"New join request for the group %{user_group_name}. Accept or reject it on the <a href=""%{resource_url}"">members page</a>."
+;de;decidim.events.groups.join_request_created.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.events.groups.join_request_created.email_outro;Manage your notifications in your settings.
+;de;decidim.events.groups.join_request_created.email_subject;Neue Beitrittsanfrage für %{user_group_name}
+;en;decidim.events.groups.join_request_created.email_subject;New join request for %{user_group_name}
+;de;decidim.events.groups.join_request_rejected.email_intro;"Ihre Beitrittsanfrage zur Gruppe <a href=""%{resource_url}"">%{user_group_name}</a> wurde abgelehnt."
+;en;decidim.events.groups.join_request_rejected.email_intro;"Your request to join the group <a href=""%{resource_url}"">%{user_group_name}</a> was rejected."
+;de;decidim.events.groups.join_request_rejected.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.events.groups.join_request_rejected.email_outro;Manage your notifications in your settings.
+;de;decidim.events.groups.join_request_rejected.email_subject;Beitrittsanfrage für %{user_group_name} abgelehnt
+;en;decidim.events.groups.join_request_rejected.email_subject;Join request for %{user_group_name} rejected
+;de;decidim.events.groups.promoted_to_admin.email_intro;"Sie sind neu Admin der Gruppe <a href=""%{resource_url}"">%{user_group_name}</a>."
+;en;decidim.events.groups.promoted_to_admin.email_intro;"You are now an admin of the group <a href=""%{resource_url}"">%{user_group_name}</a>."
+;de;decidim.events.groups.promoted_to_admin.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.events.groups.promoted_to_admin.email_outro;Manage your notifications in your settings.
+22363;de;decidim.events.groups.promoted_to_admin.email_subject;Neu Admin der Gruppe %{user_group_name}
+22364;en;decidim.events.groups.promoted_to_admin.email_subject;Now admin of the group %{user_group_name}
+;de;decidim.events.groups.promoted_to_admin.notification_title;"Sie sind jetzt ein Administrator*in in der Gruppe <a href=""%{resource_path}"">%{user_group_name}</a>."
+;de;decidim.events.groups.removed_from_group.email_intro;"Sie wurden aus der Gruppe <a href=""%{resource_url}"">%{user_group_name}</a> entfernt."
+;en;decidim.events.groups.removed_from_group.email_intro;"You were removed from the group <a href=""%{resource_url}"">%{user_group_name}</a>."
+;de;decidim.events.groups.removed_from_group.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.events.groups.removed_from_group.email_outro;Manage your notifications in your settings.
+22365;de;decidim.events.groups.removed_from_group.email_subject;Aus der Gruppe %{user_group_name} entfernt
+22366;en;decidim.events.groups.removed_from_group.email_subject;Removed from the group %{user_group_name}
+;de;decidim.events.groups.user_group_created.email_intro;"Neue Gruppe %{user_group_name}. Im <a href=""%{groups_admin_url}"">Admin-Bereich</a> verifizieren."
+;en;decidim.events.groups.user_group_created.email_intro;"New group %{user_group_name}. Verify it in the <a href=""%{groups_admin_url}"">admin panel</a>."
+22387;de;decidim.events.groups.user_group_created.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22388;en;decidim.events.groups.user_group_created.email_outro;Manage your notifications in your settings.
+;de;decidim.events.groups.user_group_created.email_subject;Neue Gruppe erstellt
+;en;decidim.events.groups.user_group_created.email_subject;New group created
+;de;decidim.events.groups.user_group_updated.email_intro;"Die Gruppe %{user_group_name} hat ihr Profil geändert und muss neu verifiziert werden. <a href=""%{groups_admin_url}"">Admin-Bereich</a>."
+;en;decidim.events.groups.user_group_updated.email_intro;"The group %{user_group_name} updated its profile and needs re-verification. <a href=""%{groups_admin_url}"">Admin panel</a>."
+22401;de;decidim.events.groups.user_group_updated.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22402;en;decidim.events.groups.user_group_updated.email_outro;Manage your notifications in your settings.
+;de;decidim.events.groups.user_group_updated.email_subject;Gruppe hat Profil aktualisiert
+;en;decidim.events.groups.user_group_updated.email_subject;Group updated its profile
+;de;decidim.events.initiatives.admin.initiative_sent_to_technical_validation.email_intro;"Die Initiative «%{resource_title}» wurde zur technischen Prüfung eingereicht. <a href=""%{admin_initiative_url}"">Admin-Bereich</a>."
+;en;decidim.events.initiatives.admin.initiative_sent_to_technical_validation.email_intro;"The initiative «%{resource_title}» was sent for technical validation. <a href=""%{admin_initiative_url}"">Admin panel</a>."
+;de;decidim.events.initiatives.admin.initiative_sent_to_technical_validation.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.events.initiatives.admin.initiative_sent_to_technical_validation.email_outro;Manage your notifications in your settings.
+;de;decidim.events.initiatives.admin.initiative_sent_to_technical_validation.email_subject;Initiative «%{resource_title}» zur Prüfung eingereicht
+;en;decidim.events.initiatives.admin.initiative_sent_to_technical_validation.email_subject;Initiative «%{resource_title}» sent for validation
+;de;decidim.events.initiatives.initiative_extended.email_intro;Die Unterschriftensammlung für «%{resource_title}» wurde verlängert.
+;en;decidim.events.initiatives.initiative_extended.email_intro;Signature collection for «%{resource_title}» was extended.
+;de;decidim.events.initiatives.initiative_extended.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.events.initiatives.initiative_extended.email_outro;Manage your notifications in your settings.
+;de;decidim.events.initiatives.initiative_extended.email_subject;Unterschriftensammlung verlängert: «%{resource_title}»
+;en;decidim.events.initiatives.initiative_extended.email_subject;Signature collection extended: «%{resource_title}»
+;de;decidim.events.initiatives.initiative_sent_to_technical_validation.email_intro;"Die Initiative «%{resource_title}» wurde zur technischen Prüfung eingereicht. <a href=""%{admin_initiative_url}"">Admin-Bereich</a>."
+;en;decidim.events.initiatives.initiative_sent_to_technical_validation.email_intro;"The initiative «%{resource_title}» was sent for technical validation. <a href=""%{admin_initiative_url}"">Admin panel</a>."
+;de;decidim.events.initiatives.initiative_sent_to_technical_validation.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.events.initiatives.initiative_sent_to_technical_validation.email_outro;Manage your notifications in your settings.
+;de;decidim.events.initiatives.initiative_sent_to_technical_validation.email_subject;Initiative «%{resource_title}» zur Prüfung eingereicht
+;en;decidim.events.initiatives.initiative_sent_to_technical_validation.email_subject;Initiative «%{resource_title}» sent for validation
+;de;decidim.events.initiatives.milestone_completed.affected_user.email_intro;Ihre Initiative «%{resource_title}» hat %{percentage}% der Unterschriften erreicht.
+;en;decidim.events.initiatives.milestone_completed.affected_user.email_intro;Your initiative «%{resource_title}» reached %{percentage}% of signatures.
+;de;decidim.events.initiatives.milestone_completed.affected_user.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.events.initiatives.milestone_completed.affected_user.email_outro;Manage your notifications in your settings.
+;de;decidim.events.initiatives.milestone_completed.affected_user.email_subject;«%{resource_title}»: %{percentage}% der Unterschriften
+;en;decidim.events.initiatives.milestone_completed.affected_user.email_subject;«%{resource_title}»: %{percentage}% of signatures
+;de;decidim.events.initiatives.milestone_completed.follower.email_intro;Die Initiative «%{resource_title}» hat %{percentage}% der Unterschriften erreicht.
+;en;decidim.events.initiatives.milestone_completed.follower.email_intro;The initiative «%{resource_title}» reached %{percentage}% of signatures.
+;de;decidim.events.initiatives.milestone_completed.follower.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.events.initiatives.milestone_completed.follower.email_outro;Manage your notifications in your settings.
+;de;decidim.events.initiatives.milestone_completed.follower.email_subject;«%{resource_title}»: %{percentage}% der Unterschriften
+;en;decidim.events.initiatives.milestone_completed.follower.email_subject;«%{resource_title}»: %{percentage}% of signatures
+;de;decidim.events.initiatives.support_threshold_reached.email_intro;Die Initiative «%{resource_title}» hat die nötige Anzahl Unterschriften erreicht.
+;en;decidim.events.initiatives.support_threshold_reached.email_intro;The initiative «%{resource_title}» reached the required number of signatures.
+;de;decidim.events.initiatives.support_threshold_reached.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.events.initiatives.support_threshold_reached.email_outro;Manage your notifications in your settings.
+;de;decidim.events.initiatives.support_threshold_reached.email_subject;«%{resource_title}»: Unterschriftenziel erreicht
+;en;decidim.events.initiatives.support_threshold_reached.email_subject;«%{resource_title}»: signature threshold reached
+;de;decidim.events.meetings.meeting_closed.affected_user.email_intro;Ihre Veranstaltung «%{resource_title}» wurde abgeschlossen.
+;en;decidim.events.meetings.meeting_closed.affected_user.email_intro;Your event «%{resource_title}» was closed.
+22429;de;decidim.events.meetings.meeting_closed.affected_user.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22430;en;decidim.events.meetings.meeting_closed.affected_user.email_outro;Manage your notifications in your settings.
+;de;decidim.events.meetings.meeting_closed.affected_user.email_subject;Veranstaltung «%{resource_title}» abgeschlossen
+;en;decidim.events.meetings.meeting_closed.affected_user.email_subject;Event «%{resource_title}» closed
+;de;decidim.events.meetings.meeting_closed.follower.email_intro;Die Veranstaltung «%{resource_title}» wurde abgeschlossen.
+;en;decidim.events.meetings.meeting_closed.follower.email_intro;The event «%{resource_title}» was closed.
+22431;de;decidim.events.meetings.meeting_closed.follower.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22432;en;decidim.events.meetings.meeting_closed.follower.email_outro;Manage your notifications in your settings.
+;de;decidim.events.meetings.meeting_closed.follower.email_subject;Veranstaltung «%{resource_title}» abgeschlossen
+;en;decidim.events.meetings.meeting_closed.follower.email_subject;Event «%{resource_title}» closed
+;de;decidim.events.meetings.meeting_created.email_intro;«%{participatory_space_title}» – Neue Veranstaltung: «%{resource_title}».
+;en;decidim.events.meetings.meeting_created.email_intro;«%{participatory_space_title}» – New event: «%{resource_title}».
+22433;de;decidim.events.meetings.meeting_created.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22434;en;decidim.events.meetings.meeting_created.email_outro;Manage your notifications in your settings.
+;de;decidim.events.meetings.meeting_created.email_subject;Neue Veranstaltung in «%{participatory_space_title}»
+;en;decidim.events.meetings.meeting_created.email_subject;New event in «%{participatory_space_title}»
+;de;decidim.events.meetings.meeting_registrations_over_percentage.email_intro;Die Veranstaltung «%{resource_title}» ist zu über %{percentage}% belegt.
+;en;decidim.events.meetings.meeting_registrations_over_percentage.email_intro;The event «%{resource_title}» is over %{percentage}% booked.
+22351;de;decidim.events.meetings.meeting_registrations_over_percentage.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22352;en;decidim.events.meetings.meeting_registrations_over_percentage.email_outro;Manage your notifications in your settings.
+;de;decidim.events.meetings.meeting_registrations_over_percentage.email_subject;«%{resource_title}»: über %{percentage}% belegt
+;en;decidim.events.meetings.meeting_registrations_over_percentage.email_subject;«%{resource_title}»: over %{percentage}% booked
+;de;decidim.events.meetings.meeting_updated.email_intro;Die Veranstaltung «%{resource_title}» wurde aktualisiert.
+;en;decidim.events.meetings.meeting_updated.email_intro;The event «%{resource_title}» was updated.
+22435;de;decidim.events.meetings.meeting_updated.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22436;en;decidim.events.meetings.meeting_updated.email_outro;Manage your notifications in your settings.
+;de;decidim.events.meetings.meeting_updated.email_subject;Veranstaltung «%{resource_title}» aktualisiert
+;en;decidim.events.meetings.meeting_updated.email_subject;Event «%{resource_title}» updated
+;de;decidim.events.meetings.registration_code_validated.email_intro;Ihr Anmeldecode für die Veranstaltung «%{resource_title}» wurde bestätigt.
+;en;decidim.events.meetings.registration_code_validated.email_intro;Your registration code for the event «%{resource_title}» was confirmed.
+22437;de;decidim.events.meetings.registration_code_validated.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22438;en;decidim.events.meetings.registration_code_validated.email_outro;Manage your notifications in your settings.
+;de;decidim.events.meetings.registration_code_validated.email_subject;Anmeldecode bestätigt: «%{resource_title}»
+;en;decidim.events.meetings.registration_code_validated.email_subject;Registration code confirmed: «%{resource_title}»
+;de;decidim.events.meetings.registrations_enabled.email_intro;Anmeldung für die Veranstaltung «%{resource_title}» ist offen.
+;en;decidim.events.meetings.registrations_enabled.email_intro;Registration for the event «%{resource_title}» is open.
+22439;de;decidim.events.meetings.registrations_enabled.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22440;en;decidim.events.meetings.registrations_enabled.email_outro;Manage your notifications in your settings.
+;de;decidim.events.meetings.registrations_enabled.email_subject;Anmeldung offen: «%{resource_title}»
+;en;decidim.events.meetings.registrations_enabled.email_subject;Registration open: «%{resource_title}»
+;de;decidim.events.meetings.upcoming_meeting.email_intro;Die Veranstaltung «%{resource_title}» beginnt in weniger als 48 Stunden.
+;en;decidim.events.meetings.upcoming_meeting.email_intro;The event «%{resource_title}» starts in less than 48 hours.
+22441;de;decidim.events.meetings.upcoming_meeting.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22442;en;decidim.events.meetings.upcoming_meeting.email_outro;Manage your notifications in your settings.
+;de;decidim.events.meetings.upcoming_meeting.email_subject;Bald: Veranstaltung «%{resource_title}»
+;en;decidim.events.meetings.upcoming_meeting.email_subject;Coming up: event «%{resource_title}»
+;de;decidim.events.participatory_process.role_assigned.email_intro;Sie sind neu %{role} im Mitwirkungsprozess «%{resource_title}».
+;en;decidim.events.participatory_process.role_assigned.email_intro;You are now %{role} in the process «%{resource_title}».
+22409;de;decidim.events.participatory_process.role_assigned.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22410;en;decidim.events.participatory_process.role_assigned.email_outro;Manage your notifications in your settings.
+;de;decidim.events.participatory_process.role_assigned.email_subject;Neue Rolle: %{role} – «%{resource_title}»
+;en;decidim.events.participatory_process.role_assigned.email_subject;New role: %{role} – «%{resource_title}»
+29185;de;decidim.events.participatory_process.step_activated.email_intro;Neue Phase «%{resource_title}» im Mitwirkungsprozess «%{participatory_space_title}».
+29186;en;decidim.events.participatory_process.step_activated.email_intro;New phase «%{resource_title}» in the process «%{participatory_space_title}».
+22411;de;decidim.events.participatory_process.step_activated.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22412;en;decidim.events.participatory_process.step_activated.email_outro;Manage your notifications in your settings.
+;de;decidim.events.participatory_process.step_activated.email_subject;Neue Phase in «%{participatory_space_title}»
+;en;decidim.events.participatory_process.step_activated.email_subject;New phase in «%{participatory_space_title}»
+29187;de;decidim.events.participatory_process.step_changed.email_intro;Die Daten der Phase «%{resource_title}» in «%{participatory_space_title}» wurden angepasst.
+29188;en;decidim.events.participatory_process.step_changed.email_intro;The dates of phase «%{resource_title}» in «%{participatory_space_title}» were updated.
+22413;de;decidim.events.participatory_process.step_changed.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22414;en;decidim.events.participatory_process.step_changed.email_outro;Manage your notifications in your settings.
+;de;decidim.events.participatory_process.step_changed.email_subject;Phase in «%{participatory_space_title}» angepasst
+;en;decidim.events.participatory_process.step_changed.email_subject;Phase updated in «%{participatory_space_title}»
+;de;decidim.events.proposals.admin.proposal_note_created.email_intro;"Neue Notiz zum Vorschlag «%{resource_title}». <a href=""%{admin_proposal_info_url}"">Admin-Bereich</a>."
+;en;decidim.events.proposals.admin.proposal_note_created.email_intro;"New note on the proposal «%{resource_title}». <a href=""%{admin_proposal_info_url}"">Admin panel</a>."
+22443;de;decidim.events.proposals.admin.proposal_note_created.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22444;en;decidim.events.proposals.admin.proposal_note_created.email_outro;Manage your notifications in your settings.
+;de;decidim.events.proposals.admin.proposal_note_created.email_subject;Neue Notiz zu Vorschlag «%{resource_title}»
+;en;decidim.events.proposals.admin.proposal_note_created.email_subject;New note on proposal «%{resource_title}»
+;de;decidim.events.proposals.collaborative_draft_access_accepted.email_intro;"%{requester_name} darf neu am Entwurf <a href=""%{resource_url}"">%{resource_title}</a> mitwirken."
+;en;decidim.events.proposals.collaborative_draft_access_accepted.email_intro;"%{requester_name} may now contribute to the draft <a href=""%{resource_url}"">%{resource_title}</a>."
+22445;de;decidim.events.proposals.collaborative_draft_access_accepted.email_outro;"Benachrichtigungen verwalten Sie in Ihren <a href=""https://mitwirken.stadt-zuerich.ch/notifications_settings"">Einstellungen</a>."
+22446;en;decidim.events.proposals.collaborative_draft_access_accepted.email_outro;"Manage your notifications in your <a href=""https://mitwirken.stadt-zuerich.ch/notifications_settings"">settings</a>."
+;de;decidim.events.proposals.collaborative_draft_access_accepted.email_subject;Mitwirkung an «%{resource_title}» angenommen
+;en;decidim.events.proposals.collaborative_draft_access_accepted.email_subject;Contribution to «%{resource_title}» accepted
+;de;decidim.events.proposals.collaborative_draft_access_rejected.email_intro;"%{requester_name} wurde für die Mitwirkung am Entwurf <a href=""%{resource_url}"">%{resource_title}</a> abgelehnt."
+;en;decidim.events.proposals.collaborative_draft_access_rejected.email_intro;"%{requester_name} was rejected as a contributor to the draft <a href=""%{resource_url}"">%{resource_title}</a>."
+22447;de;decidim.events.proposals.collaborative_draft_access_rejected.email_outro;"Benachrichtigungen verwalten Sie in Ihren <a href=""https://mitwirken.stadt-zuerich.ch/notifications_settings"">Einstellungen</a>."
+22448;en;decidim.events.proposals.collaborative_draft_access_rejected.email_outro;"Manage your notifications in your <a href=""https://mitwirken.stadt-zuerich.ch/notifications_settings"">settings</a>."
+;de;decidim.events.proposals.collaborative_draft_access_rejected.email_subject;Mitwirkung an «%{resource_title}» abgelehnt
+;en;decidim.events.proposals.collaborative_draft_access_rejected.email_subject;Contribution to «%{resource_title}» rejected
+22367;de;decidim.events.proposals.collaborative_draft_access_requested.email_intro;"%{requester_name} möchte an Ihrem Entwurf mitwirken. Auf der Entwurfsseite <a href=""%{resource_path}"">%{resource_title}</a> <strong>annehmen oder ablehnen</strong>."
+22368;en;decidim.events.proposals.collaborative_draft_access_requested.email_intro;"%{requester_name} requests to contribute to your draft. <strong>Accept or reject</strong> on the draft page <a href=""%{resource_path}"">%{resource_title}</a>."
+22449;de;decidim.events.proposals.collaborative_draft_access_requested.email_outro;"Benachrichtigungen verwalten Sie in Ihren <a href=""https://mitwirken.stadt-zuerich.ch/notifications_settings"">Einstellungen</a>."
+22450;en;decidim.events.proposals.collaborative_draft_access_requested.email_outro;"Manage your notifications in your <a href=""https://mitwirken.stadt-zuerich.ch/notifications_settings"">settings</a>."
+;de;decidim.events.proposals.collaborative_draft_access_requested.email_subject;Mitwirkungsanfrage für «%{resource_title}»
+;en;decidim.events.proposals.collaborative_draft_access_requested.email_subject;Contribution request for «%{resource_title}»
+;de;decidim.events.proposals.collaborative_draft_access_requester_accepted.email_intro;"Sie dürfen neu am Entwurf <a href=""%{resource_url}"">%{resource_title}</a> mitwirken."
+;en;decidim.events.proposals.collaborative_draft_access_requester_accepted.email_intro;"You may now contribute to the draft <a href=""%{resource_url}"">%{resource_title}</a>."
+22451;de;decidim.events.proposals.collaborative_draft_access_requester_accepted.email_outro;"Benachrichtigungen verwalten Sie in Ihren <a href=""https://mitwirken.stadt-zuerich.ch/notifications_settings"">Einstellungen</a>."
+22452;en;decidim.events.proposals.collaborative_draft_access_requester_accepted.email_outro;"Manage your notifications in your <a href=""https://mitwirken.stadt-zuerich.ch/notifications_settings"">settings</a>."
+;de;decidim.events.proposals.collaborative_draft_access_requester_accepted.email_subject;Mitwirkung an «%{resource_title}» angenommen
+;en;decidim.events.proposals.collaborative_draft_access_requester_accepted.email_subject;Contribution to «%{resource_title}» accepted
+;de;decidim.events.proposals.collaborative_draft_access_requester_rejected.email_intro;"Ihre Anfrage zur Mitwirkung am Entwurf <a href=""%{resource_url}"">%{resource_title}</a> wurde abgelehnt."
+;en;decidim.events.proposals.collaborative_draft_access_requester_rejected.email_intro;"Your request to contribute to the draft <a href=""%{resource_url}"">%{resource_title}</a> was rejected."
+22453;de;decidim.events.proposals.collaborative_draft_access_requester_rejected.email_outro;"Benachrichtigungen verwalten Sie in Ihren <a href=""https://mitwirken.stadt-zuerich.ch/notifications_settings"">Einstellungen</a>."
+22454;en;decidim.events.proposals.collaborative_draft_access_requester_rejected.email_outro;"Manage your notifications in your <a href=""https://mitwirken.stadt-zuerich.ch/notifications_settings"">settings</a>."
+;de;decidim.events.proposals.collaborative_draft_access_requester_rejected.email_subject;Mitwirkung an «%{resource_title}» abgelehnt
+;en;decidim.events.proposals.collaborative_draft_access_requester_rejected.email_subject;Contribution to «%{resource_title}» rejected
+;de;decidim.events.proposals.collaborative_draft_withdrawn.email_intro;"<a href=""%{author_url}"">%{author_name} %{author_nickname}</a> hat den Entwurf <a href=""%{resource_url}"">%{resource_title}</a> zurückgezogen."
+;en;decidim.events.proposals.collaborative_draft_withdrawn.email_intro;"<a href=""%{author_url}"">%{author_name} %{author_nickname}</a> withdrew the draft <a href=""%{resource_url}"">%{resource_title}</a>."
+22455;de;decidim.events.proposals.collaborative_draft_withdrawn.email_outro;"Benachrichtigungen verwalten Sie in Ihren <a href=""https://mitwirken.stadt-zuerich.ch/notifications_settings"">Einstellungen</a>."
+22456;en;decidim.events.proposals.collaborative_draft_withdrawn.email_outro;"Manage your notifications in your <a href=""https://mitwirken.stadt-zuerich.ch/notifications_settings"">settings</a>."
+;de;decidim.events.proposals.collaborative_draft_withdrawn.email_subject;Entwurf «%{resource_title}» zurückgezogen
+;en;decidim.events.proposals.collaborative_draft_withdrawn.email_subject;Draft «%{resource_title}» withdrawn
+;de;decidim.events.proposals.creation_enabled.email_intro;In «%{participatory_space_title}» können Sie jetzt Vorschläge erfassen.
+;en;decidim.events.proposals.creation_enabled.email_intro;You can now submit proposals in «%{participatory_space_title}».
+22457;de;decidim.events.proposals.creation_enabled.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22458;en;decidim.events.proposals.creation_enabled.email_outro;Manage your notifications in your settings.
+;de;decidim.events.proposals.creation_enabled.email_subject;Vorschläge jetzt offen in «%{participatory_space_title}»
+;en;decidim.events.proposals.creation_enabled.email_subject;Proposals now open in «%{participatory_space_title}»
+;de;decidim.events.proposals.endorsing_enabled.email_intro;In «%{participatory_space_title}» können Sie Vorschläge jetzt unterstützen.
+;en;decidim.events.proposals.endorsing_enabled.email_intro;You can now endorse proposals in «%{participatory_space_title}».
+22459;de;decidim.events.proposals.endorsing_enabled.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22460;en;decidim.events.proposals.endorsing_enabled.email_outro;Manage your notifications in your settings.
+;de;decidim.events.proposals.endorsing_enabled.email_subject;Unterstützen jetzt möglich in «%{participatory_space_title}»
+;en;decidim.events.proposals.endorsing_enabled.email_subject;Endorsing now possible in «%{participatory_space_title}»
+;de;decidim.events.proposals.proposal_mentioned.email_intro;"Ihr Vorschlag «%{mentioned_proposal_title}» wurde <a href=""%{resource_url}"">in einem Kommentar</a> erwähnt."
+;en;decidim.events.proposals.proposal_mentioned.email_intro;"Your proposal «%{mentioned_proposal_title}» was mentioned <a href=""%{resource_url}"">in a comment</a>."
+22467;de;decidim.events.proposals.proposal_mentioned.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22468;en;decidim.events.proposals.proposal_mentioned.email_outro;Manage your notifications in your settings.
+;de;decidim.events.proposals.proposal_mentioned.email_subject;Ihr Vorschlag «%{mentioned_proposal_title}» wurde erwähnt
+;en;decidim.events.proposals.proposal_mentioned.email_subject;Your proposal «%{mentioned_proposal_title}» was mentioned
+29189;de;decidim.events.proposals.proposal_published.email_intro;%{author_name} %{author_nickname} hat einen neuen Vorschlag veröffentlicht: «%{resource_title}».
+29190;en;decidim.events.proposals.proposal_published.email_intro;%{author_name} %{author_nickname} published a new proposal: «%{resource_title}».
+22469;de;decidim.events.proposals.proposal_published.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22470;en;decidim.events.proposals.proposal_published.email_outro;Manage your notifications in your settings.
+;de;decidim.events.proposals.proposal_published.email_subject;Neuer Vorschlag von %{author_nickname}
+;en;decidim.events.proposals.proposal_published.email_subject;New proposal by %{author_nickname}
+;de;decidim.events.proposals.proposal_published_for_space.email_intro;«%{participatory_space_title}» – Neuer Vorschlag: «%{resource_title}».
+;en;decidim.events.proposals.proposal_published_for_space.email_intro;«%{participatory_space_title}» – New proposal: «%{resource_title}».
+22471;de;decidim.events.proposals.proposal_published_for_space.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22472;en;decidim.events.proposals.proposal_published_for_space.email_outro;Manage your notifications in your settings.
+;de;decidim.events.proposals.proposal_published_for_space.email_subject;Neuer Vorschlag in «%{participatory_space_title}»
+;en;decidim.events.proposals.proposal_published_for_space.email_subject;New proposal in «%{participatory_space_title}»
+29439;de;decidim.events.proposals.proposal_state_changed.affected_user.email_intro;Neuer Status für Ihren Vorschlag «%{resource_title}»: «%{state}».
+29440;en;decidim.events.proposals.proposal_state_changed.affected_user.email_intro;New status for your proposal «%{resource_title}»: «%{state}».
+;de;decidim.events.proposals.proposal_state_changed.affected_user.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.events.proposals.proposal_state_changed.affected_user.email_outro;Manage your notifications in your settings.
+;de;decidim.events.proposals.proposal_state_changed.affected_user.email_subject;«%{resource_title}»: neuer Status «%{state}»
+;en;decidim.events.proposals.proposal_state_changed.affected_user.email_subject;«%{resource_title}»: new status «%{state}»
+29441;de;decidim.events.proposals.proposal_state_changed.follower.email_intro;Neuer Status für «%{resource_title}»: «%{state}».
+29442;en;decidim.events.proposals.proposal_state_changed.follower.email_intro;New status for «%{resource_title}»: «%{state}».
+;de;decidim.events.proposals.proposal_state_changed.follower.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.events.proposals.proposal_state_changed.follower.email_outro;Manage your notifications in your settings.
+;de;decidim.events.proposals.proposal_state_changed.follower.email_subject;«%{resource_title}»: neuer Status «%{state}»
+;en;decidim.events.proposals.proposal_state_changed.follower.email_subject;«%{resource_title}»: new status «%{state}»
+29191;de;decidim.events.proposals.proposal_update_category.email_intro;Die Kategorie Ihres Vorschlags «%{resource_title}» wurde angepasst.
+29192;en;decidim.events.proposals.proposal_update_category.email_intro;The category of your proposal «%{resource_title}» was updated.
+22477;de;decidim.events.proposals.proposal_update_category.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22478;en;decidim.events.proposals.proposal_update_category.email_outro;Manage your notifications in your settings.
+;de;decidim.events.proposals.proposal_update_category.email_subject;Kategorie von «%{resource_title}» angepasst
+;en;decidim.events.proposals.proposal_update_category.email_subject;Category of «%{resource_title}» updated
+;de;decidim.events.proposals.proposal_update_category.notification_title;"Die Vorschlagskategorie <a href=""%{resource_path}"">%{resource_title}</a> wurde von einem Administrator*in aktualisiert."
+29193;de;decidim.events.proposals.proposal_update_scope.email_intro;Der Bereich Ihres Vorschlags «%{resource_title}» wurde angepasst.
+29194;en;decidim.events.proposals.proposal_update_scope.email_intro;The scope of your proposal «%{resource_title}» was updated.
+22479;de;decidim.events.proposals.proposal_update_scope.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22480;en;decidim.events.proposals.proposal_update_scope.email_outro;Manage your notifications in your settings.
+;de;decidim.events.proposals.proposal_update_scope.email_subject;Bereich von «%{resource_title}» angepasst
+;en;decidim.events.proposals.proposal_update_scope.email_subject;Scope of «%{resource_title}» updated
+;de;decidim.events.proposals.proposal_update_scope.notification_title;"Der Bereich des Vorschlags <a href=""%{resource_path}"">%{resource_title}</a> wurde von einem Administrator*in aktualisiert."
+;de;decidim.events.proposals.voting_enabled.email_intro;In «%{participatory_space_title}» können Sie jetzt über Vorschläge abstimmen.
+;en;decidim.events.proposals.voting_enabled.email_intro;You can now vote on proposals in «%{participatory_space_title}».
+22481;de;decidim.events.proposals.voting_enabled.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22482;en;decidim.events.proposals.voting_enabled.email_outro;Manage your notifications in your settings.
+;de;decidim.events.proposals.voting_enabled.email_subject;Abstimmung offen in «%{participatory_space_title}»
+;en;decidim.events.proposals.voting_enabled.email_subject;Voting open in «%{participatory_space_title}»
+;de;decidim.events.reports.resource_hidden.email_intro;Ihr Inhalt (%{resource_type}) wurde entfernt, weil er als %{report_reasons} gemeldet wurde.
+;en;decidim.events.reports.resource_hidden.email_intro;Your content (%{resource_type}) was removed after being reported as %{report_reasons}.
+22403;de;decidim.events.reports.resource_hidden.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22404;en;decidim.events.reports.resource_hidden.email_outro;Manage your notifications in your settings.
+;de;decidim.events.reports.resource_hidden.email_subject;Ihr Inhalt wurde entfernt
+;en;decidim.events.reports.resource_hidden.email_subject;Your content was removed
+;de;decidim.events.reports.resource_hidden.notification_title;"Ein Administrator*in hat Ihr/e %{resource_type} entfernt, weil es als %{report_reasons} gemeldet wurde.</br>
+<i>%{resource_content}</i>"
+;de;decidim.events.resource_endorsed.email_intro;%{endorser_name} %{endorser_nickname} unterstützt «%{resource_title}».
+;en;decidim.events.resource_endorsed.email_intro;%{endorser_name} %{endorser_nickname} endorsed «%{resource_title}».
+22405;de;decidim.events.resource_endorsed.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22406;en;decidim.events.resource_endorsed.email_outro;Manage your notifications in your settings.
+;de;decidim.events.resource_endorsed.email_subject;%{endorser_nickname} hat etwas unterstützt
+;en;decidim.events.resource_endorsed.email_subject;%{endorser_nickname} endorsed something
+;de;decidim.events.sortitions.sortition_created.email_intro;«%{participatory_space_title}» – Neue Auslosung: «%{resource_title}».
+;en;decidim.events.sortitions.sortition_created.email_intro;«%{participatory_space_title}» – New sortition: «%{resource_title}».
+22505;de;decidim.events.sortitions.sortition_created.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22506;en;decidim.events.sortitions.sortition_created.email_outro;Manage your notifications in your settings.
+;de;decidim.events.sortitions.sortition_created.email_subject;Neue Auslosung in «%{participatory_space_title}»
+;en;decidim.events.sortitions.sortition_created.email_subject;New sortition in «%{participatory_space_title}»
+;de;decidim.events.surveys.survey_closed.email_intro;Die Umfrage «%{resource_title}» in «%{participatory_space_title}» ist geschlossen.
+;en;decidim.events.surveys.survey_closed.email_intro;The survey «%{resource_title}» in «%{participatory_space_title}» is closed.
+22485;de;decidim.events.surveys.survey_closed.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22486;en;decidim.events.surveys.survey_closed.email_outro;Manage your notifications in your settings.
+;de;decidim.events.surveys.survey_closed.email_subject;Umfrage in «%{participatory_space_title}» geschlossen
+;en;decidim.events.surveys.survey_closed.email_subject;Survey in «%{participatory_space_title}» closed
+;de;decidim.events.surveys.survey_opened.email_intro;Neue Umfrage «%{resource_title}» in «%{participatory_space_title}».
+;en;decidim.events.surveys.survey_opened.email_intro;New survey «%{resource_title}» in «%{participatory_space_title}».
+22487;de;decidim.events.surveys.survey_opened.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22488;en;decidim.events.surveys.survey_opened.email_outro;Manage your notifications in your settings.
+;de;decidim.events.surveys.survey_opened.email_subject;Neue Umfrage in «%{participatory_space_title}»
+;en;decidim.events.surveys.survey_opened.email_subject;New survey in «%{participatory_space_title}»
+;de;decidim.events.users.profile_updated.email_intro;"%{name} (%{nickname}) hat das <a href=""%{resource_url}"">Profil</a> aktualisiert."
+;en;decidim.events.users.profile_updated.email_intro;"%{name} (%{nickname}) updated their <a href=""%{resource_url}"">profile</a>."
+22407;de;decidim.events.users.profile_updated.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+22408;en;decidim.events.users.profile_updated.email_outro;Manage your notifications in your settings.
+;de;decidim.events.users.profile_updated.email_subject;%{nickname} hat das Profil aktualisiert
+;de;decidim.events.users.user_officialized.email_intro;%{name} (%{nickname}) wurde offiziell bestätigt.
+;en;decidim.events.users.user_officialized.email_intro;%{name} (%{nickname}) was officialised.
+;de;decidim.events.users.user_officialized.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.events.users.user_officialized.email_outro;Manage your notifications in your settings.
+;de;decidim.events.users.user_officialized.email_subject;%{name} offiziell bestätigt
+;en;decidim.events.users.user_officialized.email_subject;%{name} officialised
+;de;decidim.events.users.user_officialized.notification_title;Teilnehmende*r %{name} (%{nickname}) wurde offiziell bestätigt.
+;de;decidim.events.verifications.verify_with_managed_user.email_intro;"<a href=""%{resource_path}"">%{resource_title}</a> hat versucht, sich mit den Daten von <a href=""%{managed_user_path}"">%{managed_user_name}</a> zu verifizieren."
+;en;decidim.events.verifications.verify_with_managed_user.email_intro;"<a href=""%{resource_path}"">%{resource_title}</a> tried to verify with the data of <a href=""%{managed_user_path}"">%{managed_user_name}</a>."
+;de;decidim.events.verifications.verify_with_managed_user.email_outro;"Prüfen Sie die <a href=""%{conflicts_url}"">Konfliktliste</a> und klären Sie den Fall mit der Person."
+;en;decidim.events.verifications.verify_with_managed_user.email_outro;"Check the <a href=""%{conflicts_url}"">conflicts list</a> and clarify the case with the person."
+;de;decidim.events.verifications.verify_with_managed_user.email_subject;Verifizierungsversuch fehlgeschlagen
+;en;decidim.events.verifications.verify_with_managed_user.email_subject;Verification attempt failed
+;de;decidim.events.verifications.verify_with_managed_user.notification_title;"Der Teilnehmende*r <a href=""%{resource_path}"">%{resource_title}</a> hat versucht, sich mit den Daten eines anderen Teilnehmers (<a href=""%{managed_user_path}"">%{managed_user_name}</a>) zu verifizieren."
+;de;decidim.initiatives.events.approve_membership_request.email_intro;%{author_nickname} hat Ihre Anfrage fürs Initiativkomitee von «%{resource_title}» angenommen.
+;en;decidim.initiatives.events.approve_membership_request.email_intro;%{author_nickname} accepted your request for the promoter committee of «%{resource_title}».
+;de;decidim.initiatives.events.approve_membership_request.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.initiatives.events.approve_membership_request.email_outro;Manage your notifications in your settings.
+;de;decidim.initiatives.events.approve_membership_request.email_subject;Anfrage fürs Initiativkomitee angenommen
+;en;decidim.initiatives.events.approve_membership_request.email_subject;Promoter committee request accepted
+;de;decidim.initiatives.events.approve_membership_request.notification_title;"<a href=""%{author_profile_url}"">%{author_nickname}</a> hat Ihre Anfrage fürs Initiativkomitee der Initiative <a href=""%{resource_url}"">%{resource_title}</a> akzeptiert."
+;de;decidim.initiatives.events.create_initiative_event.email_intro;%{author_name} %{author_nickname} hat eine neue Initiative erstellt.
+;en;decidim.initiatives.events.create_initiative_event.email_intro;%{author_name} %{author_nickname} created a new initiative.
+;de;decidim.initiatives.events.create_initiative_event.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.initiatives.events.create_initiative_event.email_outro;Manage your notifications in your settings.
+;de;decidim.initiatives.events.endorse_initiative_event.email_intro;%{author_name} %{author_nickname} unterstützt eine Initiative.
+;en;decidim.initiatives.events.endorse_initiative_event.email_intro;%{author_name} %{author_nickname} endorsed an initiative.
+;de;decidim.initiatives.events.endorse_initiative_event.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.initiatives.events.endorse_initiative_event.email_outro;Manage your notifications in your settings.
+;de;decidim.initiatives.events.endorse_initiative_event.email_subject;Initiative von %{author_nickname} unterstützt
+;de;decidim.initiatives.events.revoke_membership_request.email_intro;%{author_nickname} hat Ihre Anfrage fürs Initiativkomitee von «%{resource_title}» abgelehnt.
+;en;decidim.initiatives.events.revoke_membership_request.email_intro;%{author_nickname} rejected your request for the promoter committee of «%{resource_title}».
+;de;decidim.initiatives.events.revoke_membership_request.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.initiatives.events.revoke_membership_request.email_outro;Manage your notifications in your settings.
+;de;decidim.initiatives.events.revoke_membership_request.email_subject;Anfrage fürs Initiativkomitee abgelehnt
+;en;decidim.initiatives.events.revoke_membership_request.email_subject;Promoter committee request rejected
+;de;decidim.initiatives.events.revoke_membership_request.notification_title;"<a href=""%{author_profile_url}"">%{author_nickname}</a> hat Ihre Anfrage für das Initiativkomitee der Initiative <a href=""%{resource_url}"">%{resource_title}</a> abgelehnt."
+;de;decidim.initiatives.events.spawn_committee_request_event.email_intro;%{applicant_nickname} möchte ins Initiativkomitee von «%{resource_title}». Im Bearbeitungsformular annehmen oder ablehnen.
+;en;decidim.initiatives.events.spawn_committee_request_event.email_intro;%{applicant_nickname} wants to join the promoter committee of «%{resource_title}». Accept or reject in the edit form.
+;de;decidim.initiatives.events.spawn_committee_request_event.email_outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+;en;decidim.initiatives.events.spawn_committee_request_event.email_outro;Manage your notifications in your settings.
+;de;decidim.initiatives.events.spawn_committee_request_event.email_subject;%{applicant_nickname} möchte ins Initiativkomitee
+;en;decidim.initiatives.events.spawn_committee_request_event.email_subject;%{applicant_nickname} wants to join the committee
+;de;decidim.initiatives.events.spawn_committee_request_event.notification_title;"<a href=""%{applicant_profile_url}"">%{applicant_nickname}</a> hat sich für das Initiativkomitee Ihrer Initiative <a href=""%{resource_url}"">%{resource_title}</a> beworben. Um anzunehmen oder abzulehnen, klicken Sie <a href=""%{resource_url}/edit"">hier</a>."
+;de;decidim.initiatives.initiatives_mailer.promotal_committee_help;Denken Sie daran, dass Sie mindestens %{member_count} Personen zum Initiativkomitee einladen müssen. Leiten Sie den folgenden Link weiter, um Personen zum Initiativkomitee einzuladen
+;de;decidim.meetings.close_meeting_reminder_mailer.close_meeting_reminder.body;"Die Veranstaltung <a href=""%{meeting_path}"">""%{meeting_title}""</a> wurde noch nicht abgeschlossen. Bitte fügen Sie einen Bericht über die Veranstaltung mit der Schaltfläche ""Meeting schliessen"" hinzu."
+;de;decidim.meetings.close_meeting_reminder_mailer.close_meeting_reminder.greetings;"Grüsse,<br/>%{organization_name}<br/><a href=""%{organization_url}"">%{organization_url}</a>"
+;de;decidim.meetings.close_meeting_reminder_mailer.close_meeting_reminder.subject;"Sie können nun die Veranstaltung ""%{meeting_title}"" mit einem Bericht schliessen"
+;de;decidim.messaging.conversation_mailer.comanagers_new_conversation.admin_in_group;Sie haben diese Benachrichtigung erhalten, weil Sie ein Administrator*in von %{group} sind.
+22509;de;decidim.messaging.conversation_mailer.comanagers_new_conversation.outro;Automatische Nachricht – bitte direkt über die Plattform antworten.
+22510;en;decidim.messaging.conversation_mailer.comanagers_new_conversation.outro;Automated message – please reply directly on the platform.
+;de;decidim.messaging.conversation_mailer.comanagers_new_message.admin_in_group;Sie haben diese Benachrichtigung erhalten, weil Sie ein Administrator*in von %{group} sind.
+22511;de;decidim.messaging.conversation_mailer.comanagers_new_message.outro;Automatische Nachricht – bitte direkt über die Plattform antworten.
+22512;en;decidim.messaging.conversation_mailer.comanagers_new_message.outro;Automated message – please reply directly on the platform.
+22513;de;decidim.messaging.conversation_mailer.new_conversation.outro;Automatische Nachricht – bitte direkt über die Plattform antworten.
+22514;en;decidim.messaging.conversation_mailer.new_conversation.outro;Automated message – please reply directly on the platform.
+;de;decidim.messaging.conversation_mailer.new_group_conversation.admin_in_group;Sie haben diese Benachrichtigung erhalten, weil Sie ein Administrator*in von %{group} sind.
+22515;de;decidim.messaging.conversation_mailer.new_group_conversation.outro;Automatische Nachricht – bitte direkt über die Plattform antworten.
+22516;en;decidim.messaging.conversation_mailer.new_group_conversation.outro;Automated message – please reply directly on the platform.
+;de;decidim.messaging.conversation_mailer.new_group_message.admin_in_group;Sie haben diese Benachrichtigung erhalten, weil Sie ein Administrator*in von %{group} sind.
+22517;de;decidim.messaging.conversation_mailer.new_group_message.outro;Automatische Nachricht – bitte direkt über die Plattform antworten.
+22518;en;decidim.messaging.conversation_mailer.new_group_message.outro;Automated message – please reply directly on the platform.
+22519;de;decidim.messaging.conversation_mailer.new_message.outro;Automatische Nachricht – bitte direkt über die Plattform antworten.
+22520;en;decidim.messaging.conversation_mailer.new_message.outro;Automated message – please reply directly on the platform.
+;de;decidim.newsletters_opt_in_mailer.notify.greetings;"Grüsse,<br/>%{organization_name}<br/><a href=""%{organization_url}"">%{organization_url}</a>"
+29229;de;decidim.notifications_digest_mailer.outro;Benachrichtigungen verwalten Sie in Ihren Einstellungen.
+29230;en;decidim.notifications_digest_mailer.outro;Manage your notifications in your settings.
+;de;decidim.reported_mailer.report.authors;Autor*innen
+;de;decidim.user_report_mailer.notify.body_1;Nutzer*in %{user} wurde von %{token} gemeldet
+;de;decidim.user_report_mailer.notify.greetings;"Grüsse,<br/>%{organization_name}<br/><a href=""%{organization_url}"">%{organization_url}</a>"
+;de;decidim.user_report_mailer.notify.subject;Ein neuer Nutzer*in wurde in %{organization_name} gemeldet
+;de;decidim.user_update_mailer.notify.greetings;"Freundliche Grüsse,<br/>%{organization_name}<br/><a href=""%{organization_url}"">%{organization_url}</a>"
+;de;devise.mailer.unlock_instructions.message;Ihr Konto wurde aufgrund einer übermässigen Anzahl fehlgeschlagener Anmeldeversuche gesperrt.
