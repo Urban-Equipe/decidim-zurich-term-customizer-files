@@ -1,0 +1,49 @@
+id;locale;key;value
+20867;en;time.formats.12h_24h;%H:%M
+20868;de;time.formats.12h_24h;%H:%M
+20883;en;activemodel.errors.models.geo_config.attributes.taxonomy_id.has_resource;has spaces associated
+20884;de;activemodel.errors.models.geo_config.attributes.taxonomy_id.has_resource;hat Klassifizierung zugeordnet
+20885;en;activerecord.models.decidim/organization.one;Organization
+20886;de;activerecord.models.decidim/organization.one;Organisation
+20887;en;activerecord.models.decidim/organization.other;Organizations
+20888;de;activerecord.models.decidim/organization.other;Organisationen
+20911;en;decidim.geo.search;Search...
+20912;de;decidim.geo.search;Suche...
+20913;en;decidim.geo.no_results;no results
+20914;de;decidim.geo.no_results;Keine Treffer
+20915;en;decidim.geo.admin.overrides.location_form.decidim_geo_space_address;Physical Address
+20916;de;decidim.geo.admin.overrides.location_form.decidim_geo_space_address;Adresse
+20917;en;decidim.geo.admin.overrides.location_form.decidim_geo_space_address_help;If the Result has a physical address, fill this field with its address.
+20918;de;decidim.geo.admin.overrides.location_form.decidim_geo_space_address_help;Fallls das Resultat an einem Standort stattfindet, gib hier seine Adresse ein.
+20919;en;decidim.geo.admin.overrides.location_form.decidim_geo_filter_help_text;If empty the project remains forever active
+20920;de;decidim.geo.admin.overrides.location_form.decidim_geo_filter_help_text;Wenn leer bleibt das Projekt für immer aktiv
+20941;en;decidim.geo.admin.geo_configs.shapefile.title;Shapefile
+20942;de;decidim.geo.admin.geo_configs.shapefile.title;Shapefile
+20943;en;decidim.geo.admin.geo_configs.shapefile.help_text;Configure the Shapefile with a Taxonomy, only root Taxonomies
+20944;de;decidim.geo.admin.geo_configs.shapefile.help_text;Konfigurieren Sie die Shapefile mit einer Taxonomie, nur Stammklassifizierung
+20945;en;decidim.geo.admin.geo_configs.shapefile.help_text_alert;Taxonomy must be unassigned from the shapefile before modifying it.
+20946;de;decidim.geo.admin.geo_configs.shapefile.help_text_alert;Klassifizierung muss von dem Shapefile entfernt werden, bevor sie geändert wird.
+20947;en;decidim.geo.admin.geo_configs.taxonomy.help_text_alert;Taxonomy children must be unassigned from the shapedata before modifying this taxonomy.
+20948;de;decidim.geo.admin.geo_configs.taxonomy.help_text_alert;Klassifizierungskinder müssen von dem Shapefile entfernt werden, bevor sie geändert wird.
+21007;en;decidim.geo.admin.taxonomies_shapedatas.index.title;Taxonomies and Shapedatas
+21008;de;decidim.geo.admin.taxonomies_shapedatas.index.title;Klassifizierung und Shapedata
+21009;en;decidim.geo.admin.taxonomies_shapedatas.edit.title;Edit Shapedata for %{taxonomy}
+21010;de;decidim.geo.admin.taxonomies_shapedatas.edit.title;Shapedata für %{taxonomy} bearbeiten
+21011;en;decidim.geo.admin.taxonomies_shapedatas.edit.update;Update
+21012;de;decidim.geo.admin.taxonomies_shapedatas.edit.update;Aktualisieren
+21013;en;decidim.geo.admin.taxonomies_shapedatas.fields.taxonomy;Taxonomies
+21014;de;decidim.geo.admin.taxonomies_shapedatas.fields.taxonomy;Klassifizierungen
+21015;en;decidim.geo.admin.taxonomies_shapedatas.fields.shapedata;Shapedatas
+21016;de;decidim.geo.admin.taxonomies_shapedatas.fields.shapedata;Shapedata
+21017;en;decidim.geo.admin.taxonomies_shapedatas.actions.title;Actions
+21018;de;decidim.geo.admin.taxonomies_shapedatas.actions.title;Aktionen
+21019;en;decidim.geo.admin.taxonomies_shapedatas.actions.edit;Edit
+21020;de;decidim.geo.admin.taxonomies_shapedatas.actions.edit;Bearbeiten
+21021;en;decidim.geo.admin.taxonomies_shapedatas.actions.update.title;Update
+21022;de;decidim.geo.admin.taxonomies_shapedatas.actions.update.title;Aktualisieren
+21023;en;decidim.geo.admin.taxonomies_shapedatas.actions.update.success;Configurations Updated
+21024;de;decidim.geo.admin.taxonomies_shapedatas.actions.update.success;Konfiguration aktualisiert
+21033;en;decidim.geo.taxonomies.dropdown;Taxonomies
+21034;de;decidim.geo.taxonomies.dropdown;Klassifizierungen
+21035;en;decidim.geo.taxonomies.all;All Taxonomies
+21036;de;decidim.geo.taxonomies.all;Alle Klassifizierungen
