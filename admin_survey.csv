@@ -13,6 +13,8 @@ id;locale;key;value
 23284;en;decidim.forms.questionnaires.show.questionnaire_for_private_users.body;The questionnaire can only be filled out by authorized participants of the private process.
 23285;de;decidim.metrics.survey_answers.description;Anzahl der Umfragen, die von Benutzenden beantwortet wurden
 23286;en;decidim.metrics.survey_answers.description;Number of surveys answered by participants
+23287;de;decidim.events.surveys.survey_closed.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie %{participatory_space_title} folgen. Falls Sie keine solchen Benachrichtigungen mehr erhalten möchten, besuchen Sie den obigen Link.
+23288;en;decidim.events.surveys.survey_closed.email_outro;You have received this notification because you are following %{participatory_space_title}. You can stop receiving notifications following the previous link.
 23289;de;decidim.forms.step_navigation.show.submit;Absenden
 23290;en;decidim.forms.step_navigation.show.submit;Submit
 23291;de;decidim.admin.resource_permissions.edit.submit;Absenden
@@ -31,9 +33,15 @@ id;locale;key;value
 23304;en;decidim.surveys.last_activity.new_survey_at_html;<span>New survey at %{link}</span>
 23305;de;decidim.surveys.admin.exports.survey_user_answers;Antworten
 23306;en;decidim.surveys.admin.exports.survey_user_answers;Survey participant answers
+23307;de;decidim.events.surveys.survey_opened.email_outro;Sie haben diese Benachrichtigung erhalten, weil Sie %{participatory_space_title} folgen. Falls Sie keine solchen Benachrichtigungen mehr erhalten möchten, besuchen Sie den obigen Link.
+23308;en;decidim.events.surveys.survey_opened.email_outro;You have received this notification because you are following %{participatory_space_title}. You can stop receiving notifications following the previous link.
 23309;de;decidim.forms.questionnaires.show.questionnaire_answered.title;Herzlichen Dank!
 23310;en;decidim.forms.questionnaires.show.questionnaire_answered.title;Thank you!
 23311;de;decidim.forms.errors.answer.body;Bitte füllen sie dieses Feld aus.
 23312;en;decidim.forms.errors.answer.body;Please fill in this field
 23313;de;decidim.components.surveys.settings.global.clean_after_publish;Antworten löschen ermöglichen: Antworten werden beim Abspeichern einer unveröffentlichten Umfrage gelöscht. ACHTUNG: Wir empfehlen, bei laufenden Umfrage diese Option auszuschalten, das sie zu unbeabsichtigten Datenverlust führen kann.
 23314;en;decidim.components.surveys.settings.global.clean_after_publish;Enable deletion of answers: Answers are deleted when an unpublished survey is saved. ATTENTION: We recommend switching off this option while a survey is running, as it can lead to unintentional data loss.
+29025;de;decidim.events.surveys.survey_closed.email_subject;Eine Umfrage wurde auf «%{participatory_space_title}» abgeschlossen
+29026;en;decidim.events.surveys.survey_closed.email_subject;A survey has finished in %{participatory_space_title}
+30957;de;decidim.surveys.admin.exports.survey_user_responses;Umfrageantworten
+30958;en;decidim.surveys.admin.exports.survey_user_responses;Survey participant responses
