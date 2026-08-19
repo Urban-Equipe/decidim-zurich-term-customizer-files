@@ -3,6 +3,10 @@ id;locale;key;value
 28308;en;layouts.decidim.header.sign_up;Create account
 28310;en;decidim.shared.follow_button.sign_in_before_follow;Please sign in before performing this action
 28309;de;decidim.shared.follow_button.sign_in_before_follow;Bitte erstellen Sie ein Konto oder melden sich an, bevor Sie diese Aktion ausführen
+32522;en;devise.passwords.edit.password_help;%{minimum_characters} characters minimum, must contain at least 5 different characters, must not be too common (e.g. 123456) and must be different from your name, nickname, email and the organization's host.
+32524;en;devise.passwords.edit.password_help_admin;%{minimum_characters} characters minimum, must contain at least 5 different characters, must not be too common (e.g. 123456), must be different from your name, nickname, email, the organization's host and must be different from your old passwords.
+32521;de;devise.passwords.edit.password_help;Das Passwort muss mindestens %{minimum_characters} unterschiedliche Zeichen lang sein. Es darf nicht zu gewöhnlich sein (z. B. 123456) und darf weder Ihr Kürzel noch Ihre E-Mail-Adresse enthalten.
+32523;de;devise.passwords.edit.password_help_admin;Das Passwort muss mindestens %{minimum_characters} unterschiedliche Zeichen lang sein. Es darf nicht zu gewöhnlich sein (z. B. 123456) und darf weder Ihr Kürzel, Ihre E-Mail-Adresse noch eines Ihren alten Passwörter enthalten.
 28288;en;decidim.anonymous_proposals.new_session;sign in
 28811;de;decidim.devise.sessions.new.register;Konto erstellen
 28812;en;decidim.devise.sessions.new.register;Create an account
@@ -115,3 +119,7 @@ Your account won't be created until you access the link above and set your accou
 29237;de;decidim.devise.shared.newsletter_modal.title;Empfang Newsletter
 29238;en;decidim.devise.shared.newsletter_modal.title;Newsletter notifications
 28287;de;decidim.anonymous_proposals.new_session;Melden Sie sich an
+30953;de;devise.shared.links.log_in_with_provider_button;«Mein Konto»
+30954;en;devise.shared.links.log_in_with_provider_button;«Mein Konto»
+30955;de;devise.shared.links.log_in_with_provider;"Mit ""Mein Konto"" anmelden"
+30956;en;devise.shared.links.log_in_with_provider;"Log in via ""Mein Konto"""
