@@ -1,51 +1,51 @@
 id;locale;key;value
-22447;en;decidim.authorization_handlers.ephemeral_sms.fields.eligible_confirmation_html;"By taking part in the vote, I confirm that I meet the requirements according to the <a href=""https://mitwirken.stadt-zuerich.ch/processes/pilotquartier/f/665/?locale=en"">rules</a>, i.e. that I live or work in the pilot neighbourhood, own property there, am a member of an association (e.g. Quartierverein Wiedikon), attend a school in the neighbourhood, or am a customer of local businesses."
-22448;de;decidim.authorization_handlers.ephemeral_sms.fields.eligible_confirmation_html;"Mit meiner Teilnahme am Voting bestätige ich, dass ich die Anforderungen gemäss <a href=""https://mitwirken.stadt-zuerich.ch/processes/pilotquartier/f/665/?locale=de"">Spielregeln</a> erfülle, d. h. im Pilotquartier wohne, arbeite, Eigentum besitze, Vereinsmitglied bin (bspw. im Quartierverein Wiedikon), eine Schule im Quartier besuche oder Kunde*in bin vom lokalen Gewerbe."
-22450;de;decidim.verifications.authorizations.new.tos_agreement;Mit der SMS-Verifizierungerkläre ich mich gleichzeitig einverstanden mit den %{link} der Plattform.
-22451;en;activemodel.attributes.confirmation.verification_code;Verification code
-22452;de;activemodel.attributes.confirmation.verification_code;Verfizierungscode
-22453;en;decidim.authorization_handlers.sms.explanation;Submit your mobile phone number so we can check your identity. The SMS with the code can only be sent to Swiss telephone numbers.
-22454;de;decidim.authorization_handlers.sms.explanation;Geben Sie Ihre Handynummer ein, damit Sie Ihr Konto per SMS bestätigen können. Die Zustellung des Codes funktioniert nur mit schweizerischen Telefonnummern.
-22455;en;decidim.verifications.sms.authorizations.update.success;Super! Your account has been successfully confirmed. Thank you!
-22456;de;decidim.verifications.sms.authorizations.update.success;Super! Ihr Konto wurde erfolgreich bestätigt. Vielen Dank!
-22457;en;decidim.authorization_modals.content.missing.authorize;"Authorize with ""%{authorization}"""
-22458;de;decidim.authorization_modals.content.missing.authorize;Konto bestätigen
-22459;en;doorkeeper.authorizations.new.title;Authorization required
-22460;de;doorkeeper.authorizations.new.title;Bestätigung erforderlich
-22461;en;decidim.authorization_modals.content.pending.explanation;"In order to perform this action, you need to be authorized with ""%{authorization}"", but your authorization is still in progress"
-22462;de;decidim.authorization_modals.content.pending.explanation;Damit Sie diese Aktion durchführen können, müssen Sie Ihr Konto per SMS bestätigen. Wir schützen damit die Plattform vor Missbrauch. Wir haben Ihnen bereits einen Code gesendet.
-22463;en;decidim.verifications.sms.authorizations.create.success;Thanks! We've sent an SMS to your phone.
-22464;de;decidim.verifications.sms.authorizations.create.success;Vielen Dank! Wir haben Ihnen eine SMS geschickt.
-22465;en;decidim.verifications.authorizations.first_login.actions.sms;Get verified by receiving a SMS verification code
-22466;de;decidim.verifications.authorizations.first_login.actions.sms;Sie können Ihr Konto mit einem Code per SMS bestätigen lassen.
-22467;en;decidim.verifications.sms.authorizations.destroy.success;Verification code sucessfully reset. Please re-enter your phone number.
-22468;de;decidim.verifications.sms.authorizations.destroy.success;Der Bestätigungscode wurde erfolgreich zurückgesetzt. Bitte geben Sie Ihre Telefonnummer erneut ein.
-22469;en;decidim.verifications.sms.authorizations.edit.resend;Didn't receive the verification code?
-22470;de;decidim.verifications.sms.authorizations.edit.resend;Sie haben den Code nicht erhalten?
-22471;en;decidim.verifications.sms.authorizations.edit.destroy;Reset verification code
-22472;de;decidim.verifications.sms.authorizations.edit.destroy;Bestätigungscode zurücksetzen
-22473;en;decidim.verifications.sms.authorizations.edit.confirm_destroy;Are you sure you want to reset the verification code?
-22474;de;decidim.verifications.sms.authorizations.edit.confirm_destroy;Möchten Sie den Bestätigungscode wirklich zurücksetzen?
-22475;en;decidim.verifications.sms.authorizations.edit.title;Introduce the verification code you received
-22476;de;decidim.verifications.sms.authorizations.edit.title;Geben Sie Ihren erhaltenen Code ein
-22477;en;decidim.verifications.sms.authorizations.new.title;Request your verification code
-22478;de;decidim.verifications.sms.authorizations.new.title;Code anfordern
-22479;en;decidim.verifications.sms.authorizations.update.error;Your verification code doesn't match ours. Please double-check the SMS we sent you.
-22480;de;decidim.verifications.sms.authorizations.update.error;Ihr Bestätigungscode stimmt nicht mit unserem überein. Bitte überprüfen Sie die SMS, die wir Ihnen geschickt haben.
-22481;en;decidim.authorization_modals.content.missing.explanation;"In order to perform this action, you need to be authorized with ""%{authorization}""."
-22482;de;decidim.authorization_modals.content.missing.explanation;Damit Sie diese Aktion durchführen können, müssen Sie Ihr Konto per SMS bestätigen. Wir schützen damit die Plattform vor Missbrauch. Es geht ganz schnell:
-22483;en;decidim.verifications.sms.authorizations.create.error;There was a problem with your request
-22484;de;decidim.verifications.sms.authorizations.create.error;Es gab ein Problem mit Ihrer Anfrage. Bitte überprüfen Sie Ihre Telefonnummer.
-22485;en;decidim.verifications.sms.authorizations.new.send;Send me an SMS
-22486;de;decidim.verifications.sms.authorizations.new.send;Schicken Sie mir eine SMS
-22487;en;decidim.verifications.sms.authorizations.edit.send;Confirm
-22488;de;decidim.verifications.sms.authorizations.edit.send;Bestätigen
-22489;en;decidim.authorization_handlers.errors.duplicate_authorization;A participant is already authorized with the same data.
-22490;de;decidim.authorization_handlers.errors.duplicate_authorization;Diese Nummer wird bereits von einem anderen Konto verwendet.
-22491;en;decidim_zuerich.verifications.sms.aspsms_gateway.sms_text;%{code} is your access code for %{organization}
-22492;de;decidim_zuerich.verifications.sms.aspsms_gateway.sms_text;Ihr Zugangscode zur Plattform %{organization} ist: %{code}
-22493;en;decidim_zuerich.verifications.sms.aspsms_gateway.sms_originator_max_11_alphabetic_characters;mitwirkenZH
-22494;de;decidim_zuerich.verifications.sms.aspsms_gateway.sms_originator_max_11_alphabetic_characters;mitwirkenZH
-22495;en;activemodel.attributes.mobile_phone.mobile_phone_number;Mobile phone nuber
-22496;de;activemodel.attributes.mobile_phone.mobile_phone_number;Telefonnummer
-22449;en;decidim.verifications.authorizations.new.tos_agreement;By verifying via SMS, you simultaneously agree to the %{link} of the platform. 
+22497;en;decidim.authorization_handlers.ephemeral_sms.fields.eligible_confirmation_html;"By taking part in the vote, I confirm that I meet the requirements according to the <a href=""https://mitwirken.stadt-zuerich.ch/processes/pilotquartier/f/665/?locale=en"">rules</a>, i.e. that I live or work in the pilot neighbourhood, own property there, am a member of an association (e.g. Quartierverein Wiedikon), attend a school in the neighbourhood, or am a customer of local businesses."
+22498;de;decidim.authorization_handlers.ephemeral_sms.fields.eligible_confirmation_html;"Mit meiner Teilnahme am Voting bestätige ich, dass ich die Anforderungen gemäss <a href=""https://mitwirken.stadt-zuerich.ch/processes/pilotquartier/f/665/?locale=de"">Spielregeln</a> erfülle, d. h. im Pilotquartier wohne, arbeite, Eigentum besitze, Vereinsmitglied bin (bspw. im Quartierverein Wiedikon), eine Schule im Quartier besuche oder Kunde*in bin vom lokalen Gewerbe."
+22550;de;decidim.verifications.authorizations.new.tos_agreement;Mit der SMS-Verifizierungerkläre ich mich gleichzeitig einverstanden mit %{link} der Plattform.
+22501;en;activemodel.attributes.confirmation.verification_code;Verification code
+22502;de;activemodel.attributes.confirmation.verification_code;Verfizierungscode
+22503;en;decidim.authorization_handlers.sms.explanation;Submit your mobile phone number so we can check your identity. The SMS with the code can only be sent to Swiss telephone numbers.
+22504;de;decidim.authorization_handlers.sms.explanation;Geben Sie Ihre Handynummer ein, damit Sie Ihr Konto per SMS bestätigen können. Die Zustellung des Codes funktioniert nur mit schweizerischen Telefonnummern.
+22505;en;decidim.verifications.sms.authorizations.update.success;Super! Your account has been successfully confirmed. Thank you!
+22506;de;decidim.verifications.sms.authorizations.update.success;Super! Ihr Konto wurde erfolgreich bestätigt. Vielen Dank!
+22507;en;decidim.authorization_modals.content.missing.authorize;"Authorize with ""%{authorization}"""
+22508;de;decidim.authorization_modals.content.missing.authorize;Konto bestätigen
+22509;en;doorkeeper.authorizations.new.title;Authorization required
+22510;de;doorkeeper.authorizations.new.title;Bestätigung erforderlich
+22511;en;decidim.authorization_modals.content.pending.explanation;"In order to perform this action, you need to be authorized with ""%{authorization}"", but your authorization is still in progress"
+22512;de;decidim.authorization_modals.content.pending.explanation;Damit Sie diese Aktion durchführen können, müssen Sie Ihr Konto per SMS bestätigen. Wir schützen damit die Plattform vor Missbrauch. Wir haben Ihnen bereits einen Code gesendet.
+22513;en;decidim.verifications.sms.authorizations.create.success;Thanks! We've sent an SMS to your phone.
+22514;de;decidim.verifications.sms.authorizations.create.success;Vielen Dank! Wir haben Ihnen eine SMS geschickt.
+22515;en;decidim.verifications.authorizations.first_login.actions.sms;Get verified by receiving a SMS verification code
+22516;de;decidim.verifications.authorizations.first_login.actions.sms;Sie können Ihr Konto mit einem Code per SMS bestätigen lassen.
+22517;en;decidim.verifications.sms.authorizations.destroy.success;Verification code sucessfully reset. Please re-enter your phone number.
+22518;de;decidim.verifications.sms.authorizations.destroy.success;Der Bestätigungscode wurde erfolgreich zurückgesetzt. Bitte geben Sie Ihre Telefonnummer erneut ein.
+22519;en;decidim.verifications.sms.authorizations.edit.resend;Didn't receive the verification code?
+22520;de;decidim.verifications.sms.authorizations.edit.resend;Sie haben den Code nicht erhalten?
+22521;en;decidim.verifications.sms.authorizations.edit.destroy;Reset verification code
+22522;de;decidim.verifications.sms.authorizations.edit.destroy;Bestätigungscode zurücksetzen
+22523;en;decidim.verifications.sms.authorizations.edit.confirm_destroy;Are you sure you want to reset the verification code?
+22524;de;decidim.verifications.sms.authorizations.edit.confirm_destroy;Möchten Sie den Bestätigungscode wirklich zurücksetzen?
+22525;en;decidim.verifications.sms.authorizations.edit.title;Introduce the verification code you received
+22526;de;decidim.verifications.sms.authorizations.edit.title;Geben Sie Ihren erhaltenen Code ein
+22527;en;decidim.verifications.sms.authorizations.new.title;Request your verification code
+22528;de;decidim.verifications.sms.authorizations.new.title;Code anfordern
+22529;en;decidim.verifications.sms.authorizations.update.error;Your verification code doesn't match ours. Please double-check the SMS we sent you.
+22530;de;decidim.verifications.sms.authorizations.update.error;Ihr Bestätigungscode stimmt nicht mit unserem überein. Bitte überprüfen Sie die SMS, die wir Ihnen geschickt haben.
+22531;en;decidim.authorization_modals.content.missing.explanation;"In order to perform this action, you need to be authorized with ""%{authorization}""."
+22532;de;decidim.authorization_modals.content.missing.explanation;Damit Sie diese Aktion durchführen können, müssen Sie Ihr Konto per SMS bestätigen. Wir schützen damit die Plattform vor Missbrauch. Es geht ganz schnell:
+22533;en;decidim.verifications.sms.authorizations.create.error;There was a problem with your request
+22534;de;decidim.verifications.sms.authorizations.create.error;Es gab ein Problem mit Ihrer Anfrage. Bitte überprüfen Sie Ihre Telefonnummer.
+22535;en;decidim.verifications.sms.authorizations.new.send;Send me an SMS
+22536;de;decidim.verifications.sms.authorizations.new.send;Schicken Sie mir eine SMS
+22537;en;decidim.verifications.sms.authorizations.edit.send;Confirm
+22538;de;decidim.verifications.sms.authorizations.edit.send;Bestätigen
+22539;en;decidim.authorization_handlers.errors.duplicate_authorization;A participant is already authorized with the same data.
+22540;de;decidim.authorization_handlers.errors.duplicate_authorization;Diese Nummer wird bereits von einem anderen Konto verwendet.
+22541;en;decidim_zuerich.verifications.sms.aspsms_gateway.sms_text;%{code} is your access code for %{organization}
+22542;de;decidim_zuerich.verifications.sms.aspsms_gateway.sms_text;Ihr Zugangscode zur Plattform %{organization} ist: %{code}
+22543;en;decidim_zuerich.verifications.sms.aspsms_gateway.sms_originator_max_11_alphabetic_characters;mitwirkenZH
+22544;de;decidim_zuerich.verifications.sms.aspsms_gateway.sms_originator_max_11_alphabetic_characters;mitwirkenZH
+22545;en;activemodel.attributes.mobile_phone.mobile_phone_number;Mobile phone nuber
+22546;de;activemodel.attributes.mobile_phone.mobile_phone_number;Telefonnummer
+22549;en;decidim.verifications.authorizations.new.tos_agreement;By verifying via SMS, you simultaneously agree to %{link} of the platform.
