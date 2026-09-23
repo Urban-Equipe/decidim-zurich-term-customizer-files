@@ -1,159 +1,191 @@
 id;locale;key;value
-22235;en;nettonull.ideadescription.heading;Idea description
-22236;de;nettonull.ideadescription.heading;Ideenbeschreibung
-22237;en;nettonull.entstehung.title;What should be created?
-22238;de;nettonull.entstehung.title;Was soll entstehen?
-22239;en;decidim.proposals.actions.new;New idea
-22240;de;decidim.proposals.actions.new;Neue Idee
-22241;en;decidim.statistics.proposals_count;Project ideas
-22242;de;decidim.statistics.proposals_count;Projektideen
-22243;en;nettonull.ideadescription.text;Go into detail! Write down all your thoughts so that we can better understand your idea. What do you want to implement and where?
-22244;de;nettonull.ideadescription.text;Gehe ins Detail! Schreibe alle Gedanken auf, die du dir gemacht hast, damit wir deine Idee besser verstehen können. Was möchtest du wo umsetzen?
-22245;en;nettonull.machen.title;What can you do here?
-22246;de;nettonull.machen.title;Was kann man hier machen?
-22247;en;nettonull.reference.heading;Reference
-22248;de;nettonull.reference.heading;Referenzbeispiel
-22249;en;nettonull.reference.example;Example
-22250;de;nettonull.reference.example;Beispiel
-22251;en;nettonull.people.title;Who are you?
-22252;de;nettonull.people.title;Wer bist du?
-22253;en;nettonull.people.singleperson;I am an individual
-22254;de;nettonull.people.singleperson;Ich bin eine Einzelperson
-22255;en;nettonull.people.group;We are an informal group (e.g. neighbourhood group)
-22256;de;nettonull.people.group;Wir sind eine informelle Gruppe (z.B. Nachbarschaftsgruppe)
-22257;en;nettonull.people.organisation;We are an organisation (e.g. association, foundation, educational institution, NGO).
-22258;de;nettonull.people.organisation;Wir sind eine Organisation (z.B. Verein, Stiftung, Bildungseinrichtung, NGO)
-22259;en;nettonull.people.enterprise;We are a company (e.g. start-up, SME)
-22260;de;nettonull.people.enterprise;Wir sind ein Unternehmen (z.B. Start-Up, KMU)
-22261;en;nettonull.people.other;We are something different
-22262;de;nettonull.people.other;Wir sind was anderes
-22263;en;nettonull.people.name;Name
-22264;de;nettonull.people.name;Name
-22265;en;nettonull.contact.heading;Your e-mail address
-22266;de;nettonull.contact.heading;Deine/Eure E-Mail-Adresse
-22267;en;nettonull.contact.description;We would like to be able to contact you if we have any questions or to let you know that your idea has made it to the next round!
-22268;de;nettonull.contact.description;Für Nachfragen oder um Dir mitzuteilen, dass Deine Idee in die nächste Runde kommt, würden wir Dich gerne kontaktieren können!
-22269;en;nettonull.contact.email;Email
-22270;de;nettonull.contact.email;E-Mail
-22271;en;nettonull.implementation.heading;Who implements the idea?
-22272;de;nettonull.implementation.heading;Wer setzt die Idee um?
-22273;en;nettonull.implementation.description;Will you implement the idea by yourself or are you still searching for accomplices?
-22274;de;nettonull.implementation.description;Setzt du die Idee allein um oder sucht du noch Mitstreiter*innen?
-22275;en;nettonull.implementation.self;I/we will implement the idea by myself / by ourselves
-22276;de;nettonull.implementation.self;Ich/wir setzen die Idee selbstständig um
-22277;en;nettonull.implementation.others;I am / we are looking for collaborators
-22278;de;nettonull.implementation.others;Ich/wir suchen noch Mitstreiter*innen
-22279;en;nettonull.implementation.unclear;I don't know yet
-22280;de;nettonull.implementation.unclear;Ich weiss es noch nicht
-22281;en;decidim.proposals.proposals.edit.attachment_legend;Add sketches, images, etc. These documents will be published with the idea. Therefore, ensure that you have the necessary rights to publish them.
-22282;de;decidim.proposals.proposals.edit.attachment_legend;Füge Skizzen, Bilder o.ä hinzu. Diese Dokumente werden mit der Idee veröffentlicht. Stelle deshalb sicher, dass du über die erforderlichen Rechte zur Veröffentlichung verfügst.
-22283;en;activemodel.attributes.proposal.user_group_id;Create idea as
-22284;de;activemodel.attributes.proposal.user_group_id;Idee erstellen als
-22285;en;decidim.amendments.new.title;Create Amendment Draft
-22286;de;decidim.amendments.new.title;Änderungsvorschlag erstellen
-22287;en;decidim.gamification.badges.proposals.conditions.1;""
-22288;de;decidim.gamification.badges.proposals.conditions.1;""
-22289;en;decidim.proposals.admin.proposals.new.title;Create idea
-22290;de;decidim.proposals.admin.proposals.new.title;Idee erstellen
-22291;en;decidim.proposals.proposals.new.title;How do you want to reduce CO2?
-22292;de;decidim.proposals.proposals.new.title;Wie willst du Treibhausgase reduzieren?
-22293;en;decidim.proposals.proposals.wizard_steps.step_1;Create your idea
-22294;de;decidim.proposals.proposals.wizard_steps.step_1;Idee erstellen
-22295;en;activemodel.models.decidim/proposals/publish_proposal_event;Idea published
-22296;de;activemodel.models.decidim/proposals/publish_proposal_event;Idee veröffentlicht
-22297;en;decidim.proposals.proposals.preview.title;Publish your idea
-22298;de;decidim.proposals.proposals.preview.title;Idee veröffentlichen
-22299;en;decidim.proposals.proposals.wizard_steps.step_2;Publish your idea
-22300;de;decidim.proposals.proposals.wizard_steps.step_2;Idee veröffentlichen
-22301;en;activemodel.attributes.proposal.address;Where do you want to implement the idea?
-22302;de;activemodel.attributes.proposal.address;Wo willst du die Idee umsetzen?
-22303;en;decidim.events.proposals.proposal_published.email_subject;"New proposal ""%{resource_title}"" by %{author_nickname}"
-22304;de;decidim.events.proposals.proposal_published.email_subject;"Neuer Vorschlag ""%{resource_title}"" von %{author_nickname}"
-22305;en;decidim.events.proposals.proposal_published_for_space.email_subject;"New proposal ""%{resource_title}"" added to %{participatory_space_title}"
-22306;de;decidim.events.proposals.proposal_published_for_space.email_subject;"Neuer Vorschlag ""%{resource_title}"" zu %{participatory_space_title} hinzugefügt"
-22307;en;decidim.proposals.last_activity.new_proposal;New idea:
-22308;de;decidim.proposals.last_activity.new_proposal;Neue Idee:
-22309;en;decidim.proposals.proposals.index.new_proposal;New idea
-22310;de;decidim.proposals.proposals.index.new_proposal;Neue Idee
-22311;en;decidim.proposals.proposals.preview.modify;Modify the idea
-22312;de;decidim.proposals.proposals.preview.modify;Idee ändern
-22313;en;decidim.proposals.admin.proposals.index.publish;Submit idea
-22314;de;decidim.proposals.admin.proposals.index.publish;Idee einreichen
-22315;en;decidim.proposals.proposals.preview.publish;Submit idea
-22316;de;decidim.proposals.proposals.preview.publish;Idee einreichen
-22317;en;decidim.participatory_processes.participatory_processes.description.title;Pilot neighborhood for net zero in Binz/Alt-Wiedikon
-22318;de;decidim.participatory_processes.participatory_processes.description.title;Pilotquartier Netto-Null in Binz/Alt-Wiedikon
-22319;en;decidim.participatory_processes.participatory_processes.show.title;Pilot neighborhood for net zero in Binz/Alt-Wiedikon
-22320;de;decidim.participatory_processes.participatory_processes.show.title;Pilotquartier Netto-Null in Binz/Alt-Wiedikon
-22321;en;decidim.last_activities.index.last_activity;Back to home
-22322;de;decidim.last_activities.index.last_activity;Zur Prozessstartseite
-22323;en;decidim.content_blocks.last_activity.name;Last activity
-22324;de;decidim.content_blocks.last_activity.name;Zur Prozessstartseite	
-22325;en;decidim.content_blocks.last_activity.title;Last activity
-22326;de;decidim.content_blocks.last_activity.title;Zur Startseite
-22327;en;activemodel.attributes.proposal.title;Give your idea a descriptive title
-22328;de;activemodel.attributes.proposal.title;Gib deiner Idee einen aussagekräftigen Titel	
-22329;en;nettonull.reference.description;Have you been inspired or seen your idea somewhere before? Then write to us here with the name of the place or project. You can also upload images of the reference example at the bottom of the page.
-22330;de;nettonull.reference.description;Du wurdest inspiriert oder hast Deine Idee irgendwo schon einmal gesehen? Dann schreibe uns hier den Namen des Ortes oder den des Projekts. Du kannst am Seitenende auch Bilder des Referenzbeispiels hochladen.
-22331;en;activemodel.attributes.answer.add_documents;Do you have an image to accompany your idea?
-22332;de;activemodel.attributes.answer.add_documents;Hast du noch ein Bild zu deiner Idee?
-22333;en;decidim.proposals.proposals.edit.add_documents;Add image
-22334;de;decidim.proposals.proposals.edit.add_documents;Bild hinzufügen
-22335;en;nettonull.people.description;Are you submitting the idea by yourself or as part of a group?
-22336;de;nettonull.people.description;Bist du eine Einzelperson oder Teil einer Gruppe?
-22337;en;activemodel.attributes.proposal.category_id;To which category does your idea fit?
-22338;de;activemodel.attributes.proposal.category_id;In welche Kategorie lässt sich deine Idee einordnen?
-22339;en;nettonull.people.name_help;(publicly visible)
-22340;de;nettonull.people.name_help;(öffentlich sichtbar)
-22341;en;nettonull.implementation.place.title;Where do you want to implement the idea?
-22342;de;nettonull.implementation.place.title;Wo willst do die Idee umsetzen?
-22343;en;nettonull.implementation.place.description;Describe the place(s)
-22344;de;nettonull.implementation.place.description;Beschreibe den/die Ort(e)
-22345;en;decidim.proposals.proposals.index.see_all_withdrawn;See all withdrawn ideas
-22346;de;decidim.proposals.proposals.index.see_all_withdrawn;Zurückgezogene Ideen ansehen
-22347;en;decidim.proposals.proposals.proposals.empty;No ideas have been submitted yet. We are looking forward to your idea!
-22348;de;decidim.proposals.proposals.proposals.empty;Es wurden bislang noch keine Ideen eingereicht. Wir freuen uns über deine Eingabe!
-22349;en;decidim.sortitions.sortitions.count.proposals_count.one;1 proposal
-22350;de;decidim.sortitions.sortitions.count.proposals_count.one;1 Vorschlag
-22351;en;decidim.participatory_process_steps.index.process_steps;Process phases
-22352;de;decidim.participatory_process_steps.index.process_steps;Prozessphasen
-22353;en;decidim.components.proposals.name;Project Ideas
-22354;de;decidim.components.proposals.name;Projektideen
-22355;en;activerecord.models.decidim/proposals/proposal.other;Project ideas
-22356;de;activerecord.models.decidim/proposals/proposal.other;Projektideen
-22357;en;activemodel.attributes.project.proposals;Proposals
-22358;de;activemodel.attributes.project.proposals;Projektideen
-22359;en;activemodel.attributes.close_meeting.proposal_ids;Proposals created in the meeting
-22360;de;activemodel.attributes.close_meeting.proposal_ids;Erarbeitete Projektideen
-22361;en;activemodel.attributes.proposals_import.import_proposals;Import proposals
-22362;de;activemodel.attributes.proposals_import.import_proposals;Vorschläge importieren
-22363;en;activemodel.attributes.proposals_copy.origin_component_id;Component to copy the proposals from
-22364;de;activemodel.attributes.proposals_copy.origin_component_id;Komponente zum Kopieren der Vorschläge aus
-22365;en;activemodel.attributes.proposals_copy.copy_proposals;I understand that this will import all proposals from the selected component to the current one and that this action cannot be reversed.
-22366;de;activemodel.attributes.proposals_copy.copy_proposals;Ich verstehe, dass dies alle Vorschläge von der ausgewählten Komponente in die aktuelle Komponente importiert und dass diese Aktion nicht rückgängig gemacht werden kann.
-22367;en;activemodel.attributes.project.proposal_ids;Related proposals
-22368;de;activemodel.attributes.project.proposal_ids;Ähnliche Projektideen
-22369;en;activemodel.attributes.result.proposals;Included project ideas
-22370;de;activemodel.attributes.result.proposals;Enthaltene Projektideen
-22371;en;activemodel.attributes.sortition.decidim_category_id;Categories of the set of proposals in which you want to apply the draw
-22372;de;activemodel.attributes.sortition.decidim_category_id;Kategorie (wenn Sie nur bestimmte Vorschläge einer Komponente berücksichtigen möchten)
-22373;en;activemodel.attributes.sortition.decidim_proposals_component_id;Proposals set
-22374;de;activemodel.attributes.sortition.decidim_proposals_component_id;Vorschlagskomponente
-22375;en;activerecord.models.decidim/proposals/proposal.one;Project Idea
-22376;de;activerecord.models.decidim/proposals/proposal.one;Projektidee
-22377;en;decidim.sortitions.sortitions.count.proposals_count.other;%{count} project ideas
-22378;de;decidim.sortitions.sortitions.count.proposals_count.other;%{count} Projektideen
-22379;en;decidim.proposals.proposals.voting_rules.title;Please note:
-22380;de;decidim.proposals.proposals.voting_rules.title;Bitte beachte: 
-22381;en;decidim.proposals.proposals.voting_rules.vote_limit.description;For this vote,  you can choose %{limit} projects.
-22382;de;decidim.proposals.proposals.voting_rules.vote_limit.description;Für diese Abstimmung hast du %{limit} Stimmen.
-22383;en;decidim.proposals.proposals.voting_rules.vote_limit.votes;You have %{number} remaining votes
-22384;de;decidim.proposals.proposals.voting_rules.vote_limit.votes;Du hast noch %{number} Stimmen verbleibend.
-22385;en;decidim.proposals.proposals.vote_button.votes_blocked;Public vote ended
-22386;de;decidim.proposals.proposals.vote_button.votes_blocked;Öff. Abstimmung beendet
-22387;de;decidim.budgets.order.status.votes_count_html.one;"Vielen Dank für Ihre Teilnahme! Gerne würde wir Ihre Meinung zum Prozess hören. Nehmen Sie dazu an unserer <a href=""/processes"">Evaluationsumfrage</a> teil."
-22388;en;decidim.budgets.order.status.votes_count_html.one;""
-22389;de;decidim.budgets.order.status.votes_count_html.other;"Vielen Dank für Ihre Teilnahme! Gerne würde wir Ihre Meinung zum Prozess hören. Nehmen Sie dazu an unserer <a href=""/processes"">Evaluationsumfrage</a> teil."
-22390;en;decidim.budgets.order.status.votes_count_html.other;""
-22391;en;decidim.authorization_handlers.ephemeral_sms.fields.eligible_confirmation_html;I confirm that I am eligible to take part.
-22392;de;decidim.authorization_handlers.ephemeral_sms.fields.eligible_confirmation_html;Ich bestätige, dass ich im Perimeter des Pilotquartiers wohne oder arbeite. 
+25559;en;nettonull.implementation.self;I/we will implement the idea by myself / by ourselves
+25560;de;nettonull.implementation.self;Ich/wir setzen die Idee selbstständig um
+25561;en;nettonull.implementation.others;I am / we are looking for collaborators
+25562;de;nettonull.implementation.others;Ich/wir suchen noch Mitstreiter*innen
+25563;en;nettonull.implementation.unclear;I don't know yet
+25564;de;nettonull.implementation.unclear;Ich weiss es noch nicht
+25565;en;decidim.proposals.proposals.edit.attachment_legend;Add sketches, images, etc. These documents will be published with the idea. Therefore, ensure that you have the necessary rights to publish them.
+25566;de;decidim.proposals.proposals.edit.attachment_legend;Füge Skizzen, Bilder o.ä hinzu. Diese Dokumente werden mit der Idee veröffentlicht. Stelle deshalb sicher, dass du über die erforderlichen Rechte zur Veröffentlichung verfügst.
+25567;en;activemodel.attributes.proposal.user_group_id;Create idea as
+25519;en;nettonull.ideadescription.heading;Idea description
+25520;de;nettonull.ideadescription.heading;Ideenbeschreibung
+25521;en;nettonull.entstehung.title;What should be created?
+25522;de;nettonull.entstehung.title;Was soll entstehen?
+25523;en;decidim.proposals.actions.new;New idea
+25524;de;decidim.proposals.actions.new;Neue Idee
+25525;en;decidim.statistics.proposals_count;Project ideas
+25526;de;decidim.statistics.proposals_count;Projektideen
+25527;en;nettonull.ideadescription.text;Go into detail! Write down all your thoughts so that we can better understand your idea. What do you want to implement and where?
+25528;de;nettonull.ideadescription.text;Gehe ins Detail! Schreibe alle Gedanken auf, die du dir gemacht hast, damit wir deine Idee besser verstehen können. Was möchtest du wo umsetzen?
+25529;en;nettonull.machen.title;What can you do here?
+25530;de;nettonull.machen.title;Was kann man hier machen?
+25531;en;nettonull.reference.heading;Reference
+25532;de;nettonull.reference.heading;Referenzbeispiel
+25533;en;nettonull.reference.example;Example
+25534;de;nettonull.reference.example;Beispiel
+25535;en;nettonull.people.title;Who are you?
+25536;de;nettonull.people.title;Wer bist du?
+25537;en;nettonull.people.singleperson;I am an individual
+25538;de;nettonull.people.singleperson;Ich bin eine Einzelperson
+25539;en;nettonull.people.group;We are an informal group (e.g. neighbourhood group)
+25540;de;nettonull.people.group;Wir sind eine informelle Gruppe (z.B. Nachbarschaftsgruppe)
+25541;en;nettonull.people.organisation;We are an organisation (e.g. association, foundation, educational institution, NGO).
+25542;de;nettonull.people.organisation;Wir sind eine Organisation (z.B. Verein, Stiftung, Bildungseinrichtung, NGO)
+25543;en;nettonull.people.enterprise;We are a company (e.g. start-up, SME)
+25544;de;nettonull.people.enterprise;Wir sind ein Unternehmen (z.B. Start-Up, KMU)
+25545;en;nettonull.people.other;We are something different
+25546;de;nettonull.people.other;Wir sind was anderes
+25547;en;nettonull.people.name;Name
+25548;de;nettonull.people.name;Name
+25549;en;nettonull.contact.heading;Your e-mail address
+25550;de;nettonull.contact.heading;Deine/Eure E-Mail-Adresse
+25551;en;nettonull.contact.description;We would like to be able to contact you if we have any questions or to let you know that your idea has made it to the next round!
+25552;de;nettonull.contact.description;Für Nachfragen oder um dir mitzuteilen, dass deine Idee in die nächste Runde kommt, würden wir dich gerne kontaktieren können!
+25553;en;nettonull.contact.email;Email
+25554;de;nettonull.contact.email;E-Mail
+25555;en;nettonull.implementation.heading;Who implements the idea?
+25556;de;nettonull.implementation.heading;Wer setzt die Idee um?
+25557;en;nettonull.implementation.description;Will you implement the idea by yourself or are you still searching for accomplices?
+25558;de;nettonull.implementation.description;Setzt du die Idee allein um oder suchst du noch Mitstreiter*innen?
+25568;de;activemodel.attributes.proposal.user_group_id;Idee erstellen als
+25569;en;decidim.amendments.new.title;Create Amendment Draft
+25570;de;decidim.amendments.new.title;Änderungsvorschlag erstellen
+25571;en;decidim.gamification.badges.proposals.conditions.1;""
+25572;de;decidim.gamification.badges.proposals.conditions.1;""
+25573;en;decidim.proposals.admin.proposals.new.title;Create idea
+25574;de;decidim.proposals.admin.proposals.new.title;Idee erstellen
+25575;en;decidim.proposals.proposals.new.title;How do you want to reduce CO2?
+25576;de;decidim.proposals.proposals.new.title;Wie willst du Treibhausgase reduzieren?
+25577;en;decidim.proposals.proposals.wizard_steps.step_1;Create your idea
+25578;de;decidim.proposals.proposals.wizard_steps.step_1;Idee erstellen
+25579;en;activemodel.models.decidim/proposals/publish_proposal_event;Idea published
+25580;de;activemodel.models.decidim/proposals/publish_proposal_event;Idee veröffentlicht
+25581;en;decidim.proposals.proposals.preview.title;Publish your idea
+25582;de;decidim.proposals.proposals.preview.title;Idee veröffentlichen
+25583;en;decidim.proposals.proposals.wizard_steps.step_2;Publish your idea
+25584;de;decidim.proposals.proposals.wizard_steps.step_2;Idee veröffentlichen
+25585;en;activemodel.attributes.proposal.address;Where do you want to implement the idea?
+25586;de;activemodel.attributes.proposal.address;Wo willst du die Idee umsetzen?
+25587;en;decidim.events.proposals.proposal_published.email_subject;"New proposal ""%{resource_title}"" by %{author_nickname}"
+25588;de;decidim.events.proposals.proposal_published.email_subject;"Neuer Vorschlag ""%{resource_title}"" von %{author_nickname}"
+25589;en;decidim.events.proposals.proposal_published_for_space.email_subject;"New proposal ""%{resource_title}"" added to %{participatory_space_title}"
+25590;de;decidim.events.proposals.proposal_published_for_space.email_subject;"Neuer Vorschlag ""%{resource_title}"" zu %{participatory_space_title} hinzugefügt"
+25591;en;decidim.proposals.last_activity.new_proposal;New idea:
+25592;de;decidim.proposals.last_activity.new_proposal;Neue Idee:
+25593;en;decidim.proposals.proposals.index.new_proposal;New idea
+25594;de;decidim.proposals.proposals.index.new_proposal;Neue Idee
+25595;en;decidim.proposals.proposals.preview.modify;Modify the idea
+25596;de;decidim.proposals.proposals.preview.modify;Idee ändern
+25597;en;decidim.proposals.admin.proposals.index.publish;Submit idea
+25598;de;decidim.proposals.admin.proposals.index.publish;Idee einreichen
+25599;en;decidim.proposals.proposals.preview.publish;Submit idea
+25600;de;decidim.proposals.proposals.preview.publish;Idee einreichen
+25601;en;decidim.participatory_processes.participatory_processes.description.title;Pilot neighborhood for net zero in Binz/Alt-Wiedikon
+25602;de;decidim.participatory_processes.participatory_processes.description.title;Pilotquartier Netto-Null in Binz/Alt-Wiedikon
+25603;en;decidim.participatory_processes.participatory_processes.show.title;Pilot neighborhood for net zero in Binz/Alt-Wiedikon
+25604;de;decidim.participatory_processes.participatory_processes.show.title;Pilotquartier Netto-Null in Binz/Alt-Wiedikon
+25605;en;decidim.last_activities.index.last_activity;Back to home
+25606;de;decidim.last_activities.index.last_activity;Zur Prozessstartseite
+25607;en;decidim.content_blocks.last_activity.name;Last activity
+25608;de;decidim.content_blocks.last_activity.name;Zur Prozessstartseite
+25609;en;decidim.content_blocks.last_activity.title;Last activity
+25610;de;decidim.content_blocks.last_activity.title;Zur Startseite
+25611;en;activemodel.attributes.proposal.title;Give your idea a descriptive title
+25612;de;activemodel.attributes.proposal.title;Gib deiner Idee einen aussagekräftigen Titel
+25613;en;nettonull.reference.description;Have you been inspired or seen your idea somewhere before? Then write to us here with the name of the place or project. You can also upload images of the reference example at the bottom of the page.
+25614;de;nettonull.reference.description;Du wurdest inspiriert oder hast deine Idee irgendwo schon einmal gesehen? Dann schreibe uns hier den Namen des Ortes oder den des Projekts. Du kannst am Seitenende auch Bilder des Referenzbeispiels hochladen.
+25615;en;activemodel.attributes.answer.add_documents;Do you have an image to accompany your idea?
+25616;de;activemodel.attributes.answer.add_documents;Hast du noch ein Bild zu deiner Idee?
+25617;en;decidim.proposals.proposals.edit.add_documents;Add image
+25618;de;decidim.proposals.proposals.edit.add_documents;Bild hinzufügen
+25619;en;nettonull.people.description;Are you submitting the idea by yourself or as part of a group?
+25620;de;nettonull.people.description;Bist du eine Einzelperson oder Teil einer Gruppe?
+25621;en;activemodel.attributes.proposal.category_id;To which category does your idea fit?
+25622;de;activemodel.attributes.proposal.category_id;In welche Kategorie lässt sich deine Idee einordnen?
+25623;en;nettonull.people.name_help;(publicly visible)
+25624;de;nettonull.people.name_help;(öffentlich sichtbar)
+25625;en;nettonull.implementation.place.title;Where do you want to implement the idea?
+25626;de;nettonull.implementation.place.title;Wo willst du die Idee umsetzen?
+25627;en;nettonull.implementation.place.description;Describe the place(s)
+25628;de;nettonull.implementation.place.description;Beschreibe den/die Ort(e)
+25629;en;decidim.proposals.proposals.index.see_all_withdrawn;See all withdrawn ideas
+25630;de;decidim.proposals.proposals.index.see_all_withdrawn;Zurückgezogene Ideen ansehen
+25631;en;decidim.proposals.proposals.proposals.empty;No ideas have been submitted yet. We are looking forward to your idea!
+25632;de;decidim.proposals.proposals.proposals.empty;Es wurden bislang noch keine Ideen eingereicht. Wir freuen uns über deine Eingabe!
+25633;en;decidim.sortitions.sortitions.count.proposals_count.one;1 proposal
+25634;de;decidim.sortitions.sortitions.count.proposals_count.one;1 Vorschlag
+25635;en;decidim.participatory_process_steps.index.process_steps;Process phases
+25636;de;decidim.participatory_process_steps.index.process_steps;Prozessphasen
+25637;en;decidim.components.proposals.name;Project Ideas
+25638;de;decidim.components.proposals.name;Projektideen
+25639;en;activerecord.models.decidim/proposals/proposal.other;Project ideas
+25640;de;activerecord.models.decidim/proposals/proposal.other;Projektideen
+25641;en;activemodel.attributes.project.proposals;Proposals
+25642;de;activemodel.attributes.project.proposals;Projektideen
+25643;en;activemodel.attributes.close_meeting.proposal_ids;Proposals created in the meeting
+25644;de;activemodel.attributes.close_meeting.proposal_ids;Erarbeitete Projektideen
+25645;en;activemodel.attributes.proposals_import.import_proposals;Import proposals
+25646;de;activemodel.attributes.proposals_import.import_proposals;Vorschläge importieren
+25647;en;activemodel.attributes.proposals_copy.origin_component_id;Component to copy the proposals from
+25648;de;activemodel.attributes.proposals_copy.origin_component_id;Komponente zum Kopieren der Vorschläge aus
+25649;en;activemodel.attributes.proposals_copy.copy_proposals;I understand that this will import all proposals from the selected component to the current one and that this action cannot be reversed.
+25650;de;activemodel.attributes.proposals_copy.copy_proposals;Ich verstehe, dass dies alle Vorschläge von der ausgewählten Komponente in die aktuelle Komponente importiert und dass diese Aktion nicht rückgängig gemacht werden kann.
+25651;en;activemodel.attributes.project.proposal_ids;Related proposals
+25652;de;activemodel.attributes.project.proposal_ids;Ähnliche Projektideen
+25653;en;activemodel.attributes.result.proposals;Included project ideas
+25654;de;activemodel.attributes.result.proposals;Enthaltene Projektideen
+25655;en;activemodel.attributes.sortition.decidim_category_id;Categories of the set of proposals in which you want to apply the draw
+25656;de;activemodel.attributes.sortition.decidim_category_id;Kategorie (wenn du nur bestimmte Vorschläge einer Komponente berücksichtigen möchtest)
+25657;en;activemodel.attributes.sortition.decidim_proposals_component_id;Proposals set
+25658;de;activemodel.attributes.sortition.decidim_proposals_component_id;Vorschlagskomponente
+25659;en;activerecord.models.decidim/proposals/proposal.one;Project Idea
+25660;de;activerecord.models.decidim/proposals/proposal.one;Projektidee
+25661;en;decidim.sortitions.sortitions.count.proposals_count.other;%{count} project ideas
+25662;de;decidim.sortitions.sortitions.count.proposals_count.other;%{count} Projektideen
+25663;en;decidim.proposals.proposals.voting_rules.title;Please note:
+25664;de;decidim.proposals.proposals.voting_rules.title;Bitte beachte: 
+25665;en;decidim.proposals.proposals.voting_rules.vote_limit.description;For this vote,  you can choose %{limit} projects.
+25666;de;decidim.proposals.proposals.voting_rules.vote_limit.description;Für diese Abstimmung hast du %{limit} Stimmen.
+25667;en;decidim.proposals.proposals.voting_rules.vote_limit.votes;You have %{number} remaining votes
+25668;de;decidim.proposals.proposals.voting_rules.vote_limit.votes;Du hast noch %{number} Stimmen verbleibend.
+25669;en;decidim.budgets.projects.project_budget_button.add;Add
+25670;de;decidim.budgets.projects.project_budget_button.add;Auswählen
+25671;en;decidim.budgets.projects.budget_summary.vote;Vote selected projects
+25672;de;decidim.budgets.projects.budget_summary.vote;Für Auswahl abstimmen
+25673;en;decidim.budgets.projects.budget_confirm.description;You have selected the following projects:
+25674;de;decidim.budgets.projects.budget_confirm.description;Du hast die folgenden Projekte ausgewählt:
+25675;en;decidim.budgets.projects.budget_confirm.title;Vote
+25676;de;decidim.budgets.projects.budget_confirm.title;Abstimmung
+25677;en;decidim.budgets.projects.budget_confirm.confirm;Vote
+25678;de;decidim.budgets.projects.budget_confirm.confirm;Abstimmen
+25679;en;decidim.budgets.projects.budget_confirm.cancel;Change selection
+25680;de;decidim.budgets.projects.budget_confirm.cancel;Auswahl ändern
+25681;en;decidim.budgets.projects.budget_confirm.are_you_sure;Do you agree?
+25682;de;decidim.budgets.projects.budget_confirm.are_you_sure;Wenn du deine Meinung änderst, kannst du deine Stimme nachträglich löschen und erneut beginnen.
+25683;en;decidim.budgets.order.status.title;Your vote has been accepted
+25684;de;decidim.budgets.order.status.title;Du hast abgestimmt
+25685;en;decidim.budgets.order_pdf.title;Your vote has been successfully accepted.
+25686;de;decidim.budgets.order_pdf.title;Deine Stimme wurde erfolgreich abgegeben.
+25687;en;decidim.orders.destroy.success;Your vote has been successfully canceled.
+25688;de;decidim.orders.destroy.success;Deine Stimme wurde erfolgreich gelöscht.
+25689;en;decidim.budgets.order.status.votes_count.other;Your %{count} votes for %{budget_name} have already been registered.
+25690;de;decidim.budgets.order.status.votes_count.other;Deine %{count} Stimmen für %{budget_name} wurden bereits registriert.
+25691;en;decidim.budgets.order.status.votes_count.one;Your vote for %{budget_name} has already been registered.
+25692;de;decidim.budgets.order.status.votes_count.one;Deine Stimme für %{budget_name} wurde bereits registriert.
+25693;en;decidim.budgets.order.status.votes_count_html.one;"Thank you very much for taking part! We would love to hear your views on the process. Please take part in our <a href=""/processes"">evaluation survey</a>."
+25694;de;decidim.budgets.order.status.votes_count_html.one;"Vielen Dank für deine Teilnahme! Gerne würden wir deine Meinung zum Prozess hören. Nimm dazu an unserer <a href=""/processes""><strong>Evaluationsumfrage</strong></a> teil."
+25695;en;decidim.budgets.order.status.votes_count_html.other;"Thank you very much for taking part! We would love to hear your views on the process. Please take part in our <a href=""/processes"">evaluation survey</a>."
+25696;de;decidim.budgets.order.status.votes_count_html.other;"Vielen Dank für deine Teilnahme! Gerne würden wir deine Meinung zum Prozess hören. Nimm dazu an unserer <a href=""/processes""><strong>Evaluationsumfrage</strong></a> teil."
+25697;en;decidim.budgets.budgets_list.voted_on;If you’d like to adjust your votes, you can delete your previous votes. To do this, click on ‘Delete vote’ at the bottom to start again.
+25698;de;decidim.budgets.budgets_list.voted_on;"Wenn du deine Stimmen anpassen möchtest, kannst du deine Stimmen löschen. Klicke dazu unten auf ""Stimme löschen"", um erneut zu beginnen."
+25699;en;decidim.budgets.order.status.view_votes.other;To the start page
+25700;de;decidim.budgets.order.status.view_votes.other;Zur Startseite
+25701;en;decidim.budgets.order.status.view_votes.one;Start page
+25702;de;decidim.budgets.order.status.view_votes.one;Zur Startseite
+25703;en;decidim.budgets.order.status.download_vote;Download confirmation
+25704;de;decidim.budgets.order.status.download_vote;Bestätigung herunterladen
+25705;en;decidim.budgets.budgets_list.voted_budgets;Voting completed
+25706;de;decidim.budgets.budgets_list.voted_budgets;Abstimmung abgeschlossen
+25707;en;decidim.budgets.projects.back_to_budgets;Back to the start page
+25708;de;decidim.budgets.projects.back_to_budgets;Zurück zur Startseite
