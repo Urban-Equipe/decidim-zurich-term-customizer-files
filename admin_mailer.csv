@@ -1,1 +1,3 @@
-@/tmp/admin_mailer_restore.txt
+id;locale;key;value
+;en;decidim.delete_user_mailer.subject;Your account has been deleted
+;de;decidim.delete_user_mailer.subject;Ihr Konto wurde gelöscht
