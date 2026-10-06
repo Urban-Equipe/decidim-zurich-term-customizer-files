@@ -1,3 +1,1 @@
-id;locale;key;value
-;en;decidim.delete_user_mailer.subject;Your account has been deleted
-;de;decidim.delete_user_mailer.subject;Ihr Konto wurde gelöscht
+file:///tmp/FINAL_admin_mailer.txt
