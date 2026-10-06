@@ -1,0 +1,11 @@
+id;locale;key;value
+;en;decidim.delete_user_mailer.subject;Your account has been deleted
+;de;decidim.delete_user_mailer.subject;Ihr Konto wurde gelöscht
+;en;decidim.delete_user_mailer.delete.hello;Dear %{username},
+;de;decidim.delete_user_mailer.delete.hello;Liebe/r %{username},
+;en;decidim.delete_user_mailer.delete.body_1;Your account has been deactivated and is no longer accessible. Your personal data is scheduled for permanent deletion in accordance with our data retention policies.
+;de;decidim.delete_user_mailer.delete.body_1;Ihr Konto wurde deaktiviert und ist nicht mehr zugänglich. Ihre persönlichen Daten werden gemäss unseren Aufbewahrungsrichtlinien endgültig gelöscht.
+;en;decidim.delete_user_mailer.delete.body_2;For security reasons, some authorization-related data will be retained; if you create a new account and authorize again, it may be linked to your new account.
+;de;decidim.delete_user_mailer.delete.body_2;Aus Sicherheitsgründen werden einige Daten im Zusammenhang mit Verifizierungen aufbewahrt; wenn Sie ein neues Konto erstellen und sich erneut verifizieren, können diese Daten mit Ihrem neuen Konto verknüpft werden.
+;en;decidim.delete_user_mailer.delete.greetings_html;"Kind regards,<br/><a href=""%{organization_url}"">%{organization_name}</a>"
+;de;decidim.delete_user_mailer.delete.greetings_html;"Freundliche Grüsse<br/><a href=""%{organization_url}"">%{organization_name}</a>"
