@@ -173,10 +173,8 @@ id;locale;key;value
 25690;de;decidim.budgets.order.status.votes_count.other;Deine %{count} Stimmen für %{budget_name} wurden bereits registriert.
 25691;en;decidim.budgets.order.status.votes_count.one;Your vote for %{budget_name} has already been registered.
 25692;de;decidim.budgets.order.status.votes_count.one;Deine Stimme für %{budget_name} wurde bereits registriert.
-25693;en;decidim.budgets.order.status.votes_count_html.one;"Thank you very much for taking part! We would love to hear your views on the process. Please take part in our <a href=""/processes"">evaluation survey</a>."
-25694;de;decidim.budgets.order.status.votes_count_html.one;"Vielen Dank für deine Teilnahme! Gerne würden wir deine Meinung zum Prozess hören. Nimm dazu an unserer <a href=""/processes""><strong>Evaluationsumfrage</strong></a> teil."
-25695;en;decidim.budgets.order.status.votes_count_html.other;"Thank you very much for taking part! We would love to hear your views on the process. Please take part in our <a href=""/processes"">evaluation survey</a>."
-25696;de;decidim.budgets.order.status.votes_count_html.other;"Vielen Dank für deine Teilnahme! Gerne würden wir deine Meinung zum Prozess hören. Nimm dazu an unserer <a href=""/processes""><strong>Evaluationsumfrage</strong></a> teil."
+25693;en;decidim.budgets.order.status.votes_count_html.one;"Thank you for participating! You can still adjust your selection until November 23, 2026; simply return to the homepage to do so. Participatory budgeting isn't something we do every day, so we are interested to hear about your experience with the process. We would appreciate it if you could take a few minutes to complete our <a href=""/processes""><strong>survey</strong></a>. Responses will be anonymized and analyzed by the evaluation team.
+"
 25697;en;decidim.budgets.budgets_list.voted_on;If you’d like to adjust your votes, you can delete your previous votes. To do this, click on ‘Delete vote’ at the bottom to start again.
 25698;de;decidim.budgets.budgets_list.voted_on;"Wenn du deine Stimmen anpassen möchtest, kannst du deine Stimmen löschen. Klicke dazu unten auf ""Stimme löschen"", um erneut zu beginnen."
 25699;en;decidim.budgets.order.status.view_votes.other;To the start page
@@ -189,3 +187,39 @@ id;locale;key;value
 25706;de;decidim.budgets.budgets_list.voted_budgets;Abstimmung abgeschlossen
 25707;en;decidim.budgets.projects.back_to_budgets;Back to the start page
 25708;de;decidim.budgets.projects.back_to_budgets;Zurück zur Startseite
+25694;de;decidim.budgets.order.status.votes_count_html.one;"Vielen Dank für deine Teilnahme!
+
+Bis zum 23. November 2026 kannst du deine Auswahl noch anpassen. Kehre dafür einfach auf die Startseite zurück.
+
+Ein partizipatives Budget vergeben wir nicht jeden Tag. Deshalb interessiert uns auch, wie du den Prozess erlebt hast. Wir freuen uns, wenn du dir noch ein paar Minuten Zeit für unsere <a href=""/processes""><strong>Umfrage</strong></a> nimmst. Die Antworten werden anonymisiert und vom Evaluationsteam ausgewertet."
+25696;de;decidim.budgets.order.status.votes_count_html.other;"Vielen Dank für deine Teilnahme!
+
+Bis zum 23. November 2026 kannst du deine Auswahl noch anpassen. Kehre dafür einfach auf die Startseite zurück.
+
+Ein partizipatives Budget vergeben wir nicht jeden Tag. Deshalb interessiert uns auch, wie du den Prozess erlebt hast. Wir freuen uns, wenn du dir noch ein paar Minuten Zeit für unsere <a href=""/processes""><strong>Umfrage</strong></a> nimmst. Die Antworten werden anonymisiert und vom Evaluationsteam ausgewertet."
+25695;en;decidim.budgets.order.status.votes_count_html.other;"Thank you for participating! You can still adjust your selection until November 23, 2026; simply return to the homepage to do so. Participatory budgeting isn't something we do every day, so we are interested to hear about your experience with the process. We would appreciate it if you could take a few minutes to complete our <a href=""/processes""><strong>survey</strong></a>. Responses will be anonymized and analyzed by the evaluation team.
+"
+25743;en;decidim.budgets.projects.budget_excess.budget_excess.title;Maximum budget exceeded!
+25744;de;decidim.budgets.projects.budget_excess.budget_excess.title;Maximales Budget überschritten!
+25745;en;layouts.decidim.header.back;Back to the voting
+25746;de;layouts.decidim.header.back;Zurück zum Voting
+25739;en;decidim.budgets.projects.budget_excess.budget_excess.description;"You can allocate a maximum of CHF 1 million to the projects. Remove a previously selected project to cast a vote for this project.
+"
+25740;de;decidim.budgets.projects.budget_excess.budget_excess.description;Du kannst maximal  1 Mio. CHF  den Projekten zu weisen. Entferne ein bereits ausgewähltes Projekt, um diesem Projekt eine Stimme zu geben. 
+25741;en;decidim.budgets.projects.budget_excess.description;"You can allocate a maximum of CHF 1 million to the projects. Remove a previously selected project to cast a vote for this project.
+"
+25742;de;decidim.budgets.projects.budget_excess.description;Du kannst maximal  1 Mio. CHF  den Projekten zu weisen. Entferne ein bereits ausgewähltes Projekt, um diesem Projekt eine Stimme zu geben. 
+25747;en;decidim.budgets.projects.budget_summary.checked_out.description;"You have already voted. You can adjust your vote until November 23, 2026.
+"
+25748;de;decidim.budgets.projects.budget_summary.checked_out.description;Du hast bereits abgestimmt. Bis zum 23.11.2026 kannst du deine Stimme anpassen.
+25753;en;decidim.budgets.projects.budget_summary.are_you_sure;Reset vote and vote again.
+25754;de;decidim.budgets.projects.budget_summary.are_you_sure;Abstimmung zurücksetzen und erneut abstimmen.
+25749;en;decidim.budgets.projects.budget_summary.checked_out.title;Budget vote completed
+25750;de;decidim.budgets.projects.budget_summary.checked_out.title;Budget-Abstimmung abgeschlossen
+25751;en;decidim.budgets.budget_information_modal.more_information;Contact
+25752;de;decidim.budgets.budget_information_modal.more_information;Kontakt
+25755;en;decidim.budgets.projects.order_progress.vote_threshold_percent_rule.description;"Select projects with a total value of up to CHF 1 million. You do not have to use up your entire budget.
+"
+25756;de;decidim.budgets.projects.order_progress.vote_threshold_percent_rule.description;Wähle Projekte im Gesamtwert von bis zu 1 Mio. CHF aus. Du musst dein Budget nicht vollständig ausschöpfen.
+25757;en;decidim.budgets.projects.order_progress.dynamic_help.minimum_reached;This is the amount of budget you have already allocated for projects.
+25758;de;decidim.budgets.projects.order_progress.dynamic_help.minimum_reached;So viel Budget hast du bereits für Projekte eingeplant.
