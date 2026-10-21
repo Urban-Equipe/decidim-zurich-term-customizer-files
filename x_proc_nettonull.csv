@@ -1,4 +1,8 @@
 id;locale;key;value
+25766;de;decidim.budgets.creation.text;Einbezug zum 2. Voting
+25765;en;decidim.budgets.creation.text;They were added to the 2. voting
+25767;en;activemodel.attributes.attachment.documents;Documents
+25768;de;activemodel.attributes.attachment.documents;Anhang
 25559;en;nettonull.implementation.self;I/we will implement the idea by myself / by ourselves
 25560;de;nettonull.implementation.self;Ich/wir setzen die Idee selbstständig um
 25561;en;nettonull.implementation.others;I am / we are looking for collaborators
@@ -216,10 +220,10 @@ Ein partizipatives Budget vergeben wir nicht jeden Tag. Deshalb interessiert uns
 25754;de;decidim.budgets.projects.budget_summary.are_you_sure;Abstimmung zurücksetzen und erneut abstimmen.
 25749;en;decidim.budgets.projects.budget_summary.checked_out.title;Budget vote completed
 25750;de;decidim.budgets.projects.budget_summary.checked_out.title;Budget-Abstimmung abgeschlossen
-25751;en;decidim.budgets.budget_information_modal.more_information;Contact
-25752;de;decidim.budgets.budget_information_modal.more_information;Kontakt
+25751;en;decidim.budgets.budget_information_modal.more_information;Do you need support?
+25752;de;decidim.budgets.budget_information_modal.more_information;Brauchst du Unterstützung?
 25755;en;decidim.budgets.projects.order_progress.vote_threshold_percent_rule.description;"Select projects with a total value of up to CHF 1 million. You do not have to use up your entire budget.
 "
-25756;de;decidim.budgets.projects.order_progress.vote_threshold_percent_rule.description;Wähle Projekte im Gesamtwert von bis zu 1 Mio. CHF aus. Du musst dein Budget nicht vollständig ausschöpfen.
+25756;de;decidim.budgets.projects.order_progress.vote_threshold_percent_rule.description;Wähle Projekte im Gesamtwert von bis zu 1 Mio. CHF aus. Du musst dein Budget nicht vollständig ausschöpfen.
 25757;en;decidim.budgets.projects.order_progress.dynamic_help.minimum_reached;This is the amount of budget you have already allocated for projects.
-25758;de;decidim.budgets.projects.order_progress.dynamic_help.minimum_reached;So viel Budget hast du bereits für Projekte eingeplant.
+25758;de;decidim.budgets.projects.order_progress.dynamic_help.minimum_reached;So viel Budget hast du bereits für Projekte eingeplant
