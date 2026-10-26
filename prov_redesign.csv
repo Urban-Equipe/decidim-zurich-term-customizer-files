@@ -1,0 +1,39 @@
+id;locale;key;value
+28989;de;time.pm;Uhr
+28990;en;time.pm;pm
+33157;de;layouts.decidim.header.mobile_account_greeting;Grüezi, %{user_name}
+33158;en;layouts.decidim.header.mobile_account_greeting;Hello, %{user_name}
+28991;de;decidim.components.comments.blocked_comments_warning;Derzeit ist die Kommentarerfassung deaktiviert.
+28992;en;decidim.components.comments.blocked_comments_warning;Commenting is currently disabled.
+28993;de;decidim.meetings.actions.invalid_destroy.proposals_count.one;Die Veranstaltung kann nicht gelöscht werden, da %{count} Vorschlag mit dieser verbunden ist:
+28994;en;decidim.meetings.actions.invalid_destroy.proposals_count.one;The meeting cannot be destroyed because it has %{count} proposal associated to it:
+28995;de;decidim.meetings.actions.invalid_destroy.proposals_count.other;Die Veranstaltung kann nicht gelöscht werden, da %{count} Vorschläge mit dieser verbunden sind:
+28996;en;decidim.meetings.actions.invalid_destroy.proposals_count.other;The meeting cannot be destroyed because it has %{count} proposals associated to it:
+28997;de;decidim.meetings.meetings.count.meetings_count.one;%{count} Veranstaltung
+28998;en;decidim.meetings.meetings.count.meetings_count.one;%{count} meeting
+28999;de;decidim.meetings.meetings.count.meetings_count.other;%{count} Veranstaltungen
+29000;en;decidim.meetings.meetings.count.meetings_count.other;%{count} meetings
+29001;de;decidim.meetings.meetings.create.invalid;Beim Erstellen dieser Veranstaltung ist ein Problem aufgetreten.
+29002;en;decidim.meetings.meetings.create.invalid;There was a problem creating this meeting.
+29003;de;decidim.meetings.meetings.create.success;Sie haben die Veranstaltung erfolgreich erstellt.
+29004;en;decidim.meetings.meetings.create.success;You have created the meeting successfully.
+29005;de;decidim.meetings.meetings.edit.title;Veranstaltung bearbeiten
+29006;en;decidim.meetings.meetings.edit.title;Edit Your Meeting
+29007;de;decidim.meetings.meetings.form.create_as;Veranstaltung erstellen als
+29008;en;decidim.meetings.meetings.form.create_as;Create meeting as
+29009;de;decidim.participatory_spaces.highlighted_meetings.see_all;Alle anzeigen
+29010;en;decidim.participatory_spaces.highlighted_meetings.see_all;See all meetings
+29011;de;decidim.searches.filters.jump_to;Menü
+29012;en;decidim.searches.filters.jump_to;Menu
+29013;de;time.am;Uhr
+29014;en;time.am;am
+29015;de;time.formats.default;%a, %d. %b %Y %H:%M:%S
+29016;en;time.formats.default;%a, %d %b %Y %H:%M:%S %z
+29017;de;time.formats.tooltip;%d-%m-%Y %H:%M
+29018;en;time.formats.tooltip;%d-%m-%Y %H:%M %p %Z (GMT %:z)
+29019;de;devise.shared.links.sign_in_with_provider;"Mit ""Mein Konto"" anmelden"
+29020;en;devise.shared.links.sign_in_with_provider;"Log in via ""Mein Konto"""
+29021;de;decidim.devise.shared.links.sign_in_with_provider;"Mit ""Mein Konto"" anmelden"
+29022;en;decidim.devise.shared.links.sign_in_with_provider;"Log in via ""Mein Konto"""
+29023;de;devise.shared.links.log_in_with_provider_button;«Mein Konto»
+29024;en;devise.shared.links.log_in_with_provider_button;«Mein Konto»
