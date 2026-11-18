@@ -42,7 +42,7 @@ id;locale;key;value
 27669;de;decidim.devise.registrations.new.sign_up;Neues Konto erstellen
 27670;en;decidim.devise.registrations.new.sign_up;Create account
 22934;en;devise.registrations.signed_up;Welcome! You have successfully created an account. Please confirm your email address by clicking on the link we have sent you.
-32521;de;devise.passwords.edit.password_help;Das Passwort muss mindestens %{minimum_characters} Zeichen lang sein. Es darf nicht zu gewöhnlich sein (z. B. 123456), darf weder Ihr Kürzel noch Ihre E-Mail-Adresse enthalten und muss sich von Ihren alten Passwort unterscheiden. 
+32521;de;devise.passwords.edit.password_help;Das Passwort muss mindestens %{minimum_characters} Zeichen lang sein. Es darf nicht zu gewöhnlich sein (z. B. 123456), darf weder Ihr Kürzel noch Ihre E-Mail-Adresse enthalten und muss sich von Ihrem alten Passwort unterscheiden. 
 32523;de;devise.passwords.edit.password_help_admin;Das Passwort muss mindestens %{minimum_characters} Zeichen lang sein. Es darf nicht zu gewöhnlich sein (z. B. 123456), darf weder Ihr Kürzel noch Ihre E-Mail-Adresse enthalten und muss sich von Ihrem alten Passwort unterscheiden. 
 22881;de;decidim.doorkeeper.authorizations.new.see_username;Ihren Kontonamen anzeigen
 22882;en;decidim.doorkeeper.authorizations.new.see_username;See your account name

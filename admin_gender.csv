@@ -132,7 +132,7 @@ id;locale;key;value
 24923;de;decidim.admin.participatory_space_private_users_csv_imports.create.success;CSV-Datei wurde erfolgreich hochgeladen, wir senden eine Einladungs-E-Mail an die Teilnehmenden. Dies kann eine Weile dauern.
 24924;en;decidim.admin.participatory_space_private_users_csv_imports.create.success;CSV file uploaded successfully, we're sending an invitation email to participants. This might take a while.
 24925;de;decidim.admin_log.user.transfer;%{user_name} hat die*den Teilnehmende*n %{resource_name} verschoben
-24926;en;decidim.admin_log.user.transfer;%{user_name} transfered the participant %{resource_name}
+24926;en;decidim.admin_log.user.transfer;%{user_name} transferred the participant %{resource_name}
 24927;de;decidim.authorization_handlers.admin.csv_census.help.0;
 24928;en;decidim.authorization_handlers.admin.csv_census.help.0;
 24929;de;decidim.authorization_handlers.admin.csv_census.help.1;

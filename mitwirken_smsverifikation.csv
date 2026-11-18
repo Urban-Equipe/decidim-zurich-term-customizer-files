@@ -12,8 +12,8 @@ id;locale;key;value
 3412;en;doorkeeper.authorizations.new.title;Authorization required
 3414;en;decidim.authorization_modals.content.pending.explanation;"In order to perform this action, you need to be authorized with ""%{authorization}"", but your authorization is still in progress"
 3418;en;decidim.verifications.sms.authorizations.create.success;Thanks! We've sent an SMS to your phone.
-3420;en;decidim.verifications.authorizations.first_login.actions.sms;Get verified by receiving a SMS verification code
-3422;en;decidim.verifications.sms.authorizations.destroy.success;Verification code sucessfully reset. Please re-enter your phone number.
+3420;en;decidim.verifications.authorizations.first_login.actions.sms;Get verified by receiving an SMS verification code
+3422;en;decidim.verifications.sms.authorizations.destroy.success;Verification code successfully reset. Please re-enter your phone number.
 3428;en;decidim.verifications.sms.authorizations.edit.confirm_destroy;Are you sure you want to reset the verification code?
 3430;en;decidim.verifications.sms.authorizations.edit.title;Introduce the verification code you received
 3431;de;decidim.verifications.sms.authorizations.new.title;Code anfordern
@@ -25,7 +25,7 @@ id;locale;key;value
 3441;de;decidim.verifications.sms.authorizations.edit.send;Bestätigen
 3442;en;decidim.verifications.sms.authorizations.edit.send;Confirm
 3445;de;decidim.authorization_handlers.errors.duplicate_authorization;Diese Nummer wird bereits von einem anderen Konto verwendet.
-3407;de;decidim.authorization_handlers.sms.explanation;Geben Sie Ihre Handynummer ein, damit Sie Ihr Konto per SMS bestätigen können. Die Zustellung des Codes funktioniert nur mit schweizerischen Telefonnummern.
+3407;de;decidim.authorization_handlers.sms.explanation;Geben Sie Ihre Telefonnummer ein, damit Sie Ihr Konto per SMS bestätigen können. Die Zustellung des Codes funktioniert nur mit schweizerischen Telefonnummern.
 3435;de;decidim.authorization_modals.content.missing.explanation;Damit Sie diese Aktion durchführen können, müssen Sie Ihr Konto per SMS bestätigen. Wir schützen damit die Plattform vor Missbrauch. Es geht ganz schnell:
 3413;de;decidim.authorization_modals.content.pending.explanation;Damit Sie diese Aktion durchführen können, müssen Sie Ihr Konto per SMS bestätigen. Wir schützen damit die Plattform vor Missbrauch. Wir haben Ihnen bereits einen Code gesendet.
 3437;de;decidim.verifications.sms.authorizations.create.error;Es gab ein Problem mit Ihrer Anfrage. Bitte überprüfen Sie Ihre Telefonnummer.
@@ -42,7 +42,7 @@ id;locale;key;value
 3527;de;activemodel.attributes.mobile_phone.mobile_phone_number;Telefonnummer
 3528;en;activemodel.attributes.mobile_phone.mobile_phone_number;Mobile phone number
 3529;en;activemodel.attributes.confirmation.verification_code;Verification code
-3530;de;activemodel.attributes.confirmation.verification_code;Verfizierungscode
+3530;de;activemodel.attributes.confirmation.verification_code;Verifizierungscode
 32619;de;decidim.authorization_handlers.ephemeral_sms.fields.eligible_confirmation_html;"Mit meiner Teilnahme am Voting bestätige ich, dass ich die Anforderungen gemäss <a href=""https://mitwirken.stadt-zuerich.ch/processes/pilotquartier/f/665/?locale=de"" target=""_blank"">Spielregeln</a> erfülle, d. h. im Pilotquartier wohne, arbeite, Eigentum besitze, Vereinsmitglied bin (bspw. im Quartierverein Wiedikon), eine Schule im Quartier besuche oder Kunde*in bin vom lokalen Gewerbe. *"
 32620;en;decidim.authorization_handlers.ephemeral_sms.fields.eligible_confirmation_html;"By taking part in the vote, I confirm that I meet the requirements according to the <a href=""https://mitwirken.stadt-zuerich.ch/processes/pilotquartier/f/665/?locale=en"" target=""_blank"">rules</a>, i.e. that I live or work in the pilot neighbourhood, own property there, am a member of an association (e.g. Quartierverein Wiedikon), attend a school in the neighbourhood, or am a customer of local businesses. *"
 32621;de;decidim.verifications.authorizations.new.tos_agreement;Mit der SMS-Verifizierung erkläre ich mich gleichzeitig einverstanden mit %{link} der Plattform. *
