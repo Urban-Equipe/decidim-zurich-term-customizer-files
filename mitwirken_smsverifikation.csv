@@ -40,7 +40,7 @@ id;locale;key;value
 3449;de;decidim_zuerich.verifications.sms.aspsms_gateway.sms_originator_max_11_alphabetic_characters;mitwirkenZH
 3450;en;decidim_zuerich.verifications.sms.aspsms_gateway.sms_originator_max_11_alphabetic_characters;mitwirkenZH
 3527;de;activemodel.attributes.mobile_phone.mobile_phone_number;Telefonnummer
-3528;en;activemodel.attributes.mobile_phone.mobile_phone_number;Mobile phone nuber
+3528;en;activemodel.attributes.mobile_phone.mobile_phone_number;Mobile phone number
 3529;en;activemodel.attributes.confirmation.verification_code;Verification code
 3530;de;activemodel.attributes.confirmation.verification_code;Verfizierungscode
 32619;de;decidim.authorization_handlers.ephemeral_sms.fields.eligible_confirmation_html;"Mit meiner Teilnahme am Voting bestätige ich, dass ich die Anforderungen gemäss <a href=""https://mitwirken.stadt-zuerich.ch/processes/pilotquartier/f/665/?locale=de"" target=""_blank"">Spielregeln</a> erfülle, d. h. im Pilotquartier wohne, arbeite, Eigentum besitze, Vereinsmitglied bin (bspw. im Quartierverein Wiedikon), eine Schule im Quartier besuche oder Kunde*in bin vom lokalen Gewerbe. *"
