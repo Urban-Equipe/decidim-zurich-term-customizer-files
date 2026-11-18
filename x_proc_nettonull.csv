@@ -17,7 +17,7 @@ id;locale;key;value
 32954;en;nettonull.implementation.others;I am / we are looking for collaborators
 32955;de;nettonull.implementation.unclear;Ich weiss es noch nicht
 32956;en;nettonull.implementation.unclear;I don't know yet
-32957;de;decidim.proposals.proposals.edit.attachment_legend;Füge Skizzen, Bilder o. Ä. hinzu. Diese Dokumente werden mit der Idee veröffentlicht. Stelle deshalb sicher, dass du über die erforderlichen Rechte zur Veröffentlichung verfügst.
+32957;de;decidim.proposals.proposals.edit.attachment_legend;Füge Skizzen, Bilder o.ä hinzu. Diese Dokumente werden mit der Idee veröffentlicht. Stelle deshalb sicher, dass du über die erforderlichen Rechte zur Veröffentlichung verfügst.
 32958;en;decidim.proposals.proposals.edit.attachment_legend;Add sketches, images, etc. These documents will be published with the idea. Therefore, ensure that you have the necessary rights to publish them.
 32959;de;activemodel.attributes.proposal.user_group_id;Idee erstellen als
 32960;en;activemodel.attributes.proposal.user_group_id;Create idea as
@@ -173,7 +173,7 @@ id;locale;key;value
 33110;en;decidim.budgets.projects.budget_confirm.confirm;Vote
 33111;de;decidim.budgets.projects.budget_confirm.cancel;Auswahl ändern
 33112;en;decidim.budgets.projects.budget_confirm.cancel;Change selection
-33113;de;decidim.budgets.projects.budget_confirm.are_you_sure;Bis zum 23. November kannst du deine Auswahl noch ändern. Hiermit werden deine bisherigen Stimmen gelöscht. Anschliessend kannst du erneut abstimmen.
+33113;de;decidim.budgets.projects.budget_confirm.are_you_sure;Bis zum 23. November kannst du deine Auswahl noch ändern. Hiermit werden deine bisherige Stimmen gelöscht. Anschliessend kannst du erneut abstimmen.
 33114;en;decidim.budgets.projects.budget_confirm.are_you_sure;You can still change your selection until 23 November. This will delete your previous votes. You can then vote again.
 33115;de;decidim.budgets.order.status.title;Du hast abgestimmt
 33116;en;decidim.budgets.order.status.title;Your vote has been accepted
@@ -204,7 +204,7 @@ id;locale;key;value
 33141;de;decidim.budgets.projects.budget_excess.budget_excess.description;Du kannst maximal  CHF 1 Mio. den Projekten zuweisen. Entferne ein bereits ausgewähltes Projekt, um diesem Projekt eine Stimme zu geben. 
 33142;en;decidim.budgets.projects.budget_excess.budget_excess.description;"You can allocate a maximum of CHF 1 million to the projects. Remove a previously selected project to cast a vote for this project.
 "
-33143;de;decidim.budgets.projects.budget_excess.description;Du kannst maximal  1 Mio. CHF  den Projekten zuweisen. Entferne ein bereits ausgewähltes Projekt, um diesem Projekt eine Stimme zu geben. 
+33143;de;decidim.budgets.projects.budget_excess.description;Du kannst maximal  1 Mio. CHF  den Projekten zu weisen. Entferne ein bereits ausgewähltes Projekt, um diesem Projekt eine Stimme zu geben. 
 33144;en;decidim.budgets.projects.budget_excess.description;"You can allocate a maximum of CHF 1 million to the projects. Remove a previously selected project to cast a vote for this project.
 "
 33145;de;decidim.budgets.projects.budget_summary.checked_out.description;Du hast bereits abgestimmt. Bis zum 23.11.2026 kannst du deine Stimme anpassen.
@@ -221,5 +221,5 @@ id;locale;key;value
 "
 33155;de;decidim.budgets.projects.order_progress.dynamic_help.minimum_reached;So viel Budget hast du bereits für Projekte eingeplant
 33156;en;decidim.budgets.projects.order_progress.dynamic_help.minimum_reached;This is the amount of budget you have already allocated for projects.
-33161;de;decidim.devise.sessions.user.ephemeral_session_closed;Sie haben vor längerer Zeit bereits abgestimmt. Ihre Stimmen werden deshalb wiederhergestellt. Bitte navigieren Sie zurück zum Abstimmungsprozess und verifizieren Sie sich erneut. Besten Dank für Ihr Verständnis
+33161;de;decidim.devise.sessions.user.ephemeral_session_closed;Sie haben vor längerer Zeit bereits abgestimmt. Ihr Stimmen werden deshalb wiederhergestellt. Bitte navigieren Sie zurück zum Abstimmungsprozess und verifizieren Sie sich erneut. Besten Dank für Ihr Verständnis
 33162;en;decidim.devise.sessions.user.ephemeral_session_closed;You have already cast your vote some time ago. Your votes are therefore being restored. Please navigate back to the voting process and verify your identity again. Thank you for your understanding.
